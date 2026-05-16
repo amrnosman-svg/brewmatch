@@ -14,6 +14,25 @@
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://brewtimeai.netlify.app">
 <link rel="canonical" href="https://brewtimeai.netlify.app">
+<!-- ─── GOOGLE ANALYTICS 4 ──────────────────────────────────────────────────── -->
+<!-- REPLACE G-XXXXXXXXXX with your GA4 Measurement ID -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-FTR1QNM943"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-FTR1QNM943');
+</script>
+<!-- ─── MICROSOFT CLARITY ──────────────────────────────────────────────────── -->
+<!-- REPLACE clarityXXXXXX with your Clarity Project ID -->
+<script type="text/javascript">
+  (function(c,l,a,r,i,t,y){
+    c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+    t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+    y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+  })(window,document,"clarity","script","wrrygaet15");
+</script>
+<!-- ─────────────────────────────────────────────────────────────────────────── -->
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400;1,600&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
 <style>
   *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -1659,6 +1678,9 @@ function getLink(m) {
   const tag = AFFILIATE_TAGS[region] || AFFILIATE_TAGS.us;
   return base + '&tag=' + tag;
 }
+function trackBuyClick(machineName) {
+  bm_track('affiliate_click', { machine_name: machineName, region: userAnswers.region || 'us' });
+}
 function getBundleLink(query) {
   const region = userAnswers.region || 'us';
   const bases = { us:'https://www.amazon.com/s?k=', ca:'https://www.amazon.ca/s?k=',
@@ -1739,7 +1761,18 @@ function updateRegion(val) {
   // Update budget display currency symbol
   document.getElementById('budgetVal').textContent = getCurrSymbol() + userAnswers.budget;
 }
+// ─── ANALYTICS HELPER ────────────────────────────────────────────────────────
+function bm_track(eventName, params) {
+  try { gtag('event', eventName, params || {}); } catch(e) {}
+  try { clarity('event', eventName); } catch(e) {}
+}
+const STEP_NAMES = { 1:'drink_type', 2:'lifestyle', 3:'budget_region', 4:'priorities' };
+
 function nextStep(n) {
+  // Track step completion
+  const stepLabel = STEP_NAMES[currentStep] || ('step_' + currentStep);
+  bm_track('quiz_step_complete', { step_number: currentStep, step_name: stepLabel });
+
   document.getElementById('step' + currentStep).classList.remove('visible');
   currentStep = n;
   document.getElementById('step' + currentStep).classList.add('visible');
@@ -2094,7 +2127,7 @@ function renderCard(m, result, resultLabel) {
       ${missNote}
       <div class="card-sentiment">${m.sentiment || ''}</div>
       <div class="card-tags">${features.map(f => `<span class="tag">${f}</span>`).join('')}</div>
-      <a class="buy-btn" href="${link}" target="_blank" rel="noopener">View on Amazon</a>
+      <a class="buy-btn" href="${link}" target="_blank" rel="noopener" onclick="trackBuyClick('${m.name}')">View on Amazon</a>
       <button class="compare-toggle" data-mid="${m.id}" onclick="toggleCompare(${m.id})">Compare</button>
       ${regionNote ? `<p class="availability-note">⚠ ${regionNote}</p>` : ''}
       ${bundleHtml}
@@ -2213,6 +2246,13 @@ function validateAndShowResults() {
 
 // ─── SHOW RESULTS ────────────────────────────────────────────────────────────
 function showResults() {
+  // Track quiz completion
+  bm_track('quiz_completed', {
+    budget: userAnswers.budget,
+    region: userAnswers.region,
+    lifestyle: userAnswers.lifestyle,
+    drinks: (userAnswers.drinks || []).join(',')
+  });
   try {
     const budget        = userAnswers.budget || 9999;
     const drinks        = Array.isArray(userAnswers.drinks) ? userAnswers.drinks : [];
@@ -2299,7 +2339,7 @@ function showResults() {
           Full annual TCO: <strong>${sym}${tco.fullAnnualTCO}</strong><br>
           <span style="font-size:10px;opacity:0.6;">machine ÷ ${top.m.expectedLifespanYears||5}yr + $${top.m.maintenanceAnnualCost||0}/yr maint. + coffee</span>
         </div>
-        <a class="rec-buy-btn" href="${getLink(top.m)}" target="_blank" rel="noopener">View on Amazon</a>
+        <a class="rec-buy-btn" href="${getLink(top.m)}" target="_blank" rel="noopener" onclick="trackBuyClick('${top.m.name}')">View on Amazon</a>
       </div>`;
 
     // Luxury alternative: best machine 15–40% above budget
@@ -2325,7 +2365,7 @@ function showResults() {
         </div>
         <div style="display:flex;flex-direction:column;align-items:flex-end;gap:8px;flex-shrink:0;">
           <div class="luxury-price">${sym}${lp.toLocaleString()}</div>
-          <a class="luxury-btn" href="${getLink(lm)}" target="_blank" rel="noopener">View on Amazon</a>
+          <a class="luxury-btn" href="${getLink(lm)}" target="_blank" rel="noopener" onclick="trackBuyClick('${lm.name}')">View on Amazon</a>
         </div>
       </div>`;
     } else {
