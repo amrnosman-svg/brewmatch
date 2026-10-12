@@ -4030,7 +4030,7 @@ function mapAirtableRecord(record) {
   };
   const MILK_MAP = {
     'integrated': 'integrated', 'one-touch': 'integrated', 'one touch': 'integrated',
-    'auto-frother': 'auto-frother', 'auto frother': 'auto-frother', 'auto frothing': 'auto-frother',
+    'auto-frother': 'auto-frother', 'auto frother': 'auto-frother', 'auto frothing': 'auto-frother', 'auto-cappuccinatore': 'auto-frother', 'auto cappuccinatore': 'auto-frother',
     'manual-wand': 'manual-wand', 'manual wand': 'manual-wand', 'manual steam': 'manual-wand', 'steam wand': 'manual-wand',
     'none': 'none', 'no': 'none', '': 'none',
   };
@@ -4294,7 +4294,7 @@ async function initApp() {
 
   function useFallback(reason) {
     console.log('BrewMatch: using fallback data.', reason || '');
-    machines = FALLBACK_MACHINES.map(m => ({...m}));
+    machines = FALLBACK_MACHINES.map(m => ({ id: m.name, ...m }));
     applyExtras(machines);
     console.log('BrewMatch: loaded', machines.length, 'machines from fallback.');
   }
@@ -5025,7 +5025,7 @@ function showResults() {
   // Safety net: if machines didn't load for any reason, use fallback now
   if (!machines || machines.length === 0) {
     console.warn('BrewMatch: machines was empty at showResults — applying fallback.');
-    machines = FALLBACK_MACHINES.map(m => ({...m}));
+    machines = FALLBACK_MACHINES.map(m => ({ id: m.name, ...m }));
     machines.forEach(m => {
       if (IMAGE_MAP[m.name]) m.imageUrl = IMAGE_MAP[m.name];
       const extra = machineExtras[m.name];
