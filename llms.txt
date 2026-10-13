@@ -1,0 +1,121 @@
+# BrewMatch
+
+> Independent coffee machine recommendations: a 7-question quiz plus specs, scores, strengths and watch-outs for 68 machines. No sponsored placements; Amazon links are affiliate links.
+
+## Data
+- [Machine data (JSON)](https://brewtimeai.netlify.app/machines.json): all machines with specs, 1-5 scores and regional prices
+- [All machines](https://brewtimeai.netlify.app/machines/): browsable directory
+- [Sitemap](https://brewtimeai.netlify.app/sitemap.xml)
+
+## Machine pages
+- [AeroPress Go](https://brewtimeai.netlify.app/machines/aeropress-go/): Manual, about $49
+- [AeroPress Original](https://brewtimeai.netlify.app/machines/aeropress-original/): Manual, about $45
+- [Ascaso Steel Duo PID](https://brewtimeai.netlify.app/machines/ascaso-steel-duo-pid/): Semi-Automatic, about $1,700
+- [Bodum Chambord Press](https://brewtimeai.netlify.app/machines/bodum-chambord-press/): Manual, about $40
+- [Bonavita 8-Cup](https://brewtimeai.netlify.app/machines/bonavita-8-cup/): Drip Machine, about $79
+- [Bosch VeroCafe 800](https://brewtimeai.netlify.app/machines/bosch-verocafe-800/): Super-Automatic, about $1,199
+- [Breville Bambino Plus](https://brewtimeai.netlify.app/machines/breville-bambino-plus/): Semi-Automatic, about $499
+- [Breville Barista Express](https://brewtimeai.netlify.app/machines/breville-barista-express/): Semi-Automatic, about $699
+- [Breville Barista Pro](https://brewtimeai.netlify.app/machines/breville-barista-pro/): Semi-Automatic, about $849
+- [Breville Barista Touch](https://brewtimeai.netlify.app/machines/breville-barista-touch/): Semi-Automatic, about $999
+- [Breville Barista Touch Impress](https://brewtimeai.netlify.app/machines/breville-barista-touch-impress/): Semi-Automatic, about $899
+- [Breville Dual Boiler](https://brewtimeai.netlify.app/machines/breville-dual-boiler/): Semi-Automatic, about $1,599
+- [Breville Precision Brewer](https://brewtimeai.netlify.app/machines/breville-precision-brewer/): Drip Machine, about $329
+- [Chemex 6-Cup](https://brewtimeai.netlify.app/machines/chemex-6-cup/): Manual, about $45
+- [Cuisinart DCC-3200](https://brewtimeai.netlify.app/machines/cuisinart-dcc-3200/): Drip Machine, about $99
+- [De'Longhi Dinamica Plus](https://brewtimeai.netlify.app/machines/delonghi-dinamica-plus/): Super-Automatic, about $1,099
+- [De'Longhi Eletta Explore](https://brewtimeai.netlify.app/machines/delonghi-eletta-explore/): Super-Automatic, about $1,400
+- [De'Longhi La Specialista Arte](https://brewtimeai.netlify.app/machines/delonghi-la-specialista-arte/): Semi-Automatic, about $599
+- [De'Longhi La Specialista Prestigio](https://brewtimeai.netlify.app/machines/delonghi-la-specialista-prestigio/): Semi-Automatic, about $899
+- [De'Longhi Magnifica Evo](https://brewtimeai.netlify.app/machines/delonghi-magnifica-evo/): Super-Automatic, about $399
+- [De'Longhi Rivelia](https://brewtimeai.netlify.app/machines/delonghi-rivelia/): Super-Automatic, about $1,099
+- [ECM Classika PID](https://brewtimeai.netlify.app/machines/ecm-classika-pid/): Semi-Automatic, about $1,499
+- [Fellow Aiden Precision Brewer](https://brewtimeai.netlify.app/machines/fellow-aiden-precision-brewer/): Drip Machine, about $365
+- [Fellow Clara Press](https://brewtimeai.netlify.app/machines/fellow-clara-press/): Manual, about $99
+- [Fellow Espresso Series 1](https://brewtimeai.netlify.app/machines/fellow-espresso-series-1/): Semi-Automatic, about $575
+- [Fellow Stagg X](https://brewtimeai.netlify.app/machines/fellow-stagg-x/): Manual, about $65
+- [Flair 58](https://brewtimeai.netlify.app/machines/flair-58/): Semi-Automatic, about $575
+- [Flair Espresso Neo](https://brewtimeai.netlify.app/machines/flair-espresso-neo/): Manual, about $160
+- [Gaggia Anima Prestige](https://brewtimeai.netlify.app/machines/gaggia-anima-prestige/): Super-Automatic, about $799
+- [Gaggia Classic Pro](https://brewtimeai.netlify.app/machines/gaggia-classic-pro/): Semi-Automatic, about $500
+- [Hario V60](https://brewtimeai.netlify.app/machines/hario-v60/): Manual, about $25
+- [Jura E6](https://brewtimeai.netlify.app/machines/jura-e6/): Super-Automatic, about $999
+- [Jura E8](https://brewtimeai.netlify.app/machines/jura-e8/): Super-Automatic, about $1,299
+- [Jura ENA 8](https://brewtimeai.netlify.app/machines/jura-ena-8/): Super-Automatic, about $1,200
+- [Jura S8](https://brewtimeai.netlify.app/machines/jura-s8/): Super-Automatic, about $1,699
+- [Jura Z10](https://brewtimeai.netlify.app/machines/jura-z10/): Super-Automatic, about $2,499
+- [Kalita Wave 185](https://brewtimeai.netlify.app/machines/kalita-wave-185/): Manual, about $35
+- [Keurig K-Classic](https://brewtimeai.netlify.app/machines/keurig-k-classic/): Pod Machine, about $79
+- [Keurig K-Elite](https://brewtimeai.netlify.app/machines/keurig-k-elite/): Pod Machine, about $130
+- [Keurig K-Supreme Plus SMART](https://brewtimeai.netlify.app/machines/keurig-k-supreme-plus-smart/): Pod Machine, about $190
+- [Lelit Anna](https://brewtimeai.netlify.app/machines/lelit-anna/): Semi-Automatic, about $699
+- [Lelit Bianca](https://brewtimeai.netlify.app/machines/lelit-bianca/): Semi-Automatic, about $2,800
+- [Lelit Mara X](https://brewtimeai.netlify.app/machines/lelit-mara-x/): Semi-Automatic, about $1,599
+- [Melitta Barista TS Smart](https://brewtimeai.netlify.app/machines/melitta-barista-ts-smart/): Super-Automatic, about $499
+- [Miele CM5300](https://brewtimeai.netlify.app/machines/miele-cm5300/): Super-Automatic, about $1,499
+- [Nespresso CitiZ](https://brewtimeai.netlify.app/machines/nespresso-citiz/): Pod Machine, about $199
+- [Nespresso Creatista Plus](https://brewtimeai.netlify.app/machines/nespresso-creatista-plus/): Pod Machine, about $599
+- [Nespresso Essenza Mini](https://brewtimeai.netlify.app/machines/nespresso-essenza-mini/): Pod Machine, about $99
+- [Nespresso Pixie](https://brewtimeai.netlify.app/machines/nespresso-pixie/): Pod Machine, about $179
+- [Nespresso Vertuo Next](https://brewtimeai.netlify.app/machines/nespresso-vertuo-next/): Pod Machine, about $149
+- [Nespresso Vertuo Pop](https://brewtimeai.netlify.app/machines/nespresso-vertuo-pop/): Pod Machine, about $79
+- [Nespresso VertuoPlus](https://brewtimeai.netlify.app/machines/nespresso-vertuoplus/): Pod Machine, about $169
+- [Ninja Luxe Café Premier](https://brewtimeai.netlify.app/machines/ninja-luxe-caf-premier/): Semi-Automatic, about $600
+- [Ninja Specialty Coffee Maker](https://brewtimeai.netlify.app/machines/ninja-specialty-coffee-maker/): Drip Machine, about $199
+- [OXO Brew 9-Cup](https://brewtimeai.netlify.app/machines/oxo-brew-9-cup/): Drip Machine, about $199
+- [Philips 3200 LatteGo](https://brewtimeai.netlify.app/machines/philips-3200-lattego/): Super-Automatic, about $539
+- [Philips 4300 LatteGo](https://brewtimeai.netlify.app/machines/philips-4300-lattego/): Super-Automatic, about $899
+- [Philips 5400 LatteGo](https://brewtimeai.netlify.app/machines/philips-5400-lattego/): Super-Automatic, about $999
+- [Profitec Go](https://brewtimeai.netlify.app/machines/profitec-go/): Semi-Automatic, about $999
+- [Profitec Pro 500](https://brewtimeai.netlify.app/machines/profitec-pro-500/): Semi-Automatic, about $1,800
+- [Profitec Pro 600](https://brewtimeai.netlify.app/machines/profitec-pro-600/): Semi-Automatic, about $2,300
+- [Rancilio Silvia](https://brewtimeai.netlify.app/machines/rancilio-silvia/): Semi-Automatic, about $795
+- [Rancilio Silvia Pro X](https://brewtimeai.netlify.app/machines/rancilio-silvia-pro-x/): Semi-Automatic, about $1,049
+- [Ratio Eight](https://brewtimeai.netlify.app/machines/ratio-eight/): Drip Machine, about $699
+- [Ratio Six](https://brewtimeai.netlify.app/machines/ratio-six/): Drip Machine, about $499
+- [Rocket Appartamento](https://brewtimeai.netlify.app/machines/rocket-appartamento/): Semi-Automatic, about $1,700
+- [Saeco Xelsis](https://brewtimeai.netlify.app/machines/saeco-xelsis/): Super-Automatic, about $1,999
+- [Technivorm Moccamaster KBGV](https://brewtimeai.netlify.app/machines/technivorm-moccamaster-kbgv/): Drip Machine, about $349
+
+## Comparisons
+- [Breville Barista Express vs Breville Barista Pro](https://brewtimeai.netlify.app/compare/breville-barista-express-vs-breville-barista-pro/)
+- [Breville Bambino Plus vs Gaggia Classic Pro](https://brewtimeai.netlify.app/compare/breville-bambino-plus-vs-gaggia-classic-pro/)
+- [Jura E6 vs Jura E8](https://brewtimeai.netlify.app/compare/jura-e6-vs-jura-e8/)
+- [Breville Barista Touch vs Breville Barista Touch Impress](https://brewtimeai.netlify.app/compare/breville-barista-touch-vs-breville-barista-touch-impress/)
+- [De'Longhi Dinamica Plus vs De'Longhi Magnifica Evo](https://brewtimeai.netlify.app/compare/delonghi-dinamica-plus-vs-delonghi-magnifica-evo/)
+- [Chemex 6-Cup vs Hario V60](https://brewtimeai.netlify.app/compare/chemex-6-cup-vs-hario-v60/)
+- [AeroPress Go vs AeroPress Original](https://brewtimeai.netlify.app/compare/aeropress-go-vs-aeropress-original/)
+- [Breville Precision Brewer vs Fellow Aiden Precision Brewer](https://brewtimeai.netlify.app/compare/breville-precision-brewer-vs-fellow-aiden-precision-brewer/)
+- [AeroPress Original vs Chemex 6-Cup](https://brewtimeai.netlify.app/compare/aeropress-original-vs-chemex-6-cup/)
+- [Ascaso Steel Duo PID vs Rocket Appartamento](https://brewtimeai.netlify.app/compare/ascaso-steel-duo-pid-vs-rocket-appartamento/)
+- [Breville Barista Express vs Lelit Anna](https://brewtimeai.netlify.app/compare/breville-barista-express-vs-lelit-anna/)
+- [Breville Barista Touch vs Profitec Go](https://brewtimeai.netlify.app/compare/breville-barista-touch-vs-profitec-go/)
+- [Breville Barista Touch Impress vs De'Longhi La Specialista Prestigio](https://brewtimeai.netlify.app/compare/breville-barista-touch-impress-vs-delonghi-la-specialista-prestigio/)
+- [Breville Dual Boiler vs Lelit Mara X](https://brewtimeai.netlify.app/compare/breville-dual-boiler-vs-lelit-mara-x/)
+- [De'Longhi Dinamica Plus vs De'Longhi Rivelia](https://brewtimeai.netlify.app/compare/delonghi-dinamica-plus-vs-delonghi-rivelia/)
+- [Fellow Espresso Series 1 vs Flair 58](https://brewtimeai.netlify.app/compare/fellow-espresso-series-1-vs-flair-58/)
+- [Jura E6 vs Philips 5400 LatteGo](https://brewtimeai.netlify.app/compare/jura-e6-vs-philips-5400-lattego/)
+- [Keurig K-Classic vs Nespresso Vertuo Pop](https://brewtimeai.netlify.app/compare/keurig-k-classic-vs-nespresso-vertuo-pop/)
+- [Ninja Specialty Coffee Maker vs OXO Brew 9-Cup](https://brewtimeai.netlify.app/compare/ninja-specialty-coffee-maker-vs-oxo-brew-9-cup/)
+- [Bosch VeroCafe 800 vs Jura ENA 8](https://brewtimeai.netlify.app/compare/bosch-verocafe-800-vs-jura-ena-8/)
+- [De'Longhi La Specialista Arte vs Ninja Luxe Café Premier](https://brewtimeai.netlify.app/compare/delonghi-la-specialista-arte-vs-ninja-luxe-caf-premier/)
+- [Fellow Aiden Precision Brewer vs Technivorm Moccamaster KBGV](https://brewtimeai.netlify.app/compare/fellow-aiden-precision-brewer-vs-technivorm-moccamaster-kbgv/)
+- [Keurig K-Supreme Plus SMART vs Nespresso CitiZ](https://brewtimeai.netlify.app/compare/keurig-k-supreme-plus-smart-vs-nespresso-citiz/)
+- [Breville Barista Touch vs Rancilio Silvia Pro X](https://brewtimeai.netlify.app/compare/breville-barista-touch-vs-rancilio-silvia-pro-x/)
+- [Ascaso Steel Duo PID vs Profitec Pro 500](https://brewtimeai.netlify.app/compare/ascaso-steel-duo-pid-vs-profitec-pro-500/)
+- [Breville Barista Pro vs Breville Barista Touch Impress](https://brewtimeai.netlify.app/compare/breville-barista-pro-vs-breville-barista-touch-impress/)
+- [Nespresso Pixie vs Nespresso VertuoPlus](https://brewtimeai.netlify.app/compare/nespresso-pixie-vs-nespresso-vertuoplus/)
+- [Breville Precision Brewer vs Technivorm Moccamaster KBGV](https://brewtimeai.netlify.app/compare/breville-precision-brewer-vs-technivorm-moccamaster-kbgv/)
+- [Breville Dual Boiler vs ECM Classika PID](https://brewtimeai.netlify.app/compare/breville-dual-boiler-vs-ecm-classika-pid/)
+- [Breville Barista Pro vs Rancilio Silvia](https://brewtimeai.netlify.app/compare/breville-barista-pro-vs-rancilio-silvia/)
+- [De'Longhi Eletta Explore vs Miele CM5300](https://brewtimeai.netlify.app/compare/delonghi-eletta-explore-vs-miele-cm5300/)
+- [De'Longhi Eletta Explore vs Jura E8](https://brewtimeai.netlify.app/compare/delonghi-eletta-explore-vs-jura-e8/)
+- [Melitta Barista TS Smart vs Philips 3200 LatteGo](https://brewtimeai.netlify.app/compare/melitta-barista-ts-smart-vs-philips-3200-lattego/)
+- [Jura E6 vs Philips 4300 LatteGo](https://brewtimeai.netlify.app/compare/jura-e6-vs-philips-4300-lattego/)
+- [AeroPress Original vs Bodum Chambord Press](https://brewtimeai.netlify.app/compare/aeropress-original-vs-bodum-chambord-press/)
+- [Gaggia Anima Prestige vs Philips 4300 LatteGo](https://brewtimeai.netlify.app/compare/gaggia-anima-prestige-vs-philips-4300-lattego/)
+
+## Notes
+- Scores are BrewMatch's own 1-5 ratings (5 is best), the same ones used by the quiz.
+- Prices are estimates; check the retailer for current prices.
+- Width and brew temperature are omitted for machines whose specs are still being verified.
