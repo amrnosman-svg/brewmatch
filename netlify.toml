@@ -7,3 +7,9 @@
   for = "/images/*"
   [headers.values]
     Cache-Control = "public, max-age=2592000"
+
+# Public recommendation API (agents/tools): same scoring as the quiz.
+[[redirects]]
+  from = "/api/recommend"
+  to = "/.netlify/functions/recommend"
+  status = 200
