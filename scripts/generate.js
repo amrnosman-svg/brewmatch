@@ -119,6 +119,7 @@ a{color:var(--black)}
 .wrap{max-width:860px;margin:0 auto;padding:24px 20px 64px}
 .top{display:flex;justify-content:space-between;align-items:center;padding:16px 20px;border-bottom:1px solid var(--light-grey);font-size:14px}
 .top a{text-decoration:none;font-weight:500;letter-spacing:.02em}
+.brand{display:flex;align-items:center;gap:10px}.brand img{display:block}
 .crumbs{font-size:12px;color:var(--mid-grey);margin:8px 0 20px}.crumbs a{color:var(--mid-grey)}
 h1{font-size:32px;line-height:1.2;font-weight:500;margin:0 0 8px}
 h2{font-size:18px;font-weight:500;margin:36px 0 12px}
@@ -158,7 +159,12 @@ function layout({ title, desc, canonical, body, jsonld, ogImage }) {
 <meta property="og:description" content="${esc(desc)}">
 <meta property="og:type" content="website">
 <meta property="og:url" content="${esc(BASE + canonical)}">
-${ogImage ? `<meta property="og:image" content="${esc(BASE + '/' + ogImage)}">\n` : ''}<link rel="alternate" type="application/json" href="${BASE}/machines.json" title="BrewHarbor machine data">
+<meta property="og:image" content="${esc(BASE + '/' + (ogImage || 'assets/og-image.png'))}">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/favicon.ico" sizes="48x48">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<meta name="theme-color" content="#2C2416">
+<link rel="alternate" type="application/json" href="${BASE}/machines.json" title="BrewHarbor machine data">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/assets/pages.css">
@@ -167,7 +173,7 @@ ${ogImage ? `<meta property="og:image" content="${esc(BASE + '/' + ogImage)}">\n
 ${jsonld ? `<script type="application/ld+json">${JSON.stringify(jsonld)}</script>` : ''}
 </head>
 <body>
-<div class="top"><a href="/">☕ BrewHarbor</a><a href="/">Take the quiz →</a></div>
+<div class="top"><a class="brand" href="/"><picture><source srcset="/assets/logo-dark.svg" media="(prefers-color-scheme: dark)"><img src="/assets/logo.svg" alt="" width="30" height="30"></picture>BrewHarbor</a><a href="/">Take the quiz →</a></div>
 <div class="wrap">
 ${body}
 </div>
@@ -350,7 +356,7 @@ for (const c of compares) write(`compare/${c.slug}/index.html`, c.html);
 
 // public machine-readable data (agents/tools); only verified fields are included
 write('machines.json', JSON.stringify({
-  generated: TODAY, source: BASE, note: 'Scores are BrewHarbor 1-5 ratings (5 best). Prices are estimates.',
+  generated: TODAY, source: BASE, logo: BASE + '/assets/logo.svg', note: 'Scores are BrewHarbor 1-5 ratings (5 best). Prices are estimates.',
   machines: machines.map(m => ({
     name: m.name, brand: m.brand, url: BASE + m.url, category: m.category, automation: m.automation, milkSystem: m.milk,
     drinks: m.drinks, coffeeTypes: m.coffeeTypes, compact: m.compact, widthInches: m.width, maxBrewTempC: m.brewTemp,

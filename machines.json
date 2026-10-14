@@ -1,6 +1,7 @@
 {
  "generated": "2026-10-14",
  "source": "https://getbrewharbor.com",
+ "logo": "https://getbrewharbor.com/assets/logo.svg",
  "note": "Scores are BrewHarbor 1-5 ratings (5 best). Prices are estimates.",
  "machines": [
   {
