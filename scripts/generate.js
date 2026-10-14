@@ -1,6 +1,6 @@
 #!/usr/bin/env node
-// BrewMatch static page generator.
-// Usage:  node scripts/generate.js            (uses https://brewtimeai.netlify.app)
+// BrewHarbor static page generator.
+// Usage:  node scripts/generate.js            (uses https://getbrewharbor.com)
 //         BASE_URL=https://newdomain.com node scripts/generate.js
 // Refresh data first:  curl -s $BASE_URL/.netlify/functions/airtable > data/machines.raw.json
 // Source of truth stays Airtable; data/machines.raw.json is a build snapshot.
@@ -11,7 +11,7 @@ const fs = require('fs');
 const path = require('path');
 
 const ROOT = path.join(__dirname, '..');
-const BASE = (process.env.BASE_URL || 'https://brewtimeai.netlify.app').replace(/\/$/, '');
+const BASE = (process.env.BASE_URL || 'https://getbrewharbor.com').replace(/\/$/, '');
 const TODAY = process.env.LASTMOD || new Date().toISOString().slice(0, 10);
 
 // Specs still awaiting verification (see project notes) — width and brew temp are NOT published for these.
@@ -158,7 +158,7 @@ function layout({ title, desc, canonical, body, jsonld, ogImage }) {
 <meta property="og:description" content="${esc(desc)}">
 <meta property="og:type" content="website">
 <meta property="og:url" content="${esc(BASE + canonical)}">
-${ogImage ? `<meta property="og:image" content="${esc(BASE + '/' + ogImage)}">\n` : ''}<link rel="alternate" type="application/json" href="${BASE}/machines.json" title="BrewMatch machine data">
+${ogImage ? `<meta property="og:image" content="${esc(BASE + '/' + ogImage)}">\n` : ''}<link rel="alternate" type="application/json" href="${BASE}/machines.json" title="BrewHarbor machine data">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/assets/pages.css">
@@ -167,11 +167,11 @@ ${ogImage ? `<meta property="og:image" content="${esc(BASE + '/' + ogImage)}">\n
 ${jsonld ? `<script type="application/ld+json">${JSON.stringify(jsonld)}</script>` : ''}
 </head>
 <body>
-<div class="top"><a href="/">☕ BrewMatch</a><a href="/">Take the quiz →</a></div>
+<div class="top"><a href="/">☕ BrewHarbor</a><a href="/">Take the quiz →</a></div>
 <div class="wrap">
 ${body}
 </div>
-<footer>© 2026 BrewMatch · As an Amazon Associate I earn from qualifying purchases. · Prices are estimates; check the retailer for current prices · <a href="/machines/">All machines</a> · <a href="/privacy.html">Privacy</a></footer>
+<footer>© 2026 BrewHarbor · As an Amazon Associate I earn from qualifying purchases. · Prices are estimates; check the retailer for current prices · <a href="/machines/">All machines</a> · <a href="/privacy.html">Privacy</a></footer>
 </body>
 </html>
 `;
@@ -222,7 +222,7 @@ function machinePage(m, compareIdx) {
   const ins = insights(m);
   const related = relatedFor(m);
   const cmps = (compareIdx[m.slug] || []).slice(0, 4);
-  const body = `<div class="crumbs"><a href="/">BrewMatch</a> › <a href="/machines/">Machines</a> › ${esc(m.name)}</div>
+  const body = `<div class="crumbs"><a href="/">BrewHarbor</a> › <a href="/machines/">Machines</a> › ${esc(m.name)}</div>
 <div class="hero">${m.image ? `<img src="/${esc(m.image)}" alt="${esc(m.name)}" width="400" height="400" loading="eager">` : '<div></div>'}
 <div><h1>${esc(m.name)}</h1>
 <p class="lede">${esc(m.description)}</p>
@@ -231,12 +231,12 @@ ${buyButtons(m)}
 ${m.sentiment ? `<h2>Who it's for</h2><p>${esc(m.sentiment)}</p>` : ''}
 ${(ins.up.length || ins.down.length) ? `<div class="cols">${ins.up.length ? `<div><h2>Strengths</h2><ul>${ins.up.map(x => `<li>${esc(x)}</li>`).join('')}</ul></div>` : ''}${ins.down.length ? `<div><h2>Watch-outs</h2><ul>${ins.down.map(x => `<li>${esc(x)}</li>`).join('')}</ul></div>` : ''}</div>` : ''}
 <h2>Specs</h2><div class="scroll"><table>${specRows(m)}</table></div>
-<h2>BrewMatch scores</h2><div class="scroll"><table>${scoreRows(m)}</table></div>
-<p class="note">Scores are BrewMatch's own 1–5 ratings (5 is best) from specs, owner sentiment and teardown/repair data; they are the same scores the quiz uses to rank machines.</p>
+<h2>BrewHarbor scores</h2><div class="scroll"><table>${scoreRows(m)}</table></div>
+<p class="note">Scores are BrewHarbor's own 1–5 ratings (5 is best) from specs, owner sentiment and teardown/repair data; they are the same scores the quiz uses to rank machines.</p>
 ${Object.keys(m.prices).length ? `<h2>Typical prices</h2><div class="scroll"><table>${REGIONS.filter(([r]) => m.prices[r] != null).map(([r, c]) => `<tr><th>${c}</th><td>${money(m.prices[r], r)}</td></tr>`).join('')}</table></div><p class="note">Price ranges are estimates; check the retailer for current prices.</p>` : ''}
 ${cmps.length ? `<h2>Compare</h2><ul>${cmps.map(c => `<li><a href="${c.url}">${esc(c.title)}</a></li>`).join('')}</ul>` : ''}
 ${related.length ? `<h2>Similar machines</h2><ul class="grid">${related.map(x => `<li><a href="${x.url}">${esc(x.name)}<small>${esc(x.category)}${x.prices.us != null ? ' · ' + money(x.prices.us, 'us') : ''}</small></a></li>`).join('')}</ul>` : ''}
-<p class="note">Affiliate disclosure: links to Amazon are affiliate links. BrewMatch has no sponsored placements; machines are ranked by the same scoring for everyone.</p>`;
+<p class="note">Affiliate disclosure: links to Amazon are affiliate links. BrewHarbor has no sponsored placements; machines are ranked by the same scoring for everyone.</p>`;
   const jsonld = {
     '@context': 'https://schema.org', '@type': 'Product', name: m.name,
     ...(m.brand ? { brand: { '@type': 'Brand', name: m.brand } } : {}),
@@ -250,7 +250,7 @@ ${related.length ? `<h2>Similar machines</h2><ul class="grid">${related.map(x =>
       ...(m.milk ? [{ '@type': 'PropertyValue', name: 'Milk system', value: m.milk }] : []),
     ],
   };
-  return layout({ title: `${m.name} — specs, scores & who it's for | BrewMatch`, desc: machineDesc(m), canonical: m.url, body, jsonld, ogImage: m.image });
+  return layout({ title: `${m.name} — specs, scores & who it's for | BrewHarbor`, desc: machineDesc(m), canonical: m.url, body, jsonld, ogImage: m.image });
 }
 
 // ---- comparisons ----
@@ -302,30 +302,30 @@ function comparePage(a, b) {
   scoreRow('Drink variety', 'variety'); scoreRow('Eco score', 'eco'); scoreRow('Repairability', 'repair');
   const ia = insights(a), ib = insights(b);
   const title = `${a.name} vs ${b.name}`;
-  const body = `<div class="crumbs"><a href="/">BrewMatch</a> › <a href="/machines/">Machines</a> › ${esc(title)}</div>
+  const body = `<div class="crumbs"><a href="/">BrewHarbor</a> › <a href="/machines/">Machines</a> › ${esc(title)}</div>
 <h1>${esc(title)}</h1>
-<p class="lede">A side-by-side of specs and BrewMatch scores. A ✓ marks the higher score; blanks mean no verified data.</p>
+<p class="lede">A side-by-side of specs and BrewHarbor scores. A ✓ marks the higher score; blanks mean no verified data.</p>
 <div class="scroll"><table class="cmp"><thead><tr><th></th><th><a href="${a.url}">${esc(a.name)}</a></th><th><a href="${b.url}">${esc(b.name)}</a></th></tr></thead><tbody>${rows.join('\n')}</tbody></table></div>
 <div class="cols"><div><h2>${esc(a.name)}</h2>${ia.up.length ? `<ul>${ia.up.map(x => `<li>${esc(x)}</li>`).join('')}</ul>` : ''}${ia.down.length ? `<p><strong>Watch-outs</strong></p><ul>${ia.down.map(x => `<li>${esc(x)}</li>`).join('')}</ul>` : ''}${a.sentiment ? `<p>${esc(a.sentiment)}</p>` : ''}</div>
 <div><h2>${esc(b.name)}</h2>${ib.up.length ? `<ul>${ib.up.map(x => `<li>${esc(x)}</li>`).join('')}</ul>` : ''}${ib.down.length ? `<p><strong>Watch-outs</strong></p><ul>${ib.down.map(x => `<li>${esc(x)}</li>`).join('')}</ul>` : ''}${b.sentiment ? `<p>${esc(b.sentiment)}</p>` : ''}</div></div>
 <p><a class="btn" href="${a.url}">${esc(a.name)} details</a><a class="btn" href="${b.url}">${esc(b.name)} details</a><a class="btn alt" href="/">Take the quiz</a></p>
-<p class="note">Scores are BrewMatch's own 1–5 ratings (5 is best). Affiliate disclosure: links to Amazon on the machine pages are affiliate links; there are no sponsored placements.</p>`;
+<p class="note">Scores are BrewHarbor's own 1–5 ratings (5 is best). Affiliate disclosure: links to Amazon on the machine pages are affiliate links; there are no sponsored placements.</p>`;
   return {
     slug, url, title,
-    html: layout({ title: `${title}: which is better? | BrewMatch`, desc: `${title} compared on specs, price, maintenance, cup quality and running costs.`, canonical: url, body, jsonld: { '@context': 'https://schema.org', '@type': 'WebPage', name: title, url: BASE + url } }),
+    html: layout({ title: `${title}: which is better? | BrewHarbor`, desc: `${title} compared on specs, price, maintenance, cup quality and running costs.`, canonical: url, body, jsonld: { '@context': 'https://schema.org', '@type': 'WebPage', name: title, url: BASE + url } }),
   };
 }
 
 // ---- directory ----
 function directoryPage(compares) {
   const cats = [...new Set(machines.map(m => m.category))].sort();
-  const body = `<div class="crumbs"><a href="/">BrewMatch</a> › Machines</div>
+  const body = `<div class="crumbs"><a href="/">BrewHarbor</a> › Machines</div>
 <h1>All coffee machines</h1>
 <p class="lede">${machines.length} machines scored on cup quality, speed, ease of use, variety, eco impact and repairability. Not sure which fits? <a href="/">Take the 7-question quiz</a>.</p>
 ${cats.map(c => `<h2>${esc(c)}</h2><ul class="grid">${machines.filter(m => m.category === c).map(m => `<li><a href="${m.url}">${esc(m.name)}<small>${m.prices.us != null ? money(m.prices.us, 'us') : ''}</small></a></li>`).join('')}</ul>`).join('\n')}
 <h2>Comparisons</h2><ul>${compares.map(c => `<li><a href="${c.url}">${esc(c.title)}</a></li>`).join('')}</ul>`;
   return layout({
-    title: 'All coffee machines: specs, scores & comparisons | BrewMatch',
+    title: 'All coffee machines: specs, scores & comparisons | BrewHarbor',
     desc: `Browse ${machines.length} coffee machines with specs, honest strengths and watch-outs, and head-to-head comparisons.`,
     canonical: '/machines/', body,
     jsonld: { '@context': 'https://schema.org', '@type': 'ItemList', itemListElement: machines.map((m, i) => ({ '@type': 'ListItem', position: i + 1, url: BASE + m.url, name: m.name })) },
@@ -350,7 +350,7 @@ for (const c of compares) write(`compare/${c.slug}/index.html`, c.html);
 
 // public machine-readable data (agents/tools); only verified fields are included
 write('machines.json', JSON.stringify({
-  generated: TODAY, source: BASE, note: 'Scores are BrewMatch 1-5 ratings (5 best). Prices are estimates.',
+  generated: TODAY, source: BASE, note: 'Scores are BrewHarbor 1-5 ratings (5 best). Prices are estimates.',
   machines: machines.map(m => ({
     name: m.name, brand: m.brand, url: BASE + m.url, category: m.category, automation: m.automation, milkSystem: m.milk,
     drinks: m.drinks, coffeeTypes: m.coffeeTypes, compact: m.compact, widthInches: m.width, maxBrewTempC: m.brewTemp,
@@ -364,12 +364,13 @@ write('machines.json', JSON.stringify({
 const urls = ['/', '/machines/', ...machines.map(m => m.url), ...compares.map(c => c.url)];
 write('sitemap.xml', `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls.map(u => `  <url><loc>${BASE}${u}</loc><lastmod>${TODAY}</lastmod></url>`).join('\n')}\n</urlset>\n`);
 write('robots.txt', `User-agent: *\nAllow: /\n\nSitemap: ${BASE}/sitemap.xml\n`);
-write('llms.txt', `# BrewMatch
+write('llms.txt', `# BrewHarbor
 
-> Independent coffee machine recommendations: a 7-question quiz plus specs, scores, strengths and watch-outs for ${machines.length} machines. No sponsored placements; Amazon links are affiliate links.
+> Find your coffee machine. Skip the research. Independent coffee machine recommendations: a 7-question quiz plus specs, scores, strengths and watch-outs for ${machines.length} machines. No sponsored placements; Amazon links are affiliate links.
 
 ## Data
 - [Machine data (JSON)](${BASE}/machines.json): all machines with specs, 1-5 scores and regional prices
+- [Recommendation API](${BASE}/api/recommend): POST a quiz profile (drinks, effort, coffeeType, budget, region, priorities) and get ranked machines with reasons; GET with no parameters returns usage docs
 - [All machines](${BASE}/machines/): browsable directory
 - [Sitemap](${BASE}/sitemap.xml)
 
@@ -380,7 +381,7 @@ ${machines.map(m => `- [${m.name}](${BASE}${m.url}): ${m.category}${m.prices.us 
 ${compares.map(c => `- [${c.title}](${BASE}${c.url})`).join('\n')}
 
 ## Notes
-- Scores are BrewMatch's own 1-5 ratings (5 is best), the same ones used by the quiz.
+- Scores are BrewHarbor's own 1-5 ratings (5 is best), the same ones used by the quiz.
 - Prices are estimates; check the retailer for current prices.
 - Width and brew temperature are omitted for machines whose specs are still being verified.
 `);

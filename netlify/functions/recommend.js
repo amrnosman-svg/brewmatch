@@ -6,7 +6,7 @@ const engine = require('./lib/engine.js');
 
 const AIRTABLE_BASE = 'appw4XP6FKpFj4BAS';
 const AIRTABLE_TABLE = 'Machines';
-const SITE = process.env.SITE_URL || 'https://brewtimeai.netlify.app';
+const SITE = process.env.SITE_URL || 'https://getbrewharbor.com';
 
 const ALLOWED = {
   drinks: ['espresso', 'latte', 'drip', 'cold', 'pod', 'specialty'],
@@ -19,7 +19,7 @@ const ALLOWED = {
 };
 const DOC = {
   endpoint: `${SITE}/api/recommend`,
-  usage: 'POST JSON (or GET with query params; lists comma-separated). Returns machines ranked exactly as the BrewMatch quiz would.',
+  usage: 'POST JSON (or GET with query params; lists comma-separated). Returns machines ranked exactly as the BrewHarbor quiz would.',
   fields: {
     drinks: `required, one or more of: ${ALLOWED.drinks.join(', ')}`,
     effort: `required, one of: ${ALLOWED.effort.join(', ')}`,
@@ -119,7 +119,7 @@ exports.handler = async function (event) {
     });
     return json(200, {
       matched: ranked.length, returned: results.length, dataSource: source, query: answers, results,
-      notes: 'Scores are 0-99 relative match scores from the BrewMatch quiz engine. Prices are estimates; buy links are Amazon affiliate links.',
+      notes: 'Scores are 0-99 relative match scores from the BrewHarbor quiz engine. Prices are estimates; buy links are Amazon affiliate links.',
     }, { 'Cache-Control': 'public, max-age=300' });
   } catch (e) {
     return json(500, { error: 'Recommendation failed: ' + e.message });

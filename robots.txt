@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://brewtimeai.netlify.app/sitemap.xml
+Sitemap: https://getbrewharbor.com/sitemap.xml

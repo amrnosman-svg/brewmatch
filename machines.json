@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-13",
- "source": "https://brewtimeai.netlify.app",
- "note": "Scores are BrewMatch 1-5 ratings (5 best). Prices are estimates.",
+ "generated": "2026-10-14",
+ "source": "https://getbrewharbor.com",
+ "note": "Scores are BrewHarbor 1-5 ratings (5 best). Prices are estimates.",
  "machines": [
   {
    "name": "AeroPress Go",
    "brand": "AeroPress",
-   "url": "https://brewtimeai.netlify.app/machines/aeropress-go/",
+   "url": "https://getbrewharbor.com/machines/aeropress-go/",
    "category": "Manual",
    "automation": "Some Involvement",
    "milkSystem": "None",
@@ -53,14 +53,14 @@
     "eu": "https://www.amazon.de/s?k=aeropress+go",
     "au": "https://www.amazon.com.au/s?k=aeropress+go"
    },
-   "image": "https://brewtimeai.netlify.app/images/aeropress-go.jpg",
+   "image": "https://getbrewharbor.com/images/aeropress-go.jpg",
    "summary": "Travel-sized AeroPress that fits inside its own cup. Makes espresso-style concentrate or filter.",
    "whoItsFor": "The most versatile brewer that fits in your hand. Takes it on every trip."
   },
   {
    "name": "AeroPress Original",
    "brand": "AeroPress",
-   "url": "https://brewtimeai.netlify.app/machines/aeropress-original/",
+   "url": "https://getbrewharbor.com/machines/aeropress-original/",
    "category": "Manual",
    "automation": "manual",
    "milkSystem": "none",
@@ -106,14 +106,14 @@
     "eu": "https://www.amazon.de/s?k=aeropress+original",
     "au": "https://www.amazon.com.au/s?k=aeropress+original"
    },
-   "image": "https://brewtimeai.netlify.app/images/aeropress-original.jpg",
+   "image": "https://getbrewharbor.com/images/aeropress-original.jpg",
    "summary": "The most versatile brewer ever made. Espresso-style, filter, and cold brew in one portable device for under $50.",
    "whoItsFor": "Buy this if you travel frequently or want to experiment with brewing methods. It makes espresso-style, filter, and cold brew in one device. Nothing under $100 produces better coffee."
   },
   {
    "name": "Ascaso Steel Duo PID",
    "brand": "Ascaso",
-   "url": "https://brewtimeai.netlify.app/machines/ascaso-steel-duo-pid/",
+   "url": "https://getbrewharbor.com/machines/ascaso-steel-duo-pid/",
    "category": "Semi-Automatic",
    "automation": "Hands-On",
    "milkSystem": "Manual Steam",
@@ -158,14 +158,14 @@
     "eu": "https://www.amazon.de/s?k=ascaso+steel+duo+pid",
     "au": "https://www.amazon.com.au/s?k=ascaso+steel+duo+pid"
    },
-   "image": "https://brewtimeai.netlify.app/images/ascaso-steel-duo-pid.jpg",
+   "image": "https://getbrewharbor.com/images/ascaso-steel-duo-pid.jpg",
    "summary": "Spanish-made dual boiler with independent PIDs on both circuits. Compact footprint for a dual boiler machine with high-end performance.",
    "whoItsFor": "Dual boiler in a compact body — it punches well above its size. Spanish engineering at its best."
   },
   {
    "name": "Bodum Chambord Press",
    "brand": "Bodum",
-   "url": "https://brewtimeai.netlify.app/machines/bodum-chambord-press/",
+   "url": "https://getbrewharbor.com/machines/bodum-chambord-press/",
    "category": "Manual",
    "automation": "Minimal Effort",
    "milkSystem": "None",
@@ -207,14 +207,14 @@
     "eu": "https://www.amazon.de/s?k=bodum+chambord+french+press",
     "au": "https://www.amazon.com.au/s?k=bodum+chambord+french+press"
    },
-   "image": "https://brewtimeai.netlify.app/images/bodum-chambord-press.jpg",
+   "image": "https://getbrewharbor.com/images/bodum-chambord-press.jpg",
    "summary": "The original French press in borosilicate glass with a stainless frame. The reference point for the category.",
    "whoItsFor": "Classic French press that never goes wrong. Indestructible, makes a full-bodied satisfying cup."
   },
   {
    "name": "Bonavita 8-Cup",
    "brand": "Bonavita",
-   "url": "https://brewtimeai.netlify.app/machines/bonavita-8-cup/",
+   "url": "https://getbrewharbor.com/machines/bonavita-8-cup/",
    "category": "Drip Machine",
    "automation": "High Automation",
    "milkSystem": "None",
@@ -254,14 +254,14 @@
     "uk": "https://www.amazon.co.uk/s?k=bonavita+8+cup+coffee",
     "eu": "https://www.amazon.de/s?k=bonavita+8+cup+coffee"
    },
-   "image": "https://brewtimeai.netlify.app/images/bonavita-8-cup.jpg",
+   "image": "https://getbrewharbor.com/images/bonavita-8-cup.jpg",
    "summary": "Simple 8-cup drip with a flat-bottom showerhead and pre-infusion. SCA-certified at a budget price.",
    "whoItsFor": "Gets out of the way and makes excellent coffee. The best budget option for filter coffee."
   },
   {
    "name": "Bosch VeroCafe 800",
    "brand": "Bosch",
-   "url": "https://brewtimeai.netlify.app/machines/bosch-verocafe-800/",
+   "url": "https://getbrewharbor.com/machines/bosch-verocafe-800/",
    "category": "Super-Automatic",
    "automation": "High Automation",
    "milkSystem": "Auto Frother",
@@ -306,14 +306,14 @@
     "eu": "https://www.amazon.de/s?k=bosch+verocafe+800",
     "au": "https://www.amazon.com.au/s?k=bosch+verocafe+800"
    },
-   "image": "https://brewtimeai.netlify.app/images/bosch-verocafe-800.jpg",
+   "image": "https://getbrewharbor.com/images/bosch-verocafe-800.jpg",
    "summary": "Bosch premium super-auto with 2.3L water tank and fully integrated milk system.",
    "whoItsFor": "Bosch reliability with genuinely good coffee. Worth considering over the bigger brands."
   },
   {
    "name": "Breville Bambino Plus",
    "brand": "Breville",
-   "url": "https://brewtimeai.netlify.app/machines/breville-bambino-plus/",
+   "url": "https://getbrewharbor.com/machines/breville-bambino-plus/",
    "category": "Semi-Automatic",
    "automation": "semi",
    "milkSystem": "auto-frother",
@@ -357,14 +357,14 @@
     "eu": "https://www.amazon.de/s?k=breville+bambino+plus",
     "au": "https://www.amazon.com.au/s?k=breville+bambino+plus"
    },
-   "image": "https://brewtimeai.netlify.app/images/breville-bambino-plus.jpg",
+   "image": "https://getbrewharbor.com/images/breville-bambino-plus.jpg",
    "summary": "Compact semi-automatic with 3-second heat-up and automatic milk frothing. The fastest path to cafe-quality espresso at home.",
    "whoItsFor": "Buy this if you want real espresso at home but don't want a grinder-machine combo taking up your counter. Heats up in 3 seconds, auto-froths milk — the fastest path to third-wave quality."
   },
   {
    "name": "Breville Barista Express",
    "brand": "Breville",
-   "url": "https://brewtimeai.netlify.app/machines/breville-barista-express/",
+   "url": "https://getbrewharbor.com/machines/breville-barista-express/",
    "category": "Semi-Automatic",
    "automation": "semi",
    "milkSystem": "manual-wand",
@@ -408,14 +408,14 @@
     "eu": "https://www.amazon.de/s?k=breville+barista+express",
     "au": "https://www.amazon.com.au/s?k=breville+barista+express"
    },
-   "image": "https://brewtimeai.netlify.app/images/breville-barista-express.jpg",
+   "image": "https://getbrewharbor.com/images/breville-barista-express.jpg",
    "summary": "The home barista's favourite all-in-one. Built-in grinder plus PID temperature control plus manual steam wand equals complete creative control.",
    "whoItsFor": "Buy this if you want full control over grind size, dose, and extraction — and you're willing to spend a few weeks learning. Once dialled in, this beats anything in its price range for espresso quality."
   },
   {
    "name": "Breville Barista Pro",
    "brand": "Breville",
-   "url": "https://brewtimeai.netlify.app/machines/breville-barista-pro/",
+   "url": "https://getbrewharbor.com/machines/breville-barista-pro/",
    "category": "Semi-Automatic",
    "automation": "Some Involvement",
    "milkSystem": "Manual Steam",
@@ -460,14 +460,14 @@
     "eu": "https://www.amazon.de/s?k=breville+barista+pro",
     "au": "https://www.amazon.com.au/s?k=breville+barista+pro"
    },
-   "image": "https://brewtimeai.netlify.app/images/breville-barista-pro.jpg",
+   "image": "https://getbrewharbor.com/images/breville-barista-pro.jpg",
    "summary": "Integrated grinder with ThermoJet heating for 3-second heat-up. The Barista Express upgrade.",
    "whoItsFor": "Heat-up time is genuinely fast. Much better espresso than my old pod machine."
   },
   {
    "name": "Breville Barista Touch",
    "brand": "Breville",
-   "url": "https://brewtimeai.netlify.app/machines/breville-barista-touch/",
+   "url": "https://getbrewharbor.com/machines/breville-barista-touch/",
    "category": "Semi-Automatic",
    "automation": "Some Involvement",
    "milkSystem": "Auto Frother",
@@ -512,14 +512,14 @@
     "eu": "https://www.amazon.de/s?k=breville+barista+touch",
     "au": "https://www.amazon.com.au/s?k=breville+barista+touch"
    },
-   "image": "https://brewtimeai.netlify.app/images/breville-barista-touch.jpg",
+   "image": "https://getbrewharbor.com/images/breville-barista-touch.jpg",
    "summary": "Touchscreen semi-auto with automatic milk texturing. Bridges super-auto convenience with semi-auto quality.",
    "whoItsFor": "The touchscreen makes it feel intuitive. Milk texturing is automatic and consistent."
   },
   {
    "name": "Breville Barista Touch Impress",
    "brand": "Breville",
-   "url": "https://brewtimeai.netlify.app/machines/breville-barista-touch-impress/",
+   "url": "https://getbrewharbor.com/machines/breville-barista-touch-impress/",
    "category": "Semi-Automatic",
    "automation": "Some Involvement",
    "milkSystem": "Auto Frother",
@@ -564,14 +564,14 @@
     "eu": "https://www.amazon.de/s?k=breville+barista+touch+impress",
     "au": "https://www.amazon.com.au/s?k=breville+barista+touch+impress"
    },
-   "image": "https://brewtimeai.netlify.app/images/breville-barista-touch-impress.jpg",
+   "image": "https://getbrewharbor.com/images/breville-barista-touch-impress.jpg",
    "summary": "Newest Breville flagship with Impress Puck System. Auto-doses and tamps, reducing user error.",
    "whoItsFor": "The auto-tamp is a game changer. Newbie-friendly results with room to grow."
   },
   {
    "name": "Breville Dual Boiler",
    "brand": "Breville",
-   "url": "https://brewtimeai.netlify.app/machines/breville-dual-boiler/",
+   "url": "https://getbrewharbor.com/machines/breville-dual-boiler/",
    "category": "Semi-Automatic",
    "automation": "Hands-On",
    "milkSystem": "Manual Steam",
@@ -616,14 +616,14 @@
     "eu": "https://www.amazon.de/s?k=breville+dual+boiler",
     "au": "https://www.amazon.com.au/s?k=breville+dual+boiler"
    },
-   "image": "https://brewtimeai.netlify.app/images/breville-dual-boiler.jpg",
+   "image": "https://getbrewharbor.com/images/breville-dual-boiler.jpg",
    "summary": "Independent brew and steam boilers for no-compromise espresso and milk simultaneously.",
    "whoItsFor": "If you're serious about espresso, this is the Breville to get. Cafe quality at home."
   },
   {
    "name": "Breville Precision Brewer",
    "brand": "Breville",
-   "url": "https://brewtimeai.netlify.app/machines/breville-precision-brewer/",
+   "url": "https://getbrewharbor.com/machines/breville-precision-brewer/",
    "category": "Drip Machine",
    "automation": "High Automation",
    "milkSystem": "None",
@@ -667,14 +667,14 @@
     "eu": "https://www.amazon.de/s?k=breville+precision+brewer",
     "au": "https://www.amazon.com.au/s?k=breville+precision+brewer"
    },
-   "image": "https://brewtimeai.netlify.app/images/breville-precision-brewer.jpg",
+   "image": "https://getbrewharbor.com/images/breville-precision-brewer.jpg",
    "summary": "SCA-certified drip brewer with programmable brew temperature, bloom time, and flow rate.",
    "whoItsFor": "Makes exceptional drip coffee. The My Brew settings let you get surprisingly nerdy about extraction."
   },
   {
    "name": "Chemex 6-Cup",
    "brand": "Chemex",
-   "url": "https://brewtimeai.netlify.app/machines/chemex-6-cup/",
+   "url": "https://getbrewharbor.com/machines/chemex-6-cup/",
    "category": "Manual",
    "automation": "Some Involvement",
    "milkSystem": "None",
@@ -717,14 +717,14 @@
     "eu": "https://www.amazon.de/s?k=chemex+6+cup",
     "au": "https://www.amazon.com.au/s?k=chemex+6+cup"
    },
-   "image": "https://brewtimeai.netlify.app/images/chemex-6-cup.jpg",
+   "image": "https://getbrewharbor.com/images/chemex-6-cup.jpg",
    "summary": "Iconic glass pour-over with thick proprietary filters for an exceptionally clean, bright cup.",
    "whoItsFor": "The cleanest, clearest cup of coffee you can make. A design classic that also tastes incredible."
   },
   {
    "name": "Cuisinart DCC-3200",
    "brand": "Cuisinart",
-   "url": "https://brewtimeai.netlify.app/machines/cuisinart-dcc-3200/",
+   "url": "https://getbrewharbor.com/machines/cuisinart-dcc-3200/",
    "category": "Drip Machine",
    "automation": "High Automation",
    "milkSystem": "None",
@@ -766,14 +766,14 @@
     "eu": "https://www.amazon.de/s?k=cuisinart+dcc-3200",
     "au": "https://www.amazon.com.au/s?k=cuisinart+dcc-3200"
    },
-   "image": "https://brewtimeai.netlify.app/images/cuisinart-dcc-3200.jpg",
+   "image": "https://getbrewharbor.com/images/cuisinart-dcc-3200.jpg",
    "summary": "14-cup programmable drip with a stainless thermal carafe. Wirecutter budget pick.",
    "whoItsFor": "Nothing fancy, just reliably good coffee at an unbeatable price. 14-cup is great for families."
   },
   {
    "name": "De'Longhi Dinamica Plus",
    "brand": "De'Longhi",
-   "url": "https://brewtimeai.netlify.app/machines/delonghi-dinamica-plus/",
+   "url": "https://getbrewharbor.com/machines/delonghi-dinamica-plus/",
    "category": "Super-Automatic",
    "automation": "super",
    "milkSystem": "integrated",
@@ -817,14 +817,14 @@
     "eu": "https://www.amazon.de/s?k=delonghi+dinamica+plus",
     "au": "https://www.amazon.com.au/s?k=delonghi+dinamica+plus"
    },
-   "image": "https://brewtimeai.netlify.app/images/de-longhi-dinamica-plus.jpg",
+   "image": "https://getbrewharbor.com/images/de-longhi-dinamica-plus.jpg",
    "summary": "The #1 selling super-automatic in the US. 24 one-touch drinks, integrated milk system, and app connectivity.",
    "whoItsFor": "Buy this if you want 24 one-touch drinks — espresso, latte, flat white — without touching a dial. One hopper, one bean type. Straightforward daily driver."
   },
   {
    "name": "De'Longhi Eletta Explore",
    "brand": "De'Longhi",
-   "url": "https://brewtimeai.netlify.app/machines/delonghi-eletta-explore/",
+   "url": "https://getbrewharbor.com/machines/delonghi-eletta-explore/",
    "category": "Super-Automatic",
    "automation": "High Automation",
    "milkSystem": "Auto Frother",
@@ -872,14 +872,14 @@
     "eu": "https://www.amazon.de/s?k=delonghi+eletta+explore",
     "au": "https://www.amazon.com.au/s?k=delonghi+eletta+explore"
    },
-   "image": "https://brewtimeai.netlify.app/images/de-longhi-eletta-explore.jpg",
+   "image": "https://getbrewharbor.com/images/de-longhi-eletta-explore.jpg",
    "summary": "De'Longhi's most versatile super-auto with a cold brew function and over-ice modes. LatteCrema hot and cold milk system.",
    "whoItsFor": "The cold brew and iced latte at the touch of a button is a total game changer in summer."
   },
   {
    "name": "De'Longhi La Specialista Arte",
    "brand": "De'Longhi",
-   "url": "https://brewtimeai.netlify.app/machines/delonghi-la-specialista-arte/",
+   "url": "https://getbrewharbor.com/machines/delonghi-la-specialista-arte/",
    "category": "Semi-Automatic",
    "automation": "Some Involvement",
    "milkSystem": "Manual Steam",
@@ -924,14 +924,14 @@
     "eu": "https://www.amazon.de/s?k=delonghi+la+specialista+arte",
     "au": "https://www.amazon.com.au/s?k=delonghi+la+specialista+arte"
    },
-   "image": "https://brewtimeai.netlify.app/images/de-longhi-la-specialista-arte.jpg",
+   "image": "https://getbrewharbor.com/images/de-longhi-la-specialista-arte.jpg",
    "summary": "Integrated grinder with sensor grinding and active temperature control. Forgiving for home baristas.",
    "whoItsFor": "Much easier to dial in than I expected. Great espresso with minimal frustration."
   },
   {
    "name": "De'Longhi La Specialista Prestigio",
    "brand": "De'Longhi",
-   "url": "https://brewtimeai.netlify.app/machines/delonghi-la-specialista-prestigio/",
+   "url": "https://getbrewharbor.com/machines/delonghi-la-specialista-prestigio/",
    "category": "Semi-Automatic",
    "automation": "Some Involvement",
    "milkSystem": "Manual Steam",
@@ -976,14 +976,14 @@
     "eu": "https://www.amazon.de/s?k=delonghi+la+specialista+prestigio",
     "au": "https://www.amazon.com.au/s?k=delonghi+la+specialista+prestigio"
    },
-   "image": "https://brewtimeai.netlify.app/images/de-longhi-la-specialista-prestigio.jpg",
+   "image": "https://getbrewharbor.com/images/de-longhi-la-specialista-prestigio.jpg",
    "summary": "Upgraded Specialista with dual heating system and cold extraction mode. More control and consistency.",
    "whoItsFor": "The dual heating makes a real difference. Milk and espresso simultaneously is a big deal."
   },
   {
    "name": "De'Longhi Magnifica Evo",
    "brand": "De'Longhi",
-   "url": "https://brewtimeai.netlify.app/machines/delonghi-magnifica-evo/",
+   "url": "https://getbrewharbor.com/machines/delonghi-magnifica-evo/",
    "category": "Super-Automatic",
    "automation": "High Automation",
    "milkSystem": "integrated",
@@ -1027,14 +1027,14 @@
     "eu": "https://www.amazon.de/s?k=delonghi+magnifica+evo",
     "au": "https://www.amazon.com.au/s?k=delonghi+magnifica+evo"
    },
-   "image": "https://brewtimeai.netlify.app/images/de-longhi-magnifica-evo.jpg",
+   "image": "https://getbrewharbor.com/images/de-longhi-magnifica-evo.jpg",
    "summary": "De'Longhi's entry-level bean-to-cup machine. Grinds, brews, and delivers espresso at the touch of a button.",
    "whoItsFor": "Great value for money. Does exactly what it promises without fuss."
   },
   {
    "name": "De'Longhi Rivelia",
    "brand": "De'Longhi",
-   "url": "https://brewtimeai.netlify.app/machines/delonghi-rivelia/",
+   "url": "https://getbrewharbor.com/machines/delonghi-rivelia/",
    "category": "Super-Automatic",
    "automation": "super",
    "milkSystem": "integrated",
@@ -1077,14 +1077,14 @@
     "uk": "https://www.amazon.co.uk/s?k=delonghi+rivelia",
     "eu": "https://www.amazon.de/s?k=delonghi+rivelia"
    },
-   "image": "https://brewtimeai.netlify.app/images/de-longhi-rivelia.jpg",
+   "image": "https://getbrewharbor.com/images/de-longhi-rivelia.jpg",
    "summary": "Award-winning compact super-automatic with a dual-hopper bean switch system. Swap between two bean types without missing a beat.",
    "whoItsFor": "Buy this if you regularly switch between regular and decaf, or want to keep two different beans loaded. The dual-hopper bean switch is the only feature in its class."
   },
   {
    "name": "ECM Classika PID",
    "brand": "ECM",
-   "url": "https://brewtimeai.netlify.app/machines/ecm-classika-pid/",
+   "url": "https://getbrewharbor.com/machines/ecm-classika-pid/",
    "category": "Semi-Automatic",
    "automation": "Hands-On",
    "milkSystem": "Manual Steam",
@@ -1129,14 +1129,14 @@
     "eu": "https://www.amazon.de/s?k=ecm+classika+pid",
     "au": "https://www.amazon.com.au/s?k=ecm+classika+pid"
    },
-   "image": "https://brewtimeai.netlify.app/images/ecm-classika-pid.jpg",
+   "image": "https://getbrewharbor.com/images/ecm-classika-pid.jpg",
    "summary": "German prosumer with rotary pump and E61 group head. Built like a tank, known for longevity.",
    "whoItsFor": "This machine is a work of art that also makes incredible espresso. An investment that pays off."
   },
   {
    "name": "Fellow Aiden Precision Brewer",
    "brand": "Fellow",
-   "url": "https://brewtimeai.netlify.app/machines/fellow-aiden-precision-brewer/",
+   "url": "https://getbrewharbor.com/machines/fellow-aiden-precision-brewer/",
    "category": "Drip Machine",
    "automation": "High Automation",
    "milkSystem": "None",
@@ -1179,14 +1179,14 @@
     "eu": "https://www.amazon.de/s?k=fellow+aiden+precision+brewer",
     "au": "https://www.amazon.com.au/s?k=fellow+aiden+precision+brewer"
    },
-   "image": "https://brewtimeai.netlify.app/images/fellow-aiden-precision-brewer.jpg",
+   "image": "https://getbrewharbor.com/images/fellow-aiden-precision-brewer.jpg",
    "summary": "Fellow's SCA-certified precision brewer with app control, programmable bloom, and a stainless thermal carafe. The most controllable drip machine available.",
    "whoItsFor": "App control lets me dial in every variable. The best cup of drip coffee I've ever made at home."
   },
   {
    "name": "Fellow Clara Press",
    "brand": "Fellow",
-   "url": "https://brewtimeai.netlify.app/machines/fellow-clara-press/",
+   "url": "https://getbrewharbor.com/machines/fellow-clara-press/",
    "category": "Manual",
    "automation": "Minimal Effort",
    "milkSystem": "None",
@@ -1229,14 +1229,14 @@
     "eu": "https://www.amazon.de/s?k=fellow+clara+french+press",
     "au": "https://www.amazon.com.au/s?k=fellow+clara+french+press"
    },
-   "image": "https://brewtimeai.netlify.app/images/fellow-clara-press.jpg",
+   "image": "https://getbrewharbor.com/images/fellow-clara-press.jpg",
    "summary": "Fellow's premium French press with a two-stage filter system for a cleaner cup without sediment.",
    "whoItsFor": "The premium French press that finally solved sediment. Clean cup with classic press ease."
   },
   {
    "name": "Fellow Espresso Series 1",
    "brand": "Fellow",
-   "url": "https://brewtimeai.netlify.app/machines/fellow-espresso-series-1/",
+   "url": "https://getbrewharbor.com/machines/fellow-espresso-series-1/",
    "category": "Semi-Automatic",
    "automation": "semi",
    "milkSystem": "manual-wand",
@@ -1281,14 +1281,14 @@
     "eu": "https://www.amazon.de/s?k=fellow+espresso+series+1",
     "au": "https://www.amazon.com.au/s?k=fellow+espresso+series+1"
    },
-   "image": "https://brewtimeai.netlify.app/images/fellow-espresso-series-1.jpg",
+   "image": "https://getbrewharbor.com/images/fellow-espresso-series-1.jpg",
    "summary": "The Fellow Espresso Series 1 combines industrial design with precision brewing. Circular OLED display, dual boiler, active temperature management, and a pro-grade steam wand make this the machine for the design-forward espresso enthusiast.",
    "whoItsFor": "Fellow's first espresso machine — minimal, industrial, and built for people who take espresso seriously. A circular colour display, precision temperature control, and a steam wand that rewards skill."
   },
   {
    "name": "Fellow Stagg X",
    "brand": "Fellow",
-   "url": "https://brewtimeai.netlify.app/machines/fellow-stagg-x/",
+   "url": "https://getbrewharbor.com/machines/fellow-stagg-x/",
    "category": "Manual",
    "automation": "Hands-On",
    "milkSystem": "None",
@@ -1331,14 +1331,14 @@
     "eu": "https://www.amazon.de/s?k=fellow+stagg+x+dripper",
     "au": "https://www.amazon.com.au/s?k=fellow+stagg+x+dripper"
    },
-   "image": "https://brewtimeai.netlify.app/images/fellow-stagg-x.jpg",
+   "image": "https://getbrewharbor.com/images/fellow-stagg-x.jpg",
    "summary": "Fellow's premium pour-over dripper with a saturation stage for bloom control and a polished design.",
    "whoItsFor": "The most beautiful dripper on the market. Slower draw-down means more nuanced extraction."
   },
   {
    "name": "Flair 58",
    "brand": "Flair",
-   "url": "https://brewtimeai.netlify.app/machines/flair-58/",
+   "url": "https://getbrewharbor.com/machines/flair-58/",
    "category": "Semi-Automatic",
    "automation": "Hands-On",
    "milkSystem": "None",
@@ -1380,14 +1380,14 @@
     "eu": "https://www.amazon.de/s?k=flair+58+espresso",
     "au": "https://www.amazon.com.au/s?k=flair+58+espresso"
    },
-   "image": "https://brewtimeai.netlify.app/images/flair-58.jpg",
+   "image": "https://getbrewharbor.com/images/flair-58.jpg",
    "summary": "Manual lever machine with 58mm portafilter. Full pressure control, zero electricity needed for brewing.",
    "whoItsFor": "The espresso quality is jaw-dropping for a manual machine. The ritual is part of the joy."
   },
   {
    "name": "Flair Espresso Neo",
    "brand": "Flair",
-   "url": "https://brewtimeai.netlify.app/machines/flair-espresso-neo/",
+   "url": "https://getbrewharbor.com/machines/flair-espresso-neo/",
    "category": "Manual",
    "automation": "manual",
    "milkSystem": "none",
@@ -1431,14 +1431,14 @@
     "eu": "https://www.amazon.de/s?k=flair+espresso+neo",
     "au": "https://www.amazon.com.au/s?k=flair+espresso+neo"
    },
-   "image": "https://brewtimeai.netlify.app/images/flair-espresso-neo.jpg",
+   "image": "https://getbrewharbor.com/images/flair-espresso-neo.jpg",
    "summary": "A fully manual lever espresso maker that produces genuine high-pressure espresso without electricity. Portable, durable, and surprisingly capable — the entry point to lever espresso.",
    "whoItsFor": "The purist's espresso machine — no electricity, full control, surprisingly capable shots. A learning curve that rewards patience with excellent espresso at minimal running cost."
   },
   {
    "name": "Gaggia Anima Prestige",
    "brand": "Gaggia",
-   "url": "https://brewtimeai.netlify.app/machines/gaggia-anima-prestige/",
+   "url": "https://getbrewharbor.com/machines/gaggia-anima-prestige/",
    "category": "Super-Automatic",
    "automation": "High Automation",
    "milkSystem": "Auto Frother",
@@ -1483,14 +1483,14 @@
     "eu": "https://www.amazon.de/s?k=gaggia+anima+prestige",
     "au": "https://www.amazon.com.au/s?k=gaggia+anima+prestige"
    },
-   "image": "https://brewtimeai.netlify.app/images/gaggia-anima-prestige.jpg",
+   "image": "https://getbrewharbor.com/images/gaggia-anima-prestige.jpg",
    "summary": "Italian-made super-auto with stainless steel carafe milk system. Good build quality with Gaggia heritage.",
    "whoItsFor": "Feels more premium than the price suggests. Milk texturing is surprisingly good."
   },
   {
    "name": "Gaggia Classic Pro",
    "brand": "Gaggia",
-   "url": "https://brewtimeai.netlify.app/machines/gaggia-classic-pro/",
+   "url": "https://getbrewharbor.com/machines/gaggia-classic-pro/",
    "category": "Semi-Automatic",
    "automation": "semi",
    "milkSystem": "manual-wand",
@@ -1535,14 +1535,14 @@
     "eu": "https://www.amazon.de/s?k=gaggia+classic+pro",
     "au": "https://www.amazon.com.au/s?k=gaggia+classic+pro"
    },
-   "image": "https://brewtimeai.netlify.app/images/gaggia-classic-pro.jpg",
+   "image": "https://getbrewharbor.com/images/gaggia-classic-pro.jpg",
    "summary": "The benchmark entry-level espresso machine. Commercial 58mm portafilter, built to last decades, loved by the r/espresso community.",
    "whoItsFor": "Buy this if you want a machine built to last 20+ years and don't mind learning. The 58mm commercial portafilter means every grinder and accessory on the market fits it. The enthusiast's entry point."
   },
   {
    "name": "Hario V60",
    "brand": "Hario",
-   "url": "https://brewtimeai.netlify.app/machines/hario-v60/",
+   "url": "https://getbrewharbor.com/machines/hario-v60/",
    "category": "Manual",
    "automation": "manual",
    "milkSystem": "none",
@@ -1586,14 +1586,14 @@
     "eu": "https://www.amazon.de/s?k=hario+v60",
     "au": "https://www.amazon.com.au/s?k=hario+v60"
    },
-   "image": "https://brewtimeai.netlify.app/images/hario-v60.jpg",
+   "image": "https://getbrewharbor.com/images/hario-v60.jpg",
    "summary": "The world's most popular pour-over dripper. Maximum flavour clarity for those who want to taste the bean, not the machine.",
    "whoItsFor": "Buy this if you already grind your own beans and want to taste the actual flavour of your coffee. Steep learning curve, but the clarity in the cup is unmatched."
   },
   {
    "name": "Jura E6",
    "brand": "Jura",
-   "url": "https://brewtimeai.netlify.app/machines/jura-e6/",
+   "url": "https://getbrewharbor.com/machines/jura-e6/",
    "category": "Super-Automatic",
    "automation": "High Automation",
    "milkSystem": "Manual Steam",
@@ -1637,14 +1637,14 @@
     "eu": "https://www.amazon.de/s?k=jura+e6",
     "au": "https://www.amazon.com.au/s?k=jura+e6"
    },
-   "image": "https://brewtimeai.netlify.app/images/jura-e6.jpg",
+   "image": "https://getbrewharbor.com/images/jura-e6.jpg",
    "summary": "Jura entry to the premium tier. Swiss-engineered with P.E.P. pulse extraction for intense espresso.",
    "whoItsFor": "It just works, every single day. Best espresso quality I've had from a super-auto."
   },
   {
    "name": "Jura E8",
    "brand": "Jura",
-   "url": "https://brewtimeai.netlify.app/machines/jura-e8/",
+   "url": "https://getbrewharbor.com/machines/jura-e8/",
    "category": "Super-Automatic",
    "automation": "super",
    "milkSystem": "integrated",
@@ -1688,14 +1688,14 @@
     "eu": "https://www.amazon.de/s?k=jura+e8",
     "au": "https://www.amazon.com.au/s?k=jura+e8"
    },
-   "image": "https://brewtimeai.netlify.app/images/jura-e8.jpg",
+   "image": "https://getbrewharbor.com/images/jura-e8.jpg",
    "summary": "Swiss precision engineering in a super-automatic. P.E.P. pulse extraction delivers the best shot quality from a fully automatic machine.",
    "whoItsFor": "Buy this if you want the best-tasting cup from a fully automatic machine and money is not the primary concern. P.E.P. pulse extraction genuinely produces cafe-quality espresso at the touch of a button."
   },
   {
    "name": "Jura ENA 8",
    "brand": "Jura",
-   "url": "https://brewtimeai.netlify.app/machines/jura-ena-8/",
+   "url": "https://getbrewharbor.com/machines/jura-ena-8/",
    "category": "Super-Automatic",
    "automation": "High Automation",
    "milkSystem": "Manual Steam",
@@ -1739,14 +1739,14 @@
     "eu": "https://www.amazon.de/s?k=jura+ena+8",
     "au": "https://www.amazon.com.au/s?k=jura+ena+8"
    },
-   "image": "https://brewtimeai.netlify.app/images/jura-ena-8.jpg",
+   "image": "https://getbrewharbor.com/images/jura-ena-8.jpg",
    "summary": "Jura's slim super-auto designed for smaller kitchens. 15-bar pump and P.E.P. extraction in a notably narrow body.",
    "whoItsFor": "Fits perfectly on my narrow galley counter. Jura quality in a machine that doesn't dominate the kitchen."
   },
   {
    "name": "Jura S8",
    "brand": "Jura",
-   "url": "https://brewtimeai.netlify.app/machines/jura-s8/",
+   "url": "https://getbrewharbor.com/machines/jura-s8/",
    "category": "Super-Automatic",
    "automation": "High Automation",
    "milkSystem": "Auto Frother",
@@ -1793,14 +1793,14 @@
     "eu": "https://www.amazon.de/s?k=jura+s8",
     "au": "https://www.amazon.com.au/s?k=jura+s8"
    },
-   "image": "https://brewtimeai.netlify.app/images/jura-s8.jpg",
+   "image": "https://getbrewharbor.com/images/jura-s8.jpg",
    "summary": "Jura touchscreen flagship with Intelligent Pre-Brew Aroma system. Noticeably better espresso.",
    "whoItsFor": "The screen and build quality feel genuinely luxurious. Coffee quality matches."
   },
   {
    "name": "Jura Z10",
    "brand": "Jura",
-   "url": "https://brewtimeai.netlify.app/machines/jura-z10/",
+   "url": "https://getbrewharbor.com/machines/jura-z10/",
    "category": "Super-Automatic",
    "automation": "High Automation",
    "milkSystem": "Auto Frother",
@@ -1849,14 +1849,14 @@
     "eu": "https://www.amazon.de/s?k=jura+z10",
     "au": "https://www.amazon.com.au/s?k=jura+z10"
    },
-   "image": "https://brewtimeai.netlify.app/images/jura-z10.jpg",
+   "image": "https://getbrewharbor.com/images/jura-z10.jpg",
    "summary": "Jura top-of-range with cold brew and cold latte at the touch of a button. For those who want the very best.",
    "whoItsFor": "Cold latte function alone makes this worth it for summer. Everything is flawless."
   },
   {
    "name": "Kalita Wave 185",
    "brand": "Kalita",
-   "url": "https://brewtimeai.netlify.app/machines/kalita-wave-185/",
+   "url": "https://getbrewharbor.com/machines/kalita-wave-185/",
    "category": "Manual",
    "automation": "Some Involvement",
    "milkSystem": "None",
@@ -1899,14 +1899,14 @@
     "eu": "https://www.amazon.de/s?k=kalita+wave+185",
     "au": "https://www.amazon.com.au/s?k=kalita+wave+185"
    },
-   "image": "https://brewtimeai.netlify.app/images/kalita-wave-185.jpg",
+   "image": "https://getbrewharbor.com/images/kalita-wave-185.jpg",
    "summary": "Flat-bottom wave dripper with 3 holes for even extraction. Considered more forgiving than cone drippers.",
    "whoItsFor": "More forgiving than V60, more flavourful than Chemex. The specialty world's best-kept secret."
   },
   {
    "name": "Keurig K-Classic",
    "brand": "Keurig",
-   "url": "https://brewtimeai.netlify.app/machines/keurig-k-classic/",
+   "url": "https://getbrewharbor.com/machines/keurig-k-classic/",
    "category": "Pod Machine",
    "automation": "High Automation",
    "milkSystem": "None",
@@ -1946,14 +1946,14 @@
     "uk": "https://www.amazon.co.uk/s?k=keurig+k-classic",
     "eu": "https://www.amazon.de/s?k=keurig+k-classic"
    },
-   "image": "https://brewtimeai.netlify.app/images/keurig-k-classic.jpg",
+   "image": "https://getbrewharbor.com/images/keurig-k-classic.jpg",
    "summary": "The classic Keurig pod machine. Huge range of K-Cup pods. Brews in under a minute.",
    "whoItsFor": "The machine that defined the pod market. Huge k-cup variety, super simple, very affordable."
   },
   {
    "name": "Keurig K-Elite",
    "brand": "Keurig",
-   "url": "https://brewtimeai.netlify.app/machines/keurig-k-elite/",
+   "url": "https://getbrewharbor.com/machines/keurig-k-elite/",
    "category": "Pod Machine",
    "automation": "auto",
    "milkSystem": "none",
@@ -1995,14 +1995,14 @@
     "uk": "https://www.amazon.co.uk/s?k=keurig+k-elite",
     "eu": "https://www.amazon.de/s?k=keurig+k-elite"
    },
-   "image": "https://brewtimeai.netlify.app/images/keurig-k-elite.jpg",
+   "image": "https://getbrewharbor.com/images/keurig-k-elite.jpg",
    "summary": "The most popular Keurig. Single-serve convenience with strong brew and iced coffee modes.",
    "whoItsFor": "Buy this if multiple people in your household drink different things. The K-Cup library of 400+ varieties makes it the best choice for variety households."
   },
   {
    "name": "Keurig K-Supreme Plus SMART",
    "brand": "Keurig",
-   "url": "https://brewtimeai.netlify.app/machines/keurig-k-supreme-plus-smart/",
+   "url": "https://getbrewharbor.com/machines/keurig-k-supreme-plus-smart/",
    "category": "Pod Machine",
    "automation": "auto",
    "milkSystem": "none",
@@ -2044,14 +2044,14 @@
     "uk": "https://www.amazon.co.uk/s?k=keurig+k-supreme+plus+smart",
     "eu": "https://www.amazon.de/s?k=keurig+k-supreme+plus"
    },
-   "image": "https://brewtimeai.netlify.app/images/keurig-k-supreme-plus-smart.jpg",
+   "image": "https://getbrewharbor.com/images/keurig-k-supreme-plus-smart.jpg",
    "summary": "Keurig's smartest model. App control, multiple brew strength settings, and a dedicated iced coffee mode.",
    "whoItsFor": "Buy this if you want Keurig but drink iced coffee regularly. The dedicated iced brew setting brews hot and concentrated directly over ice without diluting the flavour."
   },
   {
    "name": "Lelit Anna",
    "brand": "Lelit",
-   "url": "https://brewtimeai.netlify.app/machines/lelit-anna/",
+   "url": "https://getbrewharbor.com/machines/lelit-anna/",
    "category": "Semi-Automatic",
    "automation": "Hands-On",
    "milkSystem": "Manual Steam",
@@ -2096,14 +2096,14 @@
     "eu": "https://www.amazon.de/s?k=lelit+anna",
     "au": "https://www.amazon.com.au/s?k=lelit+anna"
    },
-   "image": "https://brewtimeai.netlify.app/images/lelit-anna.jpg",
+   "image": "https://getbrewharbor.com/images/lelit-anna.jpg",
    "summary": "Italian-made entry prosumer from Lelit. Compact single boiler with commercial-quality build.",
    "whoItsFor": "For the price, nothing else comes close to this build quality. My barista training starts here."
   },
   {
    "name": "Lelit Bianca",
    "brand": "Lelit",
-   "url": "https://brewtimeai.netlify.app/machines/lelit-bianca/",
+   "url": "https://getbrewharbor.com/machines/lelit-bianca/",
    "category": "Semi-Automatic",
    "automation": "Hands-On",
    "milkSystem": "Manual Steam",
@@ -2148,14 +2148,14 @@
     "eu": "https://www.amazon.de/s?k=lelit+bianca",
     "au": "https://www.amazon.com.au/s?k=lelit+bianca"
    },
-   "image": "https://brewtimeai.netlify.app/images/lelit-bianca.jpg",
+   "image": "https://getbrewharbor.com/images/lelit-bianca.jpg",
    "summary": "Lelit's flagship dual boiler machine with flow profiling and a paddle for pre-infusion control. The benchmark Italian prosumer machine.",
    "whoItsFor": "The Bianca is the machine I'll never sell. Flow profiling changes everything. Worth every penny."
   },
   {
    "name": "Lelit Mara X",
    "brand": "Lelit",
-   "url": "https://brewtimeai.netlify.app/machines/lelit-mara-x/",
+   "url": "https://getbrewharbor.com/machines/lelit-mara-x/",
    "category": "Semi-Automatic",
    "automation": "Hands-On",
    "milkSystem": "Manual Steam",
@@ -2200,14 +2200,14 @@
     "eu": "https://www.amazon.de/s?k=lelit+mara+x",
     "au": "https://www.amazon.com.au/s?k=lelit+mara+x"
    },
-   "image": "https://brewtimeai.netlify.app/images/lelit-mara-x.jpg",
+   "image": "https://getbrewharbor.com/images/lelit-mara-x.jpg",
    "summary": "HX machine with patented HX management. Considered among best value prosumer machines on the market.",
    "whoItsFor": "The Mara X just extracts beautifully. Reddit's favourite for serious home baristas under $2k."
   },
   {
    "name": "Melitta Barista TS Smart",
    "brand": "Melitta",
-   "url": "https://brewtimeai.netlify.app/machines/melitta-barista-ts-smart/",
+   "url": "https://getbrewharbor.com/machines/melitta-barista-ts-smart/",
    "category": "Super-Automatic",
    "automation": "High Automation",
    "milkSystem": "Auto Frother",
@@ -2252,14 +2252,14 @@
     "eu": "https://www.amazon.de/s?k=melitta+barista+ts+smart",
     "au": "https://www.amazon.com.au/s?k=melitta+barista+ts+smart"
    },
-   "image": "https://brewtimeai.netlify.app/images/melitta-barista-ts-smart.jpg",
+   "image": "https://getbrewharbor.com/images/melitta-barista-ts-smart.jpg",
    "summary": "Melitta smart super-auto with app connectivity. Good automatic milk system popular in European markets.",
    "whoItsFor": "App control is genuinely useful. Great value compared to Jura at this price."
   },
   {
    "name": "Miele CM5300",
    "brand": "Miele",
-   "url": "https://brewtimeai.netlify.app/machines/miele-cm5300/",
+   "url": "https://getbrewharbor.com/machines/miele-cm5300/",
    "category": "Super-Automatic",
    "automation": "High Automation",
    "milkSystem": "Auto Frother",
@@ -2304,14 +2304,14 @@
     "eu": "https://www.amazon.de/s?k=miele+cm5300",
     "au": "https://www.amazon.com.au/s?k=miele+cm5300"
    },
-   "image": "https://brewtimeai.netlify.app/images/miele-cm5300.jpg",
+   "image": "https://getbrewharbor.com/images/miele-cm5300.jpg",
    "summary": "German engineering from Miele, renowned for longevity. Built to last a decade-plus.",
    "whoItsFor": "Miele quality is evident immediately. This machine feels like it will outlast everything else."
   },
   {
    "name": "Nespresso CitiZ",
    "brand": "Nespresso",
-   "url": "https://brewtimeai.netlify.app/machines/nespresso-citiz/",
+   "url": "https://getbrewharbor.com/machines/nespresso-citiz/",
    "category": "Pod Machine",
    "automation": "High Automation",
    "milkSystem": "None",
@@ -2354,14 +2354,14 @@
     "eu": "https://www.amazon.de/s?k=nespresso+citiz",
     "au": "https://www.amazon.com.au/s?k=nespresso+citiz"
    },
-   "image": "https://brewtimeai.netlify.app/images/nespresso-citiz.jpg",
+   "image": "https://getbrewharbor.com/images/nespresso-citiz.jpg",
    "summary": "Nespresso Original Line with a retro industrial design. Compatible with Aeroccino for milk drinks.",
    "whoItsFor": "Classic Nespresso design. The built-in cup ledge and compact tank make it very kitchen-friendly."
   },
   {
    "name": "Nespresso Creatista Plus",
    "brand": "Nespresso",
-   "url": "https://brewtimeai.netlify.app/machines/nespresso-creatista-plus/",
+   "url": "https://getbrewharbor.com/machines/nespresso-creatista-plus/",
    "category": "Pod Machine",
    "automation": "auto",
    "milkSystem": "auto-frother",
@@ -2406,14 +2406,14 @@
     "eu": "https://www.amazon.de/s?k=nespresso+creatista+plus",
     "au": "https://www.amazon.com.au/s?k=nespresso+creatista+plus"
    },
-   "image": "https://brewtimeai.netlify.app/images/nespresso-creatista-plus.jpg",
+   "image": "https://getbrewharbor.com/images/nespresso-creatista-plus.jpg",
    "summary": "The premium Nespresso with a real steam wand. Nespresso convenience meets cafe-quality milk texture.",
    "whoItsFor": "Buy this if you want pod convenience but refuse to give up proper milk texture. The Breville-built steam wand produces real microfoam — the only pod machine where latte art is actually possible."
   },
   {
    "name": "Nespresso Essenza Mini",
    "brand": "Nespresso",
-   "url": "https://brewtimeai.netlify.app/machines/nespresso-essenza-mini/",
+   "url": "https://getbrewharbor.com/machines/nespresso-essenza-mini/",
    "category": "Pod Machine",
    "automation": "High Automation",
    "milkSystem": "None",
@@ -2455,14 +2455,14 @@
     "eu": "https://www.amazon.de/s?k=nespresso+essenza+mini",
     "au": "https://www.amazon.com.au/s?k=nespresso+essenza+mini"
    },
-   "image": "https://brewtimeai.netlify.app/images/nespresso-essenza-mini.jpg",
+   "image": "https://getbrewharbor.com/images/nespresso-essenza-mini.jpg",
    "summary": "Nespresso's most compact Original Line machine. Best-in-class pod espresso in a tiny footprint.",
    "whoItsFor": "Tiny footprint, great espresso for the price. The best pod machine if you don't want milk."
   },
   {
    "name": "Nespresso Pixie",
    "brand": "Nespresso",
-   "url": "https://brewtimeai.netlify.app/machines/nespresso-pixie/",
+   "url": "https://getbrewharbor.com/machines/nespresso-pixie/",
    "category": "Pod Machine",
    "automation": "High Automation",
    "milkSystem": "None",
@@ -2504,14 +2504,14 @@
     "eu": "https://www.amazon.de/s?k=nespresso+pixie",
     "au": "https://www.amazon.com.au/s?k=nespresso+pixie"
    },
-   "image": "https://brewtimeai.netlify.app/images/nespresso-pixie.jpg",
+   "image": "https://getbrewharbor.com/images/nespresso-pixie.jpg",
    "summary": "Nespresso Original Line with a quick 25-second heat-up and compact build. No frills, just espresso.",
    "whoItsFor": "Incredibly fast and very compact. Goes from cold to espresso in 25 seconds flat."
   },
   {
    "name": "Nespresso Vertuo Next",
    "brand": "Nespresso",
-   "url": "https://brewtimeai.netlify.app/machines/nespresso-vertuo-next/",
+   "url": "https://getbrewharbor.com/machines/nespresso-vertuo-next/",
    "category": "Pod Machine",
    "automation": "auto",
    "milkSystem": "none",
@@ -2556,14 +2556,14 @@
     "eu": "https://www.amazon.de/s?k=nespresso+vertuo+next",
     "au": "https://www.amazon.com.au/s?k=nespresso+vertuo+next"
    },
-   "image": "https://brewtimeai.netlify.app/images/nespresso-vertuo-next.jpg",
+   "image": "https://getbrewharbor.com/images/nespresso-vertuo-next.jpg",
    "summary": "The most compact Vertuo machine. Same barcode-reading convenience as the VertuoPlus in a smaller footprint.",
    "whoItsFor": "Buy this if you want the smallest possible Nespresso footprint. Functionally identical to the VertuoPlus but 20% more compact. Best for small kitchens or a desk setup."
   },
   {
    "name": "Nespresso Vertuo Pop",
    "brand": "Nespresso",
-   "url": "https://brewtimeai.netlify.app/machines/nespresso-vertuo-pop/",
+   "url": "https://getbrewharbor.com/machines/nespresso-vertuo-pop/",
    "category": "Pod Machine",
    "automation": "High Automation",
    "milkSystem": "None",
@@ -2605,14 +2605,14 @@
     "eu": "https://www.amazon.de/s?k=nespresso+vertuo+pop",
     "au": "https://www.amazon.com.au/s?k=nespresso+vertuo+pop"
    },
-   "image": "https://brewtimeai.netlify.app/images/nespresso-vertuo-pop.jpg",
+   "image": "https://getbrewharbor.com/images/nespresso-vertuo-pop.jpg",
    "summary": "Entry-level Vertuo Line machine. Uses barcode-scanning capsules in multiple sizes from espresso to mug.",
    "whoItsFor": "The cheapest way into the Vertuo ecosystem. Surprisingly good larger cup options."
   },
   {
    "name": "Nespresso VertuoPlus",
    "brand": "Nespresso",
-   "url": "https://brewtimeai.netlify.app/machines/nespresso-vertuoplus/",
+   "url": "https://getbrewharbor.com/machines/nespresso-vertuoplus/",
    "category": "Pod Machine",
    "automation": "auto",
    "milkSystem": "none",
@@ -2657,14 +2657,14 @@
     "eu": "https://www.amazon.de/s?k=nespresso+vertuoplus",
     "au": "https://www.amazon.com.au/s?k=nespresso+vertuoplus"
    },
-   "image": "https://brewtimeai.netlify.app/images/nespresso-vertuoplus.jpg",
+   "image": "https://getbrewharbor.com/images/nespresso-vertuoplus.jpg",
    "summary": "Nespresso's flagship Vertuo machine. Barcode-scanning auto-sets every brew parameter — genuinely impossible to make a bad cup.",
    "whoItsFor": "Buy this if you mostly drink lungo or large-format coffee and want zero effort. The barcode system reads each pod and sets everything automatically — genuinely foolproof."
   },
   {
    "name": "Ninja Luxe Café Premier",
    "brand": "Ninja",
-   "url": "https://brewtimeai.netlify.app/machines/ninja-luxe-caf-premier/",
+   "url": "https://getbrewharbor.com/machines/ninja-luxe-caf-premier/",
    "category": "Semi-Automatic",
    "automation": "semi",
    "milkSystem": "auto-cappuccinatore",
@@ -2717,7 +2717,7 @@
   {
    "name": "Ninja Specialty Coffee Maker",
    "brand": "Ninja",
-   "url": "https://brewtimeai.netlify.app/machines/ninja-specialty-coffee-maker/",
+   "url": "https://getbrewharbor.com/machines/ninja-specialty-coffee-maker/",
    "category": "Drip Machine",
    "automation": "High Automation",
    "milkSystem": "None",
@@ -2762,14 +2762,14 @@
     "eu": "https://www.amazon.de/s?k=ninja+specialty+coffee+maker",
     "au": "https://www.amazon.com.au/s?k=ninja+specialty+coffee+maker"
    },
-   "image": "https://brewtimeai.netlify.app/images/ninja-specialty-coffee-maker.jpg",
+   "image": "https://getbrewharbor.com/images/ninja-specialty-coffee-maker.jpg",
    "summary": "Multi-brew Ninja with 6 brew styles including classic, rich, over ice, and cold brew concentrate.",
    "whoItsFor": "Incredibly versatile for a $200 machine. Makes everything from concentrate to iced to classic drip."
   },
   {
    "name": "OXO Brew 9-Cup",
    "brand": "OXO",
-   "url": "https://brewtimeai.netlify.app/machines/oxo-brew-9-cup/",
+   "url": "https://getbrewharbor.com/machines/oxo-brew-9-cup/",
    "category": "Drip Machine",
    "automation": "High Automation",
    "milkSystem": "None",
@@ -2811,14 +2811,14 @@
     "eu": "https://www.amazon.de/s?k=oxo+brew+9+cup",
     "au": "https://www.amazon.com.au/s?k=oxo+brew+9+cup"
    },
-   "image": "https://brewtimeai.netlify.app/images/oxo-brew-9-cup.jpg",
+   "image": "https://getbrewharbor.com/images/oxo-brew-9-cup.jpg",
    "summary": "SCA-certified 9-cup drip with a thermal carafe and rainmaker showerhead for even saturation.",
    "whoItsFor": "The best value SCA-certified drip brewer. Consistently recommended by Wirecutter as the top pick."
   },
   {
    "name": "Philips 3200 LatteGo",
    "brand": "Philips",
-   "url": "https://brewtimeai.netlify.app/machines/philips-3200-lattego/",
+   "url": "https://getbrewharbor.com/machines/philips-3200-lattego/",
    "category": "Super-Automatic",
    "automation": "super",
    "milkSystem": "integrated",
@@ -2862,14 +2862,14 @@
     "eu": "https://www.amazon.de/s?k=philips+3200+latte+go",
     "au": "https://www.amazon.com.au/s?k=philips+3200+latte+go"
    },
-   "image": "https://brewtimeai.netlify.app/images/philips-3200-lattego.jpg",
+   "image": "https://getbrewharbor.com/images/philips-3200-lattego.jpg",
    "summary": "Philips flagship super-automatic with the revolutionary LatteGo milk system — no tubes, no mess.",
    "whoItsFor": "Buy this if low maintenance is non-negotiable. The LatteGo milk system has zero tubes — it rinses in 15 seconds or goes in the dishwasher."
   },
   {
    "name": "Philips 4300 LatteGo",
    "brand": "Philips",
-   "url": "https://brewtimeai.netlify.app/machines/philips-4300-lattego/",
+   "url": "https://getbrewharbor.com/machines/philips-4300-lattego/",
    "category": "Super-Automatic",
    "automation": "High Automation",
    "milkSystem": "Auto Frother",
@@ -2914,14 +2914,14 @@
     "eu": "https://www.amazon.de/s?k=philips+4300+latte+go",
     "au": "https://www.amazon.com.au/s?k=philips+4300+latte+go"
    },
-   "image": "https://brewtimeai.netlify.app/images/philips-4300-lattego.jpg",
+   "image": "https://getbrewharbor.com/images/philips-4300-lattego.jpg",
    "summary": "Mid-tier Philips with the LatteGo milk system. No tubes, just easy cleaning. Strong drink variety.",
    "whoItsFor": "The LatteGo system is so easy to clean. Milk drinks come out consistently great."
   },
   {
    "name": "Philips 5400 LatteGo",
    "brand": "Philips",
-   "url": "https://brewtimeai.netlify.app/machines/philips-5400-lattego/",
+   "url": "https://getbrewharbor.com/machines/philips-5400-lattego/",
    "category": "Super-Automatic",
    "automation": "High Automation",
    "milkSystem": "Auto Frother",
@@ -2967,14 +2967,14 @@
     "eu": "https://www.amazon.de/s?k=philips+5400+latte+go",
     "au": "https://www.amazon.com.au/s?k=philips+5400+latte+go"
    },
-   "image": "https://brewtimeai.netlify.app/images/philips-5400-lattego.jpg",
+   "image": "https://getbrewharbor.com/images/philips-5400-lattego.jpg",
    "summary": "Philips top LatteGo model with 12 drink presets and SilentBrew technology. Reddit consensus upgrade pick.",
    "whoItsFor": "Quieter than any machine I've owned. The drink variety keeps everyone happy."
   },
   {
    "name": "Profitec Go",
    "brand": "Profitec",
-   "url": "https://brewtimeai.netlify.app/machines/profitec-go/",
+   "url": "https://getbrewharbor.com/machines/profitec-go/",
    "category": "Semi-Automatic",
    "automation": "Hands-On",
    "milkSystem": "Manual Steam",
@@ -3019,14 +3019,14 @@
     "eu": "https://www.amazon.de/s?k=profitec+go",
     "au": "https://www.amazon.com.au/s?k=profitec+go"
    },
-   "image": "https://brewtimeai.netlify.app/images/profitec-go.jpg",
+   "image": "https://getbrewharbor.com/images/profitec-go.jpg",
    "summary": "German-engineered compact single boiler with PID. Profitec build quality punches well above its price.",
    "whoItsFor": "The build quality on the Profitec Go rivals machines twice the price. Stunning for under $1k."
   },
   {
    "name": "Profitec Pro 500",
    "brand": "Profitec",
-   "url": "https://brewtimeai.netlify.app/machines/profitec-pro-500/",
+   "url": "https://getbrewharbor.com/machines/profitec-pro-500/",
    "category": "Semi-Automatic",
    "automation": "Hands-On",
    "milkSystem": "Manual Steam",
@@ -3071,14 +3071,14 @@
     "eu": "https://www.amazon.de/s?k=profitec+pro+500",
     "au": "https://www.amazon.com.au/s?k=profitec+pro+500"
    },
-   "image": "https://brewtimeai.netlify.app/images/profitec-pro-500.jpg",
+   "image": "https://getbrewharbor.com/images/profitec-pro-500.jpg",
    "summary": "Profitec's heat exchanger machine with a rotary pump and PID. German engineering that competes with machines costing far more.",
    "whoItsFor": "The steaming power on this is remarkable. German build quality at its finest."
   },
   {
    "name": "Profitec Pro 600",
    "brand": "Profitec",
-   "url": "https://brewtimeai.netlify.app/machines/profitec-pro-600/",
+   "url": "https://getbrewharbor.com/machines/profitec-pro-600/",
    "category": "Semi-Automatic",
    "automation": "Hands-On",
    "milkSystem": "Manual Steam",
@@ -3123,14 +3123,14 @@
     "eu": "https://www.amazon.de/s?k=profitec+pro+600",
     "au": "https://www.amazon.com.au/s?k=profitec+pro+600"
    },
-   "image": "https://brewtimeai.netlify.app/images/profitec-pro-600.jpg",
+   "image": "https://getbrewharbor.com/images/profitec-pro-600.jpg",
    "summary": "Profitec's dual boiler with PID on both circuits and a rotary pump. Simultaneous brewing and steaming with no wait time.",
    "whoItsFor": "Dual boiler means no waiting between shot and steam. Easily the best machine I've owned."
   },
   {
    "name": "Rancilio Silvia",
    "brand": "Rancilio",
-   "url": "https://brewtimeai.netlify.app/machines/rancilio-silvia/",
+   "url": "https://getbrewharbor.com/machines/rancilio-silvia/",
    "category": "Semi-Automatic",
    "automation": "Hands-On",
    "milkSystem": "Manual Steam",
@@ -3175,14 +3175,14 @@
     "eu": "https://www.amazon.de/s?k=rancilio+silvia",
     "au": "https://www.amazon.com.au/s?k=rancilio+silvia"
    },
-   "image": "https://brewtimeai.netlify.app/images/rancilio-silvia.jpg",
+   "image": "https://getbrewharbor.com/images/rancilio-silvia.jpg",
    "summary": "Benchmark home espresso machine. Commercial-grade group head, largely unchanged for 25 years. Needs separate grinder.",
    "whoItsFor": "This machine will outlast everything else you own. It just needs a good grinder alongside it."
   },
   {
    "name": "Rancilio Silvia Pro X",
    "brand": "Rancilio",
-   "url": "https://brewtimeai.netlify.app/machines/rancilio-silvia-pro-x/",
+   "url": "https://getbrewharbor.com/machines/rancilio-silvia-pro-x/",
    "category": "Semi-Automatic",
    "automation": "Hands-On",
    "milkSystem": "Manual Steam",
@@ -3227,14 +3227,14 @@
     "eu": "https://www.amazon.de/s?k=rancilio+silvia+pro+x",
     "au": "https://www.amazon.com.au/s?k=rancilio+silvia+pro+x"
    },
-   "image": "https://brewtimeai.netlify.app/images/rancilio-silvia-pro-x.jpg",
+   "image": "https://getbrewharbor.com/images/rancilio-silvia-pro-x.jpg",
    "summary": "Silvia upgraded with dual boilers and PID temperature control. Simultaneous brewing and steaming.",
    "whoItsFor": "The dual boiler upgrade is worth every penny. Extraction is incredibly consistent."
   },
   {
    "name": "Ratio Eight",
    "brand": "Ratio",
-   "url": "https://brewtimeai.netlify.app/machines/ratio-eight/",
+   "url": "https://getbrewharbor.com/machines/ratio-eight/",
    "category": "Drip Machine",
    "automation": "High Automation",
    "milkSystem": "None",
@@ -3276,14 +3276,14 @@
     "eu": "https://www.amazon.de/s?k=ratio+eight+coffee",
     "au": "https://www.amazon.com.au/s?k=ratio+eight+coffee"
    },
-   "image": "https://brewtimeai.netlify.app/images/ratio-eight.jpg",
+   "image": "https://getbrewharbor.com/images/ratio-eight.jpg",
    "summary": "Ratio's flagship drip machine in stainless with a built-in bloom function and thermal carafe.",
    "whoItsFor": "This is what a premium drip machine should be. Everything about it says quality."
   },
   {
    "name": "Ratio Six",
    "brand": "Ratio",
-   "url": "https://brewtimeai.netlify.app/machines/ratio-six/",
+   "url": "https://getbrewharbor.com/machines/ratio-six/",
    "category": "Drip Machine",
    "automation": "High Automation",
    "milkSystem": "None",
@@ -3325,14 +3325,14 @@
     "eu": "https://www.amazon.de/s?k=ratio+six+coffee",
     "au": "https://www.amazon.com.au/s?k=ratio+six+coffee"
    },
-   "image": "https://brewtimeai.netlify.app/images/ratio-six.jpg",
+   "image": "https://getbrewharbor.com/images/ratio-six.jpg",
    "summary": "Design-forward 6-cup drip brewer in die-cast aluminium. Gravity-fed, no plastic in the water path.",
    "whoItsFor": "The most beautiful coffee maker I've ever owned. Coffee is as good as the design."
   },
   {
    "name": "Rocket Appartamento",
    "brand": "Rocket",
-   "url": "https://brewtimeai.netlify.app/machines/rocket-appartamento/",
+   "url": "https://getbrewharbor.com/machines/rocket-appartamento/",
    "category": "Semi-Automatic",
    "automation": "Hands-On",
    "milkSystem": "Manual Steam",
@@ -3377,14 +3377,14 @@
     "eu": "https://www.amazon.de/s?k=rocket+appartamento",
     "au": "https://www.amazon.com.au/s?k=rocket+appartamento"
    },
-   "image": "https://brewtimeai.netlify.app/images/rocket-appartamento.jpg",
+   "image": "https://getbrewharbor.com/images/rocket-appartamento.jpg",
    "summary": "Italian HX machine with a distinctive circular cutout design. E61 group head, rotary pump, and Rocket's renowned build quality.",
    "whoItsFor": "It's stunning to look at and makes exceptional espresso. The most beautiful machine on my counter."
   },
   {
    "name": "Saeco Xelsis",
    "brand": "Saeco",
-   "url": "https://brewtimeai.netlify.app/machines/saeco-xelsis/",
+   "url": "https://getbrewharbor.com/machines/saeco-xelsis/",
    "category": "Super-Automatic",
    "automation": "High Automation",
    "milkSystem": "Auto Frother",
@@ -3431,14 +3431,14 @@
     "eu": "https://www.amazon.de/s?k=saeco+xelsis",
     "au": "https://www.amazon.com.au/s?k=saeco+xelsis"
    },
-   "image": "https://brewtimeai.netlify.app/images/saeco-xelsis.jpg",
+   "image": "https://getbrewharbor.com/images/saeco-xelsis.jpg",
    "summary": "Philips-owned premium brand with facial recognition for 6-user profiles. Remembers everyone's drink preferences.",
    "whoItsFor": "The user profile feature is genuinely smart for families. Coffee quality is top tier."
   },
   {
    "name": "Technivorm Moccamaster KBGV",
    "brand": "Technivorm",
-   "url": "https://brewtimeai.netlify.app/machines/technivorm-moccamaster-kbgv/",
+   "url": "https://getbrewharbor.com/machines/technivorm-moccamaster-kbgv/",
    "category": "Drip Machine",
    "automation": "auto",
    "milkSystem": "none",
@@ -3481,7 +3481,7 @@
     "eu": "https://www.amazon.de/s?k=technivorm+moccamaster",
     "au": "https://www.amazon.com.au/s?k=technivorm+moccamaster"
    },
-   "image": "https://brewtimeai.netlify.app/images/technivorm-moccamaster-kbgv.jpg",
+   "image": "https://getbrewharbor.com/images/technivorm-moccamaster-kbgv.jpg",
    "summary": "The gold standard of drip coffee machines. SCAA-certified, brews at the perfect 92-96C, and built to last 15+ years in the Netherlands.",
    "whoItsFor": "Buy this if drip coffee is your daily ritual and you want it done perfectly every time. SCAA-certified, brews at the exact right temperature, and will outlast every other machine on this list."
   }

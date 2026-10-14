@@ -13,7 +13,7 @@ const engine=require(path.join(REPO,'netlify/functions/lib/engine.js'));
 const machinesApi=records.filter(r=>r.fields.active!==false).map(engine.mapAirtableRecord); engine.applyExtras(machinesApi);
 const N=+process.argv[2]||500;
 (async()=>{
- const dom=new JSDOM(html,{runScripts:'dangerously',pretendToBeVisual:true,url:'https://brewtimeai.netlify.app/',beforeParse(w){
+ const dom=new JSDOM(html,{runScripts:'dangerously',pretendToBeVisual:true,url:'https://getbrewharbor.com/',beforeParse(w){
    w.fetch=async()=>({ok:true,status:200,json:async()=>records,text:async()=>''});
    w.scrollTo=()=>{};w.alert=()=>{};w.gtag=()=>{};w.HTMLElement.prototype.scrollIntoView=()=>{};
    w.matchMedia=w.matchMedia||(()=>({matches:false,addListener(){},removeListener(){},addEventListener(){}}));
@@ -30,6 +30,7 @@ const N=+process.argv[2]||500;
   const page=w.__scored; engine.setAnswers(JSON.parse(JSON.stringify(ua))); const api=engine.rank(machinesApi).map(x=>({n:x.m.name,s:x.result.score,r:x.result.reasons,x:x.result.misses}));
   if(page==null){ if(api.length===0) empty++; else {bad++; fails.push({ua,why:'page null'});} continue; }
   const same=JSON.stringify(page)===JSON.stringify(api);
+  if(same) ok++; else {bad++; if(fails.length<3){const pm=Object.fromEntries(page.map(x=>[x.n,x])),am=Object.fromEntries(api.map(x=>[x.n,x]));const diff=[];for(const k of new Set([...Object.keys(pm),...Object.keys(am)])){if(!pm[k]||!am[k]||pm[k].s!==am[k].s)diff.push(k+' page='+(pm[k]&&pm[k].s)+' api='+(am[k]&&am[k].s));}console.log('DIFF',JSON.stringify(ua),diff.slice(0,4).join(' | '));}
   if(fails.length<3) fails.push({ua,page:page.slice(0,3).map(x=>x.n+':'+x.s),api:api.slice(0,3).map(x=>x.n+':'+x.s)});}
  }
  console.log(JSON.stringify({N,identical:ok,mismatch:bad,pageNoResultsAndApiEmpty:empty,evalErrors:errs}));
