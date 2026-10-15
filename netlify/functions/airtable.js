@@ -48,7 +48,11 @@ exports.handler = async function(event, context) {
       statusCode: 200,
       headers: {
         'Content-Type': 'application/json',
-        'Cache-Control': 'public, max-age=300', // 5 min cache — reduces Airtable API calls
+        // Browsers re-check every 5 min; Netlify's edge (shared, durable) keeps one copy for 6 h and
+        // refreshes it in the background. This keeps us far below Airtable's Free-plan 1,000 calls/month.
+        // Any deploy clears the edge copy, so a push refreshes the data immediately.
+        'Cache-Control': 'public, max-age=300',
+        'Netlify-CDN-Cache-Control': 'public, max-age=21600, stale-while-revalidate=86400, durable',
       },
       body: JSON.stringify(records),
     };

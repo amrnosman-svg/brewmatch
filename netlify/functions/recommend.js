@@ -1,11 +1,9 @@
 // netlify/functions/recommend.js — GET/POST /api/recommend
 // Ranks machines with the SAME scoring code as the quiz (lib/engine.js is generated from index.html).
-// Data: live Airtable via AIRTABLE_TOKEN (5 min cache); falls back to the committed snapshot.
+// Data: the site's cached Airtable endpoint (no direct Airtable calls); falls back to the committed snapshot.
 
 const engine = require('./lib/engine.js');
 
-const AIRTABLE_BASE = 'appw4XP6FKpFj4BAS';
-const AIRTABLE_TABLE = 'Machines';
 const SITE = process.env.SITE_URL || 'https://getbrewharbor.com';
 
 const ALLOWED = {
@@ -41,22 +39,18 @@ const json = (statusCode, body, extra = {}) => ({ statusCode, headers: { 'Conten
 const slugify = s => String(s).toLowerCase().replace(/['’]/g, '').replace(/&/g, ' and ').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 
 let cache = { at: 0, records: null, source: null };
+// Reads machine data through the site's own cached Airtable endpoint (edge-cached for hours),
+// so API traffic never spends Airtable calls. Falls back to the committed snapshot.
 async function loadRecords() {
-  if (cache.records && Date.now() - cache.at < 5 * 60 * 1000) return cache;
-  const token = process.env.AIRTABLE_TOKEN;
-  if (token) {
-    try {
-      const records = []; let offset = null;
-      do {
-        const params = new URLSearchParams({ pageSize: '100' }); if (offset) params.set('offset', offset);
-        const res = await fetch(`https://api.airtable.com/v0/${AIRTABLE_BASE}/${encodeURIComponent(AIRTABLE_TABLE)}?${params}`, { headers: { Authorization: `Bearer ${token}` } });
-        if (!res.ok) throw new Error('airtable ' + res.status);
-        const data = await res.json(); records.push(...data.records); offset = data.offset || null;
-      } while (offset);
-      cache = { at: Date.now(), records, source: 'airtable-live' };
-      return cache;
-    } catch (e) { /* fall through to snapshot */ }
-  }
+  if (cache.records && Date.now() - cache.at < 10 * 60 * 1000) return cache;
+  try {
+    const res = await fetch(`${SITE}/.netlify/functions/airtable`, { headers: { Accept: 'application/json' } });
+    if (!res.ok) throw new Error('cached endpoint ' + res.status);
+    const records = await res.json();
+    if (!Array.isArray(records) || !records.length) throw new Error('empty data');
+    cache = { at: Date.now(), records, source: 'airtable-cached' };
+    return cache;
+  } catch (e) { /* fall through to snapshot */ }
   const records = require('../../data/machines.raw.json');
   cache = { at: Date.now(), records, source: 'snapshot' };
   return cache;
