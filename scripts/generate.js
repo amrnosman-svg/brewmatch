@@ -176,7 +176,7 @@ ${jsonld ? `<script type="application/ld+json">${JSON.stringify(jsonld)}</script
 <div class="wrap">
 ${body}
 </div>
-<footer>© 2026 BrewHarbor · As an Amazon Associate I earn from qualifying purchases. · Prices are estimates; check the retailer for current prices · <a href="/machines/">All machines</a> · <a href="/privacy.html">Privacy</a> · <a href="#" onclick="if(window.bhConsent){bhConsent.open();}return false;">Cookie settings</a></footer>
+<footer>© 2026 BrewHarbor · As an Amazon Associate I earn from qualifying purchases. · Prices are estimates; check the retailer for current prices · <a href="/machines/">All machines</a> · <a href="/guides/real-cost-of-coffee/">Cost guide</a> · <a href="/privacy.html">Privacy</a> · <a href="#" onclick="if(window.bhConsent){bhConsent.open();}return false;">Cookie settings</a></footer>
 </body>
 </html>
 `;
@@ -336,7 +336,7 @@ function directoryPage(compares) {
   const cats = [...new Set(machines.map(m => m.category))].sort();
   const body = `<div class="crumbs"><a href="/">BrewHarbor</a> › Machines</div>
 <h1>All coffee machines</h1>
-<p class="lede">${machines.length} machines scored on cup quality, speed, ease of use, variety, eco impact and repairability. Not sure which fits? <a href="/">Take the 7-question quiz</a>.</p>
+<p class="lede">${machines.length} machines scored on cup quality, speed, ease of use, variety, eco impact and repairability. Not sure which fits? <a href="/">Take the 7-question quiz</a>. Or read <a href="/guides/real-cost-of-coffee/">what a coffee habit really costs per year</a>.</p>
 ${cats.map(c => `<h2>${esc(c)}</h2><ul class="grid">${machines.filter(m => m.category === c).map(m => `<li><a href="${m.url}">${esc(m.name)}<small>${tierLabel(m)}</small></a></li>`).join('')}</ul>`).join('\n')}
 <h2>Comparisons</h2><ul>${compares.map(c => `<li><a href="${c.url}">${esc(c.title)}</a></li>`).join('')}</ul>`;
   return layout({
@@ -362,9 +362,9 @@ pairs.forEach(([a, b], i) => { for (const [x, y] of [[a, b], [b, a]]) (compareId
 for (const m of machines) write(`machines${m.url.slice('/machines'.length)}index.html`, machinePage(m, compareIdx));
 write('machines/index.html', directoryPage(compares));
 // guides
-// Guides stay out of the build until approved: run with PUBLISH_GUIDES=1 to include them.
-const guide = process.env.PUBLISH_GUIDES === '1' ? require('./guides/real-cost.js')({ layout, BASE, esc }) : null;
-if (guide) write('guides/real-cost-of-coffee/index.html', guide.html);
+// Guides
+const guide = require('./guides/real-cost.js')({ layout, BASE, esc });
+write('guides/real-cost-of-coffee/index.html', guide.html);
 for (const c of compares) write(`compare/${c.slug}/index.html`, c.html);
 
 // public machine-readable data (agents/tools); only verified fields are included

@@ -83,16 +83,16 @@ module.exports = function buildRealCost({ layout, BASE, esc }) {
 <div class="crumbs rc"><a href="/">BrewHarbor</a> › Guides › Real cost of coffee</div>
 <div class="rc">
 <h1>What your coffee habit really costs per year</h1>
-<p class="lede">We worked out the yearly cost of nine common setups at two drinks a day. The machine is usually the smaller part of the bill. What you put in it matters more.</p>
+<p class="lede">We worked out what nine common coffee setups cost per year, assuming two drinks a day. For most of them the machine is the smaller part of the bill. What you put in it costs more.</p>
 
-<div class="rc-box"><strong>The short version</strong><ul>
-<li><strong>With pods, the pods are the bill.</strong> They make up ${Math.min(...podShares)}% to ${Math.max(...podShares)}% of the yearly cost of the pod setups below.</li>
-<li><strong>The same super-automatic costs ${usd5(sg)} a year with grocery-store coffee and ${usd5(ss)} with specialty beans.</strong> That is ${(ss / sg).toFixed(1)} times as much, with the same machine.</li>
-<li><strong>Official Nespresso Original pods (about ${c2(by.orig.per)}) cost a little less than the beans in a specialty double shot</strong> (${c2(drink.specEspLow)} to ${c2(drink.specEspAvg)}).</li>
-<li><strong>The cheapest hands-off setups land close together:</strong> Original with compatible pods (${usd5(by.origc.y.total)}), a super-automatic with grocery beans (${usd5(sg)}) and K-Cups (${usd5(by.kcup.y.total)}).</li></ul></div>
+<div class="rc-box"><strong>Quick takeaways</strong><ul>
+<li>If you use pods, the pods are almost the whole cost: ${Math.min(...podShares)}% to ${Math.max(...podShares)}% of the yearly total in the pod setups below.</li>
+<li>The same super-automatic costs about ${usd5(sg)} a year with grocery-store coffee and about ${usd5(ss)} with specialty beans. That is ${(ss / sg).toFixed(1)} times as much for the same machine.</li>
+<li>A Nespresso Original pod (about ${c2(by.orig.per)}) costs a little less than the beans in a specialty double shot (${c2(drink.specEspLow)} to ${c2(drink.specEspAvg)}).</li>
+<li>Original machines with compatible pods (${usd5(by.origc.y.total)} a year), a super-automatic with grocery beans (${usd5(sg)}) and K-Cups (${usd5(by.kcup.y.total)}) all cost about the same.</li></ul></div>
 
 <h2>Yearly cost by setup</h2>
-<p>Two drinks a day, 365 days. Grey is the machine spread over its life plus upkeep. Rust is the coffee or pods.</p>
+<p>Two drinks a day, every day. Each bar splits the yearly cost into the machine (spread over its life, plus upkeep) and the coffee or pods. The key is below the chart.</p>
 <div class="rc-bars">
 ${bars}
 </div>
@@ -104,11 +104,12 @@ ${table}
 </tbody></table></div>
 <p class="rc-small">Rounded to the nearest $5, so columns may not add exactly. Specialty rows use the average specialty price; at the lowest-priced end the super-automatic comes to about ${usd5(yearly({ ...by.sups, per: drink.specEspLow }, DRINKS).total)} and the drip machine to about ${usd5(yearly({ ...by.drips, per: drink.specFilterLow }, DRINKS).total)}.</p>
 
-<h2>Is a pricier machine worth it?</h2>
-<p>Take someone on Vertuo pods (${usd5(vs)} a year) who switches to a ${usd(by.supg.machine)}-class super-automatic running on grocery-store beans. They would spend about ${usd5(saving)} less a year, and the extra ${usd5(upfront)} up front pays for itself in roughly ${Math.round(payback)} months.</p>
-<p><strong>It only works if the beans stay cheap.</strong> With specialty beans the same switch goes the other way: the Vertuo setup (${usd5(vs)}) costs less than the super-automatic (${usd5(ss)}). Beans matter more than the machine.</p>
+<h2>When a more expensive machine pays for itself</h2>
+<p>Say you drink two Vertuo pods a day (${usd5(vs)} a year) and switch to a ${usd(by.supg.machine)}-class super-automatic running on grocery-store beans. You would spend about ${usd5(saving)} less per year, and the extra ${usd5(upfront)} up front pays for itself in about ${Math.round(payback)} months.</p>
+<p>That only holds if you keep buying ordinary beans. Switch to specialty beans and the Vertuo setup (${usd5(vs)}) costs less than the super-automatic (${usd5(ss)}). What you put in the machine matters more than which machine you buy.</p>
 
 <h2>The cost of one drink</h2>
+<p>Everything above is built from these per-drink costs.</p>
 <div class="scroll"><table>
 <thead><tr><th>What you use</th><th>Per drink</th><th>Where it comes from</th></tr></thead>
 <tbody>
@@ -126,14 +127,14 @@ ${perRows}
 <h2>What these numbers leave out</h2>
 <ul>
 <li>Milk, syrups and sugar.</li>
-<li>Paper filters for drip and pour-over, plus a grinder and kettle if you buy whole beans for those methods.</li>
-<li>Electricity, shipping, tax and promotions.</li>
-<li>Machines that fail early, or ones that last longer than we assume.</li>
+<li>Paper filters for drip and pour-over, and a grinder or kettle if you start with whole beans.</li>
+<li>Electricity, shipping, tax and sales.</li>
+<li>Machines that die early, or last longer than we assumed.</li>
 </ul>
-<p>Treat the totals as estimates, not quotes. Coffee prices moved a lot in 2025 and 2026, so rerun the numbers with what you actually pay.</p>
+<p>These are estimates, not quotes. Coffee got a lot more expensive in 2025 and 2026, so plug in what you actually pay.</p>
 
 <h2>Assumptions</h2>
-<p>Machine cost, lifespan and upkeep (descaler, cleaning tablets, water filters) are illustrative round numbers for each type of setup, not the price of a specific product. Reviews put super-automatic lifespans anywhere from 5 to 10 years, so we use 8.</p>
+<p>Machine cost, lifespan and upkeep (descaler, cleaning tablets, water filters) are round numbers for each kind of setup, not the price of any particular product. Reviews of super-automatics put their lifespan anywhere from 5 to 10 years, so we used 8.</p>
 <div class="scroll"><table>
 <thead><tr><th>Setup</th><th>Machine</th><th>Life</th><th>Upkeep a year</th><th>Per drink</th></tr></thead>
 <tbody>
@@ -148,9 +149,9 @@ ${assump}
 <li>Dose: the Specialty Coffee Association Golden Cup standard (55 g per litre, plus or minus 10%), about 15 g for an 8 oz cup, and 18 to 20 g for a double espresso.</li>
 <li>Nespresso pod price ranges, 2026: <a href="https://afpakmachine.com/nespresso-pods-cost/" rel="noopener">AFPAK</a> and <a href="https://www.driproast.com/best-nespresso-machines/" rel="noopener">Drip Roast</a>; K-Cup ranges vary by source and are the least certain.</li>
 </ul>
-<p class="rc-small">Checked October 2026. BrewHarbor earns commissions on some Amazon links elsewhere on the site. There are none on this page, and nothing here is sponsored.</p>
+<p class="rc-small">Checked October 2026. BrewHarbor may earn a commission from Amazon links on other pages of the site. There are none on this page, and nothing here is sponsored.</p>
 
-<p><a class="rc-cta" href="/">Find a machine that fits your habit</a></p>
+<p><a class="rc-cta" href="/">Find a machine for your habit</a></p>
 </div>
 <script>
 (function(){

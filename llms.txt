@@ -116,6 +116,9 @@
 - [AeroPress Original vs Bodum Chambord Press](https://getbrewharbor.com/compare/aeropress-original-vs-bodum-chambord-press/)
 - [Gaggia Anima Prestige vs Philips 4300 LatteGo](https://getbrewharbor.com/compare/gaggia-anima-prestige-vs-philips-4300-lattego/)
 
+## Guides
+- [What your coffee habit really costs per year (2026)](https://getbrewharbor.com/guides/real-cost-of-coffee/): yearly cost of nine common coffee setups, with every assumption and source shown
+
 ## Notes
 - Scores are BrewHarbor's own 1-5 ratings (5 is best), the same ones used by the quiz.
 - Exact prices are not published; each machine has a rough price tier, and the buy link shows today's price.
