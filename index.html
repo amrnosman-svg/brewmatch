@@ -7,10 +7,10 @@
 <meta http-equiv="Pragma" content="no-cache">
 <meta http-equiv="Expires" content="0">
 <title>BrewHarbor — Find your coffee machine. Skip the research.</title>
-<meta name="description" content="Answer 7 quick questions and get a personalised coffee machine recommendation based on your drinks, lifestyle, and 5-year running costs. No sponsored results. Affiliate links help support this site.">
+<meta name="description" content="Answer 7 quick questions and get a personalised coffee machine recommendation based on your drinks, lifestyle, and yearly running costs. No sponsored results. Affiliate links help support this site.">
 <meta name="robots" content="index, follow">
 <meta property="og:title" content="BrewHarbor — Find your coffee machine. Skip the research.">
-<meta property="og:description" content="Personalised coffee machine recommendations based on drink type, effort, maintenance, and 5-year cost of ownership.">
+<meta property="og:description" content="Personalised coffee machine recommendations based on drink type, effort, maintenance, and yearly cost of ownership.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://getbrewharbor.com">
 <link rel="canonical" href="https://getbrewharbor.com">
@@ -20,25 +20,8 @@
 <meta name="theme-color" content="#2C2416">
 <meta property="og:image" content="https://getbrewharbor.com/assets/og-image.png">
 <meta name="twitter:card" content="summary_large_image">
-<!-- ─── GOOGLE ANALYTICS 4 ──────────────────────────────────────────────────── -->
-<!-- REPLACE G-XXXXXXXXXX with your GA4 Measurement ID -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-FTR1QNM943"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'G-FTR1QNM943');
-</script>
-<!-- ─── MICROSOFT CLARITY ──────────────────────────────────────────────────── -->
-<!-- REPLACE clarityXXXXXX with your Clarity Project ID -->
-<script type="text/javascript">
-  (function(c,l,a,r,i,t,y){
-    c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-    t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
-    y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-  })(window,document,"clarity","script","wrrygaet15");
-</script>
-<!-- ─────────────────────────────────────────────────────────────────────────── -->
+<!-- Analytics (Google Analytics 4 + Microsoft Clarity) load only after the visitor accepts: see assets/consent.js -->
+<script src="/assets/consent.js" defer></script>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400;1,600&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
 <style>
   *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -384,6 +367,8 @@
   .alt-price { font-family: 'Cormorant Garamond', serif; font-size: 24px; font-weight: 600; flex-shrink: 0; }
   .compare-all-btn { display: flex; align-items: center; justify-content: center; width: 100%; max-width: 560px; height: 48px; margin: 24px auto 0; background: transparent; border: 1.5px solid var(--black); border-radius: 12px; color: var(--black); font-family: 'Outfit', sans-serif; font-size: 15px; font-weight: 500; cursor: pointer; }
   .compare-all-btn:hover { background: var(--black); color: #fff; }
+  .nomatch-list { margin: 0; padding-left: 20px; font-size: 15px; line-height: 1.6; color: var(--dark-grey); }
+  .nomatch-list li { margin: 6px 0; }
   #fullComparison { margin-top: 32px; }
 </style>
 </head>
@@ -446,7 +431,7 @@
   <div class="loading-title">Matching your profile</div>
   <div class="loading-sub-steps" id="loadingSubSteps">
     <span class="lsub active" id="lsub0">Reviewing your preferences</span>
-    <span class="lsub" id="lsub1">Calculating 5-year costs</span>
+    <span class="lsub" id="lsub1">Calculating yearly costs</span>
     <span class="lsub" id="lsub2">Scoring <span id="lsub2Count">67</span> machines</span>
   </div>
 </div>
@@ -474,11 +459,11 @@
 <div class="hero" id="heroSection" style="display:none;">
   <p class="hero-eyebrow">Coffee Machine Finder</p>
   <h1>Find your <em>coffee machine.</em><br>Skip the research.</h1>
-  <p>Answer a few questions. Get a personalised match based on your drinks, lifestyle, and 5-year running costs.</p>
+  <p>Answer a few questions. Get a personalised match based on your drinks, lifestyle, and yearly running costs.</p>
   <div class="hero-meta">
     <div class="hero-meta-item"><strong><span id="heroMachineCount">67</span></strong>machines compared</div>
     <div class="hero-meta-item"><strong>90 sec</strong>to complete</div>
-    <div class="hero-meta-item"><strong>5-year</strong>cost included</div>
+    <div class="hero-meta-item"><strong>Yearly</strong>cost to own</div>
   </div>
   <button class="hero-cta" onclick="startQuiz()">Start the quiz</button>
 </div>
@@ -611,7 +596,6 @@
 
 <div id="results" style="display:none;">
   <div class="trust-bar" id="trustBar">
-    <span class="trust-item"><div class="trust-dot"></div>• All featured machines available</span>
     <span class="trust-item">🕐 Price ranges are estimates — Amazon shows today's price</span>
     <span class="trust-item">☕ <span id="footerMachineCount">67</span> machines · 6 categories · 5 regions</span>
     <button class="how-we-score-link" onclick="document.getElementById('scoreModal').classList.add('active');document.body.style.overflow='hidden'">How we score ↗</button>
@@ -647,7 +631,7 @@
   </div>
 </div>
 
-<footer>© 2026 BrewHarbor &nbsp;·&nbsp; As an Amazon Associate I earn from qualifying purchases. &nbsp;·&nbsp; Price ranges are estimates; check the retailer for current prices &nbsp;·&nbsp; <a href="/machines/" style="color:inherit;opacity:0.7;">All machines</a> &nbsp;·&nbsp; <a href="/privacy.html" style="color:inherit;opacity:0.7;">Privacy</a> &nbsp;·&nbsp; <a href="#" style="color:inherit;opacity:0.5;" onclick="startQuiz();return false;">Retake quiz</a></footer>
+<footer>© 2026 BrewHarbor &nbsp;·&nbsp; As an Amazon Associate I earn from qualifying purchases. &nbsp;·&nbsp; Price ranges are estimates; check the retailer for current prices &nbsp;·&nbsp; <a href="/machines/" style="color:inherit;opacity:0.7;">All machines</a> &nbsp;·&nbsp; <a href="/privacy.html" style="color:inherit;opacity:0.7;">Privacy</a> &nbsp;·&nbsp; <a href="#" style="color:inherit;opacity:0.7;" onclick="if(window.bhConsent){bhConsent.open();}return false;">Cookie settings</a> &nbsp;·&nbsp; <a href="#" style="color:inherit;opacity:0.5;" onclick="startQuiz();return false;">Retake quiz</a></footer>
 
 <script>
 // ─── AFFILIATE CONFIG — update your tag IDs here ────────────────────────────
@@ -4054,7 +4038,7 @@ const FALLBACK_MACHINES = [
     "cleaningDifficulty": "Involved",
     "widthInches": 6.0
   }
-];;;
+];
 // ─── AIRTABLE CONFIG ─────────────────────────────────────────────────────────
 // NOTE: This token is read-only and scoped to this base only.
 // For production, proxy through a serverless function to hide it from source.
@@ -4188,7 +4172,6 @@ const machineExtras = {
   "Philips 4300 LatteGo":       { ecoRepairScore: 3, bundles: ["Philips AquaClean filter", "specialty coffee beans 1kg", "descaler coffee machine"] },
   "Philips 5400 LatteGo":       { ecoRepairScore: 3, bundles: ["Philips AquaClean filter", "specialty coffee beans 1kg", "descaler coffee machine"] },
   "Jura E6":                    { ecoRepairScore: 4, bundles: ["Jura cleaning tablets", "Jura descaler", "specialty beans 1kg"] },
-  "Jura S8":                    { ecoRepairScore: 4, bundles: ["Jura descaler tablets", "Jura cleaning tablets", "specialty coffee beans 2kg"] },
   "Jura Z10":                   { ecoRepairScore: 4, bundles: ["Jura cleaning tablets", "Jura descaler", "specialty coffee beans 2kg"] },
   "Jura ENA 8":                 { ecoRepairScore: 4, bundles: ["Jura cleaning tablets", "Jura descaler", "specialty beans 1kg"] },
   "Melitta Barista TS Smart":   { ecoRepairScore: 3, bundles: ["descaler coffee machine", "specialty coffee beans 1kg", "Melitta cleaning tablets"] },
@@ -4198,7 +4181,6 @@ const machineExtras = {
   "Miele CM5300":               { ecoRepairScore: 4, bundles: ["Miele descaler", "specialty coffee beans 1kg", "Miele cleaning tablets"] },
   "De'Longhi Eletta Explore":   { ecoRepairScore: 3, bundles: ["descaler coffee machine", "specialty coffee beans 1kg", "DeLonghi cleaning tablets"] },
   "Breville Barista Touch":     { ecoRepairScore: 3, bundles: ["specialty espresso beans 1kg", "milk frothing pitcher", "portafilter puck screen"] },
-  "Breville Barista Touch Impress": { ecoRepairScore: 3, bundles: ["specialty espresso beans 1kg", "tamping mat", "milk frothing pitcher"] },
   "Breville Dual Boiler":       { ecoRepairScore: 4, bundles: ["precision espresso tamper", "specialty espresso beans 1kg", "Urnex coffee cleaner"] },
   "De'Longhi La Specialista Prestigio": { ecoRepairScore: 3, bundles: ["specialty espresso beans 1kg", "milk frothing pitcher", "precision tamper"] },
   "Rancilio Silvia":            { ecoRepairScore: 5, bundles: ["Baratza Encore grinder", "precision tamper", "blind filter disc"] },
@@ -4213,9 +4195,7 @@ const machineExtras = {
   "Ascaso Steel Duo PID":       { ecoRepairScore: 5, bundles: ["precision espresso tamper", "specialty espresso beans 1kg", "portafilter puck screen"] },
   "Nespresso CitiZ":            { ecoRepairScore: 2, bundles: ["Nespresso Original pods variety pack", "Aeroccino milk frother", "Nespresso descaler"] },
   "Nespresso Pixie":            { ecoRepairScore: 2, bundles: ["Nespresso Original pods variety pack", "Aeroccino milk frother", "Nespresso descaler"] },
-  "Nespresso Vertuo Pop":       { ecoRepairScore: 2, bundles: ["Nespresso Vertuo pods variety pack", "Aeroccino milk frother", "Nespresso descaler"] },
   "Keurig K-Classic":           { ecoRepairScore: 1, bundles: ["Keurig K-Cup variety pack 72", "Keurig descaling solution", "reusable K-Cup filter"] },
-  "OXO Brew 9-Cup":             { ecoRepairScore: 4, bundles: ["specialty drip coffee beans 1kg", "OXO paper filters", "burr coffee grinder"] },
   "Bonavita 8-Cup":             { ecoRepairScore: 3, bundles: ["Bonavita replacement carafe", "specialty drip coffee beans 1kg", "coffee scale with timer"] },
   "Breville Precision Brewer":  { ecoRepairScore: 3, bundles: ["specialty drip coffee beans 1kg", "paper basket filters", "coffee scale with timer"] },
   "Ratio Six":                  { ecoRepairScore: 4, bundles: ["Ratio paper filters", "specialty drip coffee beans 1kg", "coffee scale with timer"] },
@@ -4910,7 +4890,6 @@ function renderCard(m, result, resultLabel) {
     </div>
     <div class="card-body">
       <div class="card-badges">
-        <span class="in-stock-badge">• Available</span>
         ${lifeBadge}
       </div>
       <div class="card-brand">${m.brand || ''}</div>
@@ -5136,7 +5115,7 @@ function showResults() {
       .sort((a, b) => getPrice(a) - getPrice(b)).slice(0, 3)
       .map(m => ({ m, result: { score: 0, reasons: ['Closest to your budget'], misses: [] } }));
 
-    if (!display || display.length === 0) {
+    if (scoredFiltered.length === 0) {
       // ── Smart no-results message ──────────────────────────────────────────
       const budget = userAnswers.budget || 0;
       const drinks = Array.isArray(userAnswers.drinks) ? userAnswers.drinks : [];
@@ -5153,41 +5132,41 @@ function showResults() {
 
       if (allAffordable.length === 0) {
         headline = "Your budget is below our lowest-priced option.";
-        suggestions.push(`💰 <strong>Increase your budget</strong> — our most affordable options are manual brewers like pour-over and French press`);
+        suggestions.push(`<strong>Increase your budget</strong> — our most affordable options are manual brewers like pour-over and French press`);
       } else if (wantsMilk && effort === 'none' && budget < 300) {
         headline = "Milk drinks with zero effort typically start around $300.";
-        suggestions.push(`💰 <strong>Increase your budget to $300+</strong> to unlock pod machines with Aeroccino, or $450+ for a built-in milk system`);
-        suggestions.push(`⚡ <strong>Try "minimal effort"</strong> instead of "zero effort" to open up more options`);
+        suggestions.push(`<strong>Increase your budget to $300+</strong> to unlock pod machines with Aeroccino, or $450+ for a built-in milk system`);
+        suggestions.push(`<strong>Try "minimal effort"</strong> instead of "zero effort" to open up more options`);
       } else if (wantsMilk && budget < 200) {
         headline = "Milk drink machines start around $200.";
-        suggestions.push(`💰 <strong>Increase budget to $200+</strong> — the cheapest option with milk capability is around $200`);
+        suggestions.push(`<strong>Increase budget to $200+</strong> — the cheapest option with milk capability is around $200`);
       } else if (cheapestMatch && budget < cheapestMatch) {
-        headline = `No matches at $${budget.toLocaleString()} for your preferences.`;
-        suggestions.push(`💰 <strong>Increase your budget to ~$${Math.ceil(cheapestMatch / 50) * 50}</strong> to unlock the best match for your other preferences`);
+        headline = `No matches at ${getCurrSymbol()}${budget.toLocaleString()} for your preferences.`;
+        suggestions.push(`<strong>Increase your budget to ~$${Math.ceil(cheapestMatch / 50) * 50}</strong> to unlock the best match for your other preferences`);
       } else if (effort === 'none' && wantsEspresso) {
-        suggestions.push(`⚡ <strong>Try "minimal effort"</strong> — zero effort + espresso is a narrow combination; minimal effort opens up more options`);
+        suggestions.push(`<strong>Try "minimal effort"</strong> — zero effort + espresso is a narrow combination; minimal effort opens up more options`);
       }
 
       if (suggestions.length === 0) {
-        suggestions.push(`💰 <strong>Try a higher budget</strong> — more options unlock as you increase spend`);
-        suggestions.push(`☕ <strong>Adjust your drink type</strong> — some combinations are harder to match at lower price points`);
-        if (effort !== 'minimal') suggestions.push(`⚡ <strong>Try "minimal effort"</strong> to see more machines`);
+        suggestions.push(`<strong>Try a higher budget</strong> — more options unlock as you increase spend`);
+        suggestions.push(`<strong>Adjust your drink type</strong> — some combinations are harder to match at lower price points`);
+        if (effort !== 'minimal') suggestions.push(`<strong>Try "minimal effort"</strong> to see more machines`);
       }
 
-      const noResultsHtml = `
-        <div style="max-width:600px;margin:60px auto;padding:40px 32px;background:#fff;border:1px solid #e0e0e0;border-radius:12px;text-align:center;">
-          <div style="font-size:48px;margin-bottom:16px;">☕</div>
-          <div style="font-family:'Cormorant Garamond',serif;font-size:26px;font-weight:600;margin-bottom:10px;">${headline}</div>
-          <div style="color:#666;font-size:14px;margin-bottom:28px;">Here are some ways to find your match:</div>
-          <div style="text-align:left;background:#fafafa;border-radius:8px;padding:20px 24px;margin-bottom:28px;">
-            ${suggestions.map(s => `<div style="padding:8px 0;border-bottom:1px solid #f0f0f0;font-size:14px;line-height:1.5;">${s}</div>`).join('')}
-          </div>
-          <button onclick="location.reload()" style="padding:12px 28px;background:#111;color:#fff;border:none;border-radius:6px;font-size:14px;cursor:pointer;font-family:inherit;">← Start Over</button>
-        </div>`;
-
-      document.getElementById('resultsPage').innerHTML = noResultsHtml;
-      document.getElementById('resultsPage').style.display = 'block';
-      document.getElementById('quizPage').style.display = 'none';
+      bm_track('no_results', { budget: userAnswers.budget, region: userAnswers.region, effort: userAnswers.effort, drinks: (drinks || []).join(',') });
+      document.getElementById('recBanner').innerHTML = `
+        <h2>${headline}</h2>
+        <p class="rec-reason">A few ways to find your match:</p>
+        <ul class="nomatch-list">${suggestions.map(sg => `<li>${sg}</li>`).join('')}</ul>
+        <button type="button" class="rec-cta" onclick="resetQuiz()" style="border:0;cursor:pointer;font-family:inherit;">Change my answers</button>`;
+      document.getElementById('altSection').innerHTML = '';
+      document.getElementById('cardsGrid').innerHTML = '';
+      document.getElementById('fullComparison').style.display = 'none';
+      document.getElementById('compareAllBtn').style.display = 'none';
+      document.getElementById('quizSection').style.display = 'none';
+      document.getElementById('results').style.display = 'block';
+      document.documentElement.scrollTop = 0;
+      document.body.scrollTop = 0;
       return;
     }
 

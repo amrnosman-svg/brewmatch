@@ -4,6 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Privacy — BrewHarbor</title>
+<script src="/assets/consent.js" defer></script>
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <link rel="icon" href="/favicon.ico" sizes="48x48">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
@@ -48,15 +49,15 @@
 
   <h2>What we collect</h2>
   <ul>
-    <li><strong>Usage analytics (Google Analytics 4).</strong> Pages viewed, quiz steps completed, buttons clicked, approximate location (country/region), device and browser type. Your quiz answers (drink types, effort level, budget range, region) are sent as anonymous events so we can improve the recommendations.</li>
-    <li><strong>Session insights (Microsoft Clarity).</strong> Clarity records how visitors scroll and click, including session replays and heatmaps, so we can find confusing parts of the site. Clarity masks text you type.</li>
+    <li><strong>Usage analytics (Google Analytics 4), only if you accept.</strong> Pages viewed, quiz steps completed, buttons clicked, approximate location (country/region), device and browser type. Your quiz answers (drink types, effort level, budget range, region) are sent as anonymous events so we can improve the recommendations.</li>
+    <li><strong>Session insights (Microsoft Clarity), only if you accept.</strong> Clarity records how visitors scroll and click, including session replays and heatmaps, so we can find confusing parts of the site. Clarity masks text you type.</li>
     <li><strong>Feedback you choose to give.</strong> If you rate your results or type a comment in the feedback box, that text is sent to Google Analytics along with your quiz answers. Please don't include personal details in it.</li>
     <li><strong>Hosting logs.</strong> Our host, Netlify, keeps standard server logs (such as IP address and request time) for security and reliability.</li>
   </ul>
 
   <h2>Cookies</h2>
-  <p>Google Analytics and Microsoft Clarity set cookies to tell repeat visits apart. You can block or delete them in your browser settings, or use Google's <a href="https://tools.google.com/dlpage/gaoptout" rel="noopener">Analytics opt-out add-on</a>.</p>
-
+  <p>Analytics cookies are <strong>off by default</strong>. The first time you visit, we ask whether Google Analytics and Microsoft Clarity may set cookies. If you say no, or your browser sends a Global Privacy Control signal, neither one is loaded. If you say yes, they set cookies to tell repeat visits apart.</p>
+  <p>Your choice is remembered in your browser for 12 months. You can change it any time with <a href="#" onclick="if(window.bhConsent){bhConsent.open();}return false;">Cookie settings</a> in the footer, or by clearing this site's data in your browser. We don't use cookies for advertising.</p>
   <h2>Affiliate links</h2>
   <p>As an Amazon Associate I earn from qualifying purchases. When you click a "Check price on Amazon" button, you go to Amazon, which may set its own cookies to attribute the purchase. Amazon's privacy notice applies on its site. Affiliate earnings never affect which machines the quiz recommends.</p>
 
@@ -66,6 +67,6 @@
   <h2>Contact</h2>
   <p>Questions or requests about your data: <a href="mailto:amrnosman@gmail.com">amrnosman@gmail.com</a></p>
 </main>
-<footer>© 2026 BrewHarbor · <a href="/">Back to the quiz</a></footer>
+<footer>© 2026 BrewHarbor · <a href="/">Back to the quiz</a> · <a href="#" onclick="if(window.bhConsent){bhConsent.open();}return false;">Cookie settings</a></footer>
 </body>
 </html>
