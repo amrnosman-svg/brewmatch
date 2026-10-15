@@ -1,9 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200"><rect width="200" height="200" rx="44" fill="#111110"/><g transform="translate(22 26) scale(0.78)">
-  <!-- Layer 1: Rust Half-Circle Sun -->
-  <path d="M 26 84 A 74 74 0 0 1 174 84 Z" fill="#c4522a" />
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200"><rect width="200" height="200" rx="44" fill="#111110"/><g transform="translate(22 22) scale(0.78)">
+  <!-- Layer 1: Rust Half-Circle Sun (lowered, sits behind the cup) -->
+  <path d="M 26 118 A 74 74 0 0 1 174 118 Z" fill="#c4522a" />
 
   <!-- Layer 2: Handleless Cup / Tumbler Body -->
   <path d="M 64 68 L 136 68 L 130 118 C 127 138 115 144 100 144 C 85 144 73 138 70 118 Z" fill="#f7f7f6" />
+
+  <!-- Layer 2: Steam Wisp (bold, centered) -->
+  <path d="M 100 60 C 87 50 113 38 100 24" fill="none" stroke="#f7f7f6" stroke-width="7" stroke-linecap="round" />
 
   <!-- Layer 3: Top Wave -->
   <path d="M 38 160 C 58 152 78 168 100 160 C 122 152 142 168 162 160" fill="none" stroke="#f7f7f6" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" />
