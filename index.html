@@ -372,17 +372,14 @@
 <nav style="justify-content:space-between;"><a class="nav-logo" href="#" onclick="goHome();return false;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="34" height="34" aria-hidden="true" style="display:block;flex-shrink:0;"><!-- Layer 1: Rust Half-Circle Sun -->
   <path d="M 26 84 A 74 74 0 0 1 174 84 Z" fill="#c4522a" />
 
-  <!-- Layer 2: Cup Handle -->
-  <path d="M 134 82 C 162 82 162 120 134 120" fill="none" stroke="#f7f7f6" stroke-width="8" stroke-linecap="round" />
-
-  <!-- Layer 2: Cup Body -->
-  <path d="M 60 68 L 140 68 L 134 116 C 131 136 117 142 100 142 C 83 142 69 136 66 116 Z" fill="#f7f7f6" />
+  <!-- Layer 2: Handleless Cup / Tumbler Body -->
+  <path d="M 64 68 L 136 68 L 130 118 C 127 138 115 144 100 144 C 85 144 73 138 70 118 Z" fill="#f7f7f6" />
 
   <!-- Layer 3: Top Wave -->
   <path d="M 38 160 C 58 152 78 168 100 160 C 122 152 142 168 162 160" fill="none" stroke="#f7f7f6" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" />
 
-  <!-- Layer 3: Lower Wave (Offset & Shorter) -->
-  <path d="M 54 176 C 72 169 90 183 108 176 C 126 169 140 181 150 176" fill="none" stroke="#f7f7f6" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" /></svg><span class="nav-logo-text">BrewHarbor</span></a><div class="nav-right"><a class="nav-link" href="#" onclick="goHome();return false;">How it works</a><button class="nav-cta" onclick="startQuiz()">Find my match</button></div></nav>
+  <!-- Layer 3: Lower Wave (Centered & Symmetrical) -->
+  <path d="M 52 176 C 68 169 84 183 100 176 C 116 169 132 183 148 176" fill="none" stroke="#f7f7f6" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" /></svg><span class="nav-logo-text">BrewHarbor</span></a><div class="nav-right"><a class="nav-link" href="#" onclick="goHome();return false;">How it works</a><button class="nav-cta" onclick="startQuiz()">Find my match</button></div></nav>
 <div class="holiday-strip" id="holidayStrip">Black Friday is coming. Find your match now, then check Amazon for the deal price. <button onclick="document.getElementById('holidayStrip').remove()" aria-label="Dismiss">×</button></div>
 
 <!-- LOADING OVERLAY -->
