@@ -2,7 +2,7 @@
  "generated": "2026-10-15",
  "source": "https://getbrewharbor.com",
  "logo": "https://getbrewharbor.com/assets/logo.svg",
- "note": "Scores are BrewHarbor 1-5 ratings (5 best). Prices are estimates.",
+ "note": "Scores are BrewHarbor 1-5 ratings (5 best). Prices change daily and are not published here: priceTier is a rough band (1 Budget to 5 Prosumer) and the buy link shows the current price.",
  "machines": [
   {
    "name": "AeroPress Go",
@@ -40,13 +40,8 @@
     "eco": 5,
     "repair": 5
    },
-   "prices": {
-    "us": 49,
-    "ca": 70,
-    "uk": 37,
-    "eu": 49,
-    "au": 59
-   },
+   "priceTier": "Budget",
+   "priceTierLevel": 1,
    "buyLinks": {
     "us": "https://www.amazon.com/s?k=aeropress+go",
     "ca": "https://www.amazon.ca/s?k=aeropress+go",
@@ -93,13 +88,8 @@
     "eco": 5,
     "repair": 5
    },
-   "prices": {
-    "us": 45,
-    "ca": 55,
-    "uk": 35,
-    "eu": 45,
-    "au": 65
-   },
+   "priceTier": "Budget",
+   "priceTierLevel": 1,
    "buyLinks": {
     "us": "https://www.amazon.com/s?k=aeropress+original",
     "ca": "https://www.amazon.ca/s?k=aeropress+original",
@@ -145,13 +135,8 @@
     "eco": 4,
     "repair": 4
    },
-   "prices": {
-    "us": 1700,
-    "ca": 1999,
-    "uk": 1499,
-    "eu": 1799,
-    "au": 2599
-   },
+   "priceTier": "Premium",
+   "priceTierLevel": 4,
    "buyLinks": {
     "us": "https://www.amazon.com/s?k=ascaso+steel+duo+pid",
     "ca": "https://www.amazon.ca/s?k=ascaso+steel+duo+pid",
@@ -194,13 +179,8 @@
     "eco": 5,
     "repair": 5
    },
-   "prices": {
-    "us": 40,
-    "ca": 57,
-    "uk": 30,
-    "eu": 39,
-    "au": 45
-   },
+   "priceTier": "Budget",
+   "priceTierLevel": 1,
    "buyLinks": {
     "us": "https://www.amazon.com/s?k=bodum+chambord+french+press",
     "ca": "https://www.amazon.ca/s?k=bodum+chambord+french+press",
@@ -243,12 +223,8 @@
     "eco": 3,
     "repair": 3
    },
-   "prices": {
-    "us": 79,
-    "ca": 109,
-    "uk": 60,
-    "au": 99
-   },
+   "priceTier": "Budget",
+   "priceTierLevel": 1,
    "buyLinks": {
     "us": "https://www.amazon.com/s?k=bonavita+8+cup+coffee",
     "ca": "https://www.amazon.ca/s?k=bonavita+8+cup+coffee",
@@ -293,13 +269,8 @@
     "eco": 3,
     "repair": 3
    },
-   "prices": {
-    "us": 1199,
-    "ca": 1709,
-    "uk": 909,
-    "eu": 1199,
-    "au": 1899
-   },
+   "priceTier": "Premium",
+   "priceTierLevel": 4,
    "buyLinks": {
     "us": "https://www.amazon.com/s?k=bosch+verocafe+800",
     "ca": "https://www.amazon.ca/s?k=bosch+verocafe+800",
@@ -344,13 +315,8 @@
     "eco": 3,
     "repair": 3
    },
-   "prices": {
-    "us": 499,
-    "ca": 599,
-    "uk": 349,
-    "eu": 499,
-    "au": 699
-   },
+   "priceTier": "Upper mid-range",
+   "priceTierLevel": 3,
    "buyLinks": {
     "us": "https://www.amazon.com/s?k=breville+bambino+plus",
     "ca": "https://www.amazon.ca/s?k=breville+bambino+plus",
@@ -395,13 +361,8 @@
     "eco": 3,
     "repair": 3
    },
-   "prices": {
-    "us": 699,
-    "ca": 849,
-    "uk": 549,
-    "eu": 699,
-    "au": 999
-   },
+   "priceTier": "Upper mid-range",
+   "priceTierLevel": 3,
    "buyLinks": {
     "us": "https://www.amazon.com/s?k=breville+barista+express",
     "ca": "https://www.amazon.ca/s?k=breville+barista+express",
@@ -447,13 +408,8 @@
     "eco": 3,
     "repair": 3
    },
-   "prices": {
-    "us": 849,
-    "ca": 1209,
-    "uk": 649,
-    "eu": 999,
-    "au": 1299
-   },
+   "priceTier": "Upper mid-range",
+   "priceTierLevel": 3,
    "buyLinks": {
     "us": "https://www.amazon.com/s?k=breville+barista+pro",
     "ca": "https://www.amazon.ca/s?k=breville+barista+pro",
@@ -499,13 +455,8 @@
     "eco": 3,
     "repair": 3
    },
-   "prices": {
-    "us": 999,
-    "ca": 1429,
-    "uk": 759,
-    "eu": 1149,
-    "au": 1499
-   },
+   "priceTier": "Premium",
+   "priceTierLevel": 4,
    "buyLinks": {
     "us": "https://www.amazon.com/s?k=breville+barista+touch",
     "ca": "https://www.amazon.ca/s?k=breville+barista+touch",
@@ -551,13 +502,8 @@
     "eco": 3,
     "repair": 3
    },
-   "prices": {
-    "us": 899,
-    "ca": 1289,
-    "uk": 679,
-    "eu": 1049,
-    "au": 1399
-   },
+   "priceTier": "Upper mid-range",
+   "priceTierLevel": 3,
    "buyLinks": {
     "us": "https://www.amazon.com/s?k=breville+barista+touch+impress",
     "ca": "https://www.amazon.ca/s?k=breville+barista+touch+impress",
@@ -603,13 +549,8 @@
     "eco": 3,
     "repair": 4
    },
-   "prices": {
-    "us": 1599,
-    "ca": 2289,
-    "uk": 1219,
-    "eu": 1849,
-    "au": 2499
-   },
+   "priceTier": "Premium",
+   "priceTierLevel": 4,
    "buyLinks": {
     "us": "https://www.amazon.com/s?k=breville+dual+boiler",
     "ca": "https://www.amazon.ca/s?k=breville+dual+boiler",
@@ -654,13 +595,8 @@
     "eco": 4,
     "repair": 4
    },
-   "prices": {
-    "us": 329,
-    "ca": 469,
-    "uk": 249,
-    "eu": 349,
-    "au": 399
-   },
+   "priceTier": "Mid-range",
+   "priceTierLevel": 2,
    "buyLinks": {
     "us": "https://www.amazon.com/s?k=breville+precision+brewer",
     "ca": "https://www.amazon.ca/s?k=breville+precision+brewer",
@@ -704,13 +640,8 @@
     "eco": 5,
     "repair": 5
    },
-   "prices": {
-    "us": 45,
-    "ca": 64,
-    "uk": 34,
-    "eu": 49,
-    "au": 55
-   },
+   "priceTier": "Budget",
+   "priceTierLevel": 1,
    "buyLinks": {
     "us": "https://www.amazon.com/s?k=chemex+6+cup",
     "ca": "https://www.amazon.ca/s?k=chemex+6+cup",
@@ -753,13 +684,8 @@
     "eco": 3,
     "repair": 3
    },
-   "prices": {
-    "us": 99,
-    "ca": 139,
-    "uk": 75,
-    "eu": 99,
-    "au": 119
-   },
+   "priceTier": "Budget",
+   "priceTierLevel": 1,
    "buyLinks": {
     "us": "https://www.amazon.com/s?k=cuisinart+dcc-3200",
     "ca": "https://www.amazon.ca/s?k=cuisinart+dcc-3200",
@@ -804,13 +730,8 @@
     "eco": 2,
     "repair": 2
    },
-   "prices": {
-    "us": 1099,
-    "ca": 1299,
-    "uk": 899,
-    "eu": 999,
-    "au": 1799
-   },
+   "priceTier": "Premium",
+   "priceTierLevel": 4,
    "buyLinks": {
     "us": "https://www.amazon.com/s?k=delonghi+dinamica+plus",
     "ca": "https://www.amazon.ca/s?k=delonghi+dinamica+plus",
@@ -859,13 +780,8 @@
     "eco": 2,
     "repair": 2
    },
-   "prices": {
-    "us": 1400,
-    "ca": 1699,
-    "uk": 1199,
-    "eu": 1399,
-    "au": 2199
-   },
+   "priceTier": "Premium",
+   "priceTierLevel": 4,
    "buyLinks": {
     "us": "https://www.amazon.com/s?k=delonghi+eletta+explore",
     "ca": "https://www.amazon.ca/s?k=delonghi+eletta+explore",
@@ -911,13 +827,8 @@
     "eco": 3,
     "repair": 3
    },
-   "prices": {
-    "us": 599,
-    "ca": 859,
-    "uk": 459,
-    "eu": 699,
-    "au": 999
-   },
+   "priceTier": "Upper mid-range",
+   "priceTierLevel": 3,
    "buyLinks": {
     "us": "https://www.amazon.com/s?k=delonghi+la+specialista+arte",
     "ca": "https://www.amazon.ca/s?k=delonghi+la+specialista+arte",
@@ -963,13 +874,8 @@
     "eco": 3,
     "repair": 3
    },
-   "prices": {
-    "us": 899,
-    "ca": 1289,
-    "uk": 679,
-    "eu": 999,
-    "au": 1399
-   },
+   "priceTier": "Upper mid-range",
+   "priceTierLevel": 3,
    "buyLinks": {
     "us": "https://www.amazon.com/s?k=delonghi+la+specialista+prestigio",
     "ca": "https://www.amazon.ca/s?k=delonghi+la+specialista+prestigio",
@@ -1014,13 +920,8 @@
     "eco": 2,
     "repair": 2
    },
-   "prices": {
-    "us": 399,
-    "ca": 569,
-    "uk": 299,
-    "eu": 529,
-    "au": 799
-   },
+   "priceTier": "Mid-range",
+   "priceTierLevel": 2,
    "buyLinks": {
     "us": "https://www.amazon.com/s?k=delonghi+magnifica+evo",
     "ca": "https://www.amazon.ca/s?k=delonghi+magnifica+evo",
@@ -1066,12 +967,8 @@
     "eco": 2,
     "repair": 2
    },
-   "prices": {
-    "us": 1099,
-    "ca": 1299,
-    "uk": 999,
-    "eu": 1099
-   },
+   "priceTier": "Premium",
+   "priceTierLevel": 4,
    "buyLinks": {
     "us": "https://www.amazon.com/s?k=delonghi+rivelia",
     "ca": "https://www.amazon.ca/s?k=delonghi+rivelia",
@@ -1116,13 +1013,8 @@
     "eco": 4,
     "repair": 5
    },
-   "prices": {
-    "us": 1499,
-    "ca": 2139,
-    "uk": 1139,
-    "eu": 1699,
-    "au": 2299
-   },
+   "priceTier": "Premium",
+   "priceTierLevel": 4,
    "buyLinks": {
     "us": "https://www.amazon.com/s?k=ecm+classika+pid",
     "ca": "https://www.amazon.ca/s?k=ecm+classika+pid",
@@ -1166,13 +1058,8 @@
     "eco": 4,
     "repair": 4
    },
-   "prices": {
-    "us": 365,
-    "ca": 429,
-    "uk": 315,
-    "eu": 389,
-    "au": 549
-   },
+   "priceTier": "Mid-range",
+   "priceTierLevel": 2,
    "buyLinks": {
     "us": "https://www.amazon.com/s?k=fellow+aiden+precision+brewer",
     "ca": "https://www.amazon.ca/s?k=fellow+aiden+precision+brewer",
@@ -1216,13 +1103,8 @@
     "eco": 4,
     "repair": 4
    },
-   "prices": {
-    "us": 99,
-    "ca": 139,
-    "uk": 75,
-    "eu": 99,
-    "au": 119
-   },
+   "priceTier": "Budget",
+   "priceTierLevel": 1,
    "buyLinks": {
     "us": "https://www.amazon.com/s?k=fellow+clara+french+press",
     "ca": "https://www.amazon.ca/s?k=fellow+clara+french+press",
@@ -1268,13 +1150,8 @@
     "eco": 4,
     "repair": 4
    },
-   "prices": {
-    "us": 575,
-    "ca": 699,
-    "uk": 499,
-    "eu": 579,
-    "au": 899
-   },
+   "priceTier": "Upper mid-range",
+   "priceTierLevel": 3,
    "buyLinks": {
     "us": "https://www.amazon.com/s?k=fellow+espresso+series+1",
     "ca": "https://www.amazon.ca/s?k=fellow+espresso+series+1",
@@ -1318,13 +1195,8 @@
     "eco": 5,
     "repair": 5
    },
-   "prices": {
-    "us": 65,
-    "ca": 93,
-    "uk": 49,
-    "eu": 69,
-    "au": 79
-   },
+   "priceTier": "Budget",
+   "priceTierLevel": 1,
    "buyLinks": {
     "us": "https://www.amazon.com/s?k=fellow+stagg+x+dripper",
     "ca": "https://www.amazon.ca/s?k=fellow+stagg+x+dripper",
@@ -1367,13 +1239,8 @@
     "eco": 5,
     "repair": 5
    },
-   "prices": {
-    "us": 575,
-    "ca": 819,
-    "uk": 439,
-    "eu": 649,
-    "au": 899
-   },
+   "priceTier": "Upper mid-range",
+   "priceTierLevel": 3,
    "buyLinks": {
     "us": "https://www.amazon.com/s?k=flair+58+espresso",
     "ca": "https://www.amazon.ca/s?k=flair+58+espresso",
@@ -1418,13 +1285,8 @@
     "eco": 5,
     "repair": 5
    },
-   "prices": {
-    "us": 160,
-    "ca": 199,
-    "uk": 139,
-    "eu": 159,
-    "au": 249
-   },
+   "priceTier": "Mid-range",
+   "priceTierLevel": 2,
    "buyLinks": {
     "us": "https://www.amazon.com/s?k=flair+espresso+neo",
     "ca": "https://www.amazon.ca/s?k=flair+espresso+neo",
@@ -1470,13 +1332,8 @@
     "eco": 3,
     "repair": 3
    },
-   "prices": {
-    "us": 799,
-    "ca": 1139,
-    "uk": 609,
-    "eu": 849,
-    "au": 1299
-   },
+   "priceTier": "Upper mid-range",
+   "priceTierLevel": 3,
    "buyLinks": {
     "us": "https://www.amazon.com/s?k=gaggia+anima+prestige",
     "ca": "https://www.amazon.ca/s?k=gaggia+anima+prestige",
@@ -1522,13 +1379,8 @@
     "eco": 4,
     "repair": 4
    },
-   "prices": {
-    "us": 500,
-    "ca": 599,
-    "uk": 399,
-    "eu": 499,
-    "au": 799
-   },
+   "priceTier": "Upper mid-range",
+   "priceTierLevel": 3,
    "buyLinks": {
     "us": "https://www.amazon.com/s?k=gaggia+classic+pro",
     "ca": "https://www.amazon.ca/s?k=gaggia+classic+pro",
@@ -1573,13 +1425,8 @@
     "eco": 5,
     "repair": 5
    },
-   "prices": {
-    "us": 25,
-    "ca": 30,
-    "uk": 18,
-    "eu": 18,
-    "au": 35
-   },
+   "priceTier": "Budget",
+   "priceTierLevel": 1,
    "buyLinks": {
     "us": "https://www.amazon.com/s?k=hario+v60",
     "ca": "https://www.amazon.ca/s?k=hario+v60",
@@ -1624,13 +1471,8 @@
     "eco": 3,
     "repair": 3
    },
-   "prices": {
-    "us": 999,
-    "ca": 1429,
-    "uk": 759,
-    "eu": 1099,
-    "au": 1599
-   },
+   "priceTier": "Premium",
+   "priceTierLevel": 4,
    "buyLinks": {
     "us": "https://www.amazon.com/s?k=jura+e6",
     "ca": "https://www.amazon.ca/s?k=jura+e6",
@@ -1675,13 +1517,8 @@
     "eco": 2,
     "repair": 2
    },
-   "prices": {
-    "us": 1299,
-    "ca": 1599,
-    "uk": 1099,
-    "eu": 1299,
-    "au": 2099
-   },
+   "priceTier": "Premium",
+   "priceTierLevel": 4,
    "buyLinks": {
     "us": "https://www.amazon.com/s?k=jura+e8",
     "ca": "https://www.amazon.ca/s?k=jura+e8",
@@ -1726,13 +1563,8 @@
     "eco": 3,
     "repair": 3
    },
-   "prices": {
-    "us": 1200,
-    "ca": 1399,
-    "uk": 1049,
-    "eu": 1199,
-    "au": 1899
-   },
+   "priceTier": "Premium",
+   "priceTierLevel": 4,
    "buyLinks": {
     "us": "https://www.amazon.com/s?k=jura+ena+8",
     "ca": "https://www.amazon.ca/s?k=jura+ena+8",
@@ -1780,13 +1612,8 @@
     "eco": 3,
     "repair": 3
    },
-   "prices": {
-    "us": 1699,
-    "ca": 2429,
-    "uk": 1289,
-    "eu": 1799,
-    "au": 2699
-   },
+   "priceTier": "Premium",
+   "priceTierLevel": 4,
    "buyLinks": {
     "us": "https://www.amazon.com/s?k=jura+s8",
     "ca": "https://www.amazon.ca/s?k=jura+s8",
@@ -1836,13 +1663,8 @@
     "eco": 2,
     "repair": 2
    },
-   "prices": {
-    "us": 2499,
-    "ca": 3569,
-    "uk": 1899,
-    "eu": 2699,
-    "au": 3999
-   },
+   "priceTier": "Prosumer",
+   "priceTierLevel": 5,
    "buyLinks": {
     "us": "https://www.amazon.com/s?k=jura+z10",
     "ca": "https://www.amazon.ca/s?k=jura+z10",
@@ -1886,13 +1708,8 @@
     "eco": 5,
     "repair": 5
    },
-   "prices": {
-    "us": 35,
-    "ca": 50,
-    "uk": 27,
-    "eu": 39,
-    "au": 45
-   },
+   "priceTier": "Budget",
+   "priceTierLevel": 1,
    "buyLinks": {
     "us": "https://www.amazon.com/s?k=kalita+wave+185",
     "ca": "https://www.amazon.ca/s?k=kalita+wave+185",
@@ -1936,11 +1753,8 @@
     "eco": 1,
     "repair": 1
    },
-   "prices": {
-    "us": 79,
-    "ca": 109,
-    "uk": 60
-   },
+   "priceTier": "Budget",
+   "priceTierLevel": 1,
    "buyLinks": {
     "us": "https://www.amazon.com/s?k=keurig+k-classic",
     "ca": "https://www.amazon.ca/s?k=keurig+k-classic",
@@ -1985,11 +1799,8 @@
     "eco": 1,
     "repair": 1
    },
-   "prices": {
-    "us": 130,
-    "ca": 159,
-    "uk": 109
-   },
+   "priceTier": "Budget",
+   "priceTierLevel": 1,
    "buyLinks": {
     "us": "https://www.amazon.com/s?k=keurig+k-elite",
     "ca": "https://www.amazon.ca/s?k=keurig+k-elite",
@@ -2034,11 +1845,8 @@
     "eco": 1,
     "repair": 1
    },
-   "prices": {
-    "us": 190,
-    "ca": 229,
-    "uk": 149
-   },
+   "priceTier": "Mid-range",
+   "priceTierLevel": 2,
    "buyLinks": {
     "us": "https://www.amazon.com/s?k=keurig+k-supreme+plus+smart",
     "ca": "https://www.amazon.ca/s?k=keurig+k-supreme+plus+smart",
@@ -2083,13 +1891,8 @@
     "eco": 4,
     "repair": 4
    },
-   "prices": {
-    "us": 699,
-    "ca": 999,
-    "uk": 529,
-    "eu": 799,
-    "au": 1099
-   },
+   "priceTier": "Upper mid-range",
+   "priceTierLevel": 3,
    "buyLinks": {
     "us": "https://www.amazon.com/s?k=lelit+anna",
     "ca": "https://www.amazon.ca/s?k=lelit+anna",
@@ -2135,13 +1938,8 @@
     "eco": 4,
     "repair": 5
    },
-   "prices": {
-    "us": 2800,
-    "ca": 3299,
-    "uk": 2450,
-    "eu": 2999,
-    "au": 4299
-   },
+   "priceTier": "Prosumer",
+   "priceTierLevel": 5,
    "buyLinks": {
     "us": "https://www.amazon.com/s?k=lelit+bianca",
     "ca": "https://www.amazon.ca/s?k=lelit+bianca",
@@ -2187,13 +1985,8 @@
     "eco": 4,
     "repair": 5
    },
-   "prices": {
-    "us": 1599,
-    "ca": 2289,
-    "uk": 1219,
-    "eu": 1799,
-    "au": 2499
-   },
+   "priceTier": "Premium",
+   "priceTierLevel": 4,
    "buyLinks": {
     "us": "https://www.amazon.com/s?k=lelit+mara+x",
     "ca": "https://www.amazon.ca/s?k=lelit+mara+x",
@@ -2239,13 +2032,8 @@
     "eco": 3,
     "repair": 3
    },
-   "prices": {
-    "us": 499,
-    "ca": 709,
-    "uk": 379,
-    "eu": 499,
-    "au": 799
-   },
+   "priceTier": "Upper mid-range",
+   "priceTierLevel": 3,
    "buyLinks": {
     "us": "https://www.amazon.com/s?k=melitta+barista+ts+smart",
     "ca": "https://www.amazon.ca/s?k=melitta+barista+ts+smart",
@@ -2291,13 +2079,8 @@
     "eco": 4,
     "repair": 4
    },
-   "prices": {
-    "us": 1499,
-    "ca": 2139,
-    "uk": 1139,
-    "eu": 1499,
-    "au": 2399
-   },
+   "priceTier": "Premium",
+   "priceTierLevel": 4,
    "buyLinks": {
     "us": "https://www.amazon.com/s?k=miele+cm5300",
     "ca": "https://www.amazon.ca/s?k=miele+cm5300",
@@ -2341,13 +2124,8 @@
     "eco": 1,
     "repair": 1
    },
-   "prices": {
-    "us": 199,
-    "ca": 279,
-    "uk": 149,
-    "eu": 169,
-    "au": 299
-   },
+   "priceTier": "Mid-range",
+   "priceTierLevel": 2,
    "buyLinks": {
     "us": "https://www.amazon.com/s?k=nespresso+citiz",
     "ca": "https://www.amazon.ca/s?k=nespresso+citiz",
@@ -2393,13 +2171,8 @@
     "eco": 2,
     "repair": 2
    },
-   "prices": {
-    "us": 599,
-    "ca": 699,
-    "uk": 499,
-    "eu": 599,
-    "au": 899
-   },
+   "priceTier": "Upper mid-range",
+   "priceTierLevel": 3,
    "buyLinks": {
     "us": "https://www.amazon.com/s?k=nespresso+creatista+plus",
     "ca": "https://www.amazon.ca/s?k=nespresso+creatista+plus",
@@ -2442,13 +2215,8 @@
     "eco": 1,
     "repair": 1
    },
-   "prices": {
-    "us": 99,
-    "ca": 139,
-    "uk": 75,
-    "eu": 99,
-    "au": 149
-   },
+   "priceTier": "Budget",
+   "priceTierLevel": 1,
    "buyLinks": {
     "us": "https://www.amazon.com/s?k=nespresso+essenza+mini",
     "ca": "https://www.amazon.ca/s?k=nespresso+essenza+mini",
@@ -2491,13 +2259,8 @@
     "eco": 1,
     "repair": 1
    },
-   "prices": {
-    "us": 179,
-    "ca": 259,
-    "uk": 139,
-    "eu": 149,
-    "au": 249
-   },
+   "priceTier": "Mid-range",
+   "priceTierLevel": 2,
    "buyLinks": {
     "us": "https://www.amazon.com/s?k=nespresso+pixie",
     "ca": "https://www.amazon.ca/s?k=nespresso+pixie",
@@ -2543,13 +2306,8 @@
     "eco": 1,
     "repair": 1
    },
-   "prices": {
-    "us": 149,
-    "ca": 179,
-    "uk": 109,
-    "eu": 149,
-    "au": 219
-   },
+   "priceTier": "Budget",
+   "priceTierLevel": 1,
    "buyLinks": {
     "us": "https://www.amazon.com/s?k=nespresso+vertuo+next",
     "ca": "https://www.amazon.ca/s?k=nespresso+vertuo+next",
@@ -2592,13 +2350,8 @@
     "eco": 1,
     "repair": 1
    },
-   "prices": {
-    "us": 79,
-    "ca": 109,
-    "uk": 60,
-    "eu": 69,
-    "au": 79
-   },
+   "priceTier": "Budget",
+   "priceTierLevel": 1,
    "buyLinks": {
     "us": "https://www.amazon.com/s?k=nespresso+vertuo+pop",
     "ca": "https://www.amazon.ca/s?k=nespresso+vertuo+pop",
@@ -2644,13 +2397,8 @@
     "eco": 1,
     "repair": 1
    },
-   "prices": {
-    "us": 169,
-    "ca": 199,
-    "uk": 129,
-    "eu": 179,
-    "au": 249
-   },
+   "priceTier": "Mid-range",
+   "priceTierLevel": 2,
    "buyLinks": {
     "us": "https://www.amazon.com/s?k=nespresso+vertuoplus",
     "ca": "https://www.amazon.ca/s?k=nespresso+vertuoplus",
@@ -2697,13 +2445,8 @@
     "eco": 4,
     "repair": 4
    },
-   "prices": {
-    "us": 600,
-    "ca": 859,
-    "uk": 550,
-    "eu": 799,
-    "au": 549
-   },
+   "priceTier": "Upper mid-range",
+   "priceTierLevel": 3,
    "buyLinks": {
     "us": "https://www.amazon.com/dp/B0D45PK5V4",
     "ca": "https://www.amazon.ca/dp/B0DBN6C686",
@@ -2749,13 +2492,8 @@
     "eco": 3,
     "repair": 3
    },
-   "prices": {
-    "us": 199,
-    "ca": 279,
-    "uk": 149,
-    "eu": 219,
-    "au": 249
-   },
+   "priceTier": "Mid-range",
+   "priceTierLevel": 2,
    "buyLinks": {
     "us": "https://www.amazon.com/s?k=ninja+specialty+coffee+maker",
     "ca": "https://www.amazon.ca/s?k=ninja+specialty+coffee+maker",
@@ -2798,13 +2536,8 @@
     "eco": 3,
     "repair": 3
    },
-   "prices": {
-    "us": 199,
-    "ca": 279,
-    "uk": 149,
-    "eu": 219,
-    "au": 249
-   },
+   "priceTier": "Mid-range",
+   "priceTierLevel": 2,
    "buyLinks": {
     "us": "https://www.amazon.com/s?k=oxo+brew+9+cup",
     "ca": "https://www.amazon.ca/s?k=oxo+brew+9+cup",
@@ -2849,13 +2582,8 @@
     "eco": 2,
     "repair": 2
    },
-   "prices": {
-    "us": 539,
-    "ca": 649,
-    "uk": 449,
-    "eu": 549,
-    "au": 799
-   },
+   "priceTier": "Upper mid-range",
+   "priceTierLevel": 3,
    "buyLinks": {
     "us": "https://www.amazon.com/s?k=philips+3200+latte+go",
     "ca": "https://www.amazon.ca/s?k=philips+3200+latte+go",
@@ -2901,13 +2629,8 @@
     "eco": 2,
     "repair": 2
    },
-   "prices": {
-    "us": 899,
-    "ca": 1289,
-    "uk": 679,
-    "eu": 999,
-    "au": 1299
-   },
+   "priceTier": "Upper mid-range",
+   "priceTierLevel": 3,
    "buyLinks": {
     "us": "https://www.amazon.com/s?k=philips+4300+latte+go",
     "ca": "https://www.amazon.ca/s?k=philips+4300+latte+go",
@@ -2954,13 +2677,8 @@
     "eco": 2,
     "repair": 2
    },
-   "prices": {
-    "us": 999,
-    "ca": 1429,
-    "uk": 759,
-    "eu": 1099,
-    "au": 1499
-   },
+   "priceTier": "Premium",
+   "priceTierLevel": 4,
    "buyLinks": {
     "us": "https://www.amazon.com/s?k=philips+5400+latte+go",
     "ca": "https://www.amazon.ca/s?k=philips+5400+latte+go",
@@ -3006,13 +2724,8 @@
     "eco": 4,
     "repair": 5
    },
-   "prices": {
-    "us": 999,
-    "ca": 1429,
-    "uk": 759,
-    "eu": 1099,
-    "au": 1599
-   },
+   "priceTier": "Premium",
+   "priceTierLevel": 4,
    "buyLinks": {
     "us": "https://www.amazon.com/s?k=profitec+go",
     "ca": "https://www.amazon.ca/s?k=profitec+go",
@@ -3058,13 +2771,8 @@
     "eco": 4,
     "repair": 5
    },
-   "prices": {
-    "us": 1800,
-    "ca": 2099,
-    "uk": 1550,
-    "eu": 1899,
-    "au": 2799
-   },
+   "priceTier": "Prosumer",
+   "priceTierLevel": 5,
    "buyLinks": {
     "us": "https://www.amazon.com/s?k=profitec+pro+500",
     "ca": "https://www.amazon.ca/s?k=profitec+pro+500",
@@ -3110,13 +2818,8 @@
     "eco": 4,
     "repair": 5
    },
-   "prices": {
-    "us": 2300,
-    "ca": 2699,
-    "uk": 1999,
-    "eu": 2399,
-    "au": 3599
-   },
+   "priceTier": "Prosumer",
+   "priceTierLevel": 5,
    "buyLinks": {
     "us": "https://www.amazon.com/s?k=profitec+pro+600",
     "ca": "https://www.amazon.ca/s?k=profitec+pro+600",
@@ -3162,13 +2865,8 @@
     "eco": 4,
     "repair": 4
    },
-   "prices": {
-    "us": 795,
-    "ca": 1139,
-    "uk": 599,
-    "eu": 899,
-    "au": 1299
-   },
+   "priceTier": "Upper mid-range",
+   "priceTierLevel": 3,
    "buyLinks": {
     "us": "https://www.amazon.com/s?k=rancilio+silvia",
     "ca": "https://www.amazon.ca/s?k=rancilio+silvia",
@@ -3214,13 +2912,8 @@
     "eco": 4,
     "repair": 4
    },
-   "prices": {
-    "us": 1049,
-    "ca": 1499,
-    "uk": 799,
-    "eu": 1199,
-    "au": 1699
-   },
+   "priceTier": "Premium",
+   "priceTierLevel": 4,
    "buyLinks": {
     "us": "https://www.amazon.com/s?k=rancilio+silvia+pro+x",
     "ca": "https://www.amazon.ca/s?k=rancilio+silvia+pro+x",
@@ -3263,13 +2956,8 @@
     "eco": 4,
     "repair": 4
    },
-   "prices": {
-    "us": 699,
-    "ca": 999,
-    "uk": 529,
-    "eu": 749,
-    "au": 849
-   },
+   "priceTier": "Upper mid-range",
+   "priceTierLevel": 3,
    "buyLinks": {
     "us": "https://www.amazon.com/s?k=ratio+eight+coffee",
     "ca": "https://www.amazon.ca/s?k=ratio+eight+coffee",
@@ -3312,13 +3000,8 @@
     "eco": 4,
     "repair": 4
    },
-   "prices": {
-    "us": 499,
-    "ca": 709,
-    "uk": 379,
-    "eu": 549,
-    "au": 599
-   },
+   "priceTier": "Upper mid-range",
+   "priceTierLevel": 3,
    "buyLinks": {
     "us": "https://www.amazon.com/s?k=ratio+six+coffee",
     "ca": "https://www.amazon.ca/s?k=ratio+six+coffee",
@@ -3364,13 +3047,8 @@
     "eco": 4,
     "repair": 5
    },
-   "prices": {
-    "us": 1700,
-    "ca": 1999,
-    "uk": 1499,
-    "eu": 1799,
-    "au": 2699
-   },
+   "priceTier": "Premium",
+   "priceTierLevel": 4,
    "buyLinks": {
     "us": "https://www.amazon.com/s?k=rocket+appartamento",
     "ca": "https://www.amazon.ca/s?k=rocket+appartamento",
@@ -3418,13 +3096,8 @@
     "eco": 3,
     "repair": 3
    },
-   "prices": {
-    "us": 1999,
-    "ca": 2859,
-    "uk": 1519,
-    "eu": 1999,
-    "au": 2999
-   },
+   "priceTier": "Prosumer",
+   "priceTierLevel": 5,
    "buyLinks": {
     "us": "https://www.amazon.com/s?k=saeco+xelsis",
     "ca": "https://www.amazon.ca/s?k=saeco+xelsis",
@@ -3468,13 +3141,8 @@
     "eco": 5,
     "repair": 5
    },
-   "prices": {
-    "us": 349,
-    "ca": 399,
-    "uk": 269,
-    "eu": 269,
-    "au": 549
-   },
+   "priceTier": "Mid-range",
+   "priceTierLevel": 2,
    "buyLinks": {
     "us": "https://www.amazon.com/s?k=technivorm+moccamaster",
     "ca": "https://www.amazon.ca/s?k=technivorm+moccamaster",

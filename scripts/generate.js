@@ -183,7 +183,17 @@ ${body}
 }
 
 const stars5 = n => n == null ? '—' : `${n}/5`;
-const priceLine = m => m.prices.us != null ? `about ${money(m.prices.us, 'us')} (US)` : 'price varies';
+// Price tiers, same scale as the quiz page: Amazon only allows exact prices that it serves or that come from its API.
+const TIERS = [[150, 'Budget'], [400, 'Mid-range'], [900, 'Upper mid-range'], [1800, 'Premium'], [Infinity, 'Prosumer']];
+const FX = { us: 1, ca: 1.43, uk: 0.76, eu: 0.86, au: 1.55 };
+const tierOf = m => {
+  for (const r of ['us', 'ca', 'uk', 'eu', 'au']) {
+    if (m.prices[r] != null) { const usd = m.prices[r] / FX[r]; const i = TIERS.findIndex(([max]) => usd < max); return { i, label: TIERS[i][1], dots: '●'.repeat(i + 1) + '○'.repeat(4 - i) }; }
+  }
+  return null;
+};
+const tierLabel = m => { const t = tierOf(m); return t ? t.label : ''; };
+const priceLine = m => { const t = tierOf(m); return t ? `${t.label} price range` : 'price varies'; };
 
 // ---- machine page ----
 function specRows(m) {
@@ -231,16 +241,16 @@ function machinePage(m, compareIdx) {
 <div class="hero">${m.image ? `<img src="/${esc(m.image)}" alt="${esc(m.name)}" width="400" height="400" loading="eager">` : '<div></div>'}
 <div><h1>${esc(m.name)}</h1>
 <p class="lede">${esc(m.description)}</p>
-<div>${m.category ? `<span class="pill">${esc(m.category)}</span>` : ''}${m.compact ? '<span class="pill">Compact</span>' : ''}${m.prices.us != null ? `<span class="pill">${priceLine(m)}</span>` : ''}</div></div></div>
+<div>${m.category ? `<span class="pill">${esc(m.category)}</span>` : ''}${m.compact ? '<span class="pill">Compact</span>' : ''}${tierOf(m) ? `<span class="pill">${priceLine(m)}</span>` : ''}</div></div></div>
 ${buyButtons(m)}
 ${m.sentiment ? `<h2>Who it's for</h2><p>${esc(m.sentiment)}</p>` : ''}
 ${(ins.up.length || ins.down.length) ? `<div class="cols">${ins.up.length ? `<div><h2>Strengths</h2><ul>${ins.up.map(x => `<li>${esc(x)}</li>`).join('')}</ul></div>` : ''}${ins.down.length ? `<div><h2>Watch-outs</h2><ul>${ins.down.map(x => `<li>${esc(x)}</li>`).join('')}</ul></div>` : ''}</div>` : ''}
 <h2>Specs</h2><div class="scroll"><table>${specRows(m)}</table></div>
 <h2>BrewHarbor scores</h2><div class="scroll"><table>${scoreRows(m)}</table></div>
 <p class="note">Scores are BrewHarbor's own 1–5 ratings (5 is best) from specs, owner sentiment and teardown/repair data; they are the same scores the quiz uses to rank machines.</p>
-${Object.keys(m.prices).length ? `<h2>Typical prices</h2><div class="scroll"><table>${REGIONS.filter(([r]) => m.prices[r] != null).map(([r, c]) => `<tr><th>${c}</th><td>${money(m.prices[r], r)}</td></tr>`).join('')}</table></div><p class="note">Price ranges are estimates; check the retailer for current prices.</p>` : ''}
+<p class="note">We don't show prices because they change daily. Use the buy button to see today's price on Amazon.</p>
 ${cmps.length ? `<h2>Compare</h2><ul>${cmps.map(c => `<li><a href="${c.url}">${esc(c.title)}</a></li>`).join('')}</ul>` : ''}
-${related.length ? `<h2>Similar machines</h2><ul class="grid">${related.map(x => `<li><a href="${x.url}">${esc(x.name)}<small>${esc(x.category)}${x.prices.us != null ? ' · ' + money(x.prices.us, 'us') : ''}</small></a></li>`).join('')}</ul>` : ''}
+${related.length ? `<h2>Similar machines</h2><ul class="grid">${related.map(x => `<li><a href="${x.url}">${esc(x.name)}<small>${esc(x.category)}${tierLabel(x) ? ' · ' + tierLabel(x) : ''}</small></a></li>`).join('')}</ul>` : ''}
 <p class="note">Affiliate disclosure: links to Amazon are affiliate links. BrewHarbor has no sponsored placements; machines are ranked by the same scoring for everyone.</p>`;
   const jsonld = {
     '@context': 'https://schema.org', '@type': 'Product', name: m.name,
@@ -298,7 +308,7 @@ function comparePage(a, b) {
   };
   row('Type', a.category, b.category); row('Automation', cap(a.automation), cap(b.automation));
   row('Milk system', cap(a.milk), cap(b.milk));
-  row('Typical US price', a.prices.us != null ? money(a.prices.us, 'us') : null, b.prices.us != null ? money(b.prices.us, 'us') : null);
+  row('Price range', tierLabel(a) || null, tierLabel(b) || null);
   row('Width', a.width != null ? a.width + ' in' : null, b.width != null ? b.width + ' in' : null);
   row('Learning curve', a.learning, b.learning); row('Maintenance level', cap(a.maintenance), cap(b.maintenance));
   row('Expected lifespan', a.lifespan != null ? a.lifespan + ' yrs' : null, b.lifespan != null ? b.lifespan + ' yrs' : null);
@@ -327,7 +337,7 @@ function directoryPage(compares) {
   const body = `<div class="crumbs"><a href="/">BrewHarbor</a> › Machines</div>
 <h1>All coffee machines</h1>
 <p class="lede">${machines.length} machines scored on cup quality, speed, ease of use, variety, eco impact and repairability. Not sure which fits? <a href="/">Take the 7-question quiz</a>.</p>
-${cats.map(c => `<h2>${esc(c)}</h2><ul class="grid">${machines.filter(m => m.category === c).map(m => `<li><a href="${m.url}">${esc(m.name)}<small>${m.prices.us != null ? money(m.prices.us, 'us') : ''}</small></a></li>`).join('')}</ul>`).join('\n')}
+${cats.map(c => `<h2>${esc(c)}</h2><ul class="grid">${machines.filter(m => m.category === c).map(m => `<li><a href="${m.url}">${esc(m.name)}<small>${tierLabel(m)}</small></a></li>`).join('')}</ul>`).join('\n')}
 <h2>Comparisons</h2><ul>${compares.map(c => `<li><a href="${c.url}">${esc(c.title)}</a></li>`).join('')}</ul>`;
   return layout({
     title: 'All coffee machines: specs, scores & comparisons | BrewHarbor',
@@ -341,7 +351,7 @@ ${cats.map(c => `<h2>${esc(c)}</h2><ul class="grid">${machines.filter(m => m.cat
 const write = (rel, content) => { const p = path.join(ROOT, rel); fs.mkdirSync(path.dirname(p), { recursive: true }); fs.writeFileSync(p, content); };
 const rmrf = rel => fs.rmSync(path.join(ROOT, rel), { recursive: true, force: true });
 
-rmrf('machines'); rmrf('compare');
+rmrf('machines'); rmrf('compare'); rmrf('guides');
 write('assets/pages.css', CSS + '\n');
 
 const pairs = pickPairs();
@@ -351,22 +361,26 @@ pairs.forEach(([a, b], i) => { for (const [x, y] of [[a, b], [b, a]]) (compareId
 
 for (const m of machines) write(`machines${m.url.slice('/machines'.length)}index.html`, machinePage(m, compareIdx));
 write('machines/index.html', directoryPage(compares));
+// guides
+// Guides stay out of the build until approved: run with PUBLISH_GUIDES=1 to include them.
+const guide = process.env.PUBLISH_GUIDES === '1' ? require('./guides/real-cost.js')({ layout, BASE, esc }) : null;
+if (guide) write('guides/real-cost-of-coffee/index.html', guide.html);
 for (const c of compares) write(`compare/${c.slug}/index.html`, c.html);
 
 // public machine-readable data (agents/tools); only verified fields are included
 write('machines.json', JSON.stringify({
-  generated: TODAY, source: BASE, logo: BASE + '/assets/logo.svg', note: 'Scores are BrewHarbor 1-5 ratings (5 best). Prices are estimates.',
+  generated: TODAY, source: BASE, logo: BASE + '/assets/logo.svg', note: 'Scores are BrewHarbor 1-5 ratings (5 best). Prices change daily and are not published here: priceTier is a rough band (1 Budget to 5 Prosumer) and the buy link shows the current price.',
   machines: machines.map(m => ({
     name: m.name, brand: m.brand, url: BASE + m.url, category: m.category, automation: m.automation, milkSystem: m.milk,
     drinks: m.drinks, coffeeTypes: m.coffeeTypes, compact: m.compact, widthInches: m.width, maxBrewTempC: m.brewTemp,
     maintenanceLevel: m.maintenance, learningCurve: m.learning, expectedLifespanYears: m.lifespan,
     annualMaintenanceCostUSD: m.annualMaint, costPerCupUSD: m.cupCost, scores: m.scores,
-    prices: m.prices, buyLinks: m.links, image: m.image ? `${BASE}/${m.image}` : null,
+    priceTier: (tierOf(m) || {}).label || null, priceTierLevel: tierOf(m) ? tierOf(m).i + 1 : null, buyLinks: m.links, image: m.image ? `${BASE}/${m.image}` : null,
     summary: m.description, whoItsFor: m.sentiment,
   })),
 }, null, 1) + '\n');
 
-const urls = ['/', '/machines/', ...machines.map(m => m.url), ...compares.map(c => c.url)];
+const urls = ['/', '/machines/', ...machines.map(m => m.url), ...compares.map(c => c.url), ...(guide ? [guide.url] : [])];
 write('sitemap.xml', `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls.map(u => `  <url><loc>${BASE}${u}</loc><lastmod>${TODAY}</lastmod></url>`).join('\n')}\n</urlset>\n`);
 write('robots.txt', `User-agent: *\nAllow: /\n\nSitemap: ${BASE}/sitemap.xml\n`);
 write('llms.txt', `# BrewHarbor
@@ -374,20 +388,23 @@ write('llms.txt', `# BrewHarbor
 > Find your coffee machine. Skip the research. Independent coffee machine recommendations: a 7-question quiz plus specs, scores, strengths and watch-outs for ${machines.length} machines. No sponsored placements; Amazon links are affiliate links.
 
 ## Data
-- [Machine data (JSON)](${BASE}/machines.json): all machines with specs, 1-5 scores and regional prices
+- [Machine data (JSON)](${BASE}/machines.json): all machines with specs, 1-5 scores and a rough price tier
 - [Recommendation API](${BASE}/api/recommend): POST a quiz profile (drinks, effort, coffeeType, budget, region, priorities) and get ranked machines with reasons; GET with no parameters returns usage docs
 - [All machines](${BASE}/machines/): browsable directory
 - [Sitemap](${BASE}/sitemap.xml)
 
 ## Machine pages
-${machines.map(m => `- [${m.name}](${BASE}${m.url}): ${m.category}${m.prices.us != null ? ', about ' + money(m.prices.us, 'us') : ''}`).join('\n')}
+${machines.map(m => `- [${m.name}](${BASE}${m.url}): ${m.category}${tierLabel(m) ? ', ' + tierLabel(m).toLowerCase() + ' price range' : ''}`).join('\n')}
 
 ## Comparisons
-${compares.map(c => `- [${c.title}](${BASE}${c.url})`).join('\n')}
+${compares.map(c => `- [${c.title}](${BASE}${c.url})`).join('\n')}${guide ? `
+
+## Guides
+- [${guide.title}](${BASE}${guide.url}): yearly cost of nine common coffee setups, with every assumption and source shown` : ''}
 
 ## Notes
 - Scores are BrewHarbor's own 1-5 ratings (5 is best), the same ones used by the quiz.
-- Prices are estimates; check the retailer for current prices.
+- Exact prices are not published; each machine has a rough price tier, and the buy link shows today's price.
 - Width and brew temperature are omitted for machines whose specs are still being verified.
 `);
 

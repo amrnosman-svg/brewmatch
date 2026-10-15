@@ -3,80 +3,80 @@
 > Find your coffee machine. Skip the research. Independent coffee machine recommendations: a 7-question quiz plus specs, scores, strengths and watch-outs for 68 machines. No sponsored placements; Amazon links are affiliate links.
 
 ## Data
-- [Machine data (JSON)](https://getbrewharbor.com/machines.json): all machines with specs, 1-5 scores and regional prices
+- [Machine data (JSON)](https://getbrewharbor.com/machines.json): all machines with specs, 1-5 scores and a rough price tier
 - [Recommendation API](https://getbrewharbor.com/api/recommend): POST a quiz profile (drinks, effort, coffeeType, budget, region, priorities) and get ranked machines with reasons; GET with no parameters returns usage docs
 - [All machines](https://getbrewharbor.com/machines/): browsable directory
 - [Sitemap](https://getbrewharbor.com/sitemap.xml)
 
 ## Machine pages
-- [AeroPress Go](https://getbrewharbor.com/machines/aeropress-go/): Manual, about $49
-- [AeroPress Original](https://getbrewharbor.com/machines/aeropress-original/): Manual, about $45
-- [Ascaso Steel Duo PID](https://getbrewharbor.com/machines/ascaso-steel-duo-pid/): Semi-Automatic, about $1,700
-- [Bodum Chambord Press](https://getbrewharbor.com/machines/bodum-chambord-press/): Manual, about $40
-- [Bonavita 8-Cup](https://getbrewharbor.com/machines/bonavita-8-cup/): Drip Machine, about $79
-- [Bosch VeroCafe 800](https://getbrewharbor.com/machines/bosch-verocafe-800/): Super-Automatic, about $1,199
-- [Breville Bambino Plus](https://getbrewharbor.com/machines/breville-bambino-plus/): Semi-Automatic, about $499
-- [Breville Barista Express](https://getbrewharbor.com/machines/breville-barista-express/): Semi-Automatic, about $699
-- [Breville Barista Pro](https://getbrewharbor.com/machines/breville-barista-pro/): Semi-Automatic, about $849
-- [Breville Barista Touch](https://getbrewharbor.com/machines/breville-barista-touch/): Semi-Automatic, about $999
-- [Breville Barista Touch Impress](https://getbrewharbor.com/machines/breville-barista-touch-impress/): Semi-Automatic, about $899
-- [Breville Dual Boiler](https://getbrewharbor.com/machines/breville-dual-boiler/): Semi-Automatic, about $1,599
-- [Breville Precision Brewer](https://getbrewharbor.com/machines/breville-precision-brewer/): Drip Machine, about $329
-- [Chemex 6-Cup](https://getbrewharbor.com/machines/chemex-6-cup/): Manual, about $45
-- [Cuisinart DCC-3200](https://getbrewharbor.com/machines/cuisinart-dcc-3200/): Drip Machine, about $99
-- [De'Longhi Dinamica Plus](https://getbrewharbor.com/machines/delonghi-dinamica-plus/): Super-Automatic, about $1,099
-- [De'Longhi Eletta Explore](https://getbrewharbor.com/machines/delonghi-eletta-explore/): Super-Automatic, about $1,400
-- [De'Longhi La Specialista Arte](https://getbrewharbor.com/machines/delonghi-la-specialista-arte/): Semi-Automatic, about $599
-- [De'Longhi La Specialista Prestigio](https://getbrewharbor.com/machines/delonghi-la-specialista-prestigio/): Semi-Automatic, about $899
-- [De'Longhi Magnifica Evo](https://getbrewharbor.com/machines/delonghi-magnifica-evo/): Super-Automatic, about $399
-- [De'Longhi Rivelia](https://getbrewharbor.com/machines/delonghi-rivelia/): Super-Automatic, about $1,099
-- [ECM Classika PID](https://getbrewharbor.com/machines/ecm-classika-pid/): Semi-Automatic, about $1,499
-- [Fellow Aiden Precision Brewer](https://getbrewharbor.com/machines/fellow-aiden-precision-brewer/): Drip Machine, about $365
-- [Fellow Clara Press](https://getbrewharbor.com/machines/fellow-clara-press/): Manual, about $99
-- [Fellow Espresso Series 1](https://getbrewharbor.com/machines/fellow-espresso-series-1/): Semi-Automatic, about $575
-- [Fellow Stagg X](https://getbrewharbor.com/machines/fellow-stagg-x/): Manual, about $65
-- [Flair 58](https://getbrewharbor.com/machines/flair-58/): Semi-Automatic, about $575
-- [Flair Espresso Neo](https://getbrewharbor.com/machines/flair-espresso-neo/): Manual, about $160
-- [Gaggia Anima Prestige](https://getbrewharbor.com/machines/gaggia-anima-prestige/): Super-Automatic, about $799
-- [Gaggia Classic Pro](https://getbrewharbor.com/machines/gaggia-classic-pro/): Semi-Automatic, about $500
-- [Hario V60](https://getbrewharbor.com/machines/hario-v60/): Manual, about $25
-- [Jura E6](https://getbrewharbor.com/machines/jura-e6/): Super-Automatic, about $999
-- [Jura E8](https://getbrewharbor.com/machines/jura-e8/): Super-Automatic, about $1,299
-- [Jura ENA 8](https://getbrewharbor.com/machines/jura-ena-8/): Super-Automatic, about $1,200
-- [Jura S8](https://getbrewharbor.com/machines/jura-s8/): Super-Automatic, about $1,699
-- [Jura Z10](https://getbrewharbor.com/machines/jura-z10/): Super-Automatic, about $2,499
-- [Kalita Wave 185](https://getbrewharbor.com/machines/kalita-wave-185/): Manual, about $35
-- [Keurig K-Classic](https://getbrewharbor.com/machines/keurig-k-classic/): Pod Machine, about $79
-- [Keurig K-Elite](https://getbrewharbor.com/machines/keurig-k-elite/): Pod Machine, about $130
-- [Keurig K-Supreme Plus SMART](https://getbrewharbor.com/machines/keurig-k-supreme-plus-smart/): Pod Machine, about $190
-- [Lelit Anna](https://getbrewharbor.com/machines/lelit-anna/): Semi-Automatic, about $699
-- [Lelit Bianca](https://getbrewharbor.com/machines/lelit-bianca/): Semi-Automatic, about $2,800
-- [Lelit Mara X](https://getbrewharbor.com/machines/lelit-mara-x/): Semi-Automatic, about $1,599
-- [Melitta Barista TS Smart](https://getbrewharbor.com/machines/melitta-barista-ts-smart/): Super-Automatic, about $499
-- [Miele CM5300](https://getbrewharbor.com/machines/miele-cm5300/): Super-Automatic, about $1,499
-- [Nespresso CitiZ](https://getbrewharbor.com/machines/nespresso-citiz/): Pod Machine, about $199
-- [Nespresso Creatista Plus](https://getbrewharbor.com/machines/nespresso-creatista-plus/): Pod Machine, about $599
-- [Nespresso Essenza Mini](https://getbrewharbor.com/machines/nespresso-essenza-mini/): Pod Machine, about $99
-- [Nespresso Pixie](https://getbrewharbor.com/machines/nespresso-pixie/): Pod Machine, about $179
-- [Nespresso Vertuo Next](https://getbrewharbor.com/machines/nespresso-vertuo-next/): Pod Machine, about $149
-- [Nespresso Vertuo Pop](https://getbrewharbor.com/machines/nespresso-vertuo-pop/): Pod Machine, about $79
-- [Nespresso VertuoPlus](https://getbrewharbor.com/machines/nespresso-vertuoplus/): Pod Machine, about $169
-- [Ninja Luxe Café Premier](https://getbrewharbor.com/machines/ninja-luxe-caf-premier/): Semi-Automatic, about $600
-- [Ninja Specialty Coffee Maker](https://getbrewharbor.com/machines/ninja-specialty-coffee-maker/): Drip Machine, about $199
-- [OXO Brew 9-Cup](https://getbrewharbor.com/machines/oxo-brew-9-cup/): Drip Machine, about $199
-- [Philips 3200 LatteGo](https://getbrewharbor.com/machines/philips-3200-lattego/): Super-Automatic, about $539
-- [Philips 4300 LatteGo](https://getbrewharbor.com/machines/philips-4300-lattego/): Super-Automatic, about $899
-- [Philips 5400 LatteGo](https://getbrewharbor.com/machines/philips-5400-lattego/): Super-Automatic, about $999
-- [Profitec Go](https://getbrewharbor.com/machines/profitec-go/): Semi-Automatic, about $999
-- [Profitec Pro 500](https://getbrewharbor.com/machines/profitec-pro-500/): Semi-Automatic, about $1,800
-- [Profitec Pro 600](https://getbrewharbor.com/machines/profitec-pro-600/): Semi-Automatic, about $2,300
-- [Rancilio Silvia](https://getbrewharbor.com/machines/rancilio-silvia/): Semi-Automatic, about $795
-- [Rancilio Silvia Pro X](https://getbrewharbor.com/machines/rancilio-silvia-pro-x/): Semi-Automatic, about $1,049
-- [Ratio Eight](https://getbrewharbor.com/machines/ratio-eight/): Drip Machine, about $699
-- [Ratio Six](https://getbrewharbor.com/machines/ratio-six/): Drip Machine, about $499
-- [Rocket Appartamento](https://getbrewharbor.com/machines/rocket-appartamento/): Semi-Automatic, about $1,700
-- [Saeco Xelsis](https://getbrewharbor.com/machines/saeco-xelsis/): Super-Automatic, about $1,999
-- [Technivorm Moccamaster KBGV](https://getbrewharbor.com/machines/technivorm-moccamaster-kbgv/): Drip Machine, about $349
+- [AeroPress Go](https://getbrewharbor.com/machines/aeropress-go/): Manual, budget price range
+- [AeroPress Original](https://getbrewharbor.com/machines/aeropress-original/): Manual, budget price range
+- [Ascaso Steel Duo PID](https://getbrewharbor.com/machines/ascaso-steel-duo-pid/): Semi-Automatic, premium price range
+- [Bodum Chambord Press](https://getbrewharbor.com/machines/bodum-chambord-press/): Manual, budget price range
+- [Bonavita 8-Cup](https://getbrewharbor.com/machines/bonavita-8-cup/): Drip Machine, budget price range
+- [Bosch VeroCafe 800](https://getbrewharbor.com/machines/bosch-verocafe-800/): Super-Automatic, premium price range
+- [Breville Bambino Plus](https://getbrewharbor.com/machines/breville-bambino-plus/): Semi-Automatic, upper mid-range price range
+- [Breville Barista Express](https://getbrewharbor.com/machines/breville-barista-express/): Semi-Automatic, upper mid-range price range
+- [Breville Barista Pro](https://getbrewharbor.com/machines/breville-barista-pro/): Semi-Automatic, upper mid-range price range
+- [Breville Barista Touch](https://getbrewharbor.com/machines/breville-barista-touch/): Semi-Automatic, premium price range
+- [Breville Barista Touch Impress](https://getbrewharbor.com/machines/breville-barista-touch-impress/): Semi-Automatic, upper mid-range price range
+- [Breville Dual Boiler](https://getbrewharbor.com/machines/breville-dual-boiler/): Semi-Automatic, premium price range
+- [Breville Precision Brewer](https://getbrewharbor.com/machines/breville-precision-brewer/): Drip Machine, mid-range price range
+- [Chemex 6-Cup](https://getbrewharbor.com/machines/chemex-6-cup/): Manual, budget price range
+- [Cuisinart DCC-3200](https://getbrewharbor.com/machines/cuisinart-dcc-3200/): Drip Machine, budget price range
+- [De'Longhi Dinamica Plus](https://getbrewharbor.com/machines/delonghi-dinamica-plus/): Super-Automatic, premium price range
+- [De'Longhi Eletta Explore](https://getbrewharbor.com/machines/delonghi-eletta-explore/): Super-Automatic, premium price range
+- [De'Longhi La Specialista Arte](https://getbrewharbor.com/machines/delonghi-la-specialista-arte/): Semi-Automatic, upper mid-range price range
+- [De'Longhi La Specialista Prestigio](https://getbrewharbor.com/machines/delonghi-la-specialista-prestigio/): Semi-Automatic, upper mid-range price range
+- [De'Longhi Magnifica Evo](https://getbrewharbor.com/machines/delonghi-magnifica-evo/): Super-Automatic, mid-range price range
+- [De'Longhi Rivelia](https://getbrewharbor.com/machines/delonghi-rivelia/): Super-Automatic, premium price range
+- [ECM Classika PID](https://getbrewharbor.com/machines/ecm-classika-pid/): Semi-Automatic, premium price range
+- [Fellow Aiden Precision Brewer](https://getbrewharbor.com/machines/fellow-aiden-precision-brewer/): Drip Machine, mid-range price range
+- [Fellow Clara Press](https://getbrewharbor.com/machines/fellow-clara-press/): Manual, budget price range
+- [Fellow Espresso Series 1](https://getbrewharbor.com/machines/fellow-espresso-series-1/): Semi-Automatic, upper mid-range price range
+- [Fellow Stagg X](https://getbrewharbor.com/machines/fellow-stagg-x/): Manual, budget price range
+- [Flair 58](https://getbrewharbor.com/machines/flair-58/): Semi-Automatic, upper mid-range price range
+- [Flair Espresso Neo](https://getbrewharbor.com/machines/flair-espresso-neo/): Manual, mid-range price range
+- [Gaggia Anima Prestige](https://getbrewharbor.com/machines/gaggia-anima-prestige/): Super-Automatic, upper mid-range price range
+- [Gaggia Classic Pro](https://getbrewharbor.com/machines/gaggia-classic-pro/): Semi-Automatic, upper mid-range price range
+- [Hario V60](https://getbrewharbor.com/machines/hario-v60/): Manual, budget price range
+- [Jura E6](https://getbrewharbor.com/machines/jura-e6/): Super-Automatic, premium price range
+- [Jura E8](https://getbrewharbor.com/machines/jura-e8/): Super-Automatic, premium price range
+- [Jura ENA 8](https://getbrewharbor.com/machines/jura-ena-8/): Super-Automatic, premium price range
+- [Jura S8](https://getbrewharbor.com/machines/jura-s8/): Super-Automatic, premium price range
+- [Jura Z10](https://getbrewharbor.com/machines/jura-z10/): Super-Automatic, prosumer price range
+- [Kalita Wave 185](https://getbrewharbor.com/machines/kalita-wave-185/): Manual, budget price range
+- [Keurig K-Classic](https://getbrewharbor.com/machines/keurig-k-classic/): Pod Machine, budget price range
+- [Keurig K-Elite](https://getbrewharbor.com/machines/keurig-k-elite/): Pod Machine, budget price range
+- [Keurig K-Supreme Plus SMART](https://getbrewharbor.com/machines/keurig-k-supreme-plus-smart/): Pod Machine, mid-range price range
+- [Lelit Anna](https://getbrewharbor.com/machines/lelit-anna/): Semi-Automatic, upper mid-range price range
+- [Lelit Bianca](https://getbrewharbor.com/machines/lelit-bianca/): Semi-Automatic, prosumer price range
+- [Lelit Mara X](https://getbrewharbor.com/machines/lelit-mara-x/): Semi-Automatic, premium price range
+- [Melitta Barista TS Smart](https://getbrewharbor.com/machines/melitta-barista-ts-smart/): Super-Automatic, upper mid-range price range
+- [Miele CM5300](https://getbrewharbor.com/machines/miele-cm5300/): Super-Automatic, premium price range
+- [Nespresso CitiZ](https://getbrewharbor.com/machines/nespresso-citiz/): Pod Machine, mid-range price range
+- [Nespresso Creatista Plus](https://getbrewharbor.com/machines/nespresso-creatista-plus/): Pod Machine, upper mid-range price range
+- [Nespresso Essenza Mini](https://getbrewharbor.com/machines/nespresso-essenza-mini/): Pod Machine, budget price range
+- [Nespresso Pixie](https://getbrewharbor.com/machines/nespresso-pixie/): Pod Machine, mid-range price range
+- [Nespresso Vertuo Next](https://getbrewharbor.com/machines/nespresso-vertuo-next/): Pod Machine, budget price range
+- [Nespresso Vertuo Pop](https://getbrewharbor.com/machines/nespresso-vertuo-pop/): Pod Machine, budget price range
+- [Nespresso VertuoPlus](https://getbrewharbor.com/machines/nespresso-vertuoplus/): Pod Machine, mid-range price range
+- [Ninja Luxe Café Premier](https://getbrewharbor.com/machines/ninja-luxe-caf-premier/): Semi-Automatic, upper mid-range price range
+- [Ninja Specialty Coffee Maker](https://getbrewharbor.com/machines/ninja-specialty-coffee-maker/): Drip Machine, mid-range price range
+- [OXO Brew 9-Cup](https://getbrewharbor.com/machines/oxo-brew-9-cup/): Drip Machine, mid-range price range
+- [Philips 3200 LatteGo](https://getbrewharbor.com/machines/philips-3200-lattego/): Super-Automatic, upper mid-range price range
+- [Philips 4300 LatteGo](https://getbrewharbor.com/machines/philips-4300-lattego/): Super-Automatic, upper mid-range price range
+- [Philips 5400 LatteGo](https://getbrewharbor.com/machines/philips-5400-lattego/): Super-Automatic, premium price range
+- [Profitec Go](https://getbrewharbor.com/machines/profitec-go/): Semi-Automatic, premium price range
+- [Profitec Pro 500](https://getbrewharbor.com/machines/profitec-pro-500/): Semi-Automatic, prosumer price range
+- [Profitec Pro 600](https://getbrewharbor.com/machines/profitec-pro-600/): Semi-Automatic, prosumer price range
+- [Rancilio Silvia](https://getbrewharbor.com/machines/rancilio-silvia/): Semi-Automatic, upper mid-range price range
+- [Rancilio Silvia Pro X](https://getbrewharbor.com/machines/rancilio-silvia-pro-x/): Semi-Automatic, premium price range
+- [Ratio Eight](https://getbrewharbor.com/machines/ratio-eight/): Drip Machine, upper mid-range price range
+- [Ratio Six](https://getbrewharbor.com/machines/ratio-six/): Drip Machine, upper mid-range price range
+- [Rocket Appartamento](https://getbrewharbor.com/machines/rocket-appartamento/): Semi-Automatic, premium price range
+- [Saeco Xelsis](https://getbrewharbor.com/machines/saeco-xelsis/): Super-Automatic, prosumer price range
+- [Technivorm Moccamaster KBGV](https://getbrewharbor.com/machines/technivorm-moccamaster-kbgv/): Drip Machine, mid-range price range
 
 ## Comparisons
 - [Breville Barista Express vs Breville Barista Pro](https://getbrewharbor.com/compare/breville-barista-express-vs-breville-barista-pro/)
@@ -118,5 +118,5 @@
 
 ## Notes
 - Scores are BrewHarbor's own 1-5 ratings (5 is best), the same ones used by the quiz.
-- Prices are estimates; check the retailer for current prices.
+- Exact prices are not published; each machine has a rough price tier, and the buy link shows today's price.
 - Width and brew temperature are omitted for machines whose specs are still being verified.

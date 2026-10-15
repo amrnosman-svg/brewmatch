@@ -36,6 +36,16 @@ const DOC = {
 
 const CORS = { 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Methods': 'GET, POST, OPTIONS', 'Access-Control-Allow-Headers': 'Content-Type' };
 const json = (statusCode, body, extra = {}) => ({ statusCode, headers: { 'Content-Type': 'application/json; charset=utf-8', ...CORS, ...extra }, body: JSON.stringify(body, null, 1) });
+// Rough price tier (same scale as the quiz). Exact prices are not published: Amazon only allows prices it serves or that come from its API.
+const FX = { us: 1, ca: 1.43, uk: 0.76, eu: 0.86, au: 1.55 };
+const TIERS = [[150, 'Budget'], [400, 'Mid-range'], [900, 'Upper mid-range'], [1800, 'Premium'], [Infinity, 'Prosumer']];
+function tierFor(m, region) {
+  const p = engine.getPrice(m);
+  if (p === Infinity || !p) return null;
+  const usd = p / (FX[region] || 1);
+  const i = TIERS.findIndex(([max]) => usd < max);
+  return { level: i + 1, label: TIERS[i][1] };
+}
 const slugify = s => String(s).toLowerCase().replace(/['’]/g, '').replace(/&/g, ' and ').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 
 let cache = { at: 0, records: null, source: null };
@@ -101,11 +111,10 @@ exports.handler = async function (event) {
     const sym = { us: '$', ca: 'CA$', uk: '£', eu: '€', au: 'A$' }[answers.region];
     const results = ranked.slice(0, limit).map((x, i) => {
       const m = x.m, link = m.affiliateBase && m.affiliateBase[answers.region];
-      const price = engine.getPrice(m);
       return {
         rank: i + 1, name: m.name, brand: m.brand, category: m.category, score: x.result.score,
-        price: price === Infinity ? null : price, currency: sym,
-        estimatedAnnualCost: engine.calcTCO(m).fullAnnualTCO,
+        priceTier: tierFor(m, answers.region),
+        estimatedAnnualCostRounded: Math.round(engine.calcTCO(m).fullAnnualTCO / 10) * 10, currency: sym,
         why: x.result.reasons, tradeoffs: x.result.misses,
         page: `${SITE}/machines/${slugify(m.name)}/`,
         buyLink: link && link !== '#' ? link : null,
@@ -113,9 +122,10 @@ exports.handler = async function (event) {
     });
     return json(200, {
       matched: ranked.length, returned: results.length, dataSource: source, query: answers, results,
-      notes: 'Scores are 0-99 relative match scores from the BrewHarbor quiz engine. Prices are estimates; buy links are Amazon affiliate links.',
+      notes: 'Scores are 0-99 relative match scores from the BrewHarbor quiz engine. priceTier is a rough band (level 1 Budget to 5 Prosumer); exact prices change daily, so follow buyLink for today\'s price. estimatedAnnualCostRounded is the yearly cost to own (machine over its life, upkeep and coffee), rounded to the nearest 10. Buy links are Amazon affiliate links.',
     }, { 'Cache-Control': 'public, max-age=300' });
   } catch (e) {
     return json(500, { error: 'Recommendation failed: ' + e.message });
   }
 };
+exports._tierFor = tierFor; // test hook

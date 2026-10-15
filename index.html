@@ -350,6 +350,7 @@
   .rec-fact { flex: 1; padding-left: 14px; border-left: 1px solid var(--light-grey); display: flex; flex-direction: column; gap: 2px; }
   .rec-fact:first-child { border-left: none; padding-left: 0; }
   .rec-fact b { font-family: 'Cormorant Garamond', serif; font-size: 30px; font-weight: 600; line-height: 1.1; color: var(--black); }
+  .rec-fact b.rec-tier { font-size: 21px; line-height: 1.2; padding-top: 5px; }
   .rec-fact span { font-size: 12px; color: var(--mid-grey); }
   .rec-cta { display: flex; align-items: center; justify-content: center; height: 52px; border-radius: 12px; background: #b04a26; color: #fff; font-size: 16px; font-weight: 500; text-decoration: none; }
   .rec-cta:hover { background: #8f3b1c; }
@@ -364,7 +365,8 @@
   .alt-text { flex: 1; display: flex; flex-direction: column; gap: 3px; min-width: 0; }
   .alt-name { font-size: 16px; font-weight: 500; line-height: 1.3; }
   .alt-line { font-size: 14px; line-height: 1.45; color: var(--dark-grey); }
-  .alt-price { font-family: 'Cormorant Garamond', serif; font-size: 24px; font-weight: 600; flex-shrink: 0; }
+  .alt-tier { display: flex; flex-direction: column; align-items: flex-end; gap: 2px; flex-shrink: 0; max-width: 92px; text-align: right; font-size: 12px; line-height: 1.25; color: var(--dark-grey); }
+  .alt-tier span { font-size: 10px; letter-spacing: 1px; color: var(--mid-grey); }
   .compare-all-btn { display: flex; align-items: center; justify-content: center; width: 100%; max-width: 560px; height: 48px; margin: 24px auto 0; background: transparent; border: 1.5px solid var(--black); border-radius: 12px; color: var(--black); font-family: 'Outfit', sans-serif; font-size: 15px; font-weight: 500; cursor: pointer; }
   .compare-all-btn:hover { background: var(--black); color: #fff; }
   .nomatch-list { margin: 0; padding-left: 20px; font-size: 15px; line-height: 1.6; color: var(--dark-grey); }
@@ -4402,11 +4404,11 @@ function jsq(s) { return String(s || '').replace(/\\/g, '\\\\').replace(/'/g, "\
 function priceBand(m) {
   const fx = { us: 1, ca: 1.43, uk: 0.76, eu: 0.86, au: 1.55 }[userAnswers.region || 'us'] || 1;
   const p = getPrice(m);
-  if (p === Infinity || !p) return { dots: '—', label: 'Check availability' };
+  if (p === Infinity || !p) return { dots: '—', label: 'Check availability', i: -1 };
   const usd = p / fx;
   const tiers = [[150,'Budget'],[400,'Mid-range'],[900,'Upper mid-range'],[1800,'Premium'],[Infinity,'Prosumer']];
   const i = tiers.findIndex(([max]) => usd < max);
-  return { dots: '●'.repeat(i + 1) + '○'.repeat(4 - i), label: tiers[i][1] };
+  return { dots: '●'.repeat(i + 1) + '○'.repeat(4 - i), label: tiers[i][1], i };
 }
 function priceBandHtml(m) {
   const b = priceBand(m);
@@ -5181,11 +5183,11 @@ function showResults() {
 
     // ── Results v2: one recommendation, close alternatives, the full comparison on demand ──
     const escHtml = t => String(t == null ? '' : t).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
-    const money = n => (isFinite(n) ? sym + Math.round(n).toLocaleString() : '—');
     const mSlug = n => String(n || '').toLowerCase().replace(/['’]/g, '').replace(/&/g, ' and ').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
     // Engine phrases are fragments, so keep them as short separate sentences
     const reasonText = topReasons.slice(0, 3).map(r => (/[.!?]$/.test(r) ? r : r + '.')).join(' ');
-    const topPrice = getPrice(top.m);
+    const topTier = priceBand(top.m);
+    const round10 = n => Math.round(n / 10) * 10;
     const topLife = top.m.expectedLifespanYears;
 
     document.getElementById('recBanner').innerHTML = `
@@ -5193,17 +5195,17 @@ function showResults() {
       <h2>${escHtml(top.m.name)}</h2>
       ${reasonText ? `<p class="rec-reason">${escHtml(reasonText)}</p>` : ''}
       <div class="rec-facts">
-        <div class="rec-fact"><b>${money(topPrice)}</b><span>Price</span></div>
-        <div class="rec-fact"><b>${sym}${tco.fullAnnualTCO}</b><span>A year to own</span></div>
+        <div class="rec-fact"><b class="rec-tier">${escHtml(topTier.label)}</b><span>Price range</span></div>
+        <div class="rec-fact"><b>${sym}${round10(tco.fullAnnualTCO).toLocaleString()}</b><span>A year to own (estimate)</span></div>
         ${topLife ? `<div class="rec-fact"><b>${topLife} yrs</b><span>Expected life</span></div>` : ''}
       </div>
       <a class="rec-cta" href="${getLink(top.m)}" target="_blank" rel="sponsored nofollow noopener" onclick="trackBuyClick('${jsq(top.m.name)}')">Check price on Amazon</a>
-      <p class="rec-fine">Price is an estimate. Cost to own is the price spread over its expected life, plus upkeep and about $${tco.dailyCoffeeCost} a day in beans.</p>`;
+      <p class="rec-fine">Prices change daily, so check today's price on Amazon. The yearly figure is the machine's cost spread over its expected life, plus upkeep and about $${tco.dailyCoffeeCost} a day in coffee. It is an estimate.</p>`;
 
     const altLine = alt => {
       const parts = [];
-      const d = Math.round(getPrice(alt.m) - topPrice);
-      if (isFinite(d) && Math.abs(d) >= 10) parts.push(`About ${sym}${Math.abs(d).toLocaleString()} ${d > 0 ? 'more' : 'less'}.`);
+      const dT = priceBand(alt.m).i - topTier.i;
+      if (topTier.i >= 0 && priceBand(alt.m).i >= 0 && dT !== 0) parts.push(`${Math.abs(dT) === 1 ? 'One price tier' : 'Two or more price tiers'} ${dT > 0 ? 'up' : 'down'}.`);
       const miss = (alt.result.misses || [])[0];
       if (miss) parts.push(/[.!?]$/.test(miss) ? miss : miss + '.');
       else {
@@ -5216,7 +5218,7 @@ function showResults() {
       <a class="alt-row" href="/machines/${mSlug(m.name)}/" target="_blank" rel="noopener" onclick="bm_track('alternative_click', { machine_name: '${jsq(m.name)}' })">
         <span class="alt-thumb">${m.imageUrl ? `<img src="${m.imageUrl}" alt="">` : '☕'}</span>
         <span class="alt-text"><span class="alt-name">${escHtml(m.name)}</span><span class="alt-line">${escHtml(line)}</span></span>
-        <span class="alt-price">${money(getPrice(m))}</span>
+        <span class="alt-tier"><span aria-hidden="true">${priceBand(m).dots}</span>${escHtml(priceBand(m).label)}</span>
       </a>`;
 
     const alts = display.slice(1, 3);
@@ -5233,7 +5235,7 @@ function showResults() {
     if (luxuryAlt && !alts.some(a => a.m.name === luxuryAlt.m.name) && luxuryAlt.m.name !== top.m.name) {
       const lm = luxuryAlt.m;
       const firstSentence = (String(lm.description || '').match(/^.*?[.!?](?=\s|$)/) || [lm.description || ''])[0];
-      const lline = [firstSentence, `About ${sym}${calcTCO(lm).fullAnnualTCO} a year to own.`].filter(Boolean).join(' ');
+      const lline = [firstSentence, `About ${sym}${round10(calcTCO(lm).fullAnnualTCO).toLocaleString()} a year to own.`].filter(Boolean).join(' ');
       altHtml += `<h2 class="alt-heading alt-heading-2">If you can spend more</h2>` + altRow(lm, lline);
     }
     document.getElementById('altSection').innerHTML = altHtml;
