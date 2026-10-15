@@ -8,6 +8,20 @@
   [headers.values]
     Cache-Control = "public, max-age=2592000"
 
+# Old Netlify address -> permanent (301) redirect to the real domain, path and query kept.
+# Functions stay reachable on the old host so existing tooling and tests keep working.
+[[redirects]]
+  from = "https://brewtimeai.netlify.app/.netlify/functions/*"
+  to = "/.netlify/functions/:splat"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "https://brewtimeai.netlify.app/*"
+  to = "https://getbrewharbor.com/:splat"
+  status = 301
+  force = true
+
 # Public recommendation API (agents/tools): same scoring as the quiz.
 [[redirects]]
   from = "/api/recommend"
