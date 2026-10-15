@@ -4864,11 +4864,11 @@ function renderCard(m, result, resultLabel) {
         🥛 <strong>For milk drinks:</strong> pair with a <a href="${getBundleLink('Nespresso Aeroccino milk frother')}" target="_blank" rel="sponsored nofollow noopener" style="color:var(--black);">Nespresso Aeroccino frother</a> for lattes and cappuccinos.
        </div>`
     : '';
-  const podAnnualCost = Math.round((userAnswers.cups || 2) * 1.20 * 365);
+  const podAnnualCost = Math.round((userAnswers.cups || 2) * 0.90 * 365); // vs Nespresso Original pods, the mid-priced pod option
   const thisCoffeeCost = Math.round((userAnswers.cups || 2) * (m.costPerCup || 0) * 365);
   const saving = podAnnualCost - thisCoffeeCost;
-  const savingsHtml = (saving >= 200 && m.coffeeType !== 'pods')
-    ? `<div class="savings-callout">☕ vs. pods: save <strong>~$${saving}/yr</strong> on coffee supplies with this machine</div>`
+  const savingsHtml = (saving >= 200 && m.category !== 'Pod Machine')
+    ? `<div class="savings-callout">☕ vs. Nespresso pods: save about <strong>$${Math.round(saving / 10) * 10}/yr</strong> on coffee with this machine</div>`
     : '';
 
   // Eco/repair badge
@@ -4913,7 +4913,7 @@ function renderCard(m, result, resultLabel) {
           <div class="tco-tooltip-text">
             <strong>How we calculate TCO:</strong><br>
             Typical retail price (estimate) ÷ ${m.expectedLifespanYears || 5}yr lifespan + $${m.maintenanceAnnualCost || 0}/yr maintenance + daily coffee cost.<br><br>
-            Coffee costs assume: pods ~$1.20/cup (Nespresso) or ~$0.50/cup (Keurig), fresh beans ~$0.20/cup (specialty), ground ~$0.18/cup. Actual costs vary by brand and buying habits.
+            Coffee costs per drink assume: Nespresso Vertuo pods ~$1.20 and Original pods ~$0.90, Keurig K-Cups ~$0.55, and grocery-store beans or ground coffee ~$0.31 to $0.37 (at today's average prices). Specialty beans can cost two to three times as much. Actual costs vary by brand and buying habits.
           </div>
         </div>
       </div>

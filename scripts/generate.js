@@ -95,7 +95,7 @@ function insights(m) {
   if (s.repair >= 4) up.push(`Repairable and long-lived (repairability ${s.repair}/5)`);
   if (s.eco >= 4) up.push(`Low environmental impact (eco ${s.eco}/5)`);
   if (m.compact) up.push('Compact footprint');
-  if (m.cupCost != null && m.cupCost <= 0.3) up.push(`Low running cost (about $${m.cupCost.toFixed(2)} per cup)`);
+  if (m.cupCost != null && m.cupCost <= 0.4) up.push(`Low running cost (about $${m.cupCost.toFixed(2)} per cup for coffee)`);
   if (/^(high|hard|steep)/i.test(m.learning)) down.push(`Steep learning curve (${m.learning})`);
   if (/^high/i.test(m.maintenance)) down.push('High maintenance demands');
   if (s.speed != null && s.speed <= 2) down.push(`Slow (speed ${s.speed}/5)`);

@@ -30,7 +30,7 @@
    "learningCurve": "Medium",
    "expectedLifespanYears": 5,
    "annualMaintenanceCostUSD": 10,
-   "costPerCupUSD": 0.08,
+   "costPerCupUSD": 0.31,
    "scores": {
     "quality": 4,
     "espresso": 3,
@@ -78,7 +78,7 @@
    "learningCurve": "Medium",
    "expectedLifespanYears": 10,
    "annualMaintenanceCostUSD": 0,
-   "costPerCupUSD": 0.18,
+   "costPerCupUSD": 0.31,
    "scores": {
     "quality": 5,
     "espresso": 2.5,
@@ -98,8 +98,8 @@
     "au": "https://www.amazon.com.au/s?k=aeropress+original"
    },
    "image": "https://getbrewharbor.com/images/aeropress-original.jpg",
-   "summary": "The most versatile brewer ever made. Espresso-style, filter, and cold brew in one portable device for under $50.",
-   "whoItsFor": "Buy this if you travel frequently or want to experiment with brewing methods. It makes espresso-style, filter, and cold brew in one device. Nothing under $100 produces better coffee."
+   "summary": "The most versatile brewer ever made. Espresso-style, filter, and cold brew in one portable device.",
+   "whoItsFor": "Buy this if you travel frequently or want to experiment with brewing methods. It makes espresso-style, filter, and cold brew in one device. Nothing at this price produces better coffee."
   },
   {
    "name": "Ascaso Steel Duo PID",
@@ -125,7 +125,7 @@
    "learningCurve": "High",
    "expectedLifespanYears": 12,
    "annualMaintenanceCostUSD": 75,
-   "costPerCupUSD": 0.3,
+   "costPerCupUSD": 0.37,
    "scores": {
     "quality": 4,
     "espresso": 5,
@@ -169,7 +169,7 @@
    "learningCurve": "Low",
    "expectedLifespanYears": 10,
    "annualMaintenanceCostUSD": 10,
-   "costPerCupUSD": 0.08,
+   "costPerCupUSD": 0.31,
    "scores": {
     "quality": 3,
     "espresso": null,
@@ -213,7 +213,7 @@
    "learningCurve": "Low",
    "expectedLifespanYears": 7,
    "annualMaintenanceCostUSD": 30,
-   "costPerCupUSD": 0.08,
+   "costPerCupUSD": 0.31,
    "scores": {
     "quality": 3,
     "espresso": null,
@@ -259,7 +259,7 @@
    "learningCurve": "Low",
    "expectedLifespanYears": 9,
    "annualMaintenanceCostUSD": 60,
-   "costPerCupUSD": 0.35,
+   "costPerCupUSD": 0.37,
    "scores": {
     "quality": 4,
     "espresso": 4,
@@ -305,7 +305,7 @@
    "learningCurve": "Medium",
    "expectedLifespanYears": 6,
    "annualMaintenanceCostUSD": 40,
-   "costPerCupUSD": 0.2,
+   "costPerCupUSD": 0.37,
    "scores": {
     "quality": 5,
     "espresso": 5,
@@ -351,7 +351,7 @@
    "learningCurve": "High",
    "expectedLifespanYears": 7,
    "annualMaintenanceCostUSD": 60,
-   "costPerCupUSD": 0.2,
+   "costPerCupUSD": 0.37,
    "scores": {
     "quality": 5,
     "espresso": 5,
@@ -398,7 +398,7 @@
    "learningCurve": "Medium",
    "expectedLifespanYears": 7,
    "annualMaintenanceCostUSD": 60,
-   "costPerCupUSD": 0.3,
+   "costPerCupUSD": 0.37,
    "scores": {
     "quality": 4,
     "espresso": 4,
@@ -445,7 +445,7 @@
    "learningCurve": "Medium",
    "expectedLifespanYears": 7,
    "annualMaintenanceCostUSD": 65,
-   "costPerCupUSD": 0.3,
+   "costPerCupUSD": 0.37,
    "scores": {
     "quality": 4,
     "espresso": 4,
@@ -492,7 +492,7 @@
    "learningCurve": "Medium",
    "expectedLifespanYears": 7,
    "annualMaintenanceCostUSD": 65,
-   "costPerCupUSD": 0.3,
+   "costPerCupUSD": 0.37,
    "scores": {
     "quality": 4,
     "espresso": 4,
@@ -539,7 +539,7 @@
    "learningCurve": "High",
    "expectedLifespanYears": 10,
    "annualMaintenanceCostUSD": 80,
-   "costPerCupUSD": 0.3,
+   "costPerCupUSD": 0.37,
    "scores": {
     "quality": 5,
     "espresso": 5,
@@ -585,7 +585,7 @@
    "learningCurve": "Low",
    "expectedLifespanYears": 8,
    "annualMaintenanceCostUSD": 50,
-   "costPerCupUSD": 0.1,
+   "costPerCupUSD": 0.31,
    "scores": {
     "quality": 4,
     "espresso": null,
@@ -630,7 +630,7 @@
    "learningCurve": "Low",
    "expectedLifespanYears": 10,
    "annualMaintenanceCostUSD": 10,
-   "costPerCupUSD": 0.08,
+   "costPerCupUSD": 0.31,
    "scores": {
     "quality": 4,
     "espresso": null,
@@ -674,7 +674,7 @@
    "learningCurve": "Low",
    "expectedLifespanYears": 6,
    "annualMaintenanceCostUSD": 25,
-   "costPerCupUSD": 0.08,
+   "costPerCupUSD": 0.31,
    "scores": {
     "quality": 3,
     "espresso": null,
@@ -720,7 +720,7 @@
    "learningCurve": "Low",
    "expectedLifespanYears": 7,
    "annualMaintenanceCostUSD": 80,
-   "costPerCupUSD": 0.2,
+   "costPerCupUSD": 0.37,
    "scores": {
     "quality": 4,
     "espresso": 4,
@@ -770,7 +770,7 @@
    "learningCurve": "Low",
    "expectedLifespanYears": 10,
    "annualMaintenanceCostUSD": 60,
-   "costPerCupUSD": 0.35,
+   "costPerCupUSD": 0.37,
    "scores": {
     "quality": 4,
     "espresso": 4,
@@ -817,7 +817,7 @@
    "learningCurve": "Medium",
    "expectedLifespanYears": 7,
    "annualMaintenanceCostUSD": 55,
-   "costPerCupUSD": 0.3,
+   "costPerCupUSD": 0.37,
    "scores": {
     "quality": 3,
     "espresso": 3,
@@ -864,7 +864,7 @@
    "learningCurve": "Medium",
    "expectedLifespanYears": 7,
    "annualMaintenanceCostUSD": 60,
-   "costPerCupUSD": 0.3,
+   "costPerCupUSD": 0.37,
    "scores": {
     "quality": 4,
     "espresso": 4,
@@ -910,7 +910,7 @@
    "learningCurve": "Low",
    "expectedLifespanYears": 7,
    "annualMaintenanceCostUSD": 40,
-   "costPerCupUSD": 0.35,
+   "costPerCupUSD": 0.37,
    "scores": {
     "quality": 4,
     "espresso": 4,
@@ -957,7 +957,7 @@
    "learningCurve": "Low",
    "expectedLifespanYears": 7,
    "annualMaintenanceCostUSD": 80,
-   "costPerCupUSD": 0.2,
+   "costPerCupUSD": 0.37,
    "scores": {
     "quality": 4,
     "espresso": 4,
@@ -1003,7 +1003,7 @@
    "learningCurve": "High",
    "expectedLifespanYears": 15,
    "annualMaintenanceCostUSD": 80,
-   "costPerCupUSD": 0.3,
+   "costPerCupUSD": 0.37,
    "scores": {
     "quality": 5,
     "espresso": 5,
@@ -1048,7 +1048,7 @@
    "learningCurve": "Low",
    "expectedLifespanYears": 8,
    "annualMaintenanceCostUSD": 40,
-   "costPerCupUSD": 0.1,
+   "costPerCupUSD": 0.31,
    "scores": {
     "quality": 4,
     "espresso": null,
@@ -1093,7 +1093,7 @@
    "learningCurve": "High",
    "expectedLifespanYears": 10,
    "annualMaintenanceCostUSD": 15,
-   "costPerCupUSD": 0.08,
+   "costPerCupUSD": 0.31,
    "scores": {
     "quality": 4,
     "espresso": null,
@@ -1140,7 +1140,7 @@
    "learningCurve": "High",
    "expectedLifespanYears": 8,
    "annualMaintenanceCostUSD": 75,
-   "costPerCupUSD": 0.22,
+   "costPerCupUSD": 0.37,
    "scores": {
     "quality": 5,
     "espresso": 5,
@@ -1185,7 +1185,7 @@
    "learningCurve": "Low",
    "expectedLifespanYears": 15,
    "annualMaintenanceCostUSD": 10,
-   "costPerCupUSD": 0.08,
+   "costPerCupUSD": 0.31,
    "scores": {
     "quality": 4,
     "espresso": null,
@@ -1229,7 +1229,7 @@
    "learningCurve": "High",
    "expectedLifespanYears": 15,
    "annualMaintenanceCostUSD": 20,
-   "costPerCupUSD": 0.3,
+   "costPerCupUSD": 0.37,
    "scores": {
     "quality": 5,
     "espresso": 5,
@@ -1275,7 +1275,7 @@
    "learningCurve": "High",
    "expectedLifespanYears": 15,
    "annualMaintenanceCostUSD": 20,
-   "costPerCupUSD": 0.22,
+   "costPerCupUSD": 0.37,
    "scores": {
     "quality": 4,
     "espresso": 4,
@@ -1322,7 +1322,7 @@
    "learningCurve": "Low",
    "expectedLifespanYears": 7,
    "annualMaintenanceCostUSD": 50,
-   "costPerCupUSD": 0.35,
+   "costPerCupUSD": 0.37,
    "scores": {
     "quality": 3,
     "espresso": 3,
@@ -1369,7 +1369,7 @@
    "learningCurve": "High",
    "expectedLifespanYears": 10,
    "annualMaintenanceCostUSD": 50,
-   "costPerCupUSD": 0.2,
+   "costPerCupUSD": 0.37,
    "scores": {
     "quality": 5,
     "espresso": 5,
@@ -1415,7 +1415,7 @@
    "learningCurve": "High",
    "expectedLifespanYears": 20,
    "annualMaintenanceCostUSD": 0,
-   "costPerCupUSD": 0.18,
+   "costPerCupUSD": 0.31,
    "scores": {
     "quality": 5,
     "espresso": 0,
@@ -1461,7 +1461,7 @@
    "learningCurve": "Low",
    "expectedLifespanYears": 10,
    "annualMaintenanceCostUSD": 60,
-   "costPerCupUSD": 0.35,
+   "costPerCupUSD": 0.37,
    "scores": {
     "quality": 4,
     "espresso": 4,
@@ -1507,7 +1507,7 @@
    "learningCurve": "Low",
    "expectedLifespanYears": 8,
    "annualMaintenanceCostUSD": 100,
-   "costPerCupUSD": 0.2,
+   "costPerCupUSD": 0.37,
    "scores": {
     "quality": 5,
     "espresso": 5,
@@ -1553,7 +1553,7 @@
    "learningCurve": "Low",
    "expectedLifespanYears": 10,
    "annualMaintenanceCostUSD": 60,
-   "costPerCupUSD": 0.35,
+   "costPerCupUSD": 0.37,
    "scores": {
     "quality": 4,
     "espresso": 4,
@@ -1602,7 +1602,7 @@
    "learningCurve": "Low",
    "expectedLifespanYears": 12,
    "annualMaintenanceCostUSD": 75,
-   "costPerCupUSD": 0.35,
+   "costPerCupUSD": 0.37,
    "scores": {
     "quality": 4,
     "espresso": 4,
@@ -1653,7 +1653,7 @@
    "learningCurve": "Low",
    "expectedLifespanYears": 12,
    "annualMaintenanceCostUSD": 90,
-   "costPerCupUSD": 0.35,
+   "costPerCupUSD": 0.37,
    "scores": {
     "quality": 5,
     "espresso": 5,
@@ -1698,7 +1698,7 @@
    "learningCurve": "Low",
    "expectedLifespanYears": 15,
    "annualMaintenanceCostUSD": 10,
-   "costPerCupUSD": 0.08,
+   "costPerCupUSD": 0.31,
    "scores": {
     "quality": 4,
     "espresso": null,
@@ -1743,7 +1743,7 @@
    "learningCurve": "None",
    "expectedLifespanYears": 5,
    "annualMaintenanceCostUSD": 15,
-   "costPerCupUSD": 0.65,
+   "costPerCupUSD": 0.55,
    "scores": {
     "quality": 2,
     "espresso": null,
@@ -1789,7 +1789,7 @@
    "learningCurve": "None",
    "expectedLifespanYears": 4,
    "annualMaintenanceCostUSD": 15,
-   "costPerCupUSD": 1.2,
+   "costPerCupUSD": 0.55,
    "scores": {
     "quality": 2,
     "espresso": null,
@@ -1835,7 +1835,7 @@
    "learningCurve": "None",
    "expectedLifespanYears": 4,
    "annualMaintenanceCostUSD": 15,
-   "costPerCupUSD": 1.2,
+   "costPerCupUSD": 0.55,
    "scores": {
     "quality": 2,
     "espresso": null,
@@ -1881,7 +1881,7 @@
    "learningCurve": "High",
    "expectedLifespanYears": 12,
    "annualMaintenanceCostUSD": 60,
-   "costPerCupUSD": 0.3,
+   "costPerCupUSD": 0.37,
    "scores": {
     "quality": 4,
     "espresso": 4,
@@ -1928,7 +1928,7 @@
    "learningCurve": "High",
    "expectedLifespanYears": 15,
    "annualMaintenanceCostUSD": 90,
-   "costPerCupUSD": 0.3,
+   "costPerCupUSD": 0.37,
    "scores": {
     "quality": 5,
     "espresso": 5,
@@ -1975,7 +1975,7 @@
    "learningCurve": "High",
    "expectedLifespanYears": 15,
    "annualMaintenanceCostUSD": 80,
-   "costPerCupUSD": 0.3,
+   "costPerCupUSD": 0.37,
    "scores": {
     "quality": 5,
     "espresso": 5,
@@ -1996,7 +1996,7 @@
    },
    "image": "https://getbrewharbor.com/images/lelit-mara-x.jpg",
    "summary": "HX machine with patented HX management. Considered among best value prosumer machines on the market.",
-   "whoItsFor": "The Mara X just extracts beautifully. Reddit's favourite for serious home baristas under $2k."
+   "whoItsFor": "The Mara X just extracts beautifully. Reddit's favourite for serious home baristas."
   },
   {
    "name": "Melitta Barista TS Smart",
@@ -2022,7 +2022,7 @@
    "learningCurve": "Low",
    "expectedLifespanYears": 7,
    "annualMaintenanceCostUSD": 40,
-   "costPerCupUSD": 0.35,
+   "costPerCupUSD": 0.37,
    "scores": {
     "quality": 3,
     "espresso": 3,
@@ -2069,7 +2069,7 @@
    "learningCurve": "Low",
    "expectedLifespanYears": 12,
    "annualMaintenanceCostUSD": 70,
-   "costPerCupUSD": 0.35,
+   "costPerCupUSD": 0.37,
    "scores": {
     "quality": 4,
     "espresso": 4,
@@ -2114,7 +2114,7 @@
    "learningCurve": "None",
    "expectedLifespanYears": 8,
    "annualMaintenanceCostUSD": 30,
-   "costPerCupUSD": 0.85,
+   "costPerCupUSD": 0.9,
    "scores": {
     "quality": 3,
     "espresso": null,
@@ -2161,7 +2161,7 @@
    "learningCurve": "Low",
    "expectedLifespanYears": 5,
    "annualMaintenanceCostUSD": 30,
-   "costPerCupUSD": 1.2,
+   "costPerCupUSD": 0.9,
    "scores": {
     "quality": 4,
     "espresso": 2,
@@ -2205,7 +2205,7 @@
    "learningCurve": "None",
    "expectedLifespanYears": 8,
    "annualMaintenanceCostUSD": 20,
-   "costPerCupUSD": 0.85,
+   "costPerCupUSD": 0.9,
    "scores": {
     "quality": 2,
     "espresso": null,
@@ -2249,7 +2249,7 @@
    "learningCurve": "None",
    "expectedLifespanYears": 8,
    "annualMaintenanceCostUSD": 25,
-   "costPerCupUSD": 0.85,
+   "costPerCupUSD": 0.9,
    "scores": {
     "quality": 3,
     "espresso": null,
@@ -2340,7 +2340,7 @@
    "learningCurve": "None",
    "expectedLifespanYears": 7,
    "annualMaintenanceCostUSD": 20,
-   "costPerCupUSD": 1,
+   "costPerCupUSD": 1.2,
    "scores": {
     "quality": 2,
     "espresso": null,
@@ -2435,7 +2435,7 @@
    "learningCurve": "Medium",
    "expectedLifespanYears": 8,
    "annualMaintenanceCostUSD": 40,
-   "costPerCupUSD": 0.4,
+   "costPerCupUSD": 0.37,
    "scores": {
     "quality": 3.5,
     "espresso": 4,
@@ -2482,7 +2482,7 @@
    "learningCurve": "Low",
    "expectedLifespanYears": 6,
    "annualMaintenanceCostUSD": 35,
-   "costPerCupUSD": 0.1,
+   "costPerCupUSD": 0.31,
    "scores": {
     "quality": 3,
     "espresso": null,
@@ -2503,7 +2503,7 @@
    },
    "image": "https://getbrewharbor.com/images/ninja-specialty-coffee-maker.jpg",
    "summary": "Multi-brew Ninja with 6 brew styles including classic, rich, over ice, and cold brew concentrate.",
-   "whoItsFor": "Incredibly versatile for a $200 machine. Makes everything from concentrate to iced to classic drip."
+   "whoItsFor": "Incredibly versatile for the price. Makes everything from concentrate to iced to classic drip."
   },
   {
    "name": "OXO Brew 9-Cup",
@@ -2526,7 +2526,7 @@
    "learningCurve": "Low",
    "expectedLifespanYears": 8,
    "annualMaintenanceCostUSD": 50,
-   "costPerCupUSD": 0.1,
+   "costPerCupUSD": 0.31,
    "scores": {
     "quality": 4,
     "espresso": null,
@@ -2572,7 +2572,7 @@
    "learningCurve": "Low",
    "expectedLifespanYears": 6,
    "annualMaintenanceCostUSD": 60,
-   "costPerCupUSD": 0.2,
+   "costPerCupUSD": 0.37,
    "scores": {
     "quality": 3,
     "espresso": null,
@@ -2619,7 +2619,7 @@
    "learningCurve": "Low",
    "expectedLifespanYears": 8,
    "annualMaintenanceCostUSD": 45,
-   "costPerCupUSD": 0.35,
+   "costPerCupUSD": 0.37,
    "scores": {
     "quality": 3,
     "espresso": 3,
@@ -2667,7 +2667,7 @@
    "learningCurve": "Low",
    "expectedLifespanYears": 8,
    "annualMaintenanceCostUSD": 50,
-   "costPerCupUSD": 0.35,
+   "costPerCupUSD": 0.37,
    "scores": {
     "quality": 4,
     "espresso": 3,
@@ -2714,7 +2714,7 @@
    "learningCurve": "High",
    "expectedLifespanYears": 12,
    "annualMaintenanceCostUSD": 70,
-   "costPerCupUSD": 0.3,
+   "costPerCupUSD": 0.37,
    "scores": {
     "quality": 4,
     "espresso": 4,
@@ -2735,7 +2735,7 @@
    },
    "image": "https://getbrewharbor.com/images/profitec-go.jpg",
    "summary": "German-engineered compact single boiler with PID. Profitec build quality punches well above its price.",
-   "whoItsFor": "The build quality on the Profitec Go rivals machines twice the price. Stunning for under $1k."
+   "whoItsFor": "The build quality on the Profitec Go rivals machines twice the price. Stunning for the price."
   },
   {
    "name": "Profitec Pro 500",
@@ -2761,7 +2761,7 @@
    "learningCurve": "High",
    "expectedLifespanYears": 15,
    "annualMaintenanceCostUSD": 80,
-   "costPerCupUSD": 0.3,
+   "costPerCupUSD": 0.37,
    "scores": {
     "quality": 5,
     "espresso": 5,
@@ -2808,7 +2808,7 @@
    "learningCurve": "High",
    "expectedLifespanYears": 15,
    "annualMaintenanceCostUSD": 85,
-   "costPerCupUSD": 0.3,
+   "costPerCupUSD": 0.37,
    "scores": {
     "quality": 5,
     "espresso": 5,
@@ -2855,7 +2855,7 @@
    "learningCurve": "High",
    "expectedLifespanYears": 15,
    "annualMaintenanceCostUSD": 70,
-   "costPerCupUSD": 0.3,
+   "costPerCupUSD": 0.37,
    "scores": {
     "quality": 4,
     "espresso": 4,
@@ -2902,7 +2902,7 @@
    "learningCurve": "High",
    "expectedLifespanYears": 15,
    "annualMaintenanceCostUSD": 75,
-   "costPerCupUSD": 0.3,
+   "costPerCupUSD": 0.37,
    "scores": {
     "quality": 5,
     "espresso": 5,
@@ -2946,7 +2946,7 @@
    "learningCurve": "Low",
    "expectedLifespanYears": 10,
    "annualMaintenanceCostUSD": 50,
-   "costPerCupUSD": 0.1,
+   "costPerCupUSD": 0.31,
    "scores": {
     "quality": 4,
     "espresso": null,
@@ -2990,7 +2990,7 @@
    "learningCurve": "Low",
    "expectedLifespanYears": 10,
    "annualMaintenanceCostUSD": 40,
-   "costPerCupUSD": 0.1,
+   "costPerCupUSD": 0.31,
    "scores": {
     "quality": 4,
     "espresso": null,
@@ -3037,7 +3037,7 @@
    "learningCurve": "High",
    "expectedLifespanYears": 15,
    "annualMaintenanceCostUSD": 80,
-   "costPerCupUSD": 0.3,
+   "costPerCupUSD": 0.37,
    "scores": {
     "quality": 5,
     "espresso": 5,
@@ -3086,7 +3086,7 @@
    "learningCurve": "Low",
    "expectedLifespanYears": 10,
    "annualMaintenanceCostUSD": 80,
-   "costPerCupUSD": 0.35,
+   "costPerCupUSD": 0.37,
    "scores": {
     "quality": 4,
     "espresso": 4,
@@ -3131,7 +3131,7 @@
    "learningCurve": "None",
    "expectedLifespanYears": 15,
    "annualMaintenanceCostUSD": 20,
-   "costPerCupUSD": 0.18,
+   "costPerCupUSD": 0.31,
    "scores": {
     "quality": 4,
     "espresso": null,
