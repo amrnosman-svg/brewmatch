@@ -352,6 +352,39 @@
     .trust-bar { gap: 12px; }
   }
 
+
+  /* ── Results page v2: one recommendation, close alternatives, the rest on demand ── */
+  .results-topbar { background: transparent; max-width: 560px; margin: 0 auto; padding: 10px 20px 0; display: flex; justify-content: flex-end; }
+  .refine-btn { background: none; border: none; color: var(--dark-grey); font-size: 14px; text-decoration: underline; text-underline-offset: 3px; padding: 12px 0; border-radius: 0; }
+  .refine-btn:hover { background: none; color: #b04a26; }
+  .results-inner { padding: 8px 20px 80px; }
+  .rec-card { max-width: 560px; margin: 8px auto 0; background: #fff; border: 1px solid var(--light-grey); border-radius: 20px; padding: 18px 18px 20px; display: flex; flex-direction: column; gap: 14px; }
+  .rec-card-img { width: 100%; height: 200px; display: flex; align-items: center; justify-content: center; background: #fff; border-radius: 12px; }
+  .rec-card-img img { max-width: 100%; max-height: 100%; object-fit: contain; }
+  .rec-card h2 { margin: 0; font-family: 'Cormorant Garamond', serif; font-size: 36px; line-height: 1.05; font-weight: 600; color: var(--black); }
+  .rec-reason { margin: 0; font-size: 16px; line-height: 1.55; color: var(--dark-grey); }
+  .rec-facts { display: flex; padding: 6px 0 4px; }
+  .rec-fact { flex: 1; padding-left: 14px; border-left: 1px solid var(--light-grey); display: flex; flex-direction: column; gap: 2px; }
+  .rec-fact:first-child { border-left: none; padding-left: 0; }
+  .rec-fact b { font-family: 'Cormorant Garamond', serif; font-size: 30px; font-weight: 600; line-height: 1.1; color: var(--black); }
+  .rec-fact span { font-size: 12px; color: var(--mid-grey); }
+  .rec-cta { display: flex; align-items: center; justify-content: center; height: 52px; border-radius: 12px; background: #b04a26; color: #fff; font-size: 16px; font-weight: 500; text-decoration: none; }
+  .rec-cta:hover { background: #8f3b1c; }
+  .rec-fine { margin: 0; font-size: 12px; line-height: 1.5; color: var(--mid-grey); }
+  .alt-section { max-width: 560px; margin: 32px auto 0; }
+  .alt-heading { margin: 0 0 6px; font-family: 'Cormorant Garamond', serif; font-size: 27px; font-weight: 600; color: var(--black); }
+  .alt-heading-2 { margin-top: 24px; }
+  .alt-row { display: flex; align-items: center; gap: 14px; padding: 14px 0; border-top: 1px solid var(--light-grey); text-decoration: none; color: var(--black); }
+  .alt-row:hover .alt-name { text-decoration: underline; }
+  .alt-thumb { width: 56px; height: 56px; flex-shrink: 0; display: flex; align-items: center; justify-content: center; background: #fff; border: 1px solid var(--light-grey); border-radius: 10px; font-size: 26px; overflow: hidden; }
+  .alt-thumb img { width: 100%; height: 100%; object-fit: contain; }
+  .alt-text { flex: 1; display: flex; flex-direction: column; gap: 3px; min-width: 0; }
+  .alt-name { font-size: 16px; font-weight: 500; line-height: 1.3; }
+  .alt-line { font-size: 14px; line-height: 1.45; color: var(--dark-grey); }
+  .alt-price { font-family: 'Cormorant Garamond', serif; font-size: 24px; font-weight: 600; flex-shrink: 0; }
+  .compare-all-btn { display: flex; align-items: center; justify-content: center; width: 100%; max-width: 560px; height: 48px; margin: 24px auto 0; background: transparent; border: 1.5px solid var(--black); border-radius: 12px; color: var(--black); font-family: 'Outfit', sans-serif; font-size: 15px; font-weight: 500; cursor: pointer; }
+  .compare-all-btn:hover { background: var(--black); color: #fff; }
+  #fullComparison { margin-top: 32px; }
 </style>
 </head>
 <body>
@@ -584,22 +617,21 @@
     <button class="how-we-score-link" onclick="document.getElementById('scoreModal').classList.add('active');document.body.style.overflow='hidden'">How we score ↗</button>
   </div>
   <div class="results-topbar">
-    <p>Results matched to your preferences</p>
     <button class="refine-btn" onclick="resetQuiz()">Start again</button>
   </div>
   <div class="results-inner">
-    <p class="section-heading">Your best match</p>
-    <div class="recommendation-banner" id="recBanner"></div>
-    <div id="luxuryBanner"></div>
-    <p class="grid-heading">All <em>matched machines</em></p>
-    <div class="filter-pills" id="filterPills" style="display:none"></div>
-    <div class="cards-grid" id="cardsGrid"></div>
+    <div class="rec-card" id="recBanner"></div>
+    <div class="alt-section" id="altSection"></div>
+    <button class="compare-all-btn" id="compareAllBtn" type="button" onclick="toggleFullComparison()" aria-expanded="false" aria-controls="fullComparison">See the full comparison</button>
+    <div id="fullComparison" style="display:none">
+      <div class="filter-pills" id="filterPills" style="display:none"></div>
+      <div class="cards-grid" id="cardsGrid"></div>
+    </div>
     <p class="affiliate-note">As an Amazon Associate I earn from qualifying purchases. This never changes which machines we recommend.</p>
 
     <!-- ── Feedback widget ─────────────────────────────────────────────── -->
-    <div id="feedbackWidget" style="max-width:640px;margin:40px auto;padding:24px 28px;background:#faf8f4;border:1px solid #e5e0d8;border-radius:8px;text-align:center;">
-      <div style="font-family:'Cormorant Garamond',serif;font-size:20px;font-weight:600;margin-bottom:6px;">Did these results feel right?</div>
-      <div style="font-size:12px;color:#888;margin-bottom:18px;">Takes 2 seconds — helps us improve the matching</div>
+    <div id="feedbackWidget" style="max-width:640px;margin:40px auto;padding:24px 28px;background:transparent;border:none;text-align:center;">
+      <div style="font-size:15px;color:#5f5547;margin-bottom:12px;">Was this right?</div>
       <div id="feedbackButtons" style="display:flex;gap:12px;justify-content:center;">
         <button onclick="submitFeedback('yes')" style="padding:10px 28px;background:#111;color:#fff;border:none;border-radius:4px;font-family:'Outfit',sans-serif;font-size:13px;cursor:pointer;">👍  Yes, spot on</button>
         <button onclick="submitFeedback('no')" style="padding:10px 28px;background:transparent;color:#111;border:1px solid #111;border-radius:4px;font-family:'Outfit',sans-serif;font-size:13px;cursor:pointer;">👎  Not quite</button>
@@ -5168,61 +5200,64 @@ function showResults() {
       ? `<img src="${top.m.imageUrl}" alt="${top.m.name || ''}" style="max-height:190px;max-width:90%;object-fit:contain;display:block;">`
       : `<span style="font-size:90px">${top.m.emoji || '☕'}</span>`;
 
-    document.getElementById('recBanner').innerHTML = `
-      <div class="rec-img-panel">
-        <span class="rec-best-pill">★ Best overall match</span>
-        ${recImgHtml}
-      </div>
-      <div class="rec-body">
-        <div class="rec-category">${top.m.category || ''} · Learning curve: ${top.m.learningCurve || '—'}</div>
-        <div class="rec-name">${top.m.name || ''}</div>
-        ${topReasons.length ? `<div class="rec-why"><strong>Our notes</strong> ${topReasons.slice(0, 3).join(' · ')}</div>` : ''}
-        <div class="rec-desc">${top.m.description || ''}</div>
-      </div>
-      <div class="rec-action">
-        <div class="match-score-display">
-          <div class="match-score-num">${top.result.score}</div>
-          <div class="match-score-label">Match score</div>
-        </div>
-        <div class="rec-price">${priceBandHtml(top.m)}</div>
-        <div class="rec-tco">
-          Daily coffee: <strong>$${tco.dailyCoffeeCost}</strong><br>
-          Annual coffee: <strong>$${tco.annualCoffeeCost}</strong><br>
-          Full annual TCO: <strong>${sym}${tco.fullAnnualTCO}</strong><br>
-          <span style="font-size:10px;opacity:0.6;">est. retail price ÷ ${top.m.expectedLifespanYears||5}yr + $${top.m.maintenanceAnnualCost||0}/yr maint. + coffee</span>
-        </div>
-        <a class="rec-buy-btn" href="${getLink(top.m)}" target="_blank" rel="sponsored nofollow noopener" onclick="trackBuyClick('${jsq(top.m.name)}')">Check price on Amazon</a>
-      </div>`;
+    // ── Results v2: one recommendation, close alternatives, the full comparison on demand ──
+    const escHtml = t => String(t == null ? '' : t).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+    const money = n => (isFinite(n) ? sym + Math.round(n).toLocaleString() : '—');
+    const mSlug = n => String(n || '').toLowerCase().replace(/['’]/g, '').replace(/&/g, ' and ').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+    // Engine phrases are fragments, so keep them as short separate sentences
+    const reasonText = topReasons.slice(0, 3).map(r => (/[.!?]$/.test(r) ? r : r + '.')).join(' ');
+    const topPrice = getPrice(top.m);
+    const topLife = top.m.expectedLifespanYears;
 
-    // Luxury alternative: best machine 15–40% above budget
+    document.getElementById('recBanner').innerHTML = `
+      <div class="rec-card-img">${top.m.imageUrl ? `<img src="${top.m.imageUrl}" alt="${escHtml(top.m.name)}">` : `<span style="font-size:72px">${top.m.emoji || '☕'}</span>`}</div>
+      <h2>${escHtml(top.m.name)}</h2>
+      ${reasonText ? `<p class="rec-reason">${escHtml(reasonText)}</p>` : ''}
+      <div class="rec-facts">
+        <div class="rec-fact"><b>${money(topPrice)}</b><span>Price</span></div>
+        <div class="rec-fact"><b>${sym}${tco.fullAnnualTCO}</b><span>A year to own</span></div>
+        ${topLife ? `<div class="rec-fact"><b>${topLife} yrs</b><span>Expected life</span></div>` : ''}
+      </div>
+      <a class="rec-cta" href="${getLink(top.m)}" target="_blank" rel="sponsored nofollow noopener" onclick="trackBuyClick('${jsq(top.m.name)}')">Check price on Amazon</a>
+      <p class="rec-fine">Price is an estimate. Cost to own is the price spread over its expected life, plus upkeep and about $${tco.dailyCoffeeCost} a day in beans.</p>`;
+
+    const altLine = alt => {
+      const parts = [];
+      const d = Math.round(getPrice(alt.m) - topPrice);
+      if (isFinite(d) && Math.abs(d) >= 10) parts.push(`About ${sym}${Math.abs(d).toLocaleString()} ${d > 0 ? 'more' : 'less'}.`);
+      const miss = (alt.result.misses || [])[0];
+      if (miss) parts.push(/[.!?]$/.test(miss) ? miss : miss + '.');
+      else {
+        const extra = (alt.result.reasons || []).find(r => !topReasons.includes(r));
+        if (extra) parts.push(/[.!?]$/.test(extra) ? extra : extra + '.');
+      }
+      return parts.join(' ');
+    };
+    const altRow = (m, line) => `
+      <a class="alt-row" href="/machines/${mSlug(m.name)}/" target="_blank" rel="noopener" onclick="bm_track('alternative_click', { machine_name: '${jsq(m.name)}' })">
+        <span class="alt-thumb">${m.imageUrl ? `<img src="${m.imageUrl}" alt="">` : '☕'}</span>
+        <span class="alt-text"><span class="alt-name">${escHtml(m.name)}</span><span class="alt-line">${escHtml(line)}</span></span>
+        <span class="alt-price">${money(getPrice(m))}</span>
+      </a>`;
+
+    const alts = display.slice(1, 3);
+    let altHtml = '';
+    if (alts.length) altHtml += `<h2 class="alt-heading">Close alternatives</h2>` + alts.map(a => altRow(a.m, altLine(a))).join('');
+
+    // Step-up option: best machine 15–40% above budget
     const luxuryBudget = (userAnswers.budget || 500) * 1.4;
     const luxuryAlt = machines
       .filter(m => { const p = getPrice(m); return p > (userAnswers.budget || 500) && p <= luxuryBudget; })
       .map(m => ({ m, result: scoreMachine(m, qualityCeiling, bestAnnualTCO) }))
       .filter(x => x.result !== null)
       .sort((a, b) => b.result.score - a.result.score)[0];
-
-    const luxuryEl = document.getElementById('luxuryBanner');
-    if (luxuryAlt) {
+    if (luxuryAlt && !alts.some(a => a.m.name === luxuryAlt.m.name) && luxuryAlt.m.name !== top.m.name) {
       const lm = luxuryAlt.m;
-      const lp = getPrice(lm);
-      const stretch = lp - (userAnswers.budget || 500);
-      luxuryEl.innerHTML = `<div class="luxury-banner">
-        ${lm.imageUrl ? `<img class="luxury-img" src="${lm.imageUrl}" alt="${lm.name}">` : ''}
-        <div class="luxury-info">
-          <div class="luxury-label">A step further · ${stretch > 0 ? 'a little above your budget' : 'within budget'}</div>
-          <div class="luxury-name">${lm.name}</div>
-          <div class="luxury-desc">${lm.description}</div>
-          <div class="luxury-stretch">Many buyers stretch budget slightly for a significantly better machine</div>
-        </div>
-        <div style="display:flex;flex-direction:column;align-items:flex-end;gap:8px;flex-shrink:0;">
-          <div class="luxury-price">${priceBandHtml(lm)}</div>
-          <a class="luxury-btn" href="${getLink(lm)}" target="_blank" rel="sponsored nofollow noopener" onclick="trackBuyClick('${jsq(lm.name)}')">Check price on Amazon</a>
-        </div>
-      </div>`;
-    } else {
-      luxuryEl.innerHTML = '';
+      const firstSentence = (String(lm.description || '').match(/^.*?[.!?](?=\s|$)/) || [lm.description || ''])[0];
+      const lline = [firstSentence, `About ${sym}${calcTCO(lm).fullAnnualTCO} a year to own.`].filter(Boolean).join(' ');
+      altHtml += `<h2 class="alt-heading alt-heading-2">If you can spend more</h2>` + altRow(lm, lline);
     }
+    document.getElementById('altSection').innerHTML = altHtml;
 
     // Reset compare state
     compareList = [];
@@ -5264,6 +5299,10 @@ function showResults() {
     } else {
       pillsEl.style.display = 'none';
     }
+    document.getElementById('fullComparison').style.display = 'none';
+    const cmpBtn = document.getElementById('compareAllBtn');
+    cmpBtn.textContent = 'See the full comparison'; cmpBtn.setAttribute('aria-expanded', 'false');
+    cmpBtn.style.display = display.length > 1 ? 'flex' : 'none';
     document.getElementById('quizSection').style.display = 'none';
     document.getElementById('results').style.display = 'block';
     // Force instant scroll to top — smooth causes the "scrolls down" issue
@@ -5276,6 +5315,19 @@ function showResults() {
 }
 
 // ─── GO HOME — nav logo click ─────────────────────────────────────────────────
+function toggleFullComparison() {
+  const box = document.getElementById('fullComparison');
+  const btn = document.getElementById('compareAllBtn');
+  const open = box.style.display === 'none';
+  box.style.display = open ? 'block' : 'none';
+  btn.textContent = open ? 'Hide the full comparison' : 'See the full comparison';
+  btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+  if (open) {
+    if (typeof bm_track === 'function') bm_track('full_comparison_open', { region: (userAnswers && userAnswers.region) || 'us' });
+    box.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
+}
+
 function goHome() {
   // Reset all state
   userAnswers = { drinks: [], effort: null, coffeeType: null, maintenance: null, tempImportance: null, cups: 2, budget: 1000, region: 'us', priorities: [] };
