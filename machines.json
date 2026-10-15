@@ -168,7 +168,7 @@
    "brand": "Bodum",
    "url": "https://getbrewharbor.com/machines/bodum-chambord-press/",
    "category": "Manual",
-   "automation": "Minimal Effort",
+   "automation": "Some Involvement",
    "milkSystem": "None",
    "drinks": [
     "filter",
@@ -1189,7 +1189,7 @@
    "brand": "Fellow",
    "url": "https://getbrewharbor.com/machines/fellow-clara-press/",
    "category": "Manual",
-   "automation": "Minimal Effort",
+   "automation": "Some Involvement",
    "milkSystem": "None",
    "drinks": [
     "filter",
