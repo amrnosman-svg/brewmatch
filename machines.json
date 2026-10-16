@@ -119,8 +119,8 @@
     "ground"
    ],
    "compact": false,
-   "widthInches": null,
-   "maxBrewTempC": null,
+   "widthInches": 10.6,
+   "maxBrewTempC": 94,
    "maintenanceLevel": "High",
    "learningCurve": "High",
    "expectedLifespanYears": 12,
@@ -135,8 +135,8 @@
     "eco": 4,
     "repair": 4
    },
-   "priceTier": "Premium",
-   "priceTierLevel": 4,
+   "priceTier": "Prosumer",
+   "priceTierLevel": 5,
    "buyLinks": {
     "us": "https://www.amazon.com/s?k=ascaso+steel+duo+pid",
     "ca": "https://www.amazon.ca/s?k=ascaso+steel+duo+pid",
@@ -163,8 +163,8 @@
     "ground"
    ],
    "compact": true,
-   "widthInches": null,
-   "maxBrewTempC": null,
+   "widthInches": 4,
+   "maxBrewTempC": 97,
    "maintenanceLevel": "low",
    "learningCurve": "Medium",
    "expectedLifespanYears": 15,
@@ -184,7 +184,7 @@
    "buyLinks": {
     "us": "https://www.amazon.com/s?k=bialetti+moka+express"
    },
-   "image": null,
+   "image": "https://getbrewharbor.com/images/bialetti-moka-express.jpg",
    "summary": "Classic aluminium stovetop brewer that makes strong, espresso-style coffee without electricity.",
    "whoItsFor": "Buy this if you want a cheap, durable way to get strong coffee and do not need real espresso pressure or milk foam. It takes a little attention at the stove."
   },
@@ -263,8 +263,8 @@
     "eco": 3,
     "repair": 3
    },
-   "priceTier": "Budget",
-   "priceTierLevel": 1,
+   "priceTier": "Mid-range",
+   "priceTierLevel": 2,
    "buyLinks": {
     "us": "https://www.amazon.com/s?k=bonavita+8+cup+coffee",
     "ca": "https://www.amazon.ca/s?k=bonavita+8+cup+coffee",
@@ -293,8 +293,8 @@
     "beans"
    ],
    "compact": false,
-   "widthInches": null,
-   "maxBrewTempC": null,
+   "widthInches": 12.19,
+   "maxBrewTempC": 96,
    "maintenanceLevel": "Low",
    "learningCurve": "Low",
    "expectedLifespanYears": 9,
@@ -340,7 +340,7 @@
    ],
    "compact": true,
    "widthInches": 7.7,
-   "maxBrewTempC": null,
+   "maxBrewTempC": 89,
    "maintenanceLevel": "medium",
    "learningCurve": "Medium",
    "expectedLifespanYears": 6,
@@ -360,7 +360,7 @@
    "buyLinks": {
     "us": "https://www.amazon.com/s?k=breville+bambino+espresso"
    },
-   "image": null,
+   "image": "https://getbrewharbor.com/images/breville-bambino.jpg",
    "summary": "Compact semi-automatic with 3-second ThermoJet heat-up and a manual steam wand. Real espresso in a footprint under 8 inches wide.",
    "whoItsFor": "Buy this if you want real espresso at home on a small budget and don't mind steaming milk by hand. You will need a separate grinder, and a good one matters more than the machine."
   },
@@ -473,8 +473,8 @@
     "any"
    ],
    "compact": false,
-   "widthInches": null,
-   "maxBrewTempC": null,
+   "widthInches": 12.9,
+   "maxBrewTempC": 91,
    "maintenanceLevel": "medium",
    "learningCurve": "Medium",
    "expectedLifespanYears": 7,
@@ -494,7 +494,7 @@
    "buyLinks": {
     "us": "https://www.amazon.com/s?k=breville+barista+express+impress"
    },
-   "image": null,
+   "image": "https://getbrewharbor.com/images/breville-barista-express-impress.jpg",
    "summary": "All-in-one semi-automatic with a built-in conical burr grinder and Breville's assisted tamping, so the grind, dose and tamp are largely handled for you.",
    "whoItsFor": "Buy this if you want fresh-ground espresso from a single machine without learning to tamp. Assisted tamping removes a common beginner mistake. You still steam milk by hand."
   },
@@ -626,8 +626,8 @@
     "eco": 3,
     "repair": 3
    },
-   "priceTier": "Upper mid-range",
-   "priceTierLevel": 3,
+   "priceTier": "Premium",
+   "priceTierLevel": 4,
    "buyLinks": {
     "us": "https://www.amazon.com/s?k=breville+barista+touch+impress",
     "ca": "https://www.amazon.ca/s?k=breville+barista+touch+impress",
@@ -703,8 +703,8 @@
     "ground"
    ],
    "compact": false,
-   "widthInches": null,
-   "maxBrewTempC": null,
+   "widthInches": 14.65,
+   "maxBrewTempC": 98,
    "maintenanceLevel": "low",
    "learningCurve": "Low",
    "expectedLifespanYears": 8,
@@ -724,7 +724,7 @@
    "buyLinks": {
     "us": "https://www.amazon.com/s?k=breville+luxe+brewer"
    },
-   "image": null,
+   "image": "https://getbrewharbor.com/images/breville-luxe-brewer.jpg",
    "summary": "SCA-certified drip brewer from Breville with a removable water tank, a thermal or glass carafe, and modes for gold-cup, iced and cold brew.",
    "whoItsFor": "Buy this if you want fast, consistent drip with more control than a basic machine, and cold brew from the same brewer. It is the newer version of the Precision Brewer."
   },
@@ -750,7 +750,7 @@
    ],
    "compact": false,
    "widthInches": 19.2,
-   "maxBrewTempC": null,
+   "maxBrewTempC": 94,
    "maintenanceLevel": "medium",
    "learningCurve": "Low",
    "expectedLifespanYears": 8,
@@ -771,7 +771,7 @@
     "us": "https://www.amazon.com/s?k=breville+oracle+jet",
     "au": "https://www.amazon.com.au/s?k=breville+oracle+jet"
    },
-   "image": null,
+   "image": "https://getbrewharbor.com/images/breville-oracle-jet.jpg",
    "summary": "Breville's flagship automated espresso machine: it grinds, doses, tamps and steams milk for you, with a touchscreen and cold brew and cold espresso settings.",
    "whoItsFor": "Buy this if you want cafe-style drinks with very little skill and have the counter space and the budget. It is one of the widest machines in the catalog."
   },
@@ -838,8 +838,8 @@
     "any"
    ],
    "compact": true,
-   "widthInches": null,
-   "maxBrewTempC": null,
+   "widthInches": 5.7,
+   "maxBrewTempC": 96,
    "maintenanceLevel": "medium",
    "learningCurve": "Medium",
    "expectedLifespanYears": 4,
@@ -859,7 +859,7 @@
    "buyLinks": {
     "us": "https://www.amazon.com/s?k=casabrews+3700+essential"
    },
-   "image": null,
+   "image": "https://getbrewharbor.com/images/casabrews-3700-essential.jpg",
    "summary": "Budget compact espresso machine with a steam wand and a larger water tank.",
    "whoItsFor": "Buy this if you want the lowest-cost way into espresso. One review found it performs almost identically to the CM5418 for less money."
   },
@@ -881,7 +881,7 @@
    ],
    "compact": true,
    "widthInches": 5.9,
-   "maxBrewTempC": null,
+   "maxBrewTempC": 96,
    "maintenanceLevel": "medium",
    "learningCurve": "Medium",
    "expectedLifespanYears": 4,
@@ -901,7 +901,7 @@
    "buyLinks": {
     "us": "https://www.amazon.com/s?k=casabrews+cm5418"
    },
-   "image": null,
+   "image": "https://getbrewharbor.com/images/casabrews-cm5418.jpg",
    "summary": "Very compact budget espresso machine with a pressure gauge and a manual steam wand.",
    "whoItsFor": "Buy this if you want to try real espresso for very little money. Expect plastic parts and a learning curve, and plan to buy a separate grinder."
   },
@@ -1012,7 +1012,7 @@
    ],
    "compact": true,
    "widthInches": 5.9,
-   "maxBrewTempC": null,
+   "maxBrewTempC": 96,
    "maintenanceLevel": "medium",
    "learningCurve": "Medium",
    "expectedLifespanYears": 5,
@@ -1032,7 +1032,7 @@
    "buyLinks": {
     "us": "https://www.amazon.com/s?k=delonghi+dedica+duo"
    },
-   "image": null,
+   "image": "https://getbrewharbor.com/images/delonghi-dedica-duo.jpg",
    "summary": "Slim 15-bar espresso machine under 6 inches wide with a manual steam wand and a choice of pressurized or standard baskets.",
    "whoItsFor": "Buy this if you have a tiny counter and a small budget and want real espresso. You will want a separate grinder and the learning curve is real, but it is hard to find a narrower machine."
   },
@@ -1199,8 +1199,8 @@
     "any"
    ],
    "compact": false,
-   "widthInches": null,
-   "maxBrewTempC": null,
+   "widthInches": 15,
+   "maxBrewTempC": 93,
    "maintenanceLevel": "medium",
    "learningCurve": "Medium",
    "expectedLifespanYears": 8,
@@ -1220,7 +1220,7 @@
    "buyLinks": {
     "us": "https://www.amazon.com/s?k=delonghi+la+specialista+opera"
    },
-   "image": null,
+   "image": "https://getbrewharbor.com/images/delonghi-la-specialista-opera.jpg",
    "summary": "Semi-automatic with a built-in grinder, a tamping station and a cool-touch steam wand, plus a cold brew mode and cold-extraction recipes.",
    "whoItsFor": "Buy this if you want a guided all-in-one espresso machine that can also make cold brew. It rewards a little practice with milk, and it needs real counter space."
   },
@@ -1304,8 +1304,8 @@
     "eco": 2,
     "repair": 2
    },
-   "priceTier": "Mid-range",
-   "priceTierLevel": 2,
+   "priceTier": "Upper mid-range",
+   "priceTierLevel": 3,
    "buyLinks": {
     "us": "https://www.amazon.com/s?k=delonghi+magnifica+evo",
     "ca": "https://www.amazon.ca/s?k=delonghi+magnifica+evo",
@@ -1334,8 +1334,8 @@
     "any"
    ],
    "compact": false,
-   "widthInches": null,
-   "maxBrewTempC": null,
+   "widthInches": 9.25,
+   "maxBrewTempC": 86,
    "maintenanceLevel": "medium",
    "learningCurve": "Low",
    "expectedLifespanYears": 6,
@@ -1355,7 +1355,7 @@
    "buyLinks": {
     "us": "https://www.amazon.com/s?k=delonghi+magnifica+start"
    },
-   "image": null,
+   "image": "https://getbrewharbor.com/images/delonghi-magnifica-start.jpg",
    "summary": "Entry-level De'Longhi super-automatic with a built-in grinder and a short list of one-touch drinks.",
    "whoItsFor": "Buy this if you are moving up from pods and want fresh beans without a big spend. It makes fewer drinks than the Magnifica Evo, so it suits people who mostly drink espresso or americano."
   },
@@ -1423,8 +1423,8 @@
     "ground"
    ],
    "compact": false,
-   "widthInches": null,
-   "maxBrewTempC": null,
+   "widthInches": 9.84,
+   "maxBrewTempC": 96,
    "maintenanceLevel": "High",
    "learningCurve": "High",
    "expectedLifespanYears": 15,
@@ -1576,8 +1576,8 @@
     "eco": 4,
     "repair": 4
    },
-   "priceTier": "Upper mid-range",
-   "priceTierLevel": 3,
+   "priceTier": "Premium",
+   "priceTierLevel": 4,
    "buyLinks": {
     "us": "https://www.amazon.com/s?k=fellow+espresso+series+1",
     "ca": "https://www.amazon.ca/s?k=fellow+espresso+series+1",
@@ -1943,8 +1943,8 @@
     "eco": 2,
     "repair": 2
    },
-   "priceTier": "Premium",
-   "priceTierLevel": 4,
+   "priceTier": "Prosumer",
+   "priceTierLevel": 5,
    "buyLinks": {
     "us": "https://www.amazon.com/s?k=jura+e8",
     "ca": "https://www.amazon.ca/s?k=jura+e8",
@@ -1989,8 +1989,8 @@
     "eco": 3,
     "repair": 3
    },
-   "priceTier": "Premium",
-   "priceTierLevel": 4,
+   "priceTier": "Prosumer",
+   "priceTierLevel": 5,
    "buyLinks": {
     "us": "https://www.amazon.com/s?k=jura+ena+8",
     "ca": "https://www.amazon.ca/s?k=jura+ena+8",
@@ -2038,8 +2038,8 @@
     "eco": 3,
     "repair": 3
    },
-   "priceTier": "Premium",
-   "priceTierLevel": 4,
+   "priceTier": "Prosumer",
+   "priceTierLevel": 5,
    "buyLinks": {
     "us": "https://www.amazon.com/s?k=jura+s8",
     "ca": "https://www.amazon.ca/s?k=jura+s8",
@@ -2164,8 +2164,8 @@
     "pods"
    ],
    "compact": false,
-   "widthInches": null,
-   "maxBrewTempC": null,
+   "widthInches": 11,
+   "maxBrewTempC": 97,
    "maintenanceLevel": "low",
    "learningCurve": "None",
    "expectedLifespanYears": 5,
@@ -2185,7 +2185,7 @@
    "buyLinks": {
     "us": "https://www.amazon.com/s?k=keurig+k-cafe+smart"
    },
-   "image": null,
+   "image": "https://getbrewharbor.com/images/keurig-k-cafe-smart.jpg",
    "summary": "Keurig brewer with a built-in frother for lattes and cappuccinos, plus Smart connectivity and a choice of cup sizes.",
    "whoItsFor": "Buy this if your household already drinks K-Cups and wants milk drinks without a second appliance. It performs well in Consumer Reports' tests."
   },
@@ -2295,8 +2295,8 @@
     "pods"
    ],
    "compact": true,
-   "widthInches": null,
-   "maxBrewTempC": null,
+   "widthInches": 4.5,
+   "maxBrewTempC": 86,
    "maintenanceLevel": "low",
    "learningCurve": "None",
    "expectedLifespanYears": 5,
@@ -2316,7 +2316,7 @@
    "buyLinks": {
     "us": "https://www.amazon.com/s?k=keurig+k-mini"
    },
-   "image": null,
+   "image": "https://getbrewharbor.com/images/keurig-k-mini.jpg",
    "summary": "Ultra-slim single-cup Keurig, under 5 inches wide, with a one-cup reservoir and cord storage.",
    "whoItsFor": "Buy this for a dorm, office desk or tiny kitchen where space is the main constraint. You refill the reservoir for every cup."
   },
@@ -2525,8 +2525,8 @@
     "beans"
    ],
    "compact": false,
-   "widthInches": null,
-   "maxBrewTempC": null,
+   "widthInches": 10.2,
+   "maxBrewTempC": 95,
    "maintenanceLevel": "Low",
    "learningCurve": "Low",
    "expectedLifespanYears": 7,
@@ -2724,8 +2724,8 @@
     "eco": 1,
     "repair": 1
    },
-   "priceTier": "Budget",
-   "priceTierLevel": 1,
+   "priceTier": "Mid-range",
+   "priceTierLevel": 2,
    "buyLinks": {
     "us": "https://www.amazon.com/s?k=nespresso+essenza+mini",
     "ca": "https://www.amazon.ca/s?k=nespresso+essenza+mini",
@@ -2800,7 +2800,7 @@
    ],
    "compact": true,
    "widthInches": 7.5,
-   "maxBrewTempC": null,
+   "maxBrewTempC": 83,
    "maintenanceLevel": "medium",
    "learningCurve": "None",
    "expectedLifespanYears": 5,
@@ -2820,7 +2820,7 @@
    "buyLinks": {
     "us": "https://www.amazon.com/s?k=nespresso+vertuo+lattissima"
    },
-   "image": null,
+   "image": "https://getbrewharbor.com/images/nespresso-vertuo-lattissima.jpg",
    "summary": "Vertuo machine with an integrated milk system for one-touch lattes and cappuccinos, and a wide range of cup sizes.",
    "whoItsFor": "Buy this if you want cafe-style milk drinks and big mugs of coffee with zero effort. Pods are Nespresso-only, so check the running costs."
   },
@@ -2858,8 +2858,8 @@
     "eco": 1,
     "repair": 1
    },
-   "priceTier": "Budget",
-   "priceTierLevel": 1,
+   "priceTier": "Mid-range",
+   "priceTierLevel": 2,
    "buyLinks": {
     "us": "https://www.amazon.com/s?k=nespresso+vertuo+next",
     "ca": "https://www.amazon.ca/s?k=nespresso+vertuo+next",
@@ -2932,7 +2932,7 @@
    ],
    "compact": true,
    "widthInches": 8.6,
-   "maxBrewTempC": null,
+   "maxBrewTempC": 83,
    "maintenanceLevel": "low",
    "learningCurve": "None",
    "expectedLifespanYears": 5,
@@ -2953,7 +2953,7 @@
     "us": "https://www.amazon.com/s?k=nespresso+vertuo+pop+plus",
     "ca": "https://www.amazon.ca/s?k=nespresso+vertuo+pop+plus"
    },
-   "image": null,
+   "image": "https://getbrewharbor.com/images/nespresso-vertuo-pop-plus.jpg",
    "summary": "Compact Vertuo machine with a larger removable water tank and Bluetooth and Wi-Fi, brewing five sizes from espresso to alto.",
    "whoItsFor": "Buy this if you want the simplest pod coffee in a small footprint and accept that Vertuo pods cost more per cup than most options."
   },
@@ -3048,7 +3048,7 @@
     "eu": "https://www.amazon.de/s?k=Ninja+Luxe+Cafe+Premier+ES601",
     "au": "https://www.amazon.com.au/s?k=Ninja+Luxe+Cafe+Premier+ES601"
    },
-   "image": null,
+   "image": "https://getbrewharbor.com/images/ninja-luxe-cafe-premier.jpg",
    "summary": "The #1 best-selling espresso maker in the US (2025). 3-in-1 bean-to-cup brewing espresso, drip and cold brew. Barista Assist guides grind size and auto-adjusts pressure and temperature.",
    "whoItsFor": "Buy this if you want whole-bean freshness without the learning curve. The Barista Assist technology genuinely removes the guesswork — dial in grind size once and it handles the rest. Cold brew and drip coffee are bonuses that most espresso machines don't offer."
   },
@@ -3086,8 +3086,8 @@
     "eco": 3,
     "repair": 3
    },
-   "priceTier": "Mid-range",
-   "priceTierLevel": 2,
+   "priceTier": "Budget",
+   "priceTierLevel": 1,
    "buyLinks": {
     "us": "https://www.amazon.com/s?k=ninja+specialty+coffee+maker",
     "ca": "https://www.amazon.ca/s?k=ninja+specialty+coffee+maker",
@@ -3190,9 +3190,9 @@
    "whoItsFor": "Buy this if low maintenance is non-negotiable. The LatteGo milk system has zero tubes — it rinses in 15 seconds or goes in the dishwasher."
   },
   {
-   "name": "Philips 4300 LatteGo",
+   "name": "Philips 4400 LatteGo",
    "brand": "Philips",
-   "url": "https://getbrewharbor.com/machines/philips-4300-lattego/",
+   "url": "https://getbrewharbor.com/machines/philips-4400-lattego/",
    "category": "Super-Automatic",
    "automation": "High Automation",
    "milkSystem": "Auto Frother",
@@ -3201,14 +3201,15 @@
     "latte",
     "cappuccino",
     "americano",
-    "flat white"
+    "flat white",
+    "cold"
    ],
    "coffeeTypes": [
     "beans"
    ],
    "compact": false,
-   "widthInches": 11,
-   "maxBrewTempC": 93,
+   "widthInches": null,
+   "maxBrewTempC": null,
    "maintenanceLevel": "Low",
    "learningCurve": "Low",
    "expectedLifespanYears": 8,
@@ -3226,20 +3227,20 @@
    "priceTier": "Upper mid-range",
    "priceTierLevel": 3,
    "buyLinks": {
-    "us": "https://www.amazon.com/s?k=philips+4300+latte+go",
-    "ca": "https://www.amazon.ca/s?k=philips+4300+latte+go",
-    "uk": "https://www.amazon.co.uk/s?k=philips+4300+latte+go",
-    "eu": "https://www.amazon.de/s?k=philips+4300+latte+go",
-    "au": "https://www.amazon.com.au/s?k=philips+4300+latte+go"
+    "us": "https://www.amazon.com/s?k=philips+4400+lattego",
+    "ca": "https://www.amazon.ca/s?k=philips+4400+lattego",
+    "uk": "https://www.amazon.co.uk/s?k=philips+4400+lattego",
+    "eu": "https://www.amazon.de/s?k=philips+4400+lattego",
+    "au": "https://www.amazon.com.au/s?k=philips+4400+lattego"
    },
-   "image": "https://getbrewharbor.com/images/philips-4300-lattego.jpg",
-   "summary": "Mid-tier Philips with the LatteGo milk system. No tubes, just easy cleaning. Strong drink variety.",
+   "image": "https://getbrewharbor.com/images/philips-4400-lattego.jpg",
+   "summary": "Mid-tier Philips with the LatteGo milk system: no tubes, just easy cleaning. 12 one-touch hot and iced drinks.",
    "whoItsFor": "The LatteGo system is so easy to clean. Milk drinks come out consistently great."
   },
   {
-   "name": "Philips 5400 LatteGo",
+   "name": "Philips 5500 LatteGo",
    "brand": "Philips",
-   "url": "https://getbrewharbor.com/machines/philips-5400-lattego/",
+   "url": "https://getbrewharbor.com/machines/philips-5500-lattego/",
    "category": "Super-Automatic",
    "automation": "High Automation",
    "milkSystem": "Auto Frother",
@@ -3249,14 +3250,15 @@
     "cappuccino",
     "americano",
     "flat white",
-    "ristretto"
+    "ristretto",
+    "cold"
    ],
    "coffeeTypes": [
     "beans"
    ],
    "compact": false,
-   "widthInches": 11,
-   "maxBrewTempC": 94,
+   "widthInches": null,
+   "maxBrewTempC": null,
    "maintenanceLevel": "Low",
    "learningCurve": "Low",
    "expectedLifespanYears": 8,
@@ -3267,21 +3269,21 @@
     "espresso": 3,
     "speed": 5,
     "ease": 5,
-    "variety": 4,
+    "variety": 5,
     "eco": 2,
     "repair": 2
    },
-   "priceTier": "Premium",
-   "priceTierLevel": 4,
+   "priceTier": "Upper mid-range",
+   "priceTierLevel": 3,
    "buyLinks": {
-    "us": "https://www.amazon.com/s?k=philips+5400+latte+go",
-    "ca": "https://www.amazon.ca/s?k=philips+5400+latte+go",
-    "uk": "https://www.amazon.co.uk/s?k=philips+5400+latte+go",
-    "eu": "https://www.amazon.de/s?k=philips+5400+latte+go",
-    "au": "https://www.amazon.com.au/s?k=philips+5400+latte+go"
+    "us": "https://www.amazon.com/s?k=philips+5500+lattego",
+    "ca": "https://www.amazon.ca/s?k=philips+5500+lattego",
+    "uk": "https://www.amazon.co.uk/s?k=philips+5500+lattego",
+    "eu": "https://www.amazon.de/s?k=philips+5500+lattego",
+    "au": "https://www.amazon.com.au/s?k=philips+5500+lattego"
    },
-   "image": "https://getbrewharbor.com/images/philips-5400-lattego.jpg",
-   "summary": "Philips top LatteGo model with 12 drink presets and SilentBrew technology. Reddit consensus upgrade pick.",
+   "image": "https://getbrewharbor.com/images/philips-5500-lattego.jpg",
+   "summary": "Philips top LatteGo model with 20 one-touch drinks, including iced coffees. Reddit consensus upgrade pick.",
    "whoItsFor": "Quieter than any machine I've owned. The drink variety keeps everyone happy."
   },
   {
@@ -3300,7 +3302,7 @@
    ],
    "compact": true,
    "widthInches": 7.1,
-   "maxBrewTempC": null,
+   "maxBrewTempC": 89,
    "maintenanceLevel": "low",
    "learningCurve": "Low",
    "expectedLifespanYears": 5,
@@ -3315,14 +3317,14 @@
     "eco": 3,
     "repair": 3
    },
-   "priceTier": "Upper mid-range",
-   "priceTierLevel": 3,
+   "priceTier": "Mid-range",
+   "priceTierLevel": 2,
    "buyLinks": {
     "us": "https://www.amazon.com/s?k=philips+baristina",
     "ca": "https://www.amazon.ca/s?k=philips+baristina",
     "eu": "https://www.amazon.de/s?k=philips+baristina"
    },
-   "image": null,
+   "image": "https://getbrewharbor.com/images/philips-baristina.jpg",
    "summary": "Compact Philips espresso machine that grinds, tamps and brews with one swipe of a lever, using a ceramic grinder that cannot be adjusted.",
    "whoItsFor": "Buy this if you want fresh-bean espresso with almost no learning in a very small footprint. Reviewers find the fixed grind limiting, and milk needs a separate frother."
   },
@@ -3391,8 +3393,8 @@
     "ground"
    ],
    "compact": false,
-   "widthInches": null,
-   "maxBrewTempC": null,
+   "widthInches": 11.9,
+   "maxBrewTempC": 94,
    "maintenanceLevel": "High",
    "learningCurve": "High",
    "expectedLifespanYears": 15,
@@ -3438,8 +3440,8 @@
     "ground"
    ],
    "compact": false,
-   "widthInches": null,
-   "maxBrewTempC": null,
+   "widthInches": 12,
+   "maxBrewTempC": 93,
    "maintenanceLevel": "High",
    "learningCurve": "High",
    "expectedLifespanYears": 15,
@@ -3501,8 +3503,8 @@
     "eco": 4,
     "repair": 4
    },
-   "priceTier": "Upper mid-range",
-   "priceTierLevel": 3,
+   "priceTier": "Premium",
+   "priceTierLevel": 4,
    "buyLinks": {
     "us": "https://www.amazon.com/s?k=rancilio+silvia",
     "ca": "https://www.amazon.ca/s?k=rancilio+silvia",
@@ -3548,8 +3550,8 @@
     "eco": 4,
     "repair": 4
    },
-   "priceTier": "Premium",
-   "priceTierLevel": 4,
+   "priceTier": "Prosumer",
+   "priceTierLevel": 5,
    "buyLinks": {
     "us": "https://www.amazon.com/s?k=rancilio+silvia+pro+x",
     "ca": "https://www.amazon.ca/s?k=rancilio+silvia+pro+x",
@@ -3636,8 +3638,8 @@
     "eco": 4,
     "repair": 4
    },
-   "priceTier": "Upper mid-range",
-   "priceTierLevel": 3,
+   "priceTier": "Mid-range",
+   "priceTierLevel": 2,
    "buyLinks": {
     "us": "https://www.amazon.com/s?k=ratio+six+coffee",
     "ca": "https://www.amazon.ca/s?k=ratio+six+coffee",
@@ -3683,8 +3685,8 @@
     "eco": 4,
     "repair": 5
    },
-   "priceTier": "Premium",
-   "priceTierLevel": 4,
+   "priceTier": "Prosumer",
+   "priceTierLevel": 5,
    "buyLinks": {
     "us": "https://www.amazon.com/s?k=rocket+appartamento",
     "ca": "https://www.amazon.ca/s?k=rocket+appartamento",
@@ -3716,8 +3718,8 @@
     "beans"
    ],
    "compact": false,
-   "widthInches": null,
-   "maxBrewTempC": null,
+   "widthInches": 11.14,
+   "maxBrewTempC": 88,
    "maintenanceLevel": "Low",
    "learningCurve": "Low",
    "expectedLifespanYears": 10,
@@ -3744,6 +3746,49 @@
    "image": "https://getbrewharbor.com/images/saeco-xelsis.jpg",
    "summary": "Philips-owned premium brand with facial recognition for 6-user profiles. Remembers everyone's drink preferences.",
    "whoItsFor": "The user profile feature is genuinely smart for families. Coffee quality is top tier."
+  },
+  {
+   "name": "Takeya Deluxe Cold Brew Coffee Maker",
+   "brand": "Takeya",
+   "url": "https://getbrewharbor.com/machines/takeya-deluxe-cold-brew-coffee-maker/",
+   "category": "Manual",
+   "automation": "manual",
+   "milkSystem": "none",
+   "drinks": [
+    "cold brew",
+    "cold",
+    "iced coffee"
+   ],
+   "coffeeTypes": [
+    "ground"
+   ],
+   "compact": false,
+   "widthInches": 9.25,
+   "maxBrewTempC": null,
+   "maintenanceLevel": "low",
+   "learningCurve": "Low",
+   "expectedLifespanYears": 5,
+   "annualMaintenanceCostUSD": 5,
+   "costPerCupUSD": 0.45,
+   "scores": {
+    "quality": 3.5,
+    "espresso": 0,
+    "speed": 1,
+    "ease": 4,
+    "variety": 2,
+    "eco": 4,
+    "repair": 4
+   },
+   "priceTier": "Budget",
+   "priceTierLevel": 1,
+   "buyLinks": {
+    "us": "https://www.amazon.com/s?k=takeya+deluxe+cold+brew+coffee+maker",
+    "ca": "https://www.amazon.ca/s?k=takeya+deluxe+cold+brew+coffee+maker",
+    "au": "https://www.amazon.com.au/s?k=takeya+deluxe+cold+brew+coffee+maker"
+   },
+   "image": null,
+   "summary": "Simple 1-quart pitcher with a fine-mesh filter for making cold brew in the fridge. No paper filters and easy to clean.",
+   "whoItsFor": "Buy this if you want cold brew with the least fuss and don't need a big batch. It steeps in the fridge for many hours, so plan ahead."
   },
   {
    "name": "Technivorm Moccamaster KBGV",
@@ -3810,8 +3855,8 @@
     "any"
    ],
    "compact": false,
-   "widthInches": null,
-   "maxBrewTempC": null,
+   "widthInches": 10.4,
+   "maxBrewTempC": 93,
    "maintenanceLevel": "medium",
    "learningCurve": "None",
    "expectedLifespanYears": 6,
@@ -3826,56 +3871,15 @@
     "eco": 2,
     "repair": 2
    },
-   "priceTier": "Premium",
-   "priceTierLevel": 4,
+   "priceTier": "Prosumer",
+   "priceTierLevel": 5,
    "buyLinks": {
     "us": "https://www.amazon.com/s?k=terra+kaffe+tk-02",
     "uk": "https://www.amazon.co.uk/s?k=terra+kaffe+tk-02"
    },
-   "image": null,
+   "image": "https://getbrewharbor.com/images/terra-kaffe-tk-02.jpg",
    "summary": "App-connected super-automatic that brews espresso and true drip coffee, with a front-loading design and an automatic milk carafe.",
    "whoItsFor": "Buy this if you want one-touch drinks, iced coffee and a full carafe from one quiet machine and like controlling it from your phone. The brand is newer and its service network smaller than Jura or De'Longhi."
-  },
-  {
-   "name": "Toddy Cold Brew System",
-   "brand": "Toddy",
-   "url": "https://getbrewharbor.com/machines/toddy-cold-brew-system/",
-   "category": "Manual",
-   "automation": "manual",
-   "milkSystem": "none",
-   "drinks": [
-    "cold brew",
-    "cold",
-    "iced coffee"
-   ],
-   "coffeeTypes": [
-    "ground"
-   ],
-   "compact": false,
-   "widthInches": null,
-   "maxBrewTempC": null,
-   "maintenanceLevel": "low",
-   "learningCurve": "Low",
-   "expectedLifespanYears": 8,
-   "annualMaintenanceCostUSD": 10,
-   "costPerCupUSD": 0.6,
-   "scores": {
-    "quality": 4,
-    "espresso": 0,
-    "speed": 1,
-    "ease": 3,
-    "variety": 2,
-    "eco": 5,
-    "repair": 5
-   },
-   "priceTier": "Budget",
-   "priceTierLevel": 1,
-   "buyLinks": {
-    "us": "https://www.amazon.com/s?k=toddy+cold+brew+system"
-   },
-   "image": null,
-   "summary": "Immersion cold brew system that makes a smooth, low-acid concentrate you dilute with water or milk and keep in the fridge.",
-   "whoItsFor": "Buy this if you drink a lot of iced coffee and can plan ahead, since it steeps for many hours. One batch lasts for days, so the effort comes up front."
   }
  ]
 }

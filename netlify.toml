@@ -33,3 +33,19 @@
   from = "/machines/ninja-luxe-caf-premier/*"
   to = "/machines/ninja-luxe-cafe-premier/"
   status = 301
+
+# Machines renamed or replaced in October 2026
+[[redirects]]
+  from = "/machines/philips-4300-lattego/*"
+  to = "/machines/philips-4400-lattego/"
+  status = 301
+
+[[redirects]]
+  from = "/machines/philips-5400-lattego/*"
+  to = "/machines/philips-5500-lattego/"
+  status = 301
+
+[[redirects]]
+  from = "/machines/toddy-cold-brew-system/*"
+  to = "/machines/takeya-deluxe-cold-brew-coffee-maker/"
+  status = 301

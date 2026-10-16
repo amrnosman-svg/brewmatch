@@ -1078,7 +1078,7 @@ const FALLBACK_MACHINES = [
     "widthInches": 9.2
   },
   {
-    "name": "Philips 4300 LatteGo",
+    "name": "Philips 4400 LatteGo",
     "brand": "Philips",
     "category": "Super-Automatic",
     "drinkTypes": [
@@ -1129,7 +1129,7 @@ const FALLBACK_MACHINES = [
     "widthInches": 11.0
   },
   {
-    "name": "Philips 5400 LatteGo",
+    "name": "Philips 5500 LatteGo",
     "brand": "Philips",
     "category": "Super-Automatic",
     "drinkTypes": [
@@ -4135,7 +4135,7 @@ async function fetchMachinesFromAirtable() {
   if (!res.ok) throw new Error(`Proxy error: ${res.status} ${res.statusText}`);
   const records = await res.json();
   return records
-    .filter(r => r.fields['active'] !== false && r.fields['Active'] !== false)
+    .filter(r => r.fields['active'] === true || r.fields['Active'] === true) // Airtable omits unchecked checkboxes, so only explicitly checked records count
     .map(mapAirtableRecord);
 }
 
@@ -4171,8 +4171,8 @@ const machineExtras = {
   "Jura S8":                    { ecoRepairScore: 4, bundles: ["Jura descaler tablets", "Jura cleaning tablets", "specialty coffee beans 2kg"] },
   "OXO Brew 9-Cup":             { ecoRepairScore: 4, bundles: ["specialty drip coffee beans 1kg", "OXO paper filters", "burr coffee grinder"] },
   "Flair 58":                   { ecoRepairScore: 5, bundles: ["specialty espresso beans 500g", "hand coffee grinder", "flair cleaning kit"] },
-  "Philips 4300 LatteGo":       { ecoRepairScore: 3, bundles: ["Philips AquaClean filter", "specialty coffee beans 1kg", "descaler coffee machine"] },
-  "Philips 5400 LatteGo":       { ecoRepairScore: 3, bundles: ["Philips AquaClean filter", "specialty coffee beans 1kg", "descaler coffee machine"] },
+  "Philips 4400 LatteGo":       { ecoRepairScore: 3, bundles: ["Philips AquaClean filter", "specialty coffee beans 1kg", "descaler coffee machine"] },
+  "Philips 5500 LatteGo":       { ecoRepairScore: 3, bundles: ["Philips AquaClean filter", "specialty coffee beans 1kg", "descaler coffee machine"] },
   "Jura E6":                    { ecoRepairScore: 4, bundles: ["Jura cleaning tablets", "Jura descaler", "specialty beans 1kg"] },
   "Jura Z10":                   { ecoRepairScore: 4, bundles: ["Jura cleaning tablets", "Jura descaler", "specialty coffee beans 2kg"] },
   "Jura ENA 8":                 { ecoRepairScore: 4, bundles: ["Jura cleaning tablets", "Jura descaler", "specialty beans 1kg"] },
@@ -4279,8 +4279,8 @@ const IMAGE_MAP = {
   'Ninja Specialty Coffee Maker': 'images/ninja-specialty-coffee-maker.jpg',
   'OXO Brew 9-Cup': 'images/oxo-brew-9-cup.jpg',
   'Philips 3200 LatteGo': 'images/philips-3200-lattego.jpg',
-  'Philips 4300 LatteGo': 'images/philips-4300-lattego.jpg',
-  'Philips 5400 LatteGo': 'images/philips-5400-lattego.jpg',
+  'Philips 4400 LatteGo': 'images/philips-4400-lattego.jpg',
+  'Philips 5500 LatteGo': 'images/philips-5500-lattego.jpg',
   'Profitec Go': 'images/profitec-go.jpg',
   'Profitec Pro 500': 'images/profitec-pro-500.jpg',
   'Profitec Pro 600': 'images/profitec-pro-600.jpg',
@@ -4291,6 +4291,23 @@ const IMAGE_MAP = {
   'Rocket Appartamento': 'images/rocket-appartamento.jpg',
   'Saeco Xelsis': 'images/saeco-xelsis.jpg',
   'Technivorm Moccamaster KBGV': 'images/technivorm-moccamaster-kbgv.jpg',
+  'Breville Bambino': 'images/breville-bambino.jpg',
+  'Breville Barista Express Impress': 'images/breville-barista-express-impress.jpg',
+  'De\'Longhi La Specialista Opera': 'images/delonghi-la-specialista-opera.jpg',
+  'De\'Longhi Dedica Duo': 'images/delonghi-dedica-duo.jpg',
+  'Breville Oracle Jet': 'images/breville-oracle-jet.jpg',
+  'Terra Kaffe TK-02': 'images/terra-kaffe-tk-02.jpg',
+  'De\'Longhi Magnifica Start': 'images/delonghi-magnifica-start.jpg',
+  'Philips Baristina': 'images/philips-baristina.jpg',
+  'Breville Luxe Brewer': 'images/breville-luxe-brewer.jpg',
+  'Nespresso Vertuo Pop+': 'images/nespresso-vertuo-pop-plus.jpg',
+  'Nespresso Vertuo Lattissima': 'images/nespresso-vertuo-lattissima.jpg',
+  'Keurig K-Café Smart': 'images/keurig-k-cafe-smart.jpg',
+  'Keurig K-Mini': 'images/keurig-k-mini.jpg',
+  'Bialetti Moka Express': 'images/bialetti-moka-express.jpg',
+  'CASABREWS CM5418': 'images/casabrews-cm5418.jpg',
+  'CASABREWS 3700 Essential': 'images/casabrews-3700-essential.jpg',
+  'Ninja Luxe Café Premier': 'images/ninja-luxe-cafe-premier.jpg',
 };
 
 

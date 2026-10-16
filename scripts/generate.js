@@ -16,12 +16,11 @@ const TODAY = process.env.LASTMOD || new Date().toISOString().slice(0, 10);
 
 // Specs still awaiting verification (see project notes) — width and brew temp are NOT published for these.
 const UNVERIFIED_SPECS = new Set([
-  'Ascaso Steel Duo PID', 'Bosch VeroCafe 800', 'Melitta Barista TS Smart', 'Saeco Xelsis',
-  'ECM Classika PID', 'Profitec Pro 500', 'Profitec Pro 600',
+  'Philips 4400 LatteGo', 'Philips 5500 LatteGo', // width inferred from the LatteGo family; Philips spec page did not load
 ]);
 // Added Oct 2026: widths are verified from retailer or review specs, but brewing temperatures are sibling-based estimates
 // used by the quiz only, so they are not shown on public pages until verified.
-const UNVERIFIED_TEMP = new Set(["Breville Bambino", "Breville Barista Express Impress", "De'Longhi La Specialista Opera", "De'Longhi Dedica Duo", "Breville Oracle Jet", "Terra Kaffe TK-02", "De'Longhi Magnifica Start", "Philips Baristina", "Breville Luxe Brewer", "Nespresso Vertuo Pop+", "Nespresso Vertuo Lattissima", "Keurig K-Café Smart", "Keurig K-Mini", "Bialetti Moka Express", "Toddy Cold Brew System", "CASABREWS CM5418", "CASABREWS 3700 Essential"]);
+const UNVERIFIED_TEMP = new Set(['Philips 4400 LatteGo', 'Philips 5500 LatteGo', 'Takeya Deluxe Cold Brew Coffee Maker']);
 
 const raw = JSON.parse(fs.readFileSync(path.join(ROOT, 'data/machines.raw.json'), 'utf8'));
 
@@ -44,7 +43,7 @@ const cap = s => s ? s.charAt(0).toUpperCase() + s.slice(1) : s;
 
 // ---- normalise ----
 const machines = raw.map(r => r.fields)
-  .filter(f => f.active !== false && f.name)
+  .filter(f => f.active === true && f.name)
   .map(f => {
     const verified = !UNVERIFIED_SPECS.has(f.name);
     const m = {

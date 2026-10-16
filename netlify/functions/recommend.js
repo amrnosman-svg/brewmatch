@@ -104,7 +104,7 @@ exports.handler = async function (event) {
 
   try {
     const { records, source } = await loadRecords();
-    const machines = records.filter(r => r.fields['active'] !== false && r.fields['Active'] !== false).map(engine.mapAirtableRecord);
+    const machines = records.filter(r => r.fields['active'] === true || r.fields['Active'] === true).map(engine.mapAirtableRecord);
     engine.applyExtras(machines); // same post-load step the quiz runs
     engine.setAnswers({ ...answers });
     const ranked = engine.rank(machines);

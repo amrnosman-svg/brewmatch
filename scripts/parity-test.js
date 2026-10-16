@@ -10,7 +10,7 @@ if(html.split(marker).length!==2) throw new Error('marker count');
 html=html.replace(marker,'window.__scored = scoredFiltered.map(x=>({n:x.m.name,s:x.result.score,r:x.result.reasons,x:x.result.misses}));\n    '+marker); // test-only, in-memory
 const records=require(path.join(REPO,'data/machines.raw.json'));
 const engine=require(path.join(REPO,'netlify/functions/lib/engine.js'));
-const machinesApi=records.filter(r=>r.fields.active!==false).map(engine.mapAirtableRecord); engine.applyExtras(machinesApi);
+const machinesApi=records.filter(r=>r.fields.active===true).map(engine.mapAirtableRecord); engine.applyExtras(machinesApi);
 const N=+process.argv[2]||500;
 (async()=>{
  const dom=new JSDOM(html,{runScripts:'dangerously',pretendToBeVisual:true,url:'https://getbrewharbor.com/',beforeParse(w){
