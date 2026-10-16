@@ -20,6 +20,13 @@
 <meta name="theme-color" content="#2C2416">
 <meta property="og:image" content="https://getbrewharbor.com/assets/og-image.png">
 <meta name="twitter:card" content="summary_large_image">
+<meta property="og:site_name" content="BrewHarbor">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="BrewHarbor — find your coffee machine">
+<meta name="twitter:title" content="BrewHarbor — Find your coffee machine. Skip the research.">
+<meta name="twitter:description" content="Personalised coffee machine recommendations based on drink type, effort, maintenance, and yearly cost of ownership.">
+<meta name="twitter:image" content="https://getbrewharbor.com/assets/og-image.png">
 <!-- Analytics (Google Analytics 4 + Microsoft Clarity) load only after the visitor accepts: see assets/consent.js -->
 <script src="/assets/consent.js" defer></script>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400;1,600&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
@@ -52,6 +59,29 @@
   .nav-link:hover { color: #E8DFC8; }
   .nav-cta { font-size: 11px; color: #ffffff; background: #b04a26; padding: 6px 18px; border-radius: 20px; font-family: 'Outfit', sans-serif; letter-spacing: 0.05em; cursor: pointer; border: none; transition: opacity 0.2s; font-weight: 500; }
   .nav-cta:hover { opacity: 0.85; }
+  .nav-link, .nav-cta { white-space: nowrap; }
+  .nav-logo-text { white-space: nowrap; }
+  @media (max-width: 600px) {
+    nav { padding: 0 16px; }
+    .nav-logo { gap: 8px; }
+    .nav-logo-text { font-size: 12px; letter-spacing: 0.1em; }
+    .nav-right { gap: 18px; }
+    .nav-link { font-size: 12px; padding: 12px 4px; }
+    .nav-cta { padding: 7px 14px; }
+  }
+  @media (max-width: 360px) {
+    .nav-logo-text { font-size: 11px; letter-spacing: 0.06em; }
+    .nav-right { gap: 12px; }
+    .nav-cta { padding: 7px 11px; }
+  }
+  #how-it-works { scroll-margin-top: 72px; margin: 64px auto 0; max-width: 720px; text-align: left; }
+  #how-it-works h2 { font-family: 'Cormorant Garamond', serif; font-weight: 400; font-size: 30px; text-align: center; margin-bottom: 28px; color: var(--black); }
+  .hiw-steps { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
+  .hiw-step { font-family: 'Outfit', sans-serif; }
+  .hiw-step .hiw-num { font-family: 'Cormorant Garamond', serif; font-style: italic; font-size: 28px; color: #b04a26; display: block; margin-bottom: 6px; }
+  .hiw-step strong { display: block; font-weight: 500; font-size: 14px; color: var(--black); margin-bottom: 6px; }
+  .hiw-step span.hiw-txt { font-size: 13px; line-height: 1.65; color: var(--mid-grey); font-weight: 300; }
+  @media (max-width: 600px) { .hiw-steps { grid-template-columns: 1fr; gap: 20px; } #how-it-works { margin-top: 48px; } }
 
   .hero { padding: 80px 24px 72px; text-align: center; border-bottom: 1px solid var(--light-grey); background: #FAF8F4; }
   .hero-eyebrow { font-size: 10px; font-weight: 500; letter-spacing: 4px; text-transform: uppercase; color: #D9CDB0; margin-bottom: 20px; }
@@ -400,7 +430,7 @@
   <path d="M 38 160 C 58 152 78 168 100 160 C 122 152 142 168 162 160" fill="none" stroke="#f7f7f6" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" />
 
   <!-- Layer 3: Lower Wave (Centered & Symmetrical) -->
-  <path d="M 52 176 C 68 169 84 183 100 176 C 116 169 132 183 148 176" fill="none" stroke="#f7f7f6" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" /></svg><span class="nav-logo-text">BrewHarbor</span></a><div class="nav-right"><a class="nav-link" href="#" onclick="goHome();return false;">How it works</a><button class="nav-cta" onclick="startQuiz()">Find my match</button></div></nav>
+  <path d="M 52 176 C 68 169 84 183 100 176 C 116 169 132 183 148 176" fill="none" stroke="#f7f7f6" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" /></svg><span class="nav-logo-text">BrewHarbor</span></a><div class="nav-right"><a class="nav-link" href="#how-it-works" onclick="scrollToHow();return false;">How it works</a><button class="nav-cta" onclick="startQuiz()">Find my match</button></div></nav>
 
 <!-- LOADING OVERLAY -->
 <div id="loadingOverlay" style="display:none;">
@@ -468,6 +498,14 @@
     <div class="hero-meta-item"><strong>Yearly</strong>cost to own</div>
   </div>
   <button class="hero-cta" onclick="startQuiz()">Start the quiz</button>
+  <section id="how-it-works" aria-labelledby="hiwTitle">
+    <h2 id="hiwTitle">How it <em>works</em></h2>
+    <div class="hiw-steps">
+      <div class="hiw-step"><span class="hiw-num">1</span><strong>Tell us how you drink</strong><span class="hiw-txt">Pick your drinks, effort level, maintenance tolerance and budget. It takes about 90 seconds.</span></div>
+      <div class="hiw-step"><span class="hiw-num">2</span><strong>We score every machine</strong><span class="hiw-txt">Each machine is matched against your answers and priorities, then ranked by fit and yearly cost to own.</span></div>
+      <div class="hiw-step"><span class="hiw-num">3</span><strong>Get your match</strong><span class="hiw-txt">See one clear recommendation, close alternatives, and the real running costs. No sponsored results.</span></div>
+    </div>
+  </section>
 </div>
 
 <div class="quiz-container" id="quizSection" style="display:none;">
@@ -5324,6 +5362,15 @@ function toggleFullComparison() {
     if (typeof bm_track === 'function') bm_track('full_comparison_open', { region: (userAnswers && userAnswers.region) || 'us' });
     box.scrollIntoView({ behavior: 'smooth', block: 'start' });
   }
+}
+
+function scrollToHow() {
+  goHome();
+  requestAnimationFrame(function () {
+    var el = document.getElementById('how-it-works');
+    if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    if (history.replaceState) history.replaceState(null, '', '#how-it-works');
+  });
 }
 
 function goHome() {
