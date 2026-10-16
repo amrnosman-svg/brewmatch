@@ -27,3 +27,9 @@
   from = "/api/recommend"
   to = "/.netlify/functions/recommend"
   status = 200
+
+# Slugs now strip accents: keep the one old machine URL that contained one working
+[[redirects]]
+  from = "/machines/ninja-luxe-caf-premier/*"
+  to = "/machines/ninja-luxe-cafe-premier/"
+  status = 301

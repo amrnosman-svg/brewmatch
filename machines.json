@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-15",
+ "generated": "2026-10-16",
  "source": "https://getbrewharbor.com",
  "logo": "https://getbrewharbor.com/assets/logo.svg",
  "note": "Scores are BrewHarbor 1-5 ratings (5 best). Prices change daily and are not published here: priceTier is a rough band (1 Budget to 5 Prosumer) and the buy link shows the current price.",
@@ -149,6 +149,46 @@
    "whoItsFor": "Dual boiler in a compact body — it punches well above its size. Spanish engineering at its best."
   },
   {
+   "name": "Bialetti Moka Express",
+   "brand": "Bialetti",
+   "url": "https://getbrewharbor.com/machines/bialetti-moka-express/",
+   "category": "Manual",
+   "automation": "manual",
+   "milkSystem": "none",
+   "drinks": [
+    "espresso-style",
+    "specialty"
+   ],
+   "coffeeTypes": [
+    "ground"
+   ],
+   "compact": true,
+   "widthInches": null,
+   "maxBrewTempC": null,
+   "maintenanceLevel": "low",
+   "learningCurve": "Medium",
+   "expectedLifespanYears": 15,
+   "annualMaintenanceCostUSD": 5,
+   "costPerCupUSD": 0.31,
+   "scores": {
+    "quality": 3.5,
+    "espresso": 2,
+    "speed": 3,
+    "ease": 3,
+    "variety": 1,
+    "eco": 5,
+    "repair": 5
+   },
+   "priceTier": "Budget",
+   "priceTierLevel": 1,
+   "buyLinks": {
+    "us": "https://www.amazon.com/s?k=bialetti+moka+express"
+   },
+   "image": null,
+   "summary": "Classic aluminium stovetop brewer that makes strong, espresso-style coffee without electricity.",
+   "whoItsFor": "Buy this if you want a cheap, durable way to get strong coffee and do not need real espresso pressure or milk foam. It takes a little attention at the stove."
+  },
+  {
    "name": "Bodum Chambord Press",
    "brand": "Bodum",
    "url": "https://getbrewharbor.com/machines/bodum-chambord-press/",
@@ -283,6 +323,48 @@
    "whoItsFor": "Bosch reliability with genuinely good coffee. Worth considering over the bigger brands."
   },
   {
+   "name": "Breville Bambino",
+   "brand": "Breville",
+   "url": "https://getbrewharbor.com/machines/breville-bambino/",
+   "category": "Semi-Automatic",
+   "automation": "semi",
+   "milkSystem": "manual-wand",
+   "drinks": [
+    "espresso",
+    "latte",
+    "specialty"
+   ],
+   "coffeeTypes": [
+    "ground",
+    "any"
+   ],
+   "compact": true,
+   "widthInches": 7.7,
+   "maxBrewTempC": null,
+   "maintenanceLevel": "medium",
+   "learningCurve": "Medium",
+   "expectedLifespanYears": 6,
+   "annualMaintenanceCostUSD": 40,
+   "costPerCupUSD": 0.37,
+   "scores": {
+    "quality": 4.5,
+    "espresso": 5,
+    "speed": 5,
+    "ease": 3,
+    "variety": 2,
+    "eco": 3,
+    "repair": 3
+   },
+   "priceTier": "Mid-range",
+   "priceTierLevel": 2,
+   "buyLinks": {
+    "us": "https://www.amazon.com/s?k=breville+bambino+espresso"
+   },
+   "image": null,
+   "summary": "Compact semi-automatic with 3-second ThermoJet heat-up and a manual steam wand. Real espresso in a footprint under 8 inches wide.",
+   "whoItsFor": "Buy this if you want real espresso at home on a small budget and don't mind steaming milk by hand. You will need a separate grinder, and a good one matters more than the machine."
+  },
+  {
    "name": "Breville Bambino Plus",
    "brand": "Breville",
    "url": "https://getbrewharbor.com/machines/breville-bambino-plus/",
@@ -373,6 +455,48 @@
    "image": "https://getbrewharbor.com/images/breville-barista-express.jpg",
    "summary": "The home barista's favourite all-in-one. Built-in grinder plus PID temperature control plus manual steam wand equals complete creative control.",
    "whoItsFor": "Buy this if you want full control over grind size, dose, and extraction — and you're willing to spend a few weeks learning. Once dialled in, this beats anything in its price range for espresso quality."
+  },
+  {
+   "name": "Breville Barista Express Impress",
+   "brand": "Breville",
+   "url": "https://getbrewharbor.com/machines/breville-barista-express-impress/",
+   "category": "Semi-Automatic",
+   "automation": "semi",
+   "milkSystem": "manual-wand",
+   "drinks": [
+    "espresso",
+    "latte",
+    "specialty"
+   ],
+   "coffeeTypes": [
+    "beans",
+    "any"
+   ],
+   "compact": false,
+   "widthInches": null,
+   "maxBrewTempC": null,
+   "maintenanceLevel": "medium",
+   "learningCurve": "Medium",
+   "expectedLifespanYears": 7,
+   "annualMaintenanceCostUSD": 60,
+   "costPerCupUSD": 0.37,
+   "scores": {
+    "quality": 5,
+    "espresso": 5,
+    "speed": 3,
+    "ease": 4,
+    "variety": 3,
+    "eco": 3,
+    "repair": 3
+   },
+   "priceTier": "Upper mid-range",
+   "priceTierLevel": 3,
+   "buyLinks": {
+    "us": "https://www.amazon.com/s?k=breville+barista+express+impress"
+   },
+   "image": null,
+   "summary": "All-in-one semi-automatic with a built-in conical burr grinder and Breville's assisted tamping, so the grind, dose and tamp are largely handled for you.",
+   "whoItsFor": "Buy this if you want fresh-ground espresso from a single machine without learning to tamp. Assisted tamping removes a common beginner mistake. You still steam milk by hand."
   },
   {
    "name": "Breville Barista Pro",
@@ -563,6 +687,95 @@
    "whoItsFor": "If you're serious about espresso, this is the Breville to get. Cafe quality at home."
   },
   {
+   "name": "Breville Luxe Brewer",
+   "brand": "Breville",
+   "url": "https://getbrewharbor.com/machines/breville-luxe-brewer/",
+   "category": "Drip Machine",
+   "automation": "High Automation",
+   "milkSystem": "none",
+   "drinks": [
+    "filter",
+    "drip",
+    "cold",
+    "cold brew"
+   ],
+   "coffeeTypes": [
+    "ground"
+   ],
+   "compact": false,
+   "widthInches": null,
+   "maxBrewTempC": null,
+   "maintenanceLevel": "low",
+   "learningCurve": "Low",
+   "expectedLifespanYears": 8,
+   "annualMaintenanceCostUSD": 30,
+   "costPerCupUSD": 0.31,
+   "scores": {
+    "quality": 5,
+    "espresso": 0,
+    "speed": 5,
+    "ease": 4,
+    "variety": 4,
+    "eco": 3,
+    "repair": 3
+   },
+   "priceTier": "Mid-range",
+   "priceTierLevel": 2,
+   "buyLinks": {
+    "us": "https://www.amazon.com/s?k=breville+luxe+brewer"
+   },
+   "image": null,
+   "summary": "SCA-certified drip brewer from Breville with a removable water tank, a thermal or glass carafe, and modes for gold-cup, iced and cold brew.",
+   "whoItsFor": "Buy this if you want fast, consistent drip with more control than a basic machine, and cold brew from the same brewer. It is the newer version of the Precision Brewer."
+  },
+  {
+   "name": "Breville Oracle Jet",
+   "brand": "Breville",
+   "url": "https://getbrewharbor.com/machines/breville-oracle-jet/",
+   "category": "Semi-Automatic",
+   "automation": "semi",
+   "milkSystem": "auto-frother",
+   "drinks": [
+    "espresso",
+    "latte",
+    "cappuccino",
+    "flat white",
+    "americano",
+    "cold",
+    "specialty"
+   ],
+   "coffeeTypes": [
+    "beans",
+    "any"
+   ],
+   "compact": false,
+   "widthInches": 19.2,
+   "maxBrewTempC": null,
+   "maintenanceLevel": "medium",
+   "learningCurve": "Low",
+   "expectedLifespanYears": 8,
+   "annualMaintenanceCostUSD": 80,
+   "costPerCupUSD": 0.37,
+   "scores": {
+    "quality": 5,
+    "espresso": 5,
+    "speed": 3,
+    "ease": 4,
+    "variety": 5,
+    "eco": 3,
+    "repair": 3
+   },
+   "priceTier": "Prosumer",
+   "priceTierLevel": 5,
+   "buyLinks": {
+    "us": "https://www.amazon.com/s?k=breville+oracle+jet",
+    "au": "https://www.amazon.com.au/s?k=breville+oracle+jet"
+   },
+   "image": null,
+   "summary": "Breville's flagship automated espresso machine: it grinds, doses, tamps and steams milk for you, with a touchscreen and cold brew and cold espresso settings.",
+   "whoItsFor": "Buy this if you want cafe-style drinks with very little skill and have the counter space and the budget. It is one of the widest machines in the catalog."
+  },
+  {
    "name": "Breville Precision Brewer",
    "brand": "Breville",
    "url": "https://getbrewharbor.com/machines/breville-precision-brewer/",
@@ -607,6 +820,90 @@
    "image": "https://getbrewharbor.com/images/breville-precision-brewer.jpg",
    "summary": "SCA-certified drip brewer with programmable brew temperature, bloom time, and flow rate.",
    "whoItsFor": "Makes exceptional drip coffee. The My Brew settings let you get surprisingly nerdy about extraction."
+  },
+  {
+   "name": "CASABREWS 3700 Essential",
+   "brand": "CASABREWS",
+   "url": "https://getbrewharbor.com/machines/casabrews-3700-essential/",
+   "category": "Semi-Automatic",
+   "automation": "semi",
+   "milkSystem": "manual-wand",
+   "drinks": [
+    "espresso",
+    "latte",
+    "specialty"
+   ],
+   "coffeeTypes": [
+    "ground",
+    "any"
+   ],
+   "compact": true,
+   "widthInches": null,
+   "maxBrewTempC": null,
+   "maintenanceLevel": "medium",
+   "learningCurve": "Medium",
+   "expectedLifespanYears": 4,
+   "annualMaintenanceCostUSD": 30,
+   "costPerCupUSD": 0.37,
+   "scores": {
+    "quality": 3,
+    "espresso": 3,
+    "speed": 4,
+    "ease": 3,
+    "variety": 2,
+    "eco": 2,
+    "repair": 2
+   },
+   "priceTier": "Budget",
+   "priceTierLevel": 1,
+   "buyLinks": {
+    "us": "https://www.amazon.com/s?k=casabrews+3700+essential"
+   },
+   "image": null,
+   "summary": "Budget compact espresso machine with a steam wand and a larger water tank.",
+   "whoItsFor": "Buy this if you want the lowest-cost way into espresso. One review found it performs almost identically to the CM5418 for less money."
+  },
+  {
+   "name": "CASABREWS CM5418",
+   "brand": "CASABREWS",
+   "url": "https://getbrewharbor.com/machines/casabrews-cm5418/",
+   "category": "Semi-Automatic",
+   "automation": "semi",
+   "milkSystem": "manual-wand",
+   "drinks": [
+    "espresso",
+    "latte",
+    "specialty"
+   ],
+   "coffeeTypes": [
+    "ground",
+    "any"
+   ],
+   "compact": true,
+   "widthInches": 5.9,
+   "maxBrewTempC": null,
+   "maintenanceLevel": "medium",
+   "learningCurve": "Medium",
+   "expectedLifespanYears": 4,
+   "annualMaintenanceCostUSD": 30,
+   "costPerCupUSD": 0.37,
+   "scores": {
+    "quality": 3,
+    "espresso": 3,
+    "speed": 4,
+    "ease": 3,
+    "variety": 2,
+    "eco": 2,
+    "repair": 2
+   },
+   "priceTier": "Budget",
+   "priceTierLevel": 1,
+   "buyLinks": {
+    "us": "https://www.amazon.com/s?k=casabrews+cm5418"
+   },
+   "image": null,
+   "summary": "Very compact budget espresso machine with a pressure gauge and a manual steam wand.",
+   "whoItsFor": "Buy this if you want to try real espresso for very little money. Expect plastic parts and a learning curve, and plan to buy a separate grinder."
   },
   {
    "name": "Chemex 6-Cup",
@@ -696,6 +993,48 @@
    "image": "https://getbrewharbor.com/images/cuisinart-dcc-3200.jpg",
    "summary": "14-cup programmable drip with a stainless thermal carafe. Wirecutter budget pick.",
    "whoItsFor": "Nothing fancy, just reliably good coffee at an unbeatable price. 14-cup is great for families."
+  },
+  {
+   "name": "De'Longhi Dedica Duo",
+   "brand": "De'Longhi",
+   "url": "https://getbrewharbor.com/machines/delonghi-dedica-duo/",
+   "category": "Semi-Automatic",
+   "automation": "semi",
+   "milkSystem": "manual-wand",
+   "drinks": [
+    "espresso",
+    "latte",
+    "specialty"
+   ],
+   "coffeeTypes": [
+    "ground",
+    "any"
+   ],
+   "compact": true,
+   "widthInches": 5.9,
+   "maxBrewTempC": null,
+   "maintenanceLevel": "medium",
+   "learningCurve": "Medium",
+   "expectedLifespanYears": 5,
+   "annualMaintenanceCostUSD": 40,
+   "costPerCupUSD": 0.37,
+   "scores": {
+    "quality": 3.5,
+    "espresso": 3.5,
+    "speed": 4,
+    "ease": 3,
+    "variety": 2,
+    "eco": 3,
+    "repair": 3
+   },
+   "priceTier": "Mid-range",
+   "priceTierLevel": 2,
+   "buyLinks": {
+    "us": "https://www.amazon.com/s?k=delonghi+dedica+duo"
+   },
+   "image": null,
+   "summary": "Slim 15-bar espresso machine under 6 inches wide with a manual steam wand and a choice of pressurized or standard baskets.",
+   "whoItsFor": "Buy this if you have a tiny counter and a small budget and want real espresso. You will want a separate grinder and the learning curve is real, but it is hard to find a narrower machine."
   },
   {
    "name": "De'Longhi Dinamica Plus",
@@ -841,6 +1180,51 @@
    "whoItsFor": "Much easier to dial in than I expected. Great espresso with minimal frustration."
   },
   {
+   "name": "De'Longhi La Specialista Opera",
+   "brand": "De'Longhi",
+   "url": "https://getbrewharbor.com/machines/delonghi-la-specialista-opera/",
+   "category": "Semi-Automatic",
+   "automation": "semi",
+   "milkSystem": "manual-wand",
+   "drinks": [
+    "espresso",
+    "latte",
+    "cappuccino",
+    "cold",
+    "cold brew",
+    "specialty"
+   ],
+   "coffeeTypes": [
+    "beans",
+    "any"
+   ],
+   "compact": false,
+   "widthInches": null,
+   "maxBrewTempC": null,
+   "maintenanceLevel": "medium",
+   "learningCurve": "Medium",
+   "expectedLifespanYears": 8,
+   "annualMaintenanceCostUSD": 60,
+   "costPerCupUSD": 0.37,
+   "scores": {
+    "quality": 5,
+    "espresso": 5,
+    "speed": 4,
+    "ease": 3,
+    "variety": 4,
+    "eco": 3,
+    "repair": 3
+   },
+   "priceTier": "Upper mid-range",
+   "priceTierLevel": 3,
+   "buyLinks": {
+    "us": "https://www.amazon.com/s?k=delonghi+la+specialista+opera"
+   },
+   "image": null,
+   "summary": "Semi-automatic with a built-in grinder, a tamping station and a cool-touch steam wand, plus a cold brew mode and cold-extraction recipes.",
+   "whoItsFor": "Buy this if you want a guided all-in-one espresso machine that can also make cold brew. It rewards a little practice with milk, and it needs real counter space."
+  },
+  {
    "name": "De'Longhi La Specialista Prestigio",
    "brand": "De'Longhi",
    "url": "https://getbrewharbor.com/machines/delonghi-la-specialista-prestigio/",
@@ -932,6 +1316,48 @@
    "image": "https://getbrewharbor.com/images/de-longhi-magnifica-evo.jpg",
    "summary": "De'Longhi's entry-level bean-to-cup machine. Grinds, brews, and delivers espresso at the touch of a button.",
    "whoItsFor": "Great value for money. Does exactly what it promises without fuss."
+  },
+  {
+   "name": "De'Longhi Magnifica Start",
+   "brand": "De'Longhi",
+   "url": "https://getbrewharbor.com/machines/delonghi-magnifica-start/",
+   "category": "Super-Automatic",
+   "automation": "super",
+   "milkSystem": "manual-wand",
+   "drinks": [
+    "espresso",
+    "americano",
+    "specialty"
+   ],
+   "coffeeTypes": [
+    "beans",
+    "any"
+   ],
+   "compact": false,
+   "widthInches": null,
+   "maxBrewTempC": null,
+   "maintenanceLevel": "medium",
+   "learningCurve": "Low",
+   "expectedLifespanYears": 6,
+   "annualMaintenanceCostUSD": 70,
+   "costPerCupUSD": 0.37,
+   "scores": {
+    "quality": 3.5,
+    "espresso": 3.5,
+    "speed": 4,
+    "ease": 4,
+    "variety": 2,
+    "eco": 2,
+    "repair": 2
+   },
+   "priceTier": "Upper mid-range",
+   "priceTierLevel": 3,
+   "buyLinks": {
+    "us": "https://www.amazon.com/s?k=delonghi+magnifica+start"
+   },
+   "image": null,
+   "summary": "Entry-level De'Longhi super-automatic with a built-in grinder and a short list of one-touch drinks.",
+   "whoItsFor": "Buy this if you are moving up from pods and want fresh beans without a big spend. It makes fewer drinks than the Magnifica Evo, so it suits people who mostly drink espresso or americano."
   },
   {
    "name": "De'Longhi Rivelia",
@@ -1389,8 +1815,8 @@
     "au": "https://www.amazon.com.au/s?k=gaggia+classic+pro"
    },
    "image": "https://getbrewharbor.com/images/gaggia-classic-pro.jpg",
-   "summary": "The benchmark entry-level espresso machine. Commercial 58mm portafilter, built to last decades, loved by the r/espresso community.",
-   "whoItsFor": "Buy this if you want a machine built to last 20+ years and don't mind learning. The 58mm commercial portafilter means every grinder and accessory on the market fits it. The enthusiast's entry point."
+   "summary": "The benchmark entry-level espresso machine. The current E24 version has a brass boiler, a commercial-style 58mm portafilter, and a huge community of upgrades and guides. Loved by the r/espresso community.",
+   "whoItsFor": "Buy this if you want a machine built to last for many years and don't mind learning. The 58mm basket size means standard baskets and tampers fit, and there is a huge community of mods and guides. The enthusiast's entry point."
   },
   {
    "name": "Hario V60",
@@ -1722,6 +2148,48 @@
    "whoItsFor": "More forgiving than V60, more flavourful than Chemex. The specialty world's best-kept secret."
   },
   {
+   "name": "Keurig K-Café Smart",
+   "brand": "Keurig",
+   "url": "https://getbrewharbor.com/machines/keurig-k-cafe-smart/",
+   "category": "Pod Machine",
+   "automation": "High Automation",
+   "milkSystem": "auto-frother",
+   "drinks": [
+    "pod",
+    "drip",
+    "latte",
+    "cappuccino"
+   ],
+   "coffeeTypes": [
+    "pods"
+   ],
+   "compact": false,
+   "widthInches": null,
+   "maxBrewTempC": null,
+   "maintenanceLevel": "low",
+   "learningCurve": "None",
+   "expectedLifespanYears": 5,
+   "annualMaintenanceCostUSD": 25,
+   "costPerCupUSD": 0.55,
+   "scores": {
+    "quality": 2,
+    "espresso": 1,
+    "speed": 5,
+    "ease": 5,
+    "variety": 4,
+    "eco": 1,
+    "repair": 1
+   },
+   "priceTier": "Mid-range",
+   "priceTierLevel": 2,
+   "buyLinks": {
+    "us": "https://www.amazon.com/s?k=keurig+k-cafe+smart"
+   },
+   "image": null,
+   "summary": "Keurig brewer with a built-in frother for lattes and cappuccinos, plus Smart connectivity and a choice of cup sizes.",
+   "whoItsFor": "Buy this if your household already drinks K-Cups and wants milk drinks without a second appliance. It performs well in Consumer Reports' tests."
+  },
+  {
    "name": "Keurig K-Classic",
    "brand": "Keurig",
    "url": "https://getbrewharbor.com/machines/keurig-k-classic/",
@@ -1810,6 +2278,47 @@
    "image": "https://getbrewharbor.com/images/keurig-k-elite.jpg",
    "summary": "The most popular Keurig. Single-serve convenience with strong brew and iced coffee modes.",
    "whoItsFor": "Buy this if multiple people in your household drink different things. The K-Cup library of 400+ varieties makes it the best choice for variety households."
+  },
+  {
+   "name": "Keurig K-Mini",
+   "brand": "Keurig",
+   "url": "https://getbrewharbor.com/machines/keurig-k-mini/",
+   "category": "Pod Machine",
+   "automation": "High Automation",
+   "milkSystem": "none",
+   "drinks": [
+    "pod",
+    "filter",
+    "drip"
+   ],
+   "coffeeTypes": [
+    "pods"
+   ],
+   "compact": true,
+   "widthInches": null,
+   "maxBrewTempC": null,
+   "maintenanceLevel": "low",
+   "learningCurve": "None",
+   "expectedLifespanYears": 5,
+   "annualMaintenanceCostUSD": 15,
+   "costPerCupUSD": 0.55,
+   "scores": {
+    "quality": 2,
+    "espresso": 0,
+    "speed": 5,
+    "ease": 5,
+    "variety": 3,
+    "eco": 1,
+    "repair": 1
+   },
+   "priceTier": "Budget",
+   "priceTierLevel": 1,
+   "buyLinks": {
+    "us": "https://www.amazon.com/s?k=keurig+k-mini"
+   },
+   "image": null,
+   "summary": "Ultra-slim single-cup Keurig, under 5 inches wide, with a one-cup reservoir and cord storage.",
+   "whoItsFor": "Buy this for a dorm, office desk or tiny kitchen where space is the main constraint. You refill the reservoir for every cup."
   },
   {
    "name": "Keurig K-Supreme Plus SMART",
@@ -2273,6 +2782,49 @@
    "whoItsFor": "Incredibly fast and very compact. Goes from cold to espresso in 25 seconds flat."
   },
   {
+   "name": "Nespresso Vertuo Lattissima",
+   "brand": "Nespresso",
+   "url": "https://getbrewharbor.com/machines/nespresso-vertuo-lattissima/",
+   "category": "Pod Machine",
+   "automation": "High Automation",
+   "milkSystem": "integrated",
+   "drinks": [
+    "espresso",
+    "latte",
+    "cappuccino",
+    "capsule",
+    "pod"
+   ],
+   "coffeeTypes": [
+    "pods"
+   ],
+   "compact": true,
+   "widthInches": 7.5,
+   "maxBrewTempC": null,
+   "maintenanceLevel": "medium",
+   "learningCurve": "None",
+   "expectedLifespanYears": 5,
+   "annualMaintenanceCostUSD": 30,
+   "costPerCupUSD": 1.2,
+   "scores": {
+    "quality": 3,
+    "espresso": 2,
+    "speed": 4,
+    "ease": 5,
+    "variety": 4,
+    "eco": 1,
+    "repair": 1
+   },
+   "priceTier": "Upper mid-range",
+   "priceTierLevel": 3,
+   "buyLinks": {
+    "us": "https://www.amazon.com/s?k=nespresso+vertuo+lattissima"
+   },
+   "image": null,
+   "summary": "Vertuo machine with an integrated milk system for one-touch lattes and cappuccinos, and a wide range of cup sizes.",
+   "whoItsFor": "Buy this if you want cafe-style milk drinks and big mugs of coffee with zero effort. Pods are Nespresso-only, so check the running costs."
+  },
+  {
    "name": "Nespresso Vertuo Next",
    "brand": "Nespresso",
    "url": "https://getbrewharbor.com/machines/nespresso-vertuo-next/",
@@ -2364,6 +2916,48 @@
    "whoItsFor": "The cheapest way into the Vertuo ecosystem. Surprisingly good larger cup options."
   },
   {
+   "name": "Nespresso Vertuo Pop+",
+   "brand": "Nespresso",
+   "url": "https://getbrewharbor.com/machines/nespresso-vertuo-pop-plus/",
+   "category": "Pod Machine",
+   "automation": "High Automation",
+   "milkSystem": "none",
+   "drinks": [
+    "espresso",
+    "capsule",
+    "pod"
+   ],
+   "coffeeTypes": [
+    "pods"
+   ],
+   "compact": true,
+   "widthInches": 8.6,
+   "maxBrewTempC": null,
+   "maintenanceLevel": "low",
+   "learningCurve": "None",
+   "expectedLifespanYears": 5,
+   "annualMaintenanceCostUSD": 20,
+   "costPerCupUSD": 1.2,
+   "scores": {
+    "quality": 2,
+    "espresso": 2,
+    "speed": 5,
+    "ease": 5,
+    "variety": 3,
+    "eco": 1,
+    "repair": 1
+   },
+   "priceTier": "Budget",
+   "priceTierLevel": 1,
+   "buyLinks": {
+    "us": "https://www.amazon.com/s?k=nespresso+vertuo+pop+plus",
+    "ca": "https://www.amazon.ca/s?k=nespresso+vertuo+pop+plus"
+   },
+   "image": null,
+   "summary": "Compact Vertuo machine with a larger removable water tank and Bluetooth and Wi-Fi, brewing five sizes from espresso to alto.",
+   "whoItsFor": "Buy this if you want the simplest pod coffee in a small footprint and accept that Vertuo pods cost more per cup than most options."
+  },
+  {
    "name": "Nespresso VertuoPlus",
    "brand": "Nespresso",
    "url": "https://getbrewharbor.com/machines/nespresso-vertuoplus/",
@@ -2413,7 +3007,7 @@
   {
    "name": "Ninja Luxe Café Premier",
    "brand": "Ninja",
-   "url": "https://getbrewharbor.com/machines/ninja-luxe-caf-premier/",
+   "url": "https://getbrewharbor.com/machines/ninja-luxe-cafe-premier/",
    "category": "Semi-Automatic",
    "automation": "semi",
    "milkSystem": "auto-cappuccinatore",
@@ -2689,6 +3283,48 @@
    "image": "https://getbrewharbor.com/images/philips-5400-lattego.jpg",
    "summary": "Philips top LatteGo model with 12 drink presets and SilentBrew technology. Reddit consensus upgrade pick.",
    "whoItsFor": "Quieter than any machine I've owned. The drink variety keeps everyone happy."
+  },
+  {
+   "name": "Philips Baristina",
+   "brand": "Philips",
+   "url": "https://getbrewharbor.com/machines/philips-baristina/",
+   "category": "Semi-Automatic",
+   "automation": "semi",
+   "milkSystem": "none",
+   "drinks": [
+    "espresso",
+    "specialty"
+   ],
+   "coffeeTypes": [
+    "beans"
+   ],
+   "compact": true,
+   "widthInches": 7.1,
+   "maxBrewTempC": null,
+   "maintenanceLevel": "low",
+   "learningCurve": "Low",
+   "expectedLifespanYears": 5,
+   "annualMaintenanceCostUSD": 30,
+   "costPerCupUSD": 0.37,
+   "scores": {
+    "quality": 3,
+    "espresso": 3,
+    "speed": 4,
+    "ease": 4,
+    "variety": 2,
+    "eco": 3,
+    "repair": 3
+   },
+   "priceTier": "Upper mid-range",
+   "priceTierLevel": 3,
+   "buyLinks": {
+    "us": "https://www.amazon.com/s?k=philips+baristina",
+    "ca": "https://www.amazon.ca/s?k=philips+baristina",
+    "eu": "https://www.amazon.de/s?k=philips+baristina"
+   },
+   "image": null,
+   "summary": "Compact Philips espresso machine that grinds, tamps and brews with one swipe of a lever, using a ceramic grinder that cannot be adjusted.",
+   "whoItsFor": "Buy this if you want fresh-bean espresso with almost no learning in a very small footprint. Reviewers find the fixed grind limiting, and milk needs a separate frother."
   },
   {
    "name": "Profitec Go",
@@ -3153,6 +3789,93 @@
    "image": "https://getbrewharbor.com/images/technivorm-moccamaster-kbgv.jpg",
    "summary": "The gold standard of drip coffee machines. SCAA-certified, brews at the perfect 92-96C, and built to last 15+ years in the Netherlands.",
    "whoItsFor": "Buy this if drip coffee is your daily ritual and you want it done perfectly every time. SCAA-certified, brews at the exact right temperature, and will outlast every other machine on this list."
+  },
+  {
+   "name": "Terra Kaffe TK-02",
+   "brand": "Terra Kaffe",
+   "url": "https://getbrewharbor.com/machines/terra-kaffe-tk-02/",
+   "category": "Super-Automatic",
+   "automation": "super",
+   "milkSystem": "integrated",
+   "drinks": [
+    "espresso",
+    "latte",
+    "cappuccino",
+    "drip",
+    "cold",
+    "specialty"
+   ],
+   "coffeeTypes": [
+    "beans",
+    "any"
+   ],
+   "compact": false,
+   "widthInches": null,
+   "maxBrewTempC": null,
+   "maintenanceLevel": "medium",
+   "learningCurve": "None",
+   "expectedLifespanYears": 6,
+   "annualMaintenanceCostUSD": 90,
+   "costPerCupUSD": 0.37,
+   "scores": {
+    "quality": 4,
+    "espresso": 4,
+    "speed": 4,
+    "ease": 5,
+    "variety": 5,
+    "eco": 2,
+    "repair": 2
+   },
+   "priceTier": "Premium",
+   "priceTierLevel": 4,
+   "buyLinks": {
+    "us": "https://www.amazon.com/s?k=terra+kaffe+tk-02",
+    "uk": "https://www.amazon.co.uk/s?k=terra+kaffe+tk-02"
+   },
+   "image": null,
+   "summary": "App-connected super-automatic that brews espresso and true drip coffee, with a front-loading design and an automatic milk carafe.",
+   "whoItsFor": "Buy this if you want one-touch drinks, iced coffee and a full carafe from one quiet machine and like controlling it from your phone. The brand is newer and its service network smaller than Jura or De'Longhi."
+  },
+  {
+   "name": "Toddy Cold Brew System",
+   "brand": "Toddy",
+   "url": "https://getbrewharbor.com/machines/toddy-cold-brew-system/",
+   "category": "Manual",
+   "automation": "manual",
+   "milkSystem": "none",
+   "drinks": [
+    "cold brew",
+    "cold",
+    "iced coffee"
+   ],
+   "coffeeTypes": [
+    "ground"
+   ],
+   "compact": false,
+   "widthInches": null,
+   "maxBrewTempC": null,
+   "maintenanceLevel": "low",
+   "learningCurve": "Low",
+   "expectedLifespanYears": 8,
+   "annualMaintenanceCostUSD": 10,
+   "costPerCupUSD": 0.6,
+   "scores": {
+    "quality": 4,
+    "espresso": 0,
+    "speed": 1,
+    "ease": 3,
+    "variety": 2,
+    "eco": 5,
+    "repair": 5
+   },
+   "priceTier": "Budget",
+   "priceTierLevel": 1,
+   "buyLinks": {
+    "us": "https://www.amazon.com/s?k=toddy+cold+brew+system"
+   },
+   "image": null,
+   "summary": "Immersion cold brew system that makes a smooth, low-acid concentrate you dilute with water or milk and keep in the fridge.",
+   "whoItsFor": "Buy this if you drink a lot of iced coffee and can plan ahead, since it steeps for many hours. One batch lasts for days, so the effort comes up front."
   }
  ]
 }

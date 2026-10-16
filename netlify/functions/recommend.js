@@ -46,7 +46,7 @@ function tierFor(m, region) {
   const i = TIERS.findIndex(([max]) => usd < max);
   return { level: i + 1, label: TIERS[i][1] };
 }
-const slugify = s => String(s).toLowerCase().replace(/['’]/g, '').replace(/&/g, ' and ').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+const slugify = s => String(s).normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/['’]/g, '').replace(/&/g, ' and ').replace(/\+/g, ' plus ').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 
 let cache = { at: 0, records: null, source: null };
 // Reads machine data through the site's own cached Airtable endpoint (edge-cached for hours),

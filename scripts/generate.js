@@ -19,6 +19,9 @@ const UNVERIFIED_SPECS = new Set([
   'Ascaso Steel Duo PID', 'Bosch VeroCafe 800', 'Melitta Barista TS Smart', 'Saeco Xelsis',
   'ECM Classika PID', 'Profitec Pro 500', 'Profitec Pro 600',
 ]);
+// Added Oct 2026: widths are verified from retailer or review specs, but brewing temperatures are sibling-based estimates
+// used by the quiz only, so they are not shown on public pages until verified.
+const UNVERIFIED_TEMP = new Set(["Breville Bambino", "Breville Barista Express Impress", "De'Longhi La Specialista Opera", "De'Longhi Dedica Duo", "Breville Oracle Jet", "Terra Kaffe TK-02", "De'Longhi Magnifica Start", "Philips Baristina", "Breville Luxe Brewer", "Nespresso Vertuo Pop+", "Nespresso Vertuo Lattissima", "Keurig K-Café Smart", "Keurig K-Mini", "Bialetti Moka Express", "Toddy Cold Brew System", "CASABREWS CM5418", "CASABREWS 3700 Essential"]);
 
 const raw = JSON.parse(fs.readFileSync(path.join(ROOT, 'data/machines.raw.json'), 'utf8'));
 
@@ -30,7 +33,7 @@ const IMAGE_MAP = new Function('return ' + html.slice(imgStart + 'const IMAGE_MA
 
 // ---- helpers ----
 const esc = s => String(s == null ? '' : s).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
-const slugify = s => String(s).toLowerCase().replace(/['’]/g, '').replace(/&/g, ' and ').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+const slugify = s => String(s).normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/['’]/g, '').replace(/&/g, ' and ').replace(/\+/g, ' plus ').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 const sel = v => (v && typeof v === 'object' && v.name) ? v.name : (v || '');
 const num = v => { const n = parseFloat(v); return Number.isFinite(n) ? n : null; };
 const list = v => v ? String(v).split(',').map(s => s.trim()).filter(Boolean) : [];
@@ -54,7 +57,7 @@ const machines = raw.map(r => r.fields)
       maintenance: sel(f.maintenanceLevel),
       learning: sel(f.learningCurve),
       width: verified ? num(f.widthInches) : null,
-      brewTemp: verified ? num(f.brewTempMax) : null,
+      brewTemp: verified && !UNVERIFIED_TEMP.has(f.name) ? num(f.brewTempMax) : null,
       lifespan: num(f.expectedLifespanYears),
       annualMaint: num(f.maintenanceAnnualCost),
       cupCost: num(f.costPerCup),
