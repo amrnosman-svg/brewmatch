@@ -49,3 +49,8 @@
   from = "/machines/toddy-cold-brew-system/*"
   to = "/machines/takeya-deluxe-cold-brew-coffee-maker/"
   status = 301
+
+[[redirects]]
+  from = "/machines/delonghi-la-specialista-arte/*"
+  to = "/machines/delonghi-la-specialista-arte-evo/"
+  status = 301

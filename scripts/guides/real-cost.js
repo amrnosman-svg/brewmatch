@@ -149,7 +149,7 @@ ${assump}
 <li>Dose: the Specialty Coffee Association Golden Cup standard (55 g per litre, plus or minus 10%), about 15 g for an 8 oz cup, and 18 to 20 g for a double espresso.</li>
 <li>Nespresso pod price ranges, 2026: <a href="https://afpakmachine.com/nespresso-pods-cost/" rel="noopener">AFPAK</a> and <a href="https://www.driproast.com/best-nespresso-machines/" rel="noopener">Drip Roast</a>; K-Cup ranges vary by source and are the least certain.</li>
 </ul>
-<p class="rc-small">Checked October 2026. BrewHarbor may earn a commission from Amazon links on other pages of the site. There are none on this page, and nothing here is sponsored.</p>
+<p class="rc-small">Checked October 2026. There are no affiliate links on this page, and nothing here is sponsored.</p>
 
 <p><a class="rc-cta" href="/">Find a machine for your habit</a></p>
 </div>

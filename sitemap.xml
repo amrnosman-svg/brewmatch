@@ -27,7 +27,7 @@
   <url><loc>https://getbrewharbor.com/machines/delonghi-dedica-duo/</loc><lastmod>2026-10-16</lastmod></url>
   <url><loc>https://getbrewharbor.com/machines/delonghi-dinamica-plus/</loc><lastmod>2026-10-16</lastmod></url>
   <url><loc>https://getbrewharbor.com/machines/delonghi-eletta-explore/</loc><lastmod>2026-10-16</lastmod></url>
-  <url><loc>https://getbrewharbor.com/machines/delonghi-la-specialista-arte/</loc><lastmod>2026-10-16</lastmod></url>
+  <url><loc>https://getbrewharbor.com/machines/delonghi-la-specialista-arte-evo/</loc><lastmod>2026-10-16</lastmod></url>
   <url><loc>https://getbrewharbor.com/machines/delonghi-la-specialista-opera/</loc><lastmod>2026-10-16</lastmod></url>
   <url><loc>https://getbrewharbor.com/machines/delonghi-la-specialista-prestigio/</loc><lastmod>2026-10-16</lastmod></url>
   <url><loc>https://getbrewharbor.com/machines/delonghi-magnifica-evo/</loc><lastmod>2026-10-16</lastmod></url>
@@ -38,7 +38,6 @@
   <url><loc>https://getbrewharbor.com/machines/fellow-clara-press/</loc><lastmod>2026-10-16</lastmod></url>
   <url><loc>https://getbrewharbor.com/machines/fellow-espresso-series-1/</loc><lastmod>2026-10-16</lastmod></url>
   <url><loc>https://getbrewharbor.com/machines/fellow-stagg-x/</loc><lastmod>2026-10-16</lastmod></url>
-  <url><loc>https://getbrewharbor.com/machines/flair-58/</loc><lastmod>2026-10-16</lastmod></url>
   <url><loc>https://getbrewharbor.com/machines/flair-espresso-neo/</loc><lastmod>2026-10-16</lastmod></url>
   <url><loc>https://getbrewharbor.com/machines/gaggia-anima-prestige/</loc><lastmod>2026-10-16</lastmod></url>
   <url><loc>https://getbrewharbor.com/machines/gaggia-classic-pro/</loc><lastmod>2026-10-16</lastmod></url>
@@ -58,7 +57,6 @@
   <url><loc>https://getbrewharbor.com/machines/lelit-bianca/</loc><lastmod>2026-10-16</lastmod></url>
   <url><loc>https://getbrewharbor.com/machines/lelit-mara-x/</loc><lastmod>2026-10-16</lastmod></url>
   <url><loc>https://getbrewharbor.com/machines/melitta-barista-ts-smart/</loc><lastmod>2026-10-16</lastmod></url>
-  <url><loc>https://getbrewharbor.com/machines/miele-cm5300/</loc><lastmod>2026-10-16</lastmod></url>
   <url><loc>https://getbrewharbor.com/machines/nespresso-citiz/</loc><lastmod>2026-10-16</lastmod></url>
   <url><loc>https://getbrewharbor.com/machines/nespresso-creatista-plus/</loc><lastmod>2026-10-16</lastmod></url>
   <url><loc>https://getbrewharbor.com/machines/nespresso-essenza-mini/</loc><lastmod>2026-10-16</lastmod></url>
@@ -95,15 +93,14 @@
   <url><loc>https://getbrewharbor.com/compare/chemex-6-cup-vs-hario-v60/</loc><lastmod>2026-10-16</lastmod></url>
   <url><loc>https://getbrewharbor.com/compare/aeropress-go-vs-aeropress-original/</loc><lastmod>2026-10-16</lastmod></url>
   <url><loc>https://getbrewharbor.com/compare/breville-precision-brewer-vs-fellow-aiden-precision-brewer/</loc><lastmod>2026-10-16</lastmod></url>
+  <url><loc>https://getbrewharbor.com/compare/breville-barista-express-vs-delonghi-la-specialista-arte-evo/</loc><lastmod>2026-10-16</lastmod></url>
   <url><loc>https://getbrewharbor.com/compare/breville-barista-touch-impress-vs-fellow-espresso-series-1/</loc><lastmod>2026-10-16</lastmod></url>
-  <url><loc>https://getbrewharbor.com/compare/delonghi-la-specialista-arte-vs-ninja-luxe-cafe-premier/</loc><lastmod>2026-10-16</lastmod></url>
   <url><loc>https://getbrewharbor.com/compare/keurig-k-elite-vs-nespresso-vertuo-pop-plus/</loc><lastmod>2026-10-16</lastmod></url>
   <url><loc>https://getbrewharbor.com/compare/breville-oracle-jet-vs-profitec-pro-500/</loc><lastmod>2026-10-16</lastmod></url>
   <url><loc>https://getbrewharbor.com/compare/breville-barista-touch-impress-vs-ecm-classika-pid/</loc><lastmod>2026-10-16</lastmod></url>
-  <url><loc>https://getbrewharbor.com/compare/delonghi-la-specialista-arte-vs-lelit-anna/</loc><lastmod>2026-10-16</lastmod></url>
+  <url><loc>https://getbrewharbor.com/compare/lelit-anna-vs-ninja-luxe-cafe-premier/</loc><lastmod>2026-10-16</lastmod></url>
   <url><loc>https://getbrewharbor.com/compare/delonghi-magnifica-evo-vs-delonghi-magnifica-start/</loc><lastmod>2026-10-16</lastmod></url>
   <url><loc>https://getbrewharbor.com/compare/saeco-xelsis-vs-terra-kaffe-tk-02/</loc><lastmod>2026-10-16</lastmod></url>
-  <url><loc>https://getbrewharbor.com/compare/melitta-barista-ts-smart-vs-philips-3200-lattego/</loc><lastmod>2026-10-16</lastmod></url>
   <url><loc>https://getbrewharbor.com/compare/breville-bambino-vs-delonghi-dedica-duo/</loc><lastmod>2026-10-16</lastmod></url>
   <url><loc>https://getbrewharbor.com/compare/breville-barista-touch-vs-rancilio-silvia/</loc><lastmod>2026-10-16</lastmod></url>
   <url><loc>https://getbrewharbor.com/compare/keurig-k-cafe-smart-vs-keurig-k-supreme-plus-smart/</loc><lastmod>2026-10-16</lastmod></url>
@@ -117,11 +114,12 @@
   <url><loc>https://getbrewharbor.com/compare/bosch-verocafe-800-vs-delonghi-eletta-explore/</loc><lastmod>2026-10-16</lastmod></url>
   <url><loc>https://getbrewharbor.com/compare/ratio-six-vs-technivorm-moccamaster-kbgv/</loc><lastmod>2026-10-16</lastmod></url>
   <url><loc>https://getbrewharbor.com/compare/aeropress-go-vs-bialetti-moka-express/</loc><lastmod>2026-10-16</lastmod></url>
-  <url><loc>https://getbrewharbor.com/compare/delonghi-la-specialista-arte-vs-flair-58/</loc><lastmod>2026-10-16</lastmod></url>
   <url><loc>https://getbrewharbor.com/compare/breville-luxe-brewer-vs-technivorm-moccamaster-kbgv/</loc><lastmod>2026-10-16</lastmod></url>
   <url><loc>https://getbrewharbor.com/compare/bonavita-8-cup-vs-oxo-brew-9-cup/</loc><lastmod>2026-10-16</lastmod></url>
   <url><loc>https://getbrewharbor.com/compare/jura-ena-8-vs-terra-kaffe-tk-02/</loc><lastmod>2026-10-16</lastmod></url>
   <url><loc>https://getbrewharbor.com/compare/fellow-aiden-precision-brewer-vs-ratio-six/</loc><lastmod>2026-10-16</lastmod></url>
   <url><loc>https://getbrewharbor.com/compare/breville-barista-pro-vs-delonghi-la-specialista-prestigio/</loc><lastmod>2026-10-16</lastmod></url>
+  <url><loc>https://getbrewharbor.com/compare/breville-barista-pro-vs-delonghi-la-specialista-opera/</loc><lastmod>2026-10-16</lastmod></url>
+  <url><loc>https://getbrewharbor.com/compare/aeropress-go-vs-chemex-6-cup/</loc><lastmod>2026-10-16</lastmod></url>
   <url><loc>https://getbrewharbor.com/guides/real-cost-of-coffee/</loc><lastmod>2026-10-16</lastmod></url>
 </urlset>

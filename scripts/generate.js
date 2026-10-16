@@ -16,6 +16,7 @@ const TODAY = process.env.LASTMOD || new Date().toISOString().slice(0, 10);
 
 // Specs still awaiting verification (see project notes) — width and brew temp are NOT published for these.
 const UNVERIFIED_SPECS = new Set([
+  'De\'Longhi La Specialista Arte Evo', // width carried over from the Arte; Evo not checked
   'Philips 4400 LatteGo', 'Philips 5500 LatteGo', // width inferred from the LatteGo family; Philips spec page did not load
 ]);
 // Added Oct 2026: widths are verified from retailer or review specs, but brewing temperatures are sibling-based estimates
@@ -178,7 +179,7 @@ ${jsonld ? `<script type="application/ld+json">${JSON.stringify(jsonld)}</script
 <div class="wrap">
 ${body}
 </div>
-<footer>© 2026 BrewHarbor · As an Amazon Associate I earn from qualifying purchases. · Prices are estimates; check the retailer for current prices · <a href="/machines/">All machines</a> · <a href="/guides/real-cost-of-coffee/">Cost guide</a> · <a href="/privacy.html">Privacy</a> · <a href="#" onclick="if(window.bhConsent){bhConsent.open();}return false;">Cookie settings</a></footer>
+<footer>© 2026 BrewHarbor · Prices are estimates; check the retailer for current prices · <a href="/machines/">All machines</a> · <a href="/guides/real-cost-of-coffee/">Cost guide</a> · <a href="/privacy.html">Privacy</a> · <a href="#" onclick="if(window.bhConsent){bhConsent.open();}return false;">Cookie settings</a></footer>
 </body>
 </html>
 `;

@@ -271,7 +271,9 @@
   .price-band { letter-spacing: 1px; font-size: 11px; color: var(--black); }
   .price-band-label { font-size: 11px; color: var(--mid-grey); white-space: nowrap; }
   .affiliate-note { font-size: 11px; color: var(--mid-grey); text-align: center; margin: 18px auto 0; max-width: 560px; }
-  footer { background: var(--black); color: rgba(255,255,255,0.35); text-align: center; padding: 32px; font-size: 12px; font-weight: 300; letter-spacing: 0.5px; }
+  .step-error { color: #b04a26; font-size: 14px; margin: 14px 0 0; }
+  footer a { opacity: 1 !important; text-decoration: underline; text-underline-offset: 3px; display: inline-block; padding: 6px 2px; }
+  footer { background: var(--black); color: rgba(255,255,255,0.78); text-align: center; padding: 32px; font-size: 12px; font-weight: 300; letter-spacing: 0.5px; }
 
 
   @media (max-width: 760px) {
@@ -651,7 +653,7 @@
       <div class="filter-pills" id="filterPills" style="display:none"></div>
       <div class="cards-grid" id="cardsGrid"></div>
     </div>
-    <p class="affiliate-note">As an Amazon Associate I earn from qualifying purchases. This never changes which machines we recommend.</p>
+    <p class="affiliate-note">Buy links go to Amazon so you can see today's price. This never changes which machines we recommend.</p>
 
     <!-- ── Feedback widget ─────────────────────────────────────────────── -->
     <div id="feedbackWidget" style="max-width:640px;margin:40px auto;padding:24px 28px;background:transparent;border:none;text-align:center;">
@@ -671,7 +673,7 @@
   </div>
 </div>
 
-<footer>© 2026 BrewHarbor &nbsp;·&nbsp; As an Amazon Associate I earn from qualifying purchases. &nbsp;·&nbsp; Price ranges are estimates; check the retailer for current prices &nbsp;·&nbsp; <a href="/machines/" style="color:inherit;opacity:0.7;">All machines</a> &nbsp;·&nbsp; <a href="/guides/real-cost-of-coffee/" style="color:inherit;opacity:0.7;">Cost guide</a> &nbsp;·&nbsp; <a href="/privacy.html" style="color:inherit;opacity:0.7;">Privacy</a> &nbsp;·&nbsp; <a href="#" style="color:inherit;opacity:0.7;" onclick="if(window.bhConsent){bhConsent.open();}return false;">Cookie settings</a> &nbsp;·&nbsp; <a href="#" style="color:inherit;opacity:0.5;" onclick="startQuiz();return false;">Retake quiz</a></footer>
+<footer>© 2026 BrewHarbor &nbsp;·&nbsp; Price ranges are estimates; check the retailer for current prices &nbsp;·&nbsp; <a href="/machines/" style="color:inherit;opacity:0.7;">All machines</a> &nbsp;·&nbsp; <a href="/guides/real-cost-of-coffee/" style="color:inherit;opacity:0.7;">Cost guide</a> &nbsp;·&nbsp; <a href="/privacy.html" style="color:inherit;opacity:0.7;">Privacy</a> &nbsp;·&nbsp; <a href="#" style="color:inherit;opacity:0.7;" onclick="if(window.bhConsent){bhConsent.open();}return false;">Cookie settings</a> &nbsp;·&nbsp; <a href="#" style="color:inherit;opacity:0.5;" onclick="startQuiz();return false;">Retake quiz</a></footer>
 
 <script>
 // ─── AFFILIATE CONFIG — update your tag IDs here ────────────────────────────
@@ -2539,7 +2541,7 @@ const FALLBACK_MACHINES = [
     "widthInches": 10.0
   },
   {
-    "name": "De'Longhi La Specialista Arte",
+    "name": "De'Longhi La Specialista Arte Evo",
     "brand": "De'Longhi",
     "category": "Semi-Automatic",
     "drinkTypes": [
@@ -4205,7 +4207,7 @@ const machineExtras = {
   "Rancilio Silvia Pro X":      { ecoRepairScore: 4, bundles: ["Rancilio Rocky grinder", "precision tamper", "espresso puck screen"] },
   "Nespresso Essenza Mini":     { ecoRepairScore: 2, bundles: ["Nespresso Original pods variety pack", "Aeroccino milk frother", "Nespresso descaler"] },
   "Nespresso Vertuo Pop":       { ecoRepairScore: 2, bundles: ["Nespresso Vertuo pods variety pack", "Aeroccino milk frother", "Nespresso descaler"] },
-  "De'Longhi La Specialista Arte": { ecoRepairScore: 3, bundles: ["specialty espresso beans 1kg", "precision tamper", "milk frothing pitcher"] },
+  "De'Longhi La Specialista Arte Evo": { ecoRepairScore: 3, bundles: ["specialty espresso beans 1kg", "precision tamper", "milk frothing pitcher"] },
   "Jura S8":                    { ecoRepairScore: 4, bundles: ["Jura descaler tablets", "Jura cleaning tablets", "specialty coffee beans 2kg"] },
   "OXO Brew 9-Cup":             { ecoRepairScore: 4, bundles: ["specialty drip coffee beans 1kg", "OXO paper filters", "burr coffee grinder"] },
   "Flair 58":                   { ecoRepairScore: 5, bundles: ["specialty espresso beans 500g", "hand coffee grinder", "flair cleaning kit"] },
@@ -4279,7 +4281,7 @@ const IMAGE_MAP = {
   'Cuisinart DCC-3200': 'images/cuisinart-dcc-3200.jpg',
   'De\'Longhi Dinamica Plus': 'images/de-longhi-dinamica-plus.jpg',
   'De\'Longhi Eletta Explore': 'images/de-longhi-eletta-explore.jpg',
-  'De\'Longhi La Specialista Arte': 'images/de-longhi-la-specialista-arte.jpg',
+  'De\'Longhi La Specialista Arte Evo': 'images/de-longhi-la-specialista-arte-evo.jpg',
   'De\'Longhi La Specialista Prestigio': 'images/de-longhi-la-specialista-prestigio.jpg',
   'De\'Longhi Magnifica Evo': 'images/de-longhi-magnifica-evo.jpg',
   'De\'Longhi Rivelia': 'images/de-longhi-rivelia.jpg',
@@ -4346,6 +4348,7 @@ const IMAGE_MAP = {
   'CASABREWS CM5418': 'images/casabrews-cm5418.jpg',
   'CASABREWS 3700 Essential': 'images/casabrews-3700-essential.jpg',
   'Ninja Luxe Café Premier': 'images/ninja-luxe-cafe-premier.jpg',
+  'Takeya Deluxe Cold Brew Coffee Maker': 'images/takeya-deluxe-cold-brew-coffee-maker.jpg',
 };
 
 
@@ -4596,7 +4599,23 @@ function bm_track(eventName, params) {
 }
 const STEP_NAMES = { 0:'drink_type', 1:'lifestyle', 2:'budget_coffeeType', 3:'priorities' };
 
+// Each step must be answered before moving on (shown inline, no pop-up)
+const STEP_REQUIRED = {
+  0: [() => userAnswers.drinks && userAnswers.drinks.length > 0, 'Pick at least one drink to continue.'],
+  1: [() => !!userAnswers.effort, 'Choose how much effort you want to put in.'],
+  2: [() => !!userAnswers.coffeeType, 'Choose a coffee type (or "Open to anything") to continue.']
+};
+function showStepError(msg) {
+  const box = document.getElementById('step' + currentStep);
+  let el = box.querySelector('.step-error');
+  if (!el) { el = document.createElement('p'); el.className = 'step-error'; el.setAttribute('role', 'alert'); const row = box.querySelector('.btn-row'); row ? row.parentNode.insertBefore(el, row) : box.appendChild(el); }
+  el.textContent = msg;
+}
+function clearStepError() { document.querySelectorAll('.step-error').forEach(e => e.remove()); }
 function nextStep(n) {
+  const rule = STEP_REQUIRED[currentStep];
+  if (n > currentStep && rule && !rule[0]()) { showStepError(rule[1]); return; }
+  clearStepError();
   // Track step completion
   const stepLabel = STEP_NAMES[currentStep] || ('step_' + currentStep);
   bm_track('quiz_step_complete', { step_number: currentStep, step_name: stepLabel });
@@ -4608,6 +4627,7 @@ function nextStep(n) {
   window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 function prevStep(n) {
+  clearStepError();
   document.getElementById('step' + currentStep).classList.remove('visible');
   currentStep = n;
   document.getElementById('step' + currentStep).classList.add('visible');
@@ -5255,7 +5275,7 @@ function showResults() {
         ${topLife ? `<div class="rec-fact"><b>${topLife} yrs</b><span>Expected life</span></div>` : ''}
       </div>
       <a class="rec-cta" href="${getLink(top.m)}" target="_blank" rel="sponsored nofollow noopener" onclick="trackBuyClick('${jsq(top.m.name)}')">Check price on Amazon</a>
-      <p class="rec-fine">Prices change daily, so check today's price on Amazon. The yearly figure is the machine's cost spread over its expected life, plus upkeep and about $${tco.dailyCoffeeCost} a day in coffee. It is an estimate.</p>`;
+      <p class="rec-fine">Prices change daily, so check today's price on Amazon. The yearly figure is the machine's cost spread over its expected life, plus upkeep and about ${sym === '$' ? '$' : 'US$'}${tco.dailyCoffeeCost} a day in coffee. It is an estimate.</p>`;
 
     const altLine = alt => {
       const parts = [];

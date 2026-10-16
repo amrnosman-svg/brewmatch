@@ -182,7 +182,11 @@
    "priceTier": "Budget",
    "priceTierLevel": 1,
    "buyLinks": {
-    "us": "https://www.amazon.com/s?k=bialetti+moka+express"
+    "us": "https://www.amazon.com/dp/B000CNY6UK",
+    "ca": "https://www.amazon.ca/s?k=bialetti+moka+express",
+    "uk": "https://www.amazon.co.uk/s?k=bialetti+moka+express",
+    "eu": "https://www.amazon.de/s?k=bialetti+moka+express",
+    "au": "https://www.amazon.com.au/s?k=bialetti+moka+express"
    },
    "image": "https://getbrewharbor.com/images/bialetti-moka-express.jpg",
    "summary": "Classic aluminium stovetop brewer that makes strong, espresso-style coffee without electricity.",
@@ -358,7 +362,11 @@
    "priceTier": "Mid-range",
    "priceTierLevel": 2,
    "buyLinks": {
-    "us": "https://www.amazon.com/s?k=breville+bambino+espresso"
+    "us": "https://www.amazon.com/dp/B0B1JPPG2L",
+    "ca": "https://www.amazon.ca/s?k=breville+bambino",
+    "uk": "https://www.amazon.co.uk/s?k=sage+bambino",
+    "eu": "https://www.amazon.de/s?k=sage+bambino",
+    "au": "https://www.amazon.com.au/s?k=breville+bambino"
    },
    "image": "https://getbrewharbor.com/images/breville-bambino.jpg",
    "summary": "Compact semi-automatic with 3-second ThermoJet heat-up and a manual steam wand. Real espresso in a footprint under 8 inches wide.",
@@ -492,7 +500,11 @@
    "priceTier": "Upper mid-range",
    "priceTierLevel": 3,
    "buyLinks": {
-    "us": "https://www.amazon.com/s?k=breville+barista+express+impress"
+    "us": "https://www.amazon.com/dp/B0BBYNPV33",
+    "ca": "https://www.amazon.ca/s?k=breville+barista+express+impress",
+    "uk": "https://www.amazon.co.uk/s?k=sage+barista+express+impress",
+    "eu": "https://www.amazon.de/s?k=sage+barista+express+impress",
+    "au": "https://www.amazon.com.au/s?k=breville+barista+express+impress"
    },
    "image": "https://getbrewharbor.com/images/breville-barista-express-impress.jpg",
    "summary": "All-in-one semi-automatic with a built-in conical burr grinder and Breville's assisted tamping, so the grind, dose and tamp are largely handled for you.",
@@ -722,7 +734,11 @@
    "priceTier": "Mid-range",
    "priceTierLevel": 2,
    "buyLinks": {
-    "us": "https://www.amazon.com/s?k=breville+luxe+brewer"
+    "us": "https://www.amazon.com/dp/B0F48KZ5VR",
+    "ca": "https://www.amazon.ca/s?k=breville+luxe+brewer",
+    "uk": "https://www.amazon.co.uk/s?k=sage+luxe+brewer",
+    "eu": "https://www.amazon.de/s?k=sage+luxe+brewer",
+    "au": "https://www.amazon.com.au/s?k=breville+luxe+brewer"
    },
    "image": "https://getbrewharbor.com/images/breville-luxe-brewer.jpg",
    "summary": "SCA-certified drip brewer from Breville with a removable water tank, a thermal or glass carafe, and modes for gold-cup, iced and cold brew.",
@@ -769,6 +785,9 @@
    "priceTierLevel": 5,
    "buyLinks": {
     "us": "https://www.amazon.com/s?k=breville+oracle+jet",
+    "ca": "https://www.amazon.ca/s?k=breville+oracle+jet",
+    "uk": "https://www.amazon.co.uk/s?k=sage+oracle+jet",
+    "eu": "https://www.amazon.de/s?k=sage+oracle+jet",
     "au": "https://www.amazon.com.au/s?k=breville+oracle+jet"
    },
    "image": "https://getbrewharbor.com/images/breville-oracle-jet.jpg",
@@ -857,7 +876,9 @@
    "priceTier": "Budget",
    "priceTierLevel": 1,
    "buyLinks": {
-    "us": "https://www.amazon.com/s?k=casabrews+3700+essential"
+    "us": "https://www.amazon.com/dp/B0BRSP8YT6",
+    "ca": "https://www.amazon.ca/s?k=casabrews+3700+essential",
+    "uk": "https://www.amazon.co.uk/s?k=casabrews+3700+essential"
    },
    "image": "https://getbrewharbor.com/images/casabrews-3700-essential.jpg",
    "summary": "Budget compact espresso machine with a steam wand and a larger water tank.",
@@ -899,7 +920,10 @@
    "priceTier": "Budget",
    "priceTierLevel": 1,
    "buyLinks": {
-    "us": "https://www.amazon.com/s?k=casabrews+cm5418"
+    "us": "https://www.amazon.com/s?k=casabrews+cm5418",
+    "ca": "https://www.amazon.ca/s?k=casabrews+cm5418",
+    "uk": "https://www.amazon.co.uk/s?k=casabrews+cm5418",
+    "eu": "https://www.amazon.de/s?k=casabrews+cm5418"
    },
    "image": "https://getbrewharbor.com/images/casabrews-cm5418.jpg",
    "summary": "Very compact budget espresso machine with a pressure gauge and a manual steam wand.",
@@ -1030,7 +1054,11 @@
    "priceTier": "Mid-range",
    "priceTierLevel": 2,
    "buyLinks": {
-    "us": "https://www.amazon.com/s?k=delonghi+dedica+duo"
+    "us": "https://www.amazon.com/dp/B0F3RZZZF9",
+    "ca": "https://www.amazon.ca/s?k=delonghi+dedica+duo",
+    "uk": "https://www.amazon.co.uk/s?k=delonghi+dedica+duo",
+    "eu": "https://www.amazon.de/s?k=delonghi+dedica+duo",
+    "au": "https://www.amazon.com.au/s?k=delonghi+dedica+duo"
    },
    "image": "https://getbrewharbor.com/images/delonghi-dedica-duo.jpg",
    "summary": "Slim 15-bar espresso machine under 6 inches wide with a manual steam wand and a choice of pressurized or standard baskets.",
@@ -1133,9 +1161,9 @@
    "whoItsFor": "The cold brew and iced latte at the touch of a button is a total game changer in summer."
   },
   {
-   "name": "De'Longhi La Specialista Arte",
+   "name": "De'Longhi La Specialista Arte Evo",
    "brand": "De'Longhi",
-   "url": "https://getbrewharbor.com/machines/delonghi-la-specialista-arte/",
+   "url": "https://getbrewharbor.com/machines/delonghi-la-specialista-arte-evo/",
    "category": "Semi-Automatic",
    "automation": "Some Involvement",
    "milkSystem": "Manual Steam",
@@ -1150,8 +1178,8 @@
     "beans"
    ],
    "compact": false,
-   "widthInches": 13,
-   "maxBrewTempC": 93,
+   "widthInches": null,
+   "maxBrewTempC": null,
    "maintenanceLevel": "Moderate",
    "learningCurve": "Medium",
    "expectedLifespanYears": 7,
@@ -1169,13 +1197,13 @@
    "priceTier": "Upper mid-range",
    "priceTierLevel": 3,
    "buyLinks": {
-    "us": "https://www.amazon.com/s?k=delonghi+la+specialista+arte",
+    "us": "https://www.amazon.com/dp/B0H7YPF966",
     "ca": "https://www.amazon.ca/s?k=delonghi+la+specialista+arte",
     "uk": "https://www.amazon.co.uk/s?k=delonghi+la+specialista+arte",
     "eu": "https://www.amazon.de/s?k=delonghi+la+specialista+arte",
     "au": "https://www.amazon.com.au/s?k=delonghi+la+specialista+arte"
    },
-   "image": "https://getbrewharbor.com/images/de-longhi-la-specialista-arte.jpg",
+   "image": "https://getbrewharbor.com/images/de-longhi-la-specialista-arte-evo.jpg",
    "summary": "Integrated grinder with sensor grinding and active temperature control. Forgiving for home baristas.",
    "whoItsFor": "Much easier to dial in than I expected. Great espresso with minimal frustration."
   },
@@ -1218,7 +1246,11 @@
    "priceTier": "Upper mid-range",
    "priceTierLevel": 3,
    "buyLinks": {
-    "us": "https://www.amazon.com/s?k=delonghi+la+specialista+opera"
+    "us": "https://www.amazon.com/dp/B0D1TY3H2J",
+    "ca": "https://www.amazon.ca/s?k=delonghi+la+specialista+opera",
+    "uk": "https://www.amazon.co.uk/s?k=delonghi+la+specialista+opera",
+    "eu": "https://www.amazon.de/s?k=delonghi+la+specialista+opera",
+    "au": "https://www.amazon.com.au/s?k=delonghi+la+specialista+opera"
    },
    "image": "https://getbrewharbor.com/images/delonghi-la-specialista-opera.jpg",
    "summary": "Semi-automatic with a built-in grinder, a tamping station and a cool-touch steam wand, plus a cold brew mode and cold-extraction recipes.",
@@ -1353,7 +1385,11 @@
    "priceTier": "Upper mid-range",
    "priceTierLevel": 3,
    "buyLinks": {
-    "us": "https://www.amazon.com/s?k=delonghi+magnifica+start"
+    "us": "https://www.amazon.com/dp/B0D96XT9BF",
+    "ca": "https://www.amazon.ca/s?k=delonghi+magnifica+start",
+    "uk": "https://www.amazon.co.uk/s?k=delonghi+magnifica+start",
+    "eu": "https://www.amazon.de/s?k=delonghi+magnifica+start",
+    "au": "https://www.amazon.com.au/s?k=delonghi+magnifica+start"
    },
    "image": "https://getbrewharbor.com/images/delonghi-magnifica-start.jpg",
    "summary": "Entry-level De'Longhi super-automatic with a built-in grinder and a short list of one-touch drinks.",
@@ -1399,7 +1435,8 @@
     "us": "https://www.amazon.com/s?k=delonghi+rivelia",
     "ca": "https://www.amazon.ca/s?k=delonghi+rivelia",
     "uk": "https://www.amazon.co.uk/s?k=delonghi+rivelia",
-    "eu": "https://www.amazon.de/s?k=delonghi+rivelia"
+    "eu": "https://www.amazon.de/s?k=delonghi+rivelia",
+    "au": "https://www.amazon.com.au/s?k=delonghi+rivelia"
    },
    "image": "https://getbrewharbor.com/images/de-longhi-rivelia.jpg",
    "summary": "Award-winning compact super-automatic with a dual-hopper bean switch system. Swap between two bean types without missing a beat.",
@@ -1633,50 +1670,6 @@
    "image": "https://getbrewharbor.com/images/fellow-stagg-x.jpg",
    "summary": "Fellow's premium pour-over dripper with a saturation stage for bloom control and a polished design.",
    "whoItsFor": "The most beautiful dripper on the market. Slower draw-down means more nuanced extraction."
-  },
-  {
-   "name": "Flair 58",
-   "brand": "Flair",
-   "url": "https://getbrewharbor.com/machines/flair-58/",
-   "category": "Semi-Automatic",
-   "automation": "Hands-On",
-   "milkSystem": "None",
-   "drinks": [
-    "espresso"
-   ],
-   "coffeeTypes": [
-    "beans",
-    "ground"
-   ],
-   "compact": false,
-   "widthInches": 8.5,
-   "maxBrewTempC": 95,
-   "maintenanceLevel": "Moderate",
-   "learningCurve": "High",
-   "expectedLifespanYears": 15,
-   "annualMaintenanceCostUSD": 20,
-   "costPerCupUSD": 0.37,
-   "scores": {
-    "quality": 5,
-    "espresso": 5,
-    "speed": 1,
-    "ease": 1,
-    "variety": 1,
-    "eco": 5,
-    "repair": 5
-   },
-   "priceTier": "Upper mid-range",
-   "priceTierLevel": 3,
-   "buyLinks": {
-    "us": "https://www.amazon.com/s?k=flair+58+espresso",
-    "ca": "https://www.amazon.ca/s?k=flair+58+espresso",
-    "uk": "https://www.amazon.co.uk/s?k=flair+58+espresso",
-    "eu": "https://www.amazon.de/s?k=flair+58+espresso",
-    "au": "https://www.amazon.com.au/s?k=flair+58+espresso"
-   },
-   "image": "https://getbrewharbor.com/images/flair-58.jpg",
-   "summary": "Manual lever machine with 58mm portafilter. Full pressure control, zero electricity needed for brewing.",
-   "whoItsFor": "The espresso quality is jaw-dropping for a manual machine. The ritual is part of the joy."
   },
   {
    "name": "Flair Espresso Neo",
@@ -2183,7 +2176,8 @@
    "priceTier": "Mid-range",
    "priceTierLevel": 2,
    "buyLinks": {
-    "us": "https://www.amazon.com/s?k=keurig+k-cafe+smart"
+    "us": "https://www.amazon.com/dp/B0B5W162ZP",
+    "ca": "https://www.amazon.ca/s?k=keurig+k+cafe+smart"
    },
    "image": "https://getbrewharbor.com/images/keurig-k-cafe-smart.jpg",
    "summary": "Keurig brewer with a built-in frother for lattes and cappuccinos, plus Smart connectivity and a choice of cup sizes.",
@@ -2314,7 +2308,8 @@
    "priceTier": "Budget",
    "priceTierLevel": 1,
    "buyLinks": {
-    "us": "https://www.amazon.com/s?k=keurig+k-mini"
+    "us": "https://www.amazon.com/dp/B07GV2S1GS",
+    "ca": "https://www.amazon.ca/s?k=keurig+k+mini"
    },
    "image": "https://getbrewharbor.com/images/keurig-k-mini.jpg",
    "summary": "Ultra-slim single-cup Keurig, under 5 inches wide, with a one-cup reservoir and cord storage.",
@@ -2555,53 +2550,6 @@
    "whoItsFor": "App control is genuinely useful. Great value compared to Jura at this price."
   },
   {
-   "name": "Miele CM5300",
-   "brand": "Miele",
-   "url": "https://getbrewharbor.com/machines/miele-cm5300/",
-   "category": "Super-Automatic",
-   "automation": "High Automation",
-   "milkSystem": "Auto Frother",
-   "drinks": [
-    "espresso",
-    "latte",
-    "cappuccino",
-    "flat white",
-    "americano"
-   ],
-   "coffeeTypes": [
-    "beans"
-   ],
-   "compact": false,
-   "widthInches": 10.7,
-   "maxBrewTempC": 95,
-   "maintenanceLevel": "Low",
-   "learningCurve": "Low",
-   "expectedLifespanYears": 12,
-   "annualMaintenanceCostUSD": 70,
-   "costPerCupUSD": 0.37,
-   "scores": {
-    "quality": 4,
-    "espresso": 4,
-    "speed": 5,
-    "ease": 5,
-    "variety": 4,
-    "eco": 4,
-    "repair": 4
-   },
-   "priceTier": "Premium",
-   "priceTierLevel": 4,
-   "buyLinks": {
-    "us": "https://www.amazon.com/s?k=miele+cm5300",
-    "ca": "https://www.amazon.ca/s?k=miele+cm5300",
-    "uk": "https://www.amazon.co.uk/s?k=miele+cm5300",
-    "eu": "https://www.amazon.de/s?k=miele+cm5300",
-    "au": "https://www.amazon.com.au/s?k=miele+cm5300"
-   },
-   "image": "https://getbrewharbor.com/images/miele-cm5300.jpg",
-   "summary": "German engineering from Miele, renowned for longevity. Built to last a decade-plus.",
-   "whoItsFor": "Miele quality is evident immediately. This machine feels like it will outlast everything else."
-  },
-  {
    "name": "Nespresso CitiZ",
    "brand": "Nespresso",
    "url": "https://getbrewharbor.com/machines/nespresso-citiz/",
@@ -2818,7 +2766,10 @@
    "priceTier": "Upper mid-range",
    "priceTierLevel": 3,
    "buyLinks": {
-    "us": "https://www.amazon.com/s?k=nespresso+vertuo+lattissima"
+    "us": "https://www.amazon.com/dp/B0C5KP15DK",
+    "ca": "https://www.amazon.ca/s?k=nespresso+vertuo+lattissima",
+    "uk": "https://www.amazon.co.uk/s?k=nespresso+vertuo+lattissima",
+    "au": "https://www.amazon.com.au/s?k=nespresso+vertuo+lattissima"
    },
    "image": "https://getbrewharbor.com/images/nespresso-vertuo-lattissima.jpg",
    "summary": "Vertuo machine with an integrated milk system for one-touch lattes and cappuccinos, and a wide range of cup sizes.",
@@ -2950,8 +2901,10 @@
    "priceTier": "Budget",
    "priceTierLevel": 1,
    "buyLinks": {
-    "us": "https://www.amazon.com/s?k=nespresso+vertuo+pop+plus",
-    "ca": "https://www.amazon.ca/s?k=nespresso+vertuo+pop+plus"
+    "us": "https://www.amazon.com/dp/B0DVD67F76",
+    "ca": "https://www.amazon.ca/s?k=nespresso+vertuo+pop+plus",
+    "uk": "https://www.amazon.co.uk/s?k=nespresso+vertuo+pop",
+    "eu": "https://www.amazon.de/s?k=nespresso+vertuo+pop"
    },
    "image": "https://getbrewharbor.com/images/nespresso-vertuo-pop-plus.jpg",
    "summary": "Compact Vertuo machine with a larger removable water tank and Bluetooth and Wi-Fi, brewing five sizes from espresso to alto.",
@@ -3320,9 +3273,11 @@
    "priceTier": "Mid-range",
    "priceTierLevel": 2,
    "buyLinks": {
-    "us": "https://www.amazon.com/s?k=philips+baristina",
+    "us": "https://www.amazon.com/dp/B0F29R7CT2",
     "ca": "https://www.amazon.ca/s?k=philips+baristina",
-    "eu": "https://www.amazon.de/s?k=philips+baristina"
+    "uk": "https://www.amazon.co.uk/s?k=philips+baristina",
+    "eu": "https://www.amazon.de/s?k=philips+baristina",
+    "au": "https://www.amazon.com.au/s?k=philips+baristina"
    },
    "image": "https://getbrewharbor.com/images/philips-baristina.jpg",
    "summary": "Compact Philips espresso machine that grinds, tamps and brews with one swipe of a lever, using a ceramic grinder that cannot be adjusted.",
@@ -3782,11 +3737,11 @@
    "priceTier": "Budget",
    "priceTierLevel": 1,
    "buyLinks": {
-    "us": "https://www.amazon.com/s?k=takeya+deluxe+cold+brew+coffee+maker",
+    "us": "https://www.amazon.com/dp/B00FFLY64U",
     "ca": "https://www.amazon.ca/s?k=takeya+deluxe+cold+brew+coffee+maker",
     "au": "https://www.amazon.com.au/s?k=takeya+deluxe+cold+brew+coffee+maker"
    },
-   "image": null,
+   "image": "https://getbrewharbor.com/images/takeya-deluxe-cold-brew-coffee-maker.jpg",
    "summary": "Simple 1-quart pitcher with a fine-mesh filter for making cold brew in the fridge. No paper filters and easy to clean.",
    "whoItsFor": "Buy this if you want cold brew with the least fuss and don't need a big batch. It steeps in the fridge for many hours, so plan ahead."
   },

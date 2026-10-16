@@ -130,7 +130,7 @@ const machineExtras = {
   "Rancilio Silvia Pro X":      { ecoRepairScore: 4, bundles: ["Rancilio Rocky grinder", "precision tamper", "espresso puck screen"] },
   "Nespresso Essenza Mini":     { ecoRepairScore: 2, bundles: ["Nespresso Original pods variety pack", "Aeroccino milk frother", "Nespresso descaler"] },
   "Nespresso Vertuo Pop":       { ecoRepairScore: 2, bundles: ["Nespresso Vertuo pods variety pack", "Aeroccino milk frother", "Nespresso descaler"] },
-  "De'Longhi La Specialista Arte": { ecoRepairScore: 3, bundles: ["specialty espresso beans 1kg", "precision tamper", "milk frothing pitcher"] },
+  "De'Longhi La Specialista Arte Evo": { ecoRepairScore: 3, bundles: ["specialty espresso beans 1kg", "precision tamper", "milk frothing pitcher"] },
   "Jura S8":                    { ecoRepairScore: 4, bundles: ["Jura descaler tablets", "Jura cleaning tablets", "specialty coffee beans 2kg"] },
   "OXO Brew 9-Cup":             { ecoRepairScore: 4, bundles: ["specialty drip coffee beans 1kg", "OXO paper filters", "burr coffee grinder"] },
   "Flair 58":                   { ecoRepairScore: 5, bundles: ["specialty espresso beans 500g", "hand coffee grinder", "flair cleaning kit"] },

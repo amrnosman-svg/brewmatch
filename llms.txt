@@ -1,6 +1,6 @@
 # BrewHarbor
 
-> Find your coffee machine. Skip the research. Independent coffee machine recommendations: a 7-question quiz plus specs, scores, strengths and watch-outs for 85 machines. No sponsored placements; Amazon links are affiliate links.
+> Find your coffee machine. Skip the research. Independent coffee machine recommendations: a 7-question quiz plus specs, scores, strengths and watch-outs for 83 machines. No sponsored placements; Amazon links are affiliate links.
 
 ## Data
 - [Machine data (JSON)](https://getbrewharbor.com/machines.json): all machines with specs, 1-5 scores and a rough price tier
@@ -34,7 +34,7 @@
 - [De'Longhi Dedica Duo](https://getbrewharbor.com/machines/delonghi-dedica-duo/): Semi-Automatic, mid-range price range
 - [De'Longhi Dinamica Plus](https://getbrewharbor.com/machines/delonghi-dinamica-plus/): Super-Automatic, premium price range
 - [De'Longhi Eletta Explore](https://getbrewharbor.com/machines/delonghi-eletta-explore/): Super-Automatic, premium price range
-- [De'Longhi La Specialista Arte](https://getbrewharbor.com/machines/delonghi-la-specialista-arte/): Semi-Automatic, upper mid-range price range
+- [De'Longhi La Specialista Arte Evo](https://getbrewharbor.com/machines/delonghi-la-specialista-arte-evo/): Semi-Automatic, upper mid-range price range
 - [De'Longhi La Specialista Opera](https://getbrewharbor.com/machines/delonghi-la-specialista-opera/): Semi-Automatic, upper mid-range price range
 - [De'Longhi La Specialista Prestigio](https://getbrewharbor.com/machines/delonghi-la-specialista-prestigio/): Semi-Automatic, upper mid-range price range
 - [De'Longhi Magnifica Evo](https://getbrewharbor.com/machines/delonghi-magnifica-evo/): Super-Automatic, upper mid-range price range
@@ -45,7 +45,6 @@
 - [Fellow Clara Press](https://getbrewharbor.com/machines/fellow-clara-press/): Manual, budget price range
 - [Fellow Espresso Series 1](https://getbrewharbor.com/machines/fellow-espresso-series-1/): Semi-Automatic, premium price range
 - [Fellow Stagg X](https://getbrewharbor.com/machines/fellow-stagg-x/): Manual, budget price range
-- [Flair 58](https://getbrewharbor.com/machines/flair-58/): Semi-Automatic, upper mid-range price range
 - [Flair Espresso Neo](https://getbrewharbor.com/machines/flair-espresso-neo/): Manual, mid-range price range
 - [Gaggia Anima Prestige](https://getbrewharbor.com/machines/gaggia-anima-prestige/): Super-Automatic, upper mid-range price range
 - [Gaggia Classic Pro](https://getbrewharbor.com/machines/gaggia-classic-pro/): Semi-Automatic, upper mid-range price range
@@ -65,7 +64,6 @@
 - [Lelit Bianca](https://getbrewharbor.com/machines/lelit-bianca/): Semi-Automatic, prosumer price range
 - [Lelit Mara X](https://getbrewharbor.com/machines/lelit-mara-x/): Semi-Automatic, premium price range
 - [Melitta Barista TS Smart](https://getbrewharbor.com/machines/melitta-barista-ts-smart/): Super-Automatic, upper mid-range price range
-- [Miele CM5300](https://getbrewharbor.com/machines/miele-cm5300/): Super-Automatic, premium price range
 - [Nespresso CitiZ](https://getbrewharbor.com/machines/nespresso-citiz/): Pod Machine, mid-range price range
 - [Nespresso Creatista Plus](https://getbrewharbor.com/machines/nespresso-creatista-plus/): Pod Machine, upper mid-range price range
 - [Nespresso Essenza Mini](https://getbrewharbor.com/machines/nespresso-essenza-mini/): Pod Machine, mid-range price range
@@ -104,15 +102,14 @@
 - [Chemex 6-Cup vs Hario V60](https://getbrewharbor.com/compare/chemex-6-cup-vs-hario-v60/)
 - [AeroPress Go vs AeroPress Original](https://getbrewharbor.com/compare/aeropress-go-vs-aeropress-original/)
 - [Breville Precision Brewer vs Fellow Aiden Precision Brewer](https://getbrewharbor.com/compare/breville-precision-brewer-vs-fellow-aiden-precision-brewer/)
+- [Breville Barista Express vs De'Longhi La Specialista Arte Evo](https://getbrewharbor.com/compare/breville-barista-express-vs-delonghi-la-specialista-arte-evo/)
 - [Breville Barista Touch Impress vs Fellow Espresso Series 1](https://getbrewharbor.com/compare/breville-barista-touch-impress-vs-fellow-espresso-series-1/)
-- [De'Longhi La Specialista Arte vs Ninja Luxe Café Premier](https://getbrewharbor.com/compare/delonghi-la-specialista-arte-vs-ninja-luxe-cafe-premier/)
 - [Keurig K-Elite vs Nespresso Vertuo Pop+](https://getbrewharbor.com/compare/keurig-k-elite-vs-nespresso-vertuo-pop-plus/)
 - [Breville Oracle Jet vs Profitec Pro 500](https://getbrewharbor.com/compare/breville-oracle-jet-vs-profitec-pro-500/)
 - [Breville Barista Touch Impress vs ECM Classika PID](https://getbrewharbor.com/compare/breville-barista-touch-impress-vs-ecm-classika-pid/)
-- [De'Longhi La Specialista Arte vs Lelit Anna](https://getbrewharbor.com/compare/delonghi-la-specialista-arte-vs-lelit-anna/)
+- [Lelit Anna vs Ninja Luxe Café Premier](https://getbrewharbor.com/compare/lelit-anna-vs-ninja-luxe-cafe-premier/)
 - [De'Longhi Magnifica Evo vs De'Longhi Magnifica Start](https://getbrewharbor.com/compare/delonghi-magnifica-evo-vs-delonghi-magnifica-start/)
 - [Saeco Xelsis vs Terra Kaffe TK-02](https://getbrewharbor.com/compare/saeco-xelsis-vs-terra-kaffe-tk-02/)
-- [Melitta Barista TS Smart vs Philips 3200 LatteGo](https://getbrewharbor.com/compare/melitta-barista-ts-smart-vs-philips-3200-lattego/)
 - [Breville Bambino vs De'Longhi Dedica Duo](https://getbrewharbor.com/compare/breville-bambino-vs-delonghi-dedica-duo/)
 - [Breville Barista Touch vs Rancilio Silvia](https://getbrewharbor.com/compare/breville-barista-touch-vs-rancilio-silvia/)
 - [Keurig K-Café Smart vs Keurig K-Supreme Plus SMART](https://getbrewharbor.com/compare/keurig-k-cafe-smart-vs-keurig-k-supreme-plus-smart/)
@@ -126,12 +123,13 @@
 - [Bosch VeroCafe 800 vs De'Longhi Eletta Explore](https://getbrewharbor.com/compare/bosch-verocafe-800-vs-delonghi-eletta-explore/)
 - [Ratio Six vs Technivorm Moccamaster KBGV](https://getbrewharbor.com/compare/ratio-six-vs-technivorm-moccamaster-kbgv/)
 - [AeroPress Go vs Bialetti Moka Express](https://getbrewharbor.com/compare/aeropress-go-vs-bialetti-moka-express/)
-- [De'Longhi La Specialista Arte vs Flair 58](https://getbrewharbor.com/compare/delonghi-la-specialista-arte-vs-flair-58/)
 - [Breville Luxe Brewer vs Technivorm Moccamaster KBGV](https://getbrewharbor.com/compare/breville-luxe-brewer-vs-technivorm-moccamaster-kbgv/)
 - [Bonavita 8-Cup vs OXO Brew 9-Cup](https://getbrewharbor.com/compare/bonavita-8-cup-vs-oxo-brew-9-cup/)
 - [Jura ENA 8 vs Terra Kaffe TK-02](https://getbrewharbor.com/compare/jura-ena-8-vs-terra-kaffe-tk-02/)
 - [Fellow Aiden Precision Brewer vs Ratio Six](https://getbrewharbor.com/compare/fellow-aiden-precision-brewer-vs-ratio-six/)
 - [Breville Barista Pro vs De'Longhi La Specialista Prestigio](https://getbrewharbor.com/compare/breville-barista-pro-vs-delonghi-la-specialista-prestigio/)
+- [Breville Barista Pro vs De'Longhi La Specialista Opera](https://getbrewharbor.com/compare/breville-barista-pro-vs-delonghi-la-specialista-opera/)
+- [AeroPress Go vs Chemex 6-Cup](https://getbrewharbor.com/compare/aeropress-go-vs-chemex-6-cup/)
 
 ## Guides
 - [What your coffee habit really costs per year (2026)](https://getbrewharbor.com/guides/real-cost-of-coffee/): yearly cost of nine common coffee setups, with every assumption and source shown
