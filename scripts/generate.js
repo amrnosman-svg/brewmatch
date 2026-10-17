@@ -17,6 +17,8 @@ const BASE = (process.env.BASE_URL || 'https://getbrewharbor.com').replace(/\/$/
 const TODAY = process.env.LASTMOD || new Date().toISOString().slice(0, 10);
 
 // Specs still awaiting verification (see project notes) — width and brew temp are NOT published for these.
+// Widths the audit could not confirm against the manufacturer: hidden until verified (same list as in index.html)
+const UNVERIFIED_WIDTH = new Set(["De'Longhi Rivelia", "Breville Bambino Plus", "Breville Luxe Brewer", "Breville Oracle Jet", "De'Longhi Eletta Explore", "Breville Precision Brewer", "Keurig K-Classic", "Breville Barista Express Impress", "Breville Barista Express", "Breville Barista Touch", "Breville Barista Touch Impress", "Breville Barista Pro", "Ninja Specialty Coffee Maker", "Fellow Aiden Precision Brewer", "Rancilio Silvia Pro X", "Rocket Appartamento"]);
 const UNVERIFIED_SPECS = new Set([
   'De\'Longhi La Specialista Arte Evo', // width carried over from the Arte; Evo not checked
   'Philips 4400 LatteGo', 'Philips 5500 LatteGo', // width inferred from the LatteGo family; Philips spec page did not load
@@ -58,7 +60,7 @@ const machines = raw.map(r => r.fields)
       milk: sel(f.milkSystem) || 'none',
       maintenance: sel(f.maintenanceLevel),
       learning: sel(f.learningCurve),
-      width: verified ? num(f.widthInches) : null,
+      width: (verified && !UNVERIFIED_WIDTH.has(f.name)) ? num(f.widthInches) : null,
       brewTemp: verified && !UNVERIFIED_TEMP.has(f.name) ? num(f.brewTempMax) : null,
       lifespan: num(f.expectedLifespanYears),
       annualMaint: num(f.maintenanceAnnualCost),
@@ -76,7 +78,7 @@ const machines = raw.map(r => r.fields)
     };
     for (const [r, , pf, lf] of REGIONS) {
       if (num(f[pf]) != null) m.prices[r] = num(f[pf]);
-      if (f[lf] && f[lf] !== '#') m.links[r] = withTag(f[lf], r);
+      if (f[lf] && f[lf] !== '#' && num(f[pf]) != null) m.links[r] = withTag(f[lf], r);
     }
     const img = IMAGE_MAP[f.name];
     m.image = img && fs.existsSync(path.join(ROOT, img)) ? img : null;
@@ -170,8 +172,8 @@ function layout({ title, desc, canonical, body, jsonld, ogImage }) {
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <meta name="theme-color" content="#2C2416">
 <link rel="alternate" type="application/json" href="${BASE}/machines.json" title="BrewHarbor machine data">
-<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="preload" href="/assets/fonts/outfit-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/fonts.css">
 <link rel="stylesheet" href="/assets/pages.css">
 <script src="/assets/consent.js" defer></script>
 ${jsonld ? `<script type="application/ld+json">${JSON.stringify(jsonld)}</script>` : ''}
@@ -390,7 +392,7 @@ write('sitemap.xml', `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="htt
 write('robots.txt', `User-agent: *\nAllow: /\n\nSitemap: ${BASE}/sitemap.xml\n`);
 write('llms.txt', `# BrewHarbor
 
-> Find your coffee machine. Skip the research. Independent coffee machine recommendations: a 7-question quiz plus specs, scores, strengths and watch-outs for ${machines.length} machines. No sponsored placements; Amazon links are affiliate links.
+> Find your coffee machine. Skip the research. Independent coffee machine recommendations: a short quiz plus specs, scores, strengths and watch-outs for ${machines.length} machines. No sponsored placements; Amazon links are affiliate links.
 
 ## Data
 - [Machine data (JSON)](${BASE}/machines.json): all machines with specs, 1-5 scores and a rough price tier

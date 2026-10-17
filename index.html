@@ -7,7 +7,7 @@
 <meta http-equiv="Pragma" content="no-cache">
 <meta http-equiv="Expires" content="0">
 <title>BrewHarbor — Find your coffee machine. Skip the research.</title>
-<meta name="description" content="Answer 7 quick questions and get a personalised coffee machine recommendation based on your drinks, lifestyle, and yearly running costs. No sponsored results. Affiliate links help support this site.">
+<meta name="description" content="Answer a few questions and get a personalised coffee machine recommendation based on your drinks, lifestyle, and yearly running costs. No sponsored results. Affiliate links help support this site.">
 <meta name="robots" content="index, follow">
 <meta property="og:title" content="BrewHarbor — Find your coffee machine. Skip the research.">
 <meta property="og:description" content="Personalised coffee machine recommendations based on drink type, effort, maintenance, and yearly cost of ownership.">
@@ -29,7 +29,8 @@
 <meta name="twitter:image" content="https://getbrewharbor.com/assets/og-image.png">
 <!-- Analytics (Google Analytics 4 + Microsoft Clarity) load only after the visitor accepts: see assets/consent.js -->
 <script src="/assets/consent.js" defer></script>
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400;1,600&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="preload" href="/assets/fonts/outfit-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/fonts.css">
 <style>
   *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
   :root {
@@ -84,7 +85,7 @@
   @media (max-width: 600px) { .hiw-steps { grid-template-columns: 1fr; gap: 20px; } #how-it-works { margin-top: 48px; } }
 
   .hero { padding: 80px 24px 72px; text-align: center; border-bottom: 1px solid var(--light-grey); background: #FAF8F4; }
-  .hero-eyebrow { font-size: 10px; font-weight: 500; letter-spacing: 4px; text-transform: uppercase; color: #D9CDB0; margin-bottom: 20px; }
+  .hero-eyebrow { font-size: 11px; font-weight: 500; letter-spacing: 4px; text-transform: uppercase; color: #6b5d45; margin-bottom: 20px; }
   .hero h1 { font-family: 'Cormorant Garamond', serif; font-weight: 400; font-size: clamp(38px, 5.5vw, 64px); line-height: 1.1; margin-bottom: 20px; color: var(--black); }
   .hero h1 em { font-style: italic; font-weight: 400; }
   .hero p:not(.hero-eyebrow) { font-size: 15px; color: var(--mid-grey); max-width: 440px; margin: 0 auto 40px; line-height: 1.75; font-weight: 300; font-family: 'Outfit', sans-serif; }
@@ -271,6 +272,12 @@
   .price-band { letter-spacing: 1px; font-size: 11px; color: var(--black); }
   .price-band-label { font-size: 11px; color: var(--mid-grey); white-space: nowrap; }
   .affiliate-note { font-size: 11px; color: var(--mid-grey); text-align: center; margin: 18px auto 0; max-width: 560px; }
+  .num-alt { display: flex; align-items: center; gap: 8px; margin-top: 10px; font-size: 13px; color: var(--mid-grey); }
+  .num-alt label { font-weight: 500; color: var(--dark-grey); }
+  .num-alt input { width: 96px; font: inherit; padding: 8px 10px; border: 1px solid var(--light-grey); border-radius: 6px; color: var(--black); background: var(--white); }
+  .tco-note { font-size: 12px; color: var(--mid-grey); margin-top: 6px; line-height: 1.5; }
+  .option-btn:focus-visible, .btn:focus-visible, .nav-link:focus-visible, .nav-cta:focus-visible, select:focus-visible, input:focus-visible { outline: 3px solid #b04a26; outline-offset: 2px; }
+  .nav-link, .nav-cta { min-height: 44px; display: inline-flex; align-items: center; }
   .step-error { color: #b04a26; font-size: 14px; margin: 14px 0 0; }
   footer a { opacity: 1 !important; text-decoration: underline; text-underline-offset: 3px; display: inline-block; padding: 6px 2px; }
   footer { background: var(--black); color: rgba(255,255,255,0.78); text-align: center; padding: 32px; font-size: 12px; font-weight: 300; letter-spacing: 0.5px; }
@@ -495,7 +502,7 @@
   <h1>Find your <em>coffee machine.</em><br>Skip the research.</h1>
   <p>Answer a few questions. Get a personalised match based on your drinks, lifestyle, and yearly running costs.</p>
   <div class="hero-meta">
-    <div class="hero-meta-item"><strong><span id="heroMachineCount">67</span></strong>machines compared</div>
+    <div class="hero-meta-item"><strong><span id="heroMachineCount">70+</span></strong>machines compared</div>
     <div class="hero-meta-item"><strong>90 sec</strong>to complete</div>
     <div class="hero-meta-item"><strong>Yearly</strong>cost to own</div>
   </div>
@@ -514,7 +521,7 @@
   <div class="progress-shell">
     <div class="progress-top">
       <span class="progress-label">Your coffee profile</span>
-      <span class="progress-count" id="progressCount">Step 1 of 7</span>
+      <span class="progress-count" id="progressCount">Step 1 of 4</span>
     </div>
     <div class="progress-track"><div class="progress-fill" id="progressFill" style="width:25%"></div></div>
     <div class="progress-steps">
@@ -553,8 +560,9 @@
     </div>
     <div class="slider-group">
       <div class="slider-label"><span>Cups per day</span><span class="slider-val" id="cupsVal">2 cups</span></div>
-      <input type="range" min="1" max="8" value="2" oninput="updateSlider('cups',this.value,v=>v+' cup'+(v>1?'s':''))">
+      <input type="range" id="cupsSlider" aria-label="Cups per day" min="1" max="8" value="2" oninput="updateSlider('cups',this.value,v=>v+' cup'+(v>1?'s':''))">
       <div class="slider-hint">Higher volume nudges toward machines with larger capacity</div>
+      <div class="num-alt"><label for="cupsInput">Or type it</label><input type="number" id="cupsInput" min="1" max="12" step="1" value="2" inputmode="numeric" oninput="cupsTyped(this.value)"><span>cups a day (up to 12)</span></div>
     </div>
     <div class="btn-row">
       <button class="btn btn-secondary" onclick="prevStep(0)">← Back</button>
@@ -575,16 +583,18 @@
     </div>
     <div class="slider-group">
       <div class="slider-label"><span>Machine budget</span><span class="slider-val" id="budgetVal">$1,000</span></div>
-      <input type="range" id="budgetSlider" min="30" max="2500" step="10" value="1000" oninput="updateBudget(this.value)">
-      <div class="budget-warning" id="budgetWarning">Under $100 narrows to manual brewers — several are exceptional</div>
+      <input type="range" id="budgetSlider" aria-label="Machine budget" min="30" max="2500" step="10" value="1000" oninput="updateBudget(this.value)">
+      <div class="budget-warning" id="budgetWarning">Under $100 mostly means manual brewers like the AeroPress or a pour-over dripper: more hands-on, but several make excellent coffee.</div>
+      <div class="num-alt"><label for="budgetInput">Or type it</label><span id="budgetSym">$</span><input type="number" id="budgetInput" min="30" max="6000" step="10" value="1000" inputmode="numeric" oninput="budgetTyped(this.value)"></div>
     </div>
     <p style="font-size:13px;font-weight:500;margin-bottom:10px;">Where are you shopping?</p>
-    <select class="styled-select" id="regionSelect" onchange="updateRegion(this.value)">
+    <select class="styled-select" id="regionSelect" aria-label="Where are you shopping?" onchange="updateRegion(this.value)">
       <option value="us">🇺🇸 United States (USD)</option>
       <option value="ca">🇨🇦 Canada (CAD)</option>
       <option value="uk">🇬🇧 United Kingdom (GBP)</option>
       <option value="eu">🇪🇺 Europe (EUR)</option>
       <option value="au">🇦🇺 Australia (AUD)</option>
+      <option value="other">🌍 Somewhere else (Amazon.com, USD)</option>
     </select>
     <div class="btn-row">
       <button class="btn btn-secondary" onclick="prevStep(1)">← Back</button>
@@ -633,13 +643,15 @@
     <div class="score-row"><div class="score-signal">Temperature</div><div class="score-desc">If hot coffee matters, machines brewing above 93°C score higher. Pod machines typically brew cooler.</div></div>
     <div class="score-row"><div class="score-signal">Budget tier</div><div class="score-desc">At budgets over $1,000, manual brewers are penalised unless you chose hands-on effort.</div></div>
     <div class="score-row"><div class="score-signal">Priorities</div><div class="score-desc">Your top 3 priorities add weighted bonus points. Your first choice carries the most weight.</div></div>
+    <div class="score-row"><div class="score-signal">Ratings</div><div class="score-desc">Cup quality, ease, speed, variety and eco scores (1 to 5) are BrewHarbor's own editorial ratings, based on each machine's specifications, the drinks it can make, and our judgement. They are not lab measurements.</div></div>
+    <div class="score-row"><div class="score-signal">Expected life</div><div class="score-desc">Our own estimate of how many years a machine will give regular use. It is not a manufacturer figure or a guarantee. It reflects the typical service life of that type of machine, build quality, repairability and the manufacturer's warranty, and we use it to compare machines, not to promise how long yours will last.</div></div>
   </div>
 </div>
 
 <div id="results" style="display:none;">
   <div class="trust-bar" id="trustBar">
     <span class="trust-item">🕐 Price ranges are estimates — Amazon shows today's price</span>
-    <span class="trust-item">☕ <span id="footerMachineCount">67</span> machines · 6 categories · 5 regions</span>
+    <span class="trust-item">☕ <span id="footerMachineCount">70+</span> machines · <span id="footerCatCount">5</span> categories · 5 regions</span>
     <button class="how-we-score-link" onclick="document.getElementById('scoreModal').classList.add('active');document.body.style.overflow='hidden'">How we score ↗</button>
   </div>
   <div class="results-topbar">
@@ -4089,6 +4101,8 @@ const FALLBACK_MACHINES = [
 
 // ─── FIELD MAPPER — converts Airtable record → machine object ────────────────
 function mapAirtableRecord(record) {
+  // Widths the audit could not confirm against the manufacturer: hidden until verified
+  const UNVERIFIED_WIDTH_NAMES = ["De'Longhi Rivelia", "Breville Bambino Plus", "Breville Luxe Brewer", "Breville Oracle Jet", "De'Longhi Eletta Explore", "Breville Precision Brewer", "Keurig K-Classic", "Breville Barista Express Impress", "Breville Barista Express", "Breville Barista Touch", "Breville Barista Touch Impress", "Breville Barista Pro", "Ninja Specialty Coffee Maker", "Fellow Aiden Precision Brewer", "Rancilio Silvia Pro X", "Rocket Appartamento"];
   const f = record.fields;
   const parseList = (val) => val ? String(val).split(',').map(s => s.trim()).filter(Boolean) : [];
   // singleSelect fields return {id, name, color} objects — extract .name safely
@@ -4133,7 +4147,7 @@ function mapAirtableRecord(record) {
     automationLevel:       AUTOMATION_MAP[sel(f['automationLevel']).toLowerCase().trim()] || 'auto',
     emoji:                 '☕',
     prices: { us: f['priceUSD'], uk: f['priceGBP'], ca: f['priceCAD'], eu: f['priceEUR'], au: f['priceAUD'] },
-    widthInches:           num(f['widthInches']),
+    widthInches:           UNVERIFIED_WIDTH_NAMES.includes(sel(f['name'])) ? undefined : num(f['widthInches']),
     brewTempMax:           num(f['brewTempMax']),
     milkSystem:            MILK_MAP[sel(f['milkSystem']).toLowerCase().trim()] || 'none',
     maintenanceLevel:      MAINT_MAP[sel(f['maintenanceLevel']).toLowerCase().trim()] || 'medium',
@@ -4405,10 +4419,14 @@ async function initApp() {
 
   // Update all machine count displays to reflect actual loaded count
   const count = machines.length;
+  // Round down to the nearest ten so the number stays true as the catalogue changes (72 shows as 70+)
+  const countLabel = count >= 20 ? (Math.floor(count / 10) * 10) + '+' : String(count);
   ['lsub2Count', 'heroMachineCount', 'footerMachineCount'].forEach(id => {
     const el = document.getElementById(id);
-    if (el) el.textContent = count;
+    if (el) el.textContent = countLabel;
   });
+  const catEl = document.getElementById('footerCatCount');
+  if (catEl) catEl.textContent = new Set(machines.map(m => m.category).filter(Boolean)).size;
 }
 
 // ─── STATE ────────────────────────────────────────────────────────────────────
@@ -4581,16 +4599,40 @@ function renderPriorityChips() {
 function updateSlider(key, val, fmt) {
   document.getElementById(key + 'Val').textContent = fmt(val);
   userAnswers[key] = parseInt(val);
+  if (key === 'cups') { const ci = document.getElementById('cupsInput'); if (ci && ci !== document.activeElement) ci.value = val; }
+}
+// Typed values: clamp to a sensible range, then reuse the slider logic so both stay in step
+function cupsTyped(v) {
+  let n = parseInt(v, 10);
+  if (isNaN(n)) return;
+  n = Math.max(1, Math.min(12, n));
+  const s = document.getElementById('cupsSlider');
+  if (s) s.value = Math.min(n, parseInt(s.max, 10));
+  updateSlider('cups', n, x => x + ' cup' + (x > 1 ? 's' : ''));
+}
+function budgetTyped(v) {
+  let n = parseInt(v, 10);
+  if (isNaN(n)) return;
+  n = Math.max(30, Math.min(6000, n));
+  const s = document.getElementById('budgetSlider');
+  if (s) s.value = Math.min(n, parseInt(s.max, 10));
+  updateBudget(n);
 }
 function updateBudget(val) {
-  document.getElementById('budgetVal').textContent = getCurrSymbol() + val;
+  const sym = getCurrSymbol();
+  document.getElementById('budgetVal').textContent = sym + parseInt(val).toLocaleString();
   userAnswers.budget = parseInt(val);
-  document.getElementById('budgetWarning').style.display = parseInt(val) < 100 ? 'block' : 'none';
+  const warn = document.getElementById('budgetWarning');
+  warn.textContent = 'Under ' + sym + '100 mostly means manual brewers like the AeroPress or a pour-over dripper: more hands-on, but several make excellent coffee.';
+  warn.style.display = parseInt(val) < 100 ? 'block' : 'none';
+  const bi = document.getElementById('budgetInput'); if (bi && bi !== document.activeElement) bi.value = val;
+  const bs = document.getElementById('budgetSym'); if (bs) bs.textContent = sym;
 }
 function updateRegion(val) {
-  userAnswers.region = val;
-  // Update budget display currency symbol
-  document.getElementById('budgetVal').textContent = getCurrSymbol() + userAnswers.budget;
+  // "Somewhere else" uses the US catalogue and amazon.com so anyone can finish the quiz
+  userAnswers.region = (val === 'other') ? 'us' : val;
+  userAnswers.regionChoice = val;
+  updateBudget(userAnswers.budget);
 }
 // ─── ANALYTICS HELPER ────────────────────────────────────────────────────────
 function bm_track(eventName, params) {
@@ -4853,7 +4895,7 @@ function scoreMachine(m, qualityCeiling, bestAnnualTCO) {
   if (cups >= 4 && m.automationLevel === 'manual') score -= 10;
   if (cups <= 2 && m.automationLevel === 'super' && !wantsMilk) score -= 5;
   if (tempImp === 'very' && m.brewTempMax >= 93) { score += 8; reasons.push('Brews at high temperature'); }
-  if (tempImp === 'very' && m.brewTempMax < 90)  { score -= 10; misses.push('Brews at lower temperature'); }
+  if (tempImp === 'very' && m.brewTempMax != null && m.brewTempMax < 90)  { score -= 10; misses.push('Brews at lower temperature'); }
 
   return { score: Math.min(99, Math.max(0, score)), reasons, misses };
 }
@@ -4939,12 +4981,21 @@ function renderCard(m, result, resultLabel) {
         🥛 <strong>For milk drinks:</strong> pair with a <a href="${getBundleLink('Nespresso Aeroccino milk frother')}" target="_blank" rel="sponsored nofollow noopener" style="color:var(--black);">Nespresso Aeroccino frother</a> for lattes and cappuccinos.
        </div>`
     : '';
-  const podAnnualCost = Math.round((userAnswers.cups || 2) * 0.90 * 365); // vs Nespresso Original pods, the mid-priced pod option
+  const podAnnualCost = Math.round((userAnswers.cups || 2) * 0.90 * 365); // a typical pod machine: about $0.90 a drink
   const thisCoffeeCost = Math.round((userAnswers.cups || 2) * (m.costPerCup || 0) * 365);
   const saving = podAnnualCost - thisCoffeeCost;
-  const savingsHtml = (saving >= 200 && m.category !== 'Pod Machine')
-    ? `<div class="savings-callout">☕ vs. Nespresso pods: save about <strong>$${Math.round(saving / 10) * 10}/yr</strong> on coffee with this machine</div>`
+  // Only compare against pods when the visitor said they use or want pods
+  const choseCapsules = userAnswers.coffeeType === 'pods' || (Array.isArray(userAnswers.drinks) && userAnswers.drinks.includes('pod'));
+  const savingsHtml = (choseCapsules && saving >= 200 && m.category !== 'Pod Machine')
+    ? `<div class="savings-callout">☕ vs. a typical pod machine: save about <strong>$${Math.round(saving / 10) * 10}/yr</strong> on coffee with this machine</div>`
     : '';
+  const tcoN = calcTCO(m);
+  const symN = getCurrSymbol();
+  const coffeeSymN = symN === '$' ? '$' : 'US$';
+  const cupsN = userAnswers.cups || 2;
+  let tcoNote = `About ${symN}${Math.max(0, tcoN.fullAnnualTCO - tcoN.annualCoffeeCost).toLocaleString()} a year for the machine and upkeep, plus ${coffeeSymN}${tcoN.annualCoffeeCost.toLocaleString()} for coffee at ${cupsN} ${cupsN === 1 ? 'drink' : 'drinks'} a day.`;
+  if (m.category === 'Pod Machine') tcoNote += ' Most of the cost is pods; compatible or reusable pods can cost less.';
+  const tcoNoteHtml = `<div class="tco-note">${tcoNote}</div>`;
 
   // Eco/repair badge
   const ecoRep = m.ecoRepairScore || 0;
@@ -4988,7 +5039,7 @@ function renderCard(m, result, resultLabel) {
           <div class="tco-tooltip-text">
             <strong>How we calculate TCO:</strong><br>
             Typical retail price (estimate) ÷ ${m.expectedLifespanYears || 5}yr lifespan + $${m.maintenanceAnnualCost || 0}/yr maintenance + daily coffee cost.<br><br>
-            Coffee costs per drink assume: Nespresso Vertuo pods ~$1.20 and Original pods ~$0.90, Keurig K-Cups ~$0.55, and grocery-store beans or ground coffee ~$0.31 to $0.37 (at today's average prices). Specialty beans can cost two to three times as much. Actual costs vary by brand and buying habits.
+            Coffee costs per drink assume: capsule systems about $0.55 to $1.20 a drink depending on the system, and grocery-store beans or ground coffee about $0.31 to $0.37 (at today's average prices). Specialty beans can cost two to three times as much. Actual costs vary by brand and buying habits.
           </div>
         </div>
       </div>
@@ -4999,6 +5050,7 @@ function renderCard(m, result, resultLabel) {
         <span style="color:var(--light-grey);margin:0 8px;">•</span>
         <span class="tco-val" style="color:var(--black);font-weight:500;">${sym}${tco.fullAnnualTCO} total annual</span>
       </div>
+      ${tcoNoteHtml}
       ${savingsHtml}
       ${milkAddonHtml}
       <div class="criteria-met">${matchChips}</div>
@@ -5148,7 +5200,12 @@ function showResults() {
     const drinks        = Array.isArray(userAnswers.drinks) ? userAnswers.drinks : [];
     const wantsMilk     = drinks.includes('latte');
     const wantsEsp      = drinks.includes('espresso') || wantsMilk;
-    const affordable    = machines.filter(m => getPrice(m) <= budget);
+    const affordableAll = machines.filter(m => getPrice(m) <= budget);
+    // With a single drink type selected, only machines that make it are shown (provided at least 3 do)
+    const supportsDrink = (m, d) => { const t = Array.isArray(m.drinkTypes) ? m.drinkTypes : []; if (d === 'espresso') return t.includes('espresso') || !!m.isEspressoStyle; if (d === 'latte') return !!m.milkSystem && m.milkSystem !== 'none'; return t.includes(d); };
+    const singleDrink = drinks.length === 1 ? drinks[0] : null;
+    const strictPool = singleDrink ? affordableAll.filter(m => supportsDrink(m, singleDrink)) : [];
+    const affordable    = (singleDrink && strictPool.length >= 3) ? strictPool : affordableAll;
     const qualityCeiling = getQualityCeiling(affordable, drinks, userAnswers.effort);
 
     // TCO baseline from relevant machines only (same intent category), fallback to all affordable
@@ -5202,6 +5259,9 @@ function showResults() {
       const allAffordable = machines.filter(m => getPrice(m) <= budget);
       const allScored = machines.map(m => { const r = scoreMachine(m, qualityCeiling, bestAnnualTCO); return r ? { m, score: r.score } : null; }).filter(Boolean).sort((a,b) => b.score - a.score);
       const cheapestMatch = allScored.length > 0 ? getPrice(allScored[0].m) : null;
+      const milkPrices = (zeroOnly) => machines.filter(m => m.milkSystem && m.milkSystem !== 'none' && (!zeroOnly || (Array.isArray(m.effortMatch) && m.effortMatch.includes('none')))).map(m => getPrice(m)).filter(p => isFinite(p));
+      const minMilk = milkPrices(false).length ? Math.min(...milkPrices(false)) : 0;
+      const minMilkZero = milkPrices(true).length ? Math.min(...milkPrices(true)) : 0;
 
       // Diagnose the biggest blocker
       let headline = "No machines match your current criteria.";
@@ -5210,13 +5270,13 @@ function showResults() {
       if (allAffordable.length === 0) {
         headline = "Your budget is below our lowest-priced option.";
         suggestions.push(`<strong>Increase your budget</strong> — our most affordable options are manual brewers like pour-over and French press`);
-      } else if (wantsMilk && effort === 'none' && budget < 300) {
-        headline = "Milk drinks with zero effort typically start around $300.";
-        suggestions.push(`<strong>Increase your budget to $300+</strong> to unlock pod machines with Aeroccino, or $450+ for a built-in milk system`);
+      } else if (wantsMilk && effort === 'none' && budget < minMilkZero) {
+        headline = `Milk drinks with zero effort start around ${getCurrSymbol()}${Math.ceil(minMilkZero / 10) * 10} in our catalogue.`;
+        suggestions.push(`<strong>Increase your budget to ${getCurrSymbol()}${Math.ceil(minMilkZero / 10) * 10}+</strong> to see machines that make milk drinks with no effort`);
         suggestions.push(`<strong>Try "minimal effort"</strong> instead of "zero effort" to open up more options`);
-      } else if (wantsMilk && budget < 200) {
-        headline = "Milk drink machines start around $200.";
-        suggestions.push(`<strong>Increase budget to $200+</strong> — the cheapest option with milk capability is around $200`);
+      } else if (wantsMilk && budget < minMilk) {
+        headline = `Milk drink machines start around ${getCurrSymbol()}${Math.ceil(minMilk / 10) * 10} in our catalogue.`;
+        suggestions.push(`<strong>Increase budget to ${getCurrSymbol()}${Math.ceil(minMilk / 10) * 10}+</strong> — the cheapest option with milk capability is around that price`);
       } else if (cheapestMatch && budget < cheapestMatch) {
         headline = `No matches at ${getCurrSymbol()}${budget.toLocaleString()} for your preferences.`;
         suggestions.push(`<strong>Increase your budget to ~$${Math.ceil(cheapestMatch / 50) * 50}</strong> to unlock the best match for your other preferences`);
@@ -5406,6 +5466,7 @@ function goHome() {
   document.getElementById('regionSelect').value = 'us';
   const budgetSlider = document.getElementById('budgetSlider');
   if (budgetSlider) budgetSlider.value = 1000;
+  { const bIn = document.getElementById('budgetInput'); if (bIn) bIn.value = 1000; const cIn = document.getElementById('cupsInput'); if (cIn) cIn.value = 2; }
   document.getElementById('budgetVal').textContent = '$1,000';
   document.getElementById('budgetWarning').style.display = 'none';
   renderPriorityChips();
@@ -5433,6 +5494,7 @@ function resetQuiz() {
   // Reset sliders to default DOM values
   const budgetSlider = document.getElementById('budgetSlider');
   if (budgetSlider) budgetSlider.value = 1000;
+  { const bIn = document.getElementById('budgetInput'); if (bIn) bIn.value = 1000; const cIn = document.getElementById('cupsInput'); if (cIn) cIn.value = 2; }
   document.getElementById('budgetVal').textContent = '$1,000';
   document.getElementById('budgetWarning').style.display = 'none';
   renderPriorityChips();
@@ -5478,6 +5540,21 @@ function submitFeedbackDetail() {
   document.getElementById('feedbackForm').style.display = 'none';
   document.getElementById('feedbackThanks').style.display = 'block';
 }
+
+// Keyboard and screen-reader support for the answer tiles (they are plain divs)
+(function () {
+  const sync = t => t.setAttribute('aria-checked', t.classList.contains('selected') ? 'true' : 'false');
+  document.querySelectorAll('.option-btn').forEach(t => {
+    const multi = (t.getAttribute('onclick') || '').indexOf('true') > -1;
+    t.setAttribute('tabindex', '0');
+    t.setAttribute('role', multi ? 'checkbox' : 'radio');
+    sync(t);
+    new MutationObserver(() => sync(t)).observe(t, { attributes: true, attributeFilter: ['class'] });
+  });
+  document.addEventListener('keydown', e => {
+    if ((e.key === 'Enter' || e.key === ' ') && e.target.classList && e.target.classList.contains('option-btn')) { e.preventDefault(); e.target.click(); }
+  });
+})();
 </script>
 </body>
 </html>

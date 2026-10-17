@@ -44,6 +44,9 @@ exports.handler = async function(event, context) {
       offset = data.offset || null;
     } while (offset);
 
+    // Only machines marked active are public (inactive records stay private)
+    records = records.filter(r => r.fields && (r.fields.active === true || r.fields.Active === true));
+
     return {
       statusCode: 200,
       headers: {

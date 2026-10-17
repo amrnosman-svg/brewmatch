@@ -54,3 +54,59 @@
   from = "/machines/delonghi-la-specialista-arte/*"
   to = "/machines/delonghi-la-specialista-arte-evo/"
   status = 301
+
+# Machines removed from the catalogue (no buyable Amazon listing found): send visitors to the directory
+[[redirects]]
+  from = "/machines/flair-espresso-neo/*"
+  to = "/machines/"
+  status = 301
+
+[[redirects]]
+  from = "/machines/lelit-anna/*"
+  to = "/machines/"
+  status = 301
+
+[[redirects]]
+  from = "/machines/saeco-xelsis/*"
+  to = "/machines/"
+  status = 301
+
+[[redirects]]
+  from = "/machines/ratio-six/*"
+  to = "/machines/"
+  status = 301
+
+[[redirects]]
+  from = "/machines/ecm-classika-pid/*"
+  to = "/machines/"
+  status = 301
+
+[[redirects]]
+  from = "/machines/profitec-go/*"
+  to = "/machines/"
+  status = 301
+
+[[redirects]]
+  from = "/machines/lelit-mara-x/*"
+  to = "/machines/"
+  status = 301
+
+[[redirects]]
+  from = "/machines/profitec-pro-600/*"
+  to = "/machines/"
+  status = 301
+
+[[redirects]]
+  from = "/machines/lelit-bianca/*"
+  to = "/machines/"
+  status = 301
+
+[[redirects]]
+  from = "/machines/profitec-pro-500/*"
+  to = "/machines/"
+  status = 301
+
+[[redirects]]
+  from = "/machines/gaggia-anima-prestige/*"
+  to = "/machines/"
+  status = 301

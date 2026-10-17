@@ -12,7 +12,7 @@ const ALLOWED = {
   coffeeType: ['any', 'beans', 'pods', 'ground'],
   maintenance: ['none', 'light', 'moderate', 'high'],
   tempImportance: ['not', 'somewhat', 'very'],
-  region: ['us', 'ca', 'uk', 'eu', 'au'],
+  region: ['us', 'ca', 'uk', 'eu', 'au', 'other'],
   priorities: ['quality', 'speed', 'cost', 'eco', 'variety', 'compact'],
 };
 const DOC = {
@@ -83,7 +83,8 @@ function parseInput(event) {
   const coffeeType = pick('coffeeType', ALLOWED.coffeeType, true);
   const maintenance = pick('maintenance', ALLOWED.maintenance, false) || 'moderate';
   const tempImportance = pick('tempImportance', ALLOWED.tempImportance, false) || 'somewhat';
-  const region = pick('region', ALLOWED.region, false) || 'us';
+  let region = pick('region', ALLOWED.region, false) || 'us';
+  if (region === 'other') region = 'us'; // somewhere else: US catalogue and amazon.com
   const priorities = list(raw.priorities).slice(0, 3);
   if (priorities.some(p => !ALLOWED.priorities.includes(p))) errors.push('priorities must be from: ' + ALLOWED.priorities.join(', '));
   const numIn = (k, lo, hi, dflt) => { if (raw[k] == null || raw[k] === '') return dflt; const n = Number(raw[k]); if (!Number.isFinite(n) || n < lo || n > hi) { errors.push(`${k} must be a number between ${lo} and ${hi}`); return dflt; } return n; };

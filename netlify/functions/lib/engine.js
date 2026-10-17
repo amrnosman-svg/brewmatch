@@ -23,6 +23,8 @@ function withTag(url, region) {
 }
 
 function mapAirtableRecord(record) {
+  // Widths the audit could not confirm against the manufacturer: hidden until verified
+  const UNVERIFIED_WIDTH_NAMES = ["De'Longhi Rivelia", "Breville Bambino Plus", "Breville Luxe Brewer", "Breville Oracle Jet", "De'Longhi Eletta Explore", "Breville Precision Brewer", "Keurig K-Classic", "Breville Barista Express Impress", "Breville Barista Express", "Breville Barista Touch", "Breville Barista Touch Impress", "Breville Barista Pro", "Ninja Specialty Coffee Maker", "Fellow Aiden Precision Brewer", "Rancilio Silvia Pro X", "Rocket Appartamento"];
   const f = record.fields;
   const parseList = (val) => val ? String(val).split(',').map(s => s.trim()).filter(Boolean) : [];
   // singleSelect fields return {id, name, color} objects — extract .name safely
@@ -67,7 +69,7 @@ function mapAirtableRecord(record) {
     automationLevel:       AUTOMATION_MAP[sel(f['automationLevel']).toLowerCase().trim()] || 'auto',
     emoji:                 '☕',
     prices: { us: f['priceUSD'], uk: f['priceGBP'], ca: f['priceCAD'], eu: f['priceEUR'], au: f['priceAUD'] },
-    widthInches:           num(f['widthInches']),
+    widthInches:           UNVERIFIED_WIDTH_NAMES.includes(sel(f['name'])) ? undefined : num(f['widthInches']),
     brewTempMax:           num(f['brewTempMax']),
     milkSystem:            MILK_MAP[sel(f['milkSystem']).toLowerCase().trim()] || 'none',
     maintenanceLevel:      MAINT_MAP[sel(f['maintenanceLevel']).toLowerCase().trim()] || 'medium',
@@ -425,7 +427,7 @@ function scoreMachine(m, qualityCeiling, bestAnnualTCO) {
   if (cups >= 4 && m.automationLevel === 'manual') score -= 10;
   if (cups <= 2 && m.automationLevel === 'super' && !wantsMilk) score -= 5;
   if (tempImp === 'very' && m.brewTempMax >= 93) { score += 8; reasons.push('Brews at high temperature'); }
-  if (tempImp === 'very' && m.brewTempMax < 90)  { score -= 10; misses.push('Brews at lower temperature'); }
+  if (tempImp === 'very' && m.brewTempMax != null && m.brewTempMax < 90)  { score -= 10; misses.push('Brews at lower temperature'); }
 
   return { score: Math.min(99, Math.max(0, score)), reasons, misses };
 }
@@ -437,7 +439,12 @@ function rank(machines) {
     const drinks        = Array.isArray(userAnswers.drinks) ? userAnswers.drinks : [];
     const wantsMilk     = drinks.includes('latte');
     const wantsEsp      = drinks.includes('espresso') || wantsMilk;
-    const affordable    = machines.filter(m => getPrice(m) <= budget);
+    const affordableAll = machines.filter(m => getPrice(m) <= budget);
+    // With a single drink type selected, only machines that make it are shown (provided at least 3 do)
+    const supportsDrink = (m, d) => { const t = Array.isArray(m.drinkTypes) ? m.drinkTypes : []; if (d === 'espresso') return t.includes('espresso') || !!m.isEspressoStyle; if (d === 'latte') return !!m.milkSystem && m.milkSystem !== 'none'; return t.includes(d); };
+    const singleDrink = drinks.length === 1 ? drinks[0] : null;
+    const strictPool = singleDrink ? affordableAll.filter(m => supportsDrink(m, singleDrink)) : [];
+    const affordable    = (singleDrink && strictPool.length >= 3) ? strictPool : affordableAll;
     const qualityCeiling = getQualityCeiling(affordable, drinks, userAnswers.effort);
 
     // TCO baseline from relevant machines only (same intent category), fallback to all affordable

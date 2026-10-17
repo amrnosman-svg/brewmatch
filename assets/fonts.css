@@ -1,0 +1,9 @@
+/* Self-hosted fonts (Outfit, Cormorant Garamond; SIL Open Font License). Hosted here so visitors' browsers never contact Google. */
+@font-face{font-family:'Outfit';font-style:normal;font-weight:300;font-display:swap;src:url('/assets/fonts/outfit-latin-300-normal.woff2') format('woff2')}
+@font-face{font-family:'Outfit';font-style:normal;font-weight:400;font-display:swap;src:url('/assets/fonts/outfit-latin-400-normal.woff2') format('woff2')}
+@font-face{font-family:'Outfit';font-style:normal;font-weight:500;font-display:swap;src:url('/assets/fonts/outfit-latin-500-normal.woff2') format('woff2')}
+@font-face{font-family:'Outfit';font-style:normal;font-weight:600;font-display:swap;src:url('/assets/fonts/outfit-latin-600-normal.woff2') format('woff2')}
+@font-face{font-family:'Cormorant Garamond';font-style:normal;font-weight:400;font-display:swap;src:url('/assets/fonts/cormorant-garamond-latin-400-normal.woff2') format('woff2')}
+@font-face{font-family:'Cormorant Garamond';font-style:italic;font-weight:400;font-display:swap;src:url('/assets/fonts/cormorant-garamond-latin-400-italic.woff2') format('woff2')}
+@font-face{font-family:'Cormorant Garamond';font-style:normal;font-weight:600;font-display:swap;src:url('/assets/fonts/cormorant-garamond-latin-600-normal.woff2') format('woff2')}
+@font-face{font-family:'Cormorant Garamond';font-style:italic;font-weight:600;font-display:swap;src:url('/assets/fonts/cormorant-garamond-latin-600-italic.woff2') format('woff2')}
