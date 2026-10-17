@@ -18,7 +18,7 @@ const TODAY = process.env.LASTMOD || new Date().toISOString().slice(0, 10);
 
 // Specs still awaiting verification (see project notes) — width and brew temp are NOT published for these.
 // Widths the audit could not confirm against the manufacturer: hidden until verified (same list as in index.html)
-const UNVERIFIED_WIDTH = new Set(["De'Longhi Rivelia", "Breville Bambino Plus", "Breville Luxe Brewer", "Breville Oracle Jet", "De'Longhi Eletta Explore", "Breville Precision Brewer", "Keurig K-Classic", "Breville Barista Express Impress", "Breville Barista Express", "Breville Barista Touch", "Breville Barista Touch Impress", "Breville Barista Pro", "Ninja Specialty Coffee Maker", "Fellow Aiden Precision Brewer", "Rancilio Silvia Pro X", "Rocket Appartamento"]);
+const UNVERIFIED_WIDTH = new Set(["De'Longhi Rivelia", "Breville Bambino Plus", "Breville Luxe Brewer", "Breville Oracle Jet", "De'Longhi Eletta Explore", "Breville Precision Brewer", "Breville Barista Express Impress", "Breville Barista Express", "Breville Barista Touch", "Breville Barista Touch Impress", "Breville Barista Pro"]);
 const UNVERIFIED_SPECS = new Set([
   'De\'Longhi La Specialista Arte Evo', // width carried over from the Arte; Evo not checked
   'Philips 4400 LatteGo', 'Philips 5500 LatteGo', // width inferred from the LatteGo family; Philips spec page did not load
@@ -223,14 +223,27 @@ function scoreRows(m) {
   return [['Cup quality', s.quality], ['Espresso quality', s.espresso], ['Speed', s.speed], ['Ease of use', s.ease], ['Drink variety', s.variety], ['Eco score', s.eco], ['Repairability', s.repair]]
     .filter(r => r[1] != null).map(r => `<tr><th>${r[0]}</th><td>${stars5(r[1])}</td></tr>`).join('\n');
 }
+const REGION_NAMES = { us: 'the US', ca: 'Canada', uk: 'the UK', eu: 'Germany', au: 'Australia' };
+function readData(name) { try { return JSON.parse(require('fs').readFileSync(require('path').join(__dirname, '..', 'data', name), 'utf8')); } catch (e) { return {}; } }
+const WARRANTY = readData('warranty.json');
+const CHECKED = readData('verified-claims.json');
+// Warranty and claims that were checked against the maker's or retailer's own page, each with its source
+function checkedBlock(m) {
+  const items = [];
+  const w = WARRANTY[m.name];
+  if (w) items.push(`<li>Manufacturer warranty: ${esc(w.years)} year${w.years === 1 ? '' : 's'} (<a href="${esc(w.url)}" target="_blank" rel="nofollow noopener">source</a>)</li>`);
+  (CHECKED[m.name] || []).forEach(c => items.push(`<li>${esc(c.text)} (<a href="${esc(c.url)}" target="_blank" rel="nofollow noopener">source</a>)</li>`));
+  return items.length ? `<h2>Checked details</h2><p>Checked against the maker's or retailer's own page in October 2026.</p><ul>${items.join('')}</ul>` : '';
+}
 function buyButtons(m) {
   const order = REGIONS.filter(([r]) => m.links[r]);
-  if (!order.length) return '';
+  if (!order.length) return `<p>Not listed on Amazon right now. Check the maker's site or other retailers.</p><p><a class="btn" href="https://www.google.com/search?q=${encodeURIComponent(m.name + ' buy')}" target="_blank" rel="nofollow noopener">Find a retailer</a><a class="btn alt" href="/">Is it right for you? Take the quiz</a></p>`;
   const first = order[0];
   const primary = m.links.us ? ['us', 'USD'] : [first[0], first[1]];
   const rest = order.filter(([r]) => r !== primary[0]);
   return `<p><a class="btn" href="${esc(m.links[primary[0]])}" target="_blank" rel="sponsored nofollow noopener">Check price on Amazon (${primary[1]})</a><a class="btn alt" href="/">Is it right for you? Take the quiz</a></p>` +
-    (rest.length ? `<p class="regions">Other regions: ${rest.map(([r, c]) => `<a href="${esc(m.links[r])}" target="_blank" rel="sponsored nofollow noopener">${c}</a>`).join(' · ')}</p>` : '');
+    (rest.length ? `<p class="regions">Other regions: ${rest.map(([r, c]) => `<a href="${esc(m.links[r])}" target="_blank" rel="sponsored nofollow noopener">${c}</a>`).join(' · ')}</p>` : '') +
+    (REGIONS.some(([r]) => !m.links[r]) ? `<p class="regions">No Amazon listing found for: ${REGIONS.filter(([r]) => !m.links[r]).map(([r]) => REGION_NAMES[r]).join(', ')}.</p>` : '');
 }
 function machineDesc(m) {
   const base = m.description || `${m.name} ${m.category ? m.category.toLowerCase() : 'coffee machine'} specs, scores, strengths and watch-outs.`;
@@ -253,6 +266,7 @@ ${buyButtons(m)}
 ${m.sentiment ? `<h2>Who it's for</h2><p>${esc(m.sentiment)}</p>` : ''}
 ${(ins.up.length || ins.down.length) ? `<div class="cols">${ins.up.length ? `<div><h2>Strengths</h2><ul>${ins.up.map(x => `<li>${esc(x)}</li>`).join('')}</ul></div>` : ''}${ins.down.length ? `<div><h2>Watch-outs</h2><ul>${ins.down.map(x => `<li>${esc(x)}</li>`).join('')}</ul></div>` : ''}</div>` : ''}
 <h2>Specs</h2><div class="scroll"><table>${specRows(m)}</table></div>
+${checkedBlock(m)}
 <h2>BrewHarbor scores</h2><div class="scroll"><table>${scoreRows(m)}</table></div>
 <p class="note">Scores are BrewHarbor's own 1–5 ratings (5 is best) from specs, owner sentiment and teardown/repair data; they are the same scores the quiz uses to rank machines.</p>
 <p class="note">We don't show prices because they change daily. Use the buy button to see today's price on Amazon.</p>

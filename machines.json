@@ -80,7 +80,7 @@
    "annualMaintenanceCostUSD": 0,
    "costPerCupUSD": 0.31,
    "scores": {
-    "quality": 5,
+    "quality": 4.5,
     "espresso": 2.5,
     "speed": 3,
     "ease": 3,
@@ -127,7 +127,7 @@
    "costPerCupUSD": 0.37,
    "scores": {
     "quality": 4,
-    "espresso": 5,
+    "espresso": 4.5,
     "speed": 2,
     "ease": 2,
     "variety": 2,
@@ -344,7 +344,7 @@
    "costPerCupUSD": 0.37,
    "scores": {
     "quality": 4.5,
-    "espresso": 5,
+    "espresso": 4.5,
     "speed": 5,
     "ease": 3,
     "variety": 2,
@@ -389,7 +389,7 @@
    "costPerCupUSD": 0.37,
    "scores": {
     "quality": 4,
-    "espresso": 5,
+    "espresso": 4.5,
     "speed": 5,
     "ease": 4,
     "variety": 3,
@@ -434,8 +434,8 @@
    "annualMaintenanceCostUSD": 60,
    "costPerCupUSD": 0.37,
    "scores": {
-    "quality": 5,
-    "espresso": 5,
+    "quality": 4.5,
+    "espresso": 4.5,
     "speed": 3,
     "ease": 3,
     "variety": 3,
@@ -479,8 +479,8 @@
    "annualMaintenanceCostUSD": 60,
    "costPerCupUSD": 0.37,
    "scores": {
-    "quality": 5,
-    "espresso": 5,
+    "quality": 4.5,
+    "espresso": 4.5,
     "speed": 3,
     "ease": 4,
     "variety": 3,
@@ -663,8 +663,8 @@
    "annualMaintenanceCostUSD": 80,
    "costPerCupUSD": 0.37,
    "scores": {
-    "quality": 5,
-    "espresso": 5,
+    "quality": 4.5,
+    "espresso": 4.5,
     "speed": 2,
     "ease": 2,
     "variety": 3,
@@ -757,8 +757,8 @@
    "annualMaintenanceCostUSD": 80,
    "costPerCupUSD": 0.37,
    "scores": {
-    "quality": 5,
-    "espresso": 5,
+    "quality": 4.5,
+    "espresso": 4.5,
     "speed": 3,
     "ease": 4,
     "variety": 5,
@@ -1172,10 +1172,10 @@
    "priceTierLevel": 3,
    "buyLinks": {
     "us": "https://www.amazon.com/dp/B0H7YPF966?tag=getbrewharbor-20",
-    "ca": "https://www.amazon.ca/s?k=delonghi+la+specialista+arte&tag=getbrewharb0c-20",
-    "uk": "https://www.amazon.co.uk/s?k=delonghi+la+specialista+arte&tag=getbrewharbor-21",
-    "eu": "https://www.amazon.de/s?k=delonghi+la+specialista+arte&tag=getbrewharb0e-21",
-    "au": "https://www.amazon.com.au/s?k=delonghi+la+specialista+arte&tag=getbrewharbor-22"
+    "ca": "https://www.amazon.ca/s?k=delonghi+la+specialista+arte+evo&tag=getbrewharb0c-20",
+    "uk": "https://www.amazon.co.uk/s?k=delonghi+la+specialista+arte+evo&tag=getbrewharbor-21",
+    "eu": "https://www.amazon.de/s?k=delonghi+la+specialista+arte+evo&tag=getbrewharb0e-21",
+    "au": "https://www.amazon.com.au/s?k=delonghi+la+specialista+arte+evo&tag=getbrewharbor-22"
    },
    "image": "https://getbrewharbor.com/images/de-longhi-la-specialista-arte-evo.jpg",
    "summary": "Integrated grinder with active temperature control. Forgiving for home baristas.",
@@ -1209,8 +1209,8 @@
    "annualMaintenanceCostUSD": 60,
    "costPerCupUSD": 0.37,
    "scores": {
-    "quality": 5,
-    "espresso": 5,
+    "quality": 4.5,
+    "espresso": 4.5,
     "speed": 4,
     "ease": 3,
     "variety": 4,
@@ -1409,6 +1409,47 @@
    "whoItsFor": "Buy this if you regularly switch between regular and decaf, or want two different beans loaded. The dual-hopper bean switch lets you do that."
   },
   {
+   "name": "ECM Classika PID",
+   "brand": "ECM",
+   "url": "https://getbrewharbor.com/machines/ecm-classika-pid/",
+   "category": "Semi-Automatic",
+   "automation": "Hands-On",
+   "milkSystem": "Manual Steam",
+   "drinks": [
+    "espresso",
+    "latte",
+    "cappuccino",
+    "flat white"
+   ],
+   "coffeeTypes": [
+    "beans",
+    "ground"
+   ],
+   "compact": false,
+   "widthInches": 9.84,
+   "maxBrewTempC": 96,
+   "maintenanceLevel": "High",
+   "learningCurve": "High",
+   "expectedLifespanYears": 15,
+   "annualMaintenanceCostUSD": 80,
+   "costPerCupUSD": 0.37,
+   "scores": {
+    "quality": 4.5,
+    "espresso": 4.5,
+    "speed": 2,
+    "ease": 2,
+    "variety": 2,
+    "eco": 4,
+    "repair": 5
+   },
+   "priceTier": "Premium",
+   "priceTierLevel": 4,
+   "buyLinks": {},
+   "image": "https://getbrewharbor.com/images/ecm-classika-pid.jpg",
+   "summary": "German prosumer espresso machine with an E61 group head and PID temperature control.",
+   "whoItsFor": "Buy this if you want a classic E61 machine with PID control and are ready to learn. You will need a separate grinder."
+  },
+  {
    "name": "Fellow Aiden Precision Brewer",
    "brand": "Fellow",
    "url": "https://getbrewharbor.com/machines/fellow-aiden-precision-brewer/",
@@ -1424,7 +1465,7 @@
     "ground"
    ],
    "compact": false,
-   "widthInches": null,
+   "widthInches": 8.94,
    "maxBrewTempC": 99,
    "maintenanceLevel": "Low",
    "learningCurve": "Low",
@@ -1518,8 +1559,8 @@
    "annualMaintenanceCostUSD": 75,
    "costPerCupUSD": 0.37,
    "scores": {
-    "quality": 5,
-    "espresso": 5,
+    "quality": 4.5,
+    "espresso": 4.5,
     "speed": 3,
     "ease": 2,
     "variety": 3,
@@ -1584,6 +1625,87 @@
    "whoItsFor": "The most beautiful dripper on the market. Slower draw-down means more nuanced extraction."
   },
   {
+   "name": "Flair Espresso Neo",
+   "brand": "Flair",
+   "url": "https://getbrewharbor.com/machines/flair-espresso-neo/",
+   "category": "Manual",
+   "automation": "manual",
+   "milkSystem": "none",
+   "drinks": [
+    "espresso",
+    "specialty"
+   ],
+   "coffeeTypes": [
+    "beans",
+    "ground",
+    "any"
+   ],
+   "compact": true,
+   "widthInches": 6,
+   "maxBrewTempC": 92,
+   "maintenanceLevel": "low",
+   "learningCurve": "High",
+   "expectedLifespanYears": 15,
+   "annualMaintenanceCostUSD": 20,
+   "costPerCupUSD": 0.37,
+   "scores": {
+    "quality": 4,
+    "espresso": 4,
+    "speed": 1,
+    "ease": 2,
+    "variety": 1,
+    "eco": 5,
+    "repair": 5
+   },
+   "priceTier": "Mid-range",
+   "priceTierLevel": 2,
+   "buyLinks": {},
+   "image": "https://getbrewharbor.com/images/flair-espresso-neo.jpg",
+   "summary": "A fully manual lever espresso maker that makes high-pressure espresso without electricity. Portable and durable.",
+   "whoItsFor": "Buy this if you want to learn lever espresso at a low price and do not mind a hands-on routine. It needs hot water from a kettle and a separate grinder."
+  },
+  {
+   "name": "Gaggia Anima Prestige",
+   "brand": "Gaggia",
+   "url": "https://getbrewharbor.com/machines/gaggia-anima-prestige/",
+   "category": "Super-Automatic",
+   "automation": "High Automation",
+   "milkSystem": "Auto Frother",
+   "drinks": [
+    "espresso",
+    "latte",
+    "cappuccino",
+    "americano",
+    "flat white"
+   ],
+   "coffeeTypes": [
+    "beans"
+   ],
+   "compact": false,
+   "widthInches": 10.4,
+   "maxBrewTempC": 93,
+   "maintenanceLevel": "Low",
+   "learningCurve": "Low",
+   "expectedLifespanYears": 7,
+   "annualMaintenanceCostUSD": 50,
+   "costPerCupUSD": 0.37,
+   "scores": {
+    "quality": 3,
+    "espresso": 3,
+    "speed": 5,
+    "ease": 4,
+    "variety": 4,
+    "eco": 3,
+    "repair": 3
+   },
+   "priceTier": "Upper mid-range",
+   "priceTierLevel": 3,
+   "buyLinks": {},
+   "image": "https://getbrewharbor.com/images/gaggia-anima-prestige.jpg",
+   "summary": "Italian-made super-automatic from Gaggia with a stainless steel milk carafe system.",
+   "whoItsFor": "Buy this if you want a straightforward super-automatic with an automatic milk system. Check the exact model: Gaggia also sells a base Anima with a manual steam wand."
+  },
+  {
    "name": "Gaggia Classic Pro",
    "brand": "Gaggia",
    "url": "https://getbrewharbor.com/machines/gaggia-classic-pro/",
@@ -1607,8 +1729,8 @@
    "annualMaintenanceCostUSD": 50,
    "costPerCupUSD": 0.37,
    "scores": {
-    "quality": 5,
-    "espresso": 5,
+    "quality": 4.5,
+    "espresso": 4.5,
     "speed": 2,
     "ease": 2,
     "variety": 2,
@@ -1652,7 +1774,7 @@
    "annualMaintenanceCostUSD": 0,
    "costPerCupUSD": 0.31,
    "scores": {
-    "quality": 5,
+    "quality": 4.5,
     "espresso": 0,
     "speed": 1,
     "ease": 2,
@@ -1740,8 +1862,8 @@
    "annualMaintenanceCostUSD": 100,
    "costPerCupUSD": 0.37,
    "scores": {
-    "quality": 5,
-    "espresso": 5,
+    "quality": 4.5,
+    "espresso": 4.5,
     "speed": 5,
     "ease": 4,
     "variety": 5,
@@ -1879,8 +2001,8 @@
    "annualMaintenanceCostUSD": 90,
    "costPerCupUSD": 0.37,
    "scores": {
-    "quality": 5,
-    "espresso": 5,
+    "quality": 4.5,
+    "espresso": 4.5,
     "speed": 5,
     "ease": 5,
     "variety": 5,
@@ -1999,7 +2121,7 @@
     "pods"
    ],
    "compact": true,
-   "widthInches": null,
+   "widthInches": 9.8,
    "maxBrewTempC": 82,
    "maintenanceLevel": "Low",
    "learningCurve": "None",
@@ -2155,6 +2277,129 @@
    "image": "https://getbrewharbor.com/images/keurig-k-supreme-plus-smart.jpg",
    "summary": "App control, multiple brew strength settings, and a dedicated iced coffee mode.",
    "whoItsFor": "Buy this if you want Keurig but drink iced coffee regularly. The dedicated iced brew setting brews hot and concentrated directly over ice without diluting the flavour."
+  },
+  {
+   "name": "Lelit Anna",
+   "brand": "Lelit",
+   "url": "https://getbrewharbor.com/machines/lelit-anna/",
+   "category": "Semi-Automatic",
+   "automation": "Hands-On",
+   "milkSystem": "Manual Steam",
+   "drinks": [
+    "espresso",
+    "latte",
+    "cappuccino",
+    "flat white"
+   ],
+   "coffeeTypes": [
+    "beans",
+    "ground"
+   ],
+   "compact": true,
+   "widthInches": 8.7,
+   "maxBrewTempC": 93,
+   "maintenanceLevel": "Moderate",
+   "learningCurve": "High",
+   "expectedLifespanYears": 12,
+   "annualMaintenanceCostUSD": 60,
+   "costPerCupUSD": 0.37,
+   "scores": {
+    "quality": 4,
+    "espresso": 4,
+    "speed": 2,
+    "ease": 2,
+    "variety": 2,
+    "eco": 4,
+    "repair": 4
+   },
+   "priceTier": "Upper mid-range",
+   "priceTierLevel": 3,
+   "buyLinks": {},
+   "image": "https://getbrewharbor.com/images/lelit-anna.jpg",
+   "summary": "Italian-made entry-level prosumer espresso machine from Lelit with a compact single boiler and PID temperature control.",
+   "whoItsFor": "Buy this if you want a compact single-boiler machine with PID control and are ready to learn. You will need a separate grinder."
+  },
+  {
+   "name": "Lelit Bianca",
+   "brand": "Lelit",
+   "url": "https://getbrewharbor.com/machines/lelit-bianca/",
+   "category": "Semi-Automatic",
+   "automation": "Hands-On",
+   "milkSystem": "Manual Steam",
+   "drinks": [
+    "espresso",
+    "latte",
+    "cappuccino",
+    "flat white"
+   ],
+   "coffeeTypes": [
+    "beans",
+    "ground"
+   ],
+   "compact": false,
+   "widthInches": 10.8,
+   "maxBrewTempC": 96,
+   "maintenanceLevel": "High",
+   "learningCurve": "High",
+   "expectedLifespanYears": 15,
+   "annualMaintenanceCostUSD": 90,
+   "costPerCupUSD": 0.37,
+   "scores": {
+    "quality": 4.5,
+    "espresso": 4.5,
+    "speed": 2,
+    "ease": 2,
+    "variety": 2,
+    "eco": 4,
+    "repair": 5
+   },
+   "priceTier": "Prosumer",
+   "priceTierLevel": 5,
+   "buyLinks": {},
+   "image": "https://getbrewharbor.com/images/lelit-bianca.jpg",
+   "summary": "Lelit's flagship dual-boiler machine with flow profiling through a paddle for pre-infusion control.",
+   "whoItsFor": "Buy this if you want hands-on control of pressure and pre-infusion and are ready to learn. You will need a separate grinder."
+  },
+  {
+   "name": "Lelit Mara X",
+   "brand": "Lelit",
+   "url": "https://getbrewharbor.com/machines/lelit-mara-x/",
+   "category": "Semi-Automatic",
+   "automation": "Hands-On",
+   "milkSystem": "Manual Steam",
+   "drinks": [
+    "espresso",
+    "latte",
+    "cappuccino",
+    "flat white"
+   ],
+   "coffeeTypes": [
+    "beans",
+    "ground"
+   ],
+   "compact": false,
+   "widthInches": 10.2,
+   "maxBrewTempC": 96,
+   "maintenanceLevel": "High",
+   "learningCurve": "High",
+   "expectedLifespanYears": 15,
+   "annualMaintenanceCostUSD": 80,
+   "costPerCupUSD": 0.37,
+   "scores": {
+    "quality": 4.5,
+    "espresso": 4.5,
+    "speed": 2,
+    "ease": 2,
+    "variety": 2,
+    "eco": 4,
+    "repair": 5
+   },
+   "priceTier": "Premium",
+   "priceTierLevel": 4,
+   "buyLinks": {},
+   "image": "https://getbrewharbor.com/images/lelit-mara-x.jpg",
+   "summary": "Heat-exchanger espresso machine from Lelit with a built-in system that helps manage brew temperature.",
+   "whoItsFor": "Buy this if you want a prosumer heat-exchanger machine that is easier to manage than a traditional one. You will need a separate grinder."
   },
   {
    "name": "Melitta Barista TS Smart",
@@ -2662,7 +2907,7 @@
     "ground"
    ],
    "compact": false,
-   "widthInches": null,
+   "widthInches": 11.14,
    "maxBrewTempC": 88,
    "maintenanceLevel": "Low",
    "learningCurve": "Low",
@@ -2804,8 +3049,8 @@
     "eco": 2,
     "repair": 2
    },
-   "priceTier": "Upper mid-range",
-   "priceTierLevel": 3,
+   "priceTier": "Premium",
+   "priceTierLevel": 4,
    "buyLinks": {
     "us": "https://www.amazon.com/s?k=philips+4400+lattego&tag=getbrewharbor-20",
     "ca": "https://www.amazon.ca/s?k=philips+4400+lattego&tag=getbrewharb0c-20"
@@ -2850,8 +3095,8 @@
     "eco": 2,
     "repair": 2
    },
-   "priceTier": "Upper mid-range",
-   "priceTierLevel": 3,
+   "priceTier": "Premium",
+   "priceTierLevel": 4,
    "buyLinks": {
     "us": "https://www.amazon.com/s?k=philips+5500+lattego&tag=getbrewharbor-20",
     "ca": "https://www.amazon.ca/s?k=philips+5500+lattego&tag=getbrewharb0c-20",
@@ -2903,6 +3148,129 @@
    "image": "https://getbrewharbor.com/images/philips-baristina.jpg",
    "summary": "Compact Philips espresso machine that grinds, tamps and brews with one swipe of a lever, using a ceramic grinder that cannot be adjusted.",
    "whoItsFor": "Buy this if you want fresh-bean espresso with almost no learning in a very small footprint. Reviewers find the fixed grind limiting, and milk needs a separate frother."
+  },
+  {
+   "name": "Profitec Go",
+   "brand": "Profitec",
+   "url": "https://getbrewharbor.com/machines/profitec-go/",
+   "category": "Semi-Automatic",
+   "automation": "Hands-On",
+   "milkSystem": "Manual Steam",
+   "drinks": [
+    "espresso",
+    "latte",
+    "cappuccino",
+    "flat white"
+   ],
+   "coffeeTypes": [
+    "beans",
+    "ground"
+   ],
+   "compact": true,
+   "widthInches": 8.9,
+   "maxBrewTempC": 94,
+   "maintenanceLevel": "Moderate",
+   "learningCurve": "High",
+   "expectedLifespanYears": 12,
+   "annualMaintenanceCostUSD": 70,
+   "costPerCupUSD": 0.37,
+   "scores": {
+    "quality": 4,
+    "espresso": 4,
+    "speed": 2,
+    "ease": 2,
+    "variety": 2,
+    "eco": 4,
+    "repair": 5
+   },
+   "priceTier": "Premium",
+   "priceTierLevel": 4,
+   "buyLinks": {},
+   "image": "https://getbrewharbor.com/images/profitec-go.jpg",
+   "summary": "Compact German single-boiler espresso machine with PID temperature control.",
+   "whoItsFor": "Buy this if you want a compact single-boiler machine with PID control. You will need a separate grinder."
+  },
+  {
+   "name": "Profitec Pro 500",
+   "brand": "Profitec",
+   "url": "https://getbrewharbor.com/machines/profitec-pro-500/",
+   "category": "Semi-Automatic",
+   "automation": "Hands-On",
+   "milkSystem": "Manual Steam",
+   "drinks": [
+    "espresso",
+    "latte",
+    "cappuccino",
+    "flat white"
+   ],
+   "coffeeTypes": [
+    "beans",
+    "ground"
+   ],
+   "compact": false,
+   "widthInches": 11.9,
+   "maxBrewTempC": 94,
+   "maintenanceLevel": "High",
+   "learningCurve": "High",
+   "expectedLifespanYears": 15,
+   "annualMaintenanceCostUSD": 80,
+   "costPerCupUSD": 0.37,
+   "scores": {
+    "quality": 4.5,
+    "espresso": 4.5,
+    "speed": 2,
+    "ease": 2,
+    "variety": 2,
+    "eco": 4,
+    "repair": 5
+   },
+   "priceTier": "Prosumer",
+   "priceTierLevel": 5,
+   "buyLinks": {},
+   "image": "https://getbrewharbor.com/images/profitec-pro-500.jpg",
+   "summary": "Profitec heat-exchanger espresso machine with PID temperature control.",
+   "whoItsFor": "Buy this if you want a heat-exchanger machine with PID control and are ready to learn. You will need a separate grinder."
+  },
+  {
+   "name": "Profitec Pro 600",
+   "brand": "Profitec",
+   "url": "https://getbrewharbor.com/machines/profitec-pro-600/",
+   "category": "Semi-Automatic",
+   "automation": "Hands-On",
+   "milkSystem": "Manual Steam",
+   "drinks": [
+    "espresso",
+    "latte",
+    "cappuccino",
+    "flat white"
+   ],
+   "coffeeTypes": [
+    "beans",
+    "ground"
+   ],
+   "compact": false,
+   "widthInches": 12,
+   "maxBrewTempC": 93,
+   "maintenanceLevel": "High",
+   "learningCurve": "High",
+   "expectedLifespanYears": 15,
+   "annualMaintenanceCostUSD": 85,
+   "costPerCupUSD": 0.37,
+   "scores": {
+    "quality": 4.5,
+    "espresso": 4.5,
+    "speed": 2,
+    "ease": 2,
+    "variety": 2,
+    "eco": 4,
+    "repair": 5
+   },
+   "priceTier": "Prosumer",
+   "priceTierLevel": 5,
+   "buyLinks": {},
+   "image": "https://getbrewharbor.com/images/profitec-pro-600.jpg",
+   "summary": "Profitec dual-boiler espresso machine with PID control. Brews and steams at the same time.",
+   "whoItsFor": "Buy this if you want to brew and steam at once and are ready to learn. You will need a separate grinder."
   },
   {
    "name": "Rancilio Silvia",
@@ -2967,7 +3335,7 @@
     "ground"
    ],
    "compact": true,
-   "widthInches": null,
+   "widthInches": 9.8,
    "maxBrewTempC": 96,
    "maintenanceLevel": "High",
    "learningCurve": "High",
@@ -2975,8 +3343,8 @@
    "annualMaintenanceCostUSD": 75,
    "costPerCupUSD": 0.37,
    "scores": {
-    "quality": 5,
-    "espresso": 5,
+    "quality": 4.5,
+    "espresso": 4.5,
     "speed": 2,
     "ease": 2,
     "variety": 2,
@@ -3036,6 +3404,44 @@
    "whoItsFor": "This is what a premium drip machine should be. Everything about it says quality."
   },
   {
+   "name": "Ratio Six",
+   "brand": "Ratio",
+   "url": "https://getbrewharbor.com/machines/ratio-six/",
+   "category": "Drip Machine",
+   "automation": "High Automation",
+   "milkSystem": "None",
+   "drinks": [
+    "filter",
+    "drip"
+   ],
+   "coffeeTypes": [
+    "ground"
+   ],
+   "compact": true,
+   "widthInches": 6.4,
+   "maxBrewTempC": 93,
+   "maintenanceLevel": "Low",
+   "learningCurve": "Low",
+   "expectedLifespanYears": 10,
+   "annualMaintenanceCostUSD": 40,
+   "costPerCupUSD": 0.31,
+   "scores": {
+    "quality": 4,
+    "espresso": null,
+    "speed": 4,
+    "ease": 5,
+    "variety": 2,
+    "eco": 4,
+    "repair": 4
+   },
+   "priceTier": "Mid-range",
+   "priceTierLevel": 2,
+   "buyLinks": {},
+   "image": "https://getbrewharbor.com/images/ratio-six.jpg",
+   "summary": "Design-forward 6-cup drip brewer in die-cast aluminium.",
+   "whoItsFor": "Buy this if you want a drip brewer that looks good on the counter. It makes up to six cups at a time."
+  },
+  {
    "name": "Rocket Appartamento",
    "brand": "Rocket",
    "url": "https://getbrewharbor.com/machines/rocket-appartamento/",
@@ -3052,7 +3458,7 @@
     "ground"
    ],
    "compact": false,
-   "widthInches": null,
+   "widthInches": 10.8,
    "maxBrewTempC": 95,
    "maintenanceLevel": "High",
    "learningCurve": "High",
@@ -3060,8 +3466,8 @@
    "annualMaintenanceCostUSD": 80,
    "costPerCupUSD": 0.37,
    "scores": {
-    "quality": 5,
-    "espresso": 5,
+    "quality": 4.5,
+    "espresso": 4.5,
     "speed": 2,
     "ease": 2,
     "variety": 2,
@@ -3079,6 +3485,49 @@
    "image": "https://getbrewharbor.com/images/rocket-appartamento.jpg",
    "summary": "Italian heat-exchanger machine with a distinctive circular cutout design, an E61 group head, and Rocket's build quality.",
    "whoItsFor": "A compact heat-exchanger machine with an E61 group. Buy this if you like a classic prosumer machine and are happy to learn how to manage its heat exchanger."
+  },
+  {
+   "name": "Saeco Xelsis",
+   "brand": "Saeco",
+   "url": "https://getbrewharbor.com/machines/saeco-xelsis/",
+   "category": "Super-Automatic",
+   "automation": "High Automation",
+   "milkSystem": "Auto Frother",
+   "drinks": [
+    "espresso",
+    "latte",
+    "cappuccino",
+    "flat white",
+    "americano",
+    "ristretto",
+    "macchiato"
+   ],
+   "coffeeTypes": [
+    "beans"
+   ],
+   "compact": false,
+   "widthInches": 11.14,
+   "maxBrewTempC": 88,
+   "maintenanceLevel": "Low",
+   "learningCurve": "Low",
+   "expectedLifespanYears": 10,
+   "annualMaintenanceCostUSD": 80,
+   "costPerCupUSD": 0.37,
+   "scores": {
+    "quality": 4,
+    "espresso": 4,
+    "speed": 5,
+    "ease": 5,
+    "variety": 5,
+    "eco": 3,
+    "repair": 3
+   },
+   "priceTier": "Prosumer",
+   "priceTierLevel": 5,
+   "buyLinks": {},
+   "image": "https://getbrewharbor.com/images/saeco-xelsis.jpg",
+   "summary": "Premium Saeco super-automatic (Philips-owned) with user profiles that remember each person's drink settings.",
+   "whoItsFor": "Buy this if several people in your household want their own drink settings saved. Profiles are the main feature, so check that the model you buy supports them."
   },
   {
    "name": "Takeya Deluxe Cold Brew Coffee Maker",

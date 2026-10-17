@@ -119,6 +119,7 @@ exports.handler = async function (event) {
         why: x.result.reasons, tradeoffs: x.result.misses,
         page: `${SITE}/machines/${slugify(m.name)}/`,
         buyLink: link && link !== '#' ? engine.withTag(link, answers.region) : null,
+        amazonAvailable: !!(link && link !== '#'),
       };
     });
     return json(200, {

@@ -1,0 +1,480 @@
+{
+ "AeroPress Go": [
+  {
+   "text": "Fits inside its own cup",
+   "url": "https://aeropress.com/products/aeropress-go-travel-coffee-press"
+  },
+  {
+   "text": "Espresso-style concentrate or filter",
+   "url": "https://aeropress.com/products/aeropress-go-travel-coffee-press"
+  }
+ ],
+ "AeroPress Original": [
+  {
+   "text": "Espresso-style, filter, and cold brew in one portable device",
+   "url": "https://aeropress.com/products/aeropress-coffee-maker"
+  }
+ ],
+ "Breville Bambino": [
+  {
+   "text": "3-second ThermoJet heat-up and manual steam wand",
+   "url": "https://www.breville.com/en-us/product/bes450"
+  },
+  {
+   "text": "Needs a separate grinder",
+   "url": "https://www.breville.com/en-us/product/bes450"
+  }
+ ],
+ "Breville Bambino Plus": [
+  {
+   "text": "3-second heat-up",
+   "url": "https://www.breville.com/en-us/product/bes500"
+  },
+  {
+   "text": "Automatic milk frothing",
+   "url": "https://www.breville.com/en-us/product/bes500"
+  }
+ ],
+ "Breville Barista Express": [
+  {
+   "text": "Built-in grinder",
+   "url": "https://www.breville.com/en-us/product/bes870"
+  },
+  {
+   "text": "PID temperature control",
+   "url": "https://www.breville.com/en-us/product/bes870"
+  },
+  {
+   "text": "Manual steam wand",
+   "url": "https://www.breville.com/en-us/product/bes870"
+  },
+  {
+   "text": "Control over grind size and dose and extraction",
+   "url": "https://www.breville.com/en-us/product/bes870"
+  }
+ ],
+ "Breville Barista Touch": [
+  {
+   "text": "Touchscreen interface",
+   "url": "https://www.breville.com/en-us/product/bes880"
+  },
+  {
+   "text": "Semi-automatic preparation",
+   "url": "https://assets.breville.com/BES880/BES880_USCM_IB_AB26_LR.pdf"
+  },
+  {
+   "text": "Automatic milk texturing",
+   "url": "https://www.breville.com/en-us/product/bes880"
+  }
+ ],
+ "Breville Luxe Brewer": [
+  {
+   "text": "SCA-certified",
+   "url": "https://www.breville.com/en-us/product/bdc465"
+  },
+  {
+   "text": "Removable water tank",
+   "url": "https://www.breville.com/en-us/product/bdc465"
+  },
+  {
+   "text": "Thermal or glass carafe",
+   "url": "https://www.breville.com/en-us/product/bdc465"
+  },
+  {
+   "text": "Cold brew from same brewer",
+   "url": "https://assets.breville.com/BDC465/Documents/BDC415_465_USCM_IB_B25_LR.pdf"
+  }
+ ],
+ "Breville Oracle Jet": [
+  {
+   "text": "Grinds, doses, tamps for you",
+   "url": "https://www.breville.com/en-us/product/bes985"
+  },
+  {
+   "text": "Steams milk for you",
+   "url": "https://www.breville.com/en-us/product/bes985"
+  },
+  {
+   "text": "Cold brew and cold espresso settings",
+   "url": "https://www.breville.com/en-us/product/bes985"
+  }
+ ],
+ "Breville Precision Brewer": [
+  {
+   "text": "Programmable brew temperature, bloom time and flow rate",
+   "url": "https://www.breville.com/en-us/product/bdc400"
+  }
+ ],
+ "CASABREWS 3700 Essential": [
+  {
+   "text": "Compact with a steam wand",
+   "url": "https://www.casabrews.com/products/casabrews-3700essential-20-bar-espresso-coffee-machine-with-space-saving-design"
+  }
+ ],
+ "CASABREWS CM5418": [
+  {
+   "text": "Very compact; pressure gauge; manual steam wand",
+   "url": "https://www.casabrews.com/products/cm5418"
+  }
+ ],
+ "Cuisinart DCC-3200": [
+  {
+   "text": "14-cup programmable",
+   "url": "https://www.cuisinart.com/14-cup-programmable-coffee-maker/DCC-3200NAS.html"
+  }
+ ],
+ "De'Longhi Dedica Duo": [
+  {
+   "text": "Under 6 inches wide",
+   "url": "https://www.delonghi.com/en-us/p/dedica-duo-dedica-duo-espresso-machine--metal/EC890M.html"
+  },
+  {
+   "text": "Manual steam wand",
+   "url": "https://www.delonghi.com/en-us/p/dedica-duo-dedica-duo-espresso-machine--metal/EC890M.html"
+  }
+ ],
+ "De'Longhi Dinamica Plus": [
+  {
+   "text": "24 one-touch drinks",
+   "url": "https://www.delonghi.com/en-us/p/dinamica-plus-dinamica-plus-espresso-machine/ECAM38085SB.html"
+  },
+  {
+   "text": "Integrated milk system",
+   "url": "https://www.delonghi.com/en-us/p/dinamica-plus-dinamica-plus-espresso-machine/ECAM38085SB.html"
+  },
+  {
+   "text": "App connectivity",
+   "url": "https://www.amazon.com/s?k=delonghi+dinamica+plus"
+  },
+  {
+   "text": "Espresso, latte, flat white without touching a dial",
+   "url": "https://www.delonghi.com/en-us/p/dinamica-plus-dinamica-plus-espresso-machine/ECAM38085SB.html"
+  }
+ ],
+ "De'Longhi Eletta Explore": [
+  {
+   "text": "Cold brew function",
+   "url": "https://www.delonghi.com/en-us/p/eletta-explore-eletta-explore-espresso-machine/ECAM45086S+EX%3A4.html"
+  },
+  {
+   "text": "LatteCrema hot and cold milk system",
+   "url": "https://www.delonghi.com/en-us/p/eletta-explore-eletta-explore-espresso-machine/ECAM45086S+EX%3A4.html"
+  },
+  {
+   "text": "Cold brew and iced latte at touch of button",
+   "url": "https://www.delonghi.com/en-us/e/eletta-explore-espresso-machine"
+  }
+ ],
+ "De'Longhi La Specialista Arte Evo": [
+  {
+   "text": "Integrated grinder",
+   "url": "https://www.delonghi.com/en-us/p/la-specialista-arte-la-specialista-arte-evo-manual-coffee-maker-ec9255.m-ex2/EC9250M.html?pid=0132126162"
+  },
+  {
+   "text": "Active temperature control",
+   "url": "https://www.delonghi.com/en-us/p/la-specialista-arte-la-specialista-arte-evo-manual-coffee-maker-ec9255.m-ex2/EC9250M.html?pid=0132126162"
+  }
+ ],
+ "De'Longhi La Specialista Opera": [
+  {
+   "text": "Built-in grinder",
+   "url": "https://www.delonghi.com/en-us/p/la-specialista-opera-la-specialista-opera-espresso-machine-with-cold-brew/EC9555M.html"
+  },
+  {
+   "text": "Tamping station",
+   "url": "https://www.delonghi.com/en-us/p/la-specialista-opera-la-specialista-opera-espresso-machine-with-cold-brew/EC9555M.html"
+  },
+  {
+   "text": "Cold brew mode and cold-extraction recipes",
+   "url": "https://www.delonghi.com/en-us/p/la-specialista-opera-la-specialista-opera-espresso-machine-with-cold-brew/EC9555M.html"
+  }
+ ],
+ "De'Longhi Magnifica Evo": [
+  {
+   "text": "Grinds and brews espresso at touch of a button",
+   "url": "https://www.delonghi.com/en-us/p/magnifica-evo-magnifica-evo-espresso-machine/ECAM29043SB.html"
+  }
+ ],
+ "De'Longhi Rivelia": [
+  {
+   "text": "Compact super-automatic",
+   "url": "https://www.delonghi.com/en-us/p/rivelia-rivelia-fully-automatic-espresso-machine--onyx-black/EXAM44055B.html"
+  },
+  {
+   "text": "Dual-hopper bean switch system",
+   "url": "https://www.delonghi.com/en-us/p/rivelia-rivelia-fully-automatic-espresso-machine--onyx-black/EXAM44055B.html"
+  }
+ ],
+ "Fellow Aiden Precision Brewer": [
+  {
+   "text": "SCA-certified",
+   "url": "https://fellowproducts.com/products/aiden-precision-coffee-maker"
+  },
+  {
+   "text": "Programmable bloom",
+   "url": "https://fellowproducts.com/products/aiden-precision-coffee-maker"
+  }
+ ],
+ "Fellow Espresso Series 1": [
+  {
+   "text": "Active temperature management / precision temperature control",
+   "url": "https://fellowproducts.com/products/espresso-series-1"
+  }
+ ],
+ "Gaggia Classic Pro": [
+  {
+   "text": "E24 version has a brass boiler",
+   "url": "https://www.amazon.co.uk/s?k=gaggia+classic+pro"
+  },
+  {
+   "text": "E24 has brass boiler",
+   "url": "https://www.gaggia.com/manual-machines/new-classic-e24/"
+  },
+  {
+   "text": "Requires learning",
+   "url": "https://www.gaggia.com/manual-machines/new-classic-e24/"
+  }
+ ],
+ "Hario V60": [
+  {
+   "text": "Pour-over dripper",
+   "url": "https://www.hario-usa.com/products/v60-ceramic-coffee-dripper-02-classic"
+  }
+ ],
+ "Jura E8": [
+  {
+   "text": "P.E.P. pulse extraction",
+   "url": "https://kr.jura.com/en/homeproducts/machines/e8-chrome-kra-15638"
+  },
+  {
+   "text": "Super-automatic",
+   "url": "https://shopjura.com/homepage/e8-piano-black-nac.html"
+  },
+  {
+   "text": "Espresso at touch of a button",
+   "url": "https://shopjura.com/homepage/e8-piano-black-nac.html"
+  }
+ ],
+ "Jura Z10": [
+  {
+   "text": "Cold brew at the touch of a button",
+   "url": "https://lu.jura.com/en/homeproducts/machines/z10aluminium-midnight-blue-ea-15655"
+  }
+ ],
+ "Keurig K-Classic": [
+  {
+   "text": "Brews in under a minute",
+   "url": "https://mgmt3-ci-gcp.keurig.com/Home-Coffee-Makers/Keurig%C2%AE-K-Classic%C2%AE-Coffee-Maker/p/K50-Coffee-Maker"
+  }
+ ],
+ "Keurig K-Elite": [
+  {
+   "text": "Single-serve convenience",
+   "url": "https://dam.keurig.com/content/dam/public-assets/kcom_support/7297_KEUR_KElite_UCG_Digital.pdf"
+  },
+  {
+   "text": "Strong brew mode",
+   "url": "https://dam.keurig.com/content/dam/public-assets/kcom_support/7297_KEUR_KElite_UCG_Digital.pdf"
+  },
+  {
+   "text": "Iced coffee mode",
+   "url": "https://dam.keurig.com/content/dam/public-assets/kcom_support/7297_KEUR_KElite_UCG_Digital.pdf"
+  }
+ ],
+ "Keurig K-Supreme Plus SMART": [
+  {
+   "text": "Multiple brew strength settings",
+   "url": "https://www.keurig.com/content/k-supreme-plus-smart-coffee-maker"
+  },
+  {
+   "text": "Dedicated iced coffee mode",
+   "url": "https://www.keurig.com/content/k-supreme-plus-smart-coffee-maker"
+  },
+  {
+   "text": "Brews hot directly over ice",
+   "url": "https://www.keurig.com/content/k-supreme-plus-smart-coffee-maker"
+  }
+ ],
+ "Melitta Barista TS Smart": [
+  {
+   "text": "Smart super-auto",
+   "url": "https://www.melitta.co.uk/bean-to-cup-machines/barista-ts-smart-/silver"
+  },
+  {
+   "text": "App connectivity and control",
+   "url": "https://www.melitta.co.uk/bean-to-cup-machines/barista-ts-smart-/silver"
+  },
+  {
+   "text": "Good automatic milk system",
+   "url": "https://www.melitta.co.uk/bean-to-cup-machines/barista-ts-smart-/silver"
+  }
+ ],
+ "Nespresso CitiZ": [
+  {
+   "text": "Nespresso Original Line",
+   "url": "https://www.nespresso.com/uk/order/machines/original/nespresso-citiz-silver-refresh"
+  }
+ ],
+ "Nespresso Creatista Plus": [
+  {
+   "text": "Real steam wand / Breville-built",
+   "url": "https://www.breville.com/en-us/product/bne800"
+  }
+ ],
+ "Nespresso Essenza Mini": [
+  {
+   "text": "Tiny footprint",
+   "url": "https://www.breville.com/en-us/product/bec220"
+  },
+  {
+   "text": "Espresso preparation",
+   "url": "https://www.breville.com/en-us/product/bec220"
+  }
+ ],
+ "Nespresso Pixie": [
+  {
+   "text": "Original Line; 25-second heat-up; compact",
+   "url": "https://www.nespresso.com/uk/en/order/machines/original/nespresso-c60-pixie-electric-red"
+  }
+ ],
+ "Nespresso Vertuo Lattissima": [
+  {
+   "text": "One-touch lattes and cappuccinos",
+   "url": "https://www.nespresso.com/za/en/coffee-machines/vertuo/vertuo-lattissima-white-machine"
+  },
+  {
+   "text": "Wide range of cup sizes",
+   "url": "https://www.nespresso.com/za/en/coffee-machines/vertuo/vertuo-lattissima-white-machine"
+  }
+ ],
+ "Nespresso Vertuo Next": [
+  {
+   "text": "Barcode-reading convenience",
+   "url": "https://www.breville.com/en-us/product/bnv520"
+  }
+ ],
+ "Ninja Luxe Café Premier": [
+  {
+   "text": "Espresso plus drip plus cold brew",
+   "url": "https://www.sharkninja.com/ninja-luxe-cafe-premier-3-in-1-espresso-coffee-cold-brew/ES601.html"
+  },
+  {
+   "text": "Bean-to-cup whole-bean brewing",
+   "url": "https://www.sharkninja.com/ninja-luxe-cafe-premier-3-in-1-espresso-coffee-cold-brew/ES601.html"
+  },
+  {
+   "text": "Barista Assist guides grind size",
+   "url": "https://www.sharkninja.com/ninja-luxe-cafe-premier-3-in-1-espresso-coffee-cold-brew/ES601.html"
+  },
+  {
+   "text": "Automatically adjusts pressure and temperature",
+   "url": "https://www.sharkninja.com/ninja-luxe-cafe-premier-3-in-1-espresso-coffee-cold-brew/ES601.html"
+  }
+ ],
+ "Ninja Specialty Coffee Maker": [
+  {
+   "text": "Classic, rich and over ice",
+   "url": "https://www.sharkninja.com/ninja-specialty-coffee-maker-with-glass-carafe/CM401.html"
+  },
+  {
+   "text": "Makes concentrate and iced and classic drip",
+   "url": "https://www.sharkninja.com/ninja-specialty-coffee-maker-with-glass-carafe/CM401.html"
+  }
+ ],
+ "OXO Brew 9-Cup": [
+  {
+   "text": "SCA-certified 9-cup; thermal carafe; rainmaker showerhead",
+   "url": "https://www.oxo.com/shop/coffee-beverage/oxo-brew-9-cup-coffee-maker-matte-black.html"
+  }
+ ],
+ "Philips 3200 LatteGo": [
+  {
+   "text": "Zero tubes; rinses in 15 seconds or goes in dishwasher",
+   "url": "https://www.documents.philips.com/assets/20211008/8679050819e4404e8301adbb008db1ea.pdf"
+  }
+ ],
+ "Philips 4400 LatteGo": [
+  {
+   "text": "12 one-touch hot and iced drinks",
+   "url": "https://www.usa.philips.com/c-p/EP4447_90/series-4400-fully-automatic-espresso-machine"
+  },
+  {
+   "text": "LatteGo milk system",
+   "url": "https://us.home-appliances.philips/products/philips-4400-series-fully-automatic-espresso-machine-lattego-ep4447-90"
+  },
+  {
+   "text": "Easy milk-system cleaning",
+   "url": "https://us.home-appliances.philips/products/philips-4400-series-fully-automatic-espresso-machine-lattego-ep4447-90"
+  }
+ ],
+ "Philips 5500 LatteGo": [
+  {
+   "text": "20 one-touch drinks including iced coffees",
+   "url": "https://www.philips.com.bh/c-p/EP5547_90/series-5500-fully-automatic-espresso-machine"
+  }
+ ],
+ "Rancilio Silvia Pro X": [
+  {
+   "text": "Silvia upgraded with dual boilers",
+   "url": "https://www.ranciliogroupna.com/equipment/rancilio-silvia-pro-x/"
+  },
+  {
+   "text": "PID temperature control",
+   "url": "https://www.ranciliogroupna.com/equipment/rancilio-silvia-pro-x/"
+  },
+  {
+   "text": "Simultaneous brewing and steaming",
+   "url": "https://www.ranciliogroupna.com/equipment/rancilio-silvia-pro-x/"
+  }
+ ],
+ "Rocket Appartamento": [
+  {
+   "text": "Italian machine",
+   "url": "https://www.rocket-espressousa.com/appartamento-espresso-machine"
+  },
+  {
+   "text": "Heat-exchanger machine",
+   "url": "https://www.rocket-espressousa.com/appartamento-espresso-machine"
+  },
+  {
+   "text": "Distinctive circular cutout design",
+   "url": "https://www.rocket-espressousa.com/appartamento-espresso-machine"
+  },
+  {
+   "text": "E61 group head",
+   "url": "https://www.rocket-espressousa.com/appartamento-espresso-machine"
+  }
+ ],
+ "Technivorm Moccamaster KBGV": [
+  {
+   "text": "SCAA-certified",
+   "url": "https://us.moccamaster.com/products/kbgv"
+  },
+  {
+   "text": "Brews at 92-96C",
+   "url": "https://us.moccamaster.com/products/kbgv"
+  },
+  {
+   "text": "Built in the Netherlands",
+   "url": "https://us.moccamaster.com/products/kbgv"
+  }
+ ],
+ "Terra Kaffe TK-02": [
+  {
+   "text": "App-connected",
+   "url": "https://www.terrakaffe.com/products/tk-02"
+  },
+  {
+   "text": "Brews espresso and true drip coffee",
+   "url": "https://www.terrakaffe.com/products/tk-02"
+  },
+  {
+   "text": "Front-loading design",
+   "url": "https://www.terrakaffe.com/products/tk-02"
+  },
+  {
+   "text": "Automatic milk carafe",
+   "url": "https://www.terrakaffe.com/products/tk-02"
+  }
+ ]
+}

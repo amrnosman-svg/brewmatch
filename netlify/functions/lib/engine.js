@@ -24,7 +24,7 @@ function withTag(url, region) {
 
 function mapAirtableRecord(record) {
   // Widths the audit could not confirm against the manufacturer: hidden until verified
-  const UNVERIFIED_WIDTH_NAMES = ["De'Longhi Rivelia", "Breville Bambino Plus", "Breville Luxe Brewer", "Breville Oracle Jet", "De'Longhi Eletta Explore", "Breville Precision Brewer", "Keurig K-Classic", "Breville Barista Express Impress", "Breville Barista Express", "Breville Barista Touch", "Breville Barista Touch Impress", "Breville Barista Pro", "Ninja Specialty Coffee Maker", "Fellow Aiden Precision Brewer", "Rancilio Silvia Pro X", "Rocket Appartamento"];
+  const UNVERIFIED_WIDTH_NAMES = ["De'Longhi Rivelia", "Breville Bambino Plus", "Breville Luxe Brewer", "Breville Oracle Jet", "De'Longhi Eletta Explore", "Breville Precision Brewer", "Breville Barista Express Impress", "Breville Barista Express", "Breville Barista Touch", "Breville Barista Touch Impress", "Breville Barista Pro"];
   const f = record.fields;
   const parseList = (val) => val ? String(val).split(',').map(s => s.trim()).filter(Boolean) : [];
   // singleSelect fields return {id, name, color} objects — extract .name safely
@@ -107,15 +107,26 @@ function mapAirtableRecord(record) {
 
 function getPrice(m) {
   if (!m || !m.prices) return Infinity;
-  const p = m.prices[userAnswers.region || 'us'];
-  return (p == null) ? Infinity : p;
+  const region = userAnswers.region || 'us';
+  const p = m.prices[region];
+  if (p != null) return p;
+  // No price on file for this store: convert the nearest known price so the machine can still be judged on merit
+  for (const k of ['us', 'ca', 'uk', 'eu', 'au']) {
+    if (m.prices[k] != null) return Math.round(m.prices[k] / REGION_FX[k] * (REGION_FX[region] || 1));
+  }
+  return Infinity;
+}
+const REGION_FX = { us: 1, ca: 1.43, uk: 0.76, eu: 0.86, au: 1.55 };
+function isEstimatedPrice(m) {
+  return !!(m && m.prices) && m.prices[userAnswers.region || 'us'] == null && getPrice(m) !== Infinity;
 }
 function calcTCO(m) {
   const cups = userAnswers.cups || 2;
   const costPerCup = m.costPerCup || 0;
   // FIX05: Use regional price for accurate TCO — fall back to USD if region price missing
   const region = userAnswers.region || 'us';
-  const price = (m.prices && m.prices[region] != null) ? m.prices[region] : (m.prices && m.prices.us || 0);
+  const gp = getPrice(m);
+  const price = isFinite(gp) ? gp : 0;
   const lifespan = m.expectedLifespanYears || 5;
   const maintCost = m.maintenanceAnnualCost || 0;
   const annualMachineTCO = Math.round(price / lifespan + maintCost);
