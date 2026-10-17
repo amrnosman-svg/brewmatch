@@ -16,6 +16,7 @@ function between(startMarker, endMarker, { includeEnd = false } = {}) {
 
 const parts = {
   currency: between('const currencySymbol =', '\n'),
+  affiliate: between('const AFFILIATE_TAGS = {', '};', { includeEnd: true }) + '\n' + between('function withTag(url, region) {', 'function getLink(m)'),
   mapper: between('function mapAirtableRecord(record) {', '// ─── AIRTABLE FETCH'),
   helpers: between('function getPrice(m) {', 'function getCurrSymbol()') + between('function calcTCO(m) {', 'const AMAZON_SEARCH'),
   extras: between('const machineExtras = {', '// Merge extras into machine objects at runtime'),
@@ -33,6 +34,7 @@ let userAnswers = { drinks: [], effort: null, coffeeType: null, maintenance: nul
 function setAnswers(a) { userAnswers = a; }
 
 ${parts.currency}
+${parts.affiliate}
 ${parts.mapper}
 ${parts.helpers}
 // The quiz overrides ecoRepairScore/bundles from this table after loading Airtable (initApp -> applyExtras).
@@ -47,7 +49,7 @@ function rank(machines) {
   return scoredFiltered;
 }
 
-module.exports = { setAnswers, mapAirtableRecord, applyExtras, rank, calcTCO, getPrice };
+module.exports = { setAnswers, mapAirtableRecord, applyExtras, rank, calcTCO, getPrice, withTag, AFFILIATE_TAGS };
 `;
 fs.writeFileSync(path.join(ROOT, 'netlify/functions/lib/engine.js'), out);
 console.log('engine.js written,', out.length, 'bytes');

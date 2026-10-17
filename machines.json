@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-16",
+ "generated": "2026-10-17",
  "source": "https://getbrewharbor.com",
  "logo": "https://getbrewharbor.com/assets/logo.svg",
  "note": "Scores are BrewHarbor 1-5 ratings (5 best). Prices change daily and are not published here: priceTier is a rough band (1 Budget to 5 Prosumer) and the buy link shows the current price.",
@@ -43,11 +43,11 @@
    "priceTier": "Budget",
    "priceTierLevel": 1,
    "buyLinks": {
-    "us": "https://www.amazon.com/s?k=aeropress+go",
-    "ca": "https://www.amazon.ca/s?k=aeropress+go",
-    "uk": "https://www.amazon.co.uk/s?k=aeropress+go",
-    "eu": "https://www.amazon.de/s?k=aeropress+go",
-    "au": "https://www.amazon.com.au/s?k=aeropress+go"
+    "us": "https://www.amazon.com/s?k=aeropress+go&tag=getbrewharbor-20",
+    "ca": "https://www.amazon.ca/s?k=aeropress+go&tag=getbrewharb0c-20",
+    "uk": "https://www.amazon.co.uk/s?k=aeropress+go&tag=getbrewharbor-21",
+    "eu": "https://www.amazon.de/s?k=aeropress+go&tag=getbrewharb0e-21",
+    "au": "https://www.amazon.com.au/s?k=aeropress+go&tag=getbrewharbor-22"
    },
    "image": "https://getbrewharbor.com/images/aeropress-go.jpg",
    "summary": "Travel-sized AeroPress that fits inside its own cup. Makes espresso-style concentrate or filter.",
@@ -91,11 +91,11 @@
    "priceTier": "Budget",
    "priceTierLevel": 1,
    "buyLinks": {
-    "us": "https://www.amazon.com/s?k=aeropress+original",
-    "ca": "https://www.amazon.ca/s?k=aeropress+original",
-    "uk": "https://www.amazon.co.uk/s?k=aeropress+original",
-    "eu": "https://www.amazon.de/s?k=aeropress+original",
-    "au": "https://www.amazon.com.au/s?k=aeropress+original"
+    "us": "https://www.amazon.com/s?k=aeropress+original&tag=getbrewharbor-20",
+    "ca": "https://www.amazon.ca/s?k=aeropress+original&tag=getbrewharb0c-20",
+    "uk": "https://www.amazon.co.uk/s?k=aeropress+original&tag=getbrewharbor-21",
+    "eu": "https://www.amazon.de/s?k=aeropress+original&tag=getbrewharb0e-21",
+    "au": "https://www.amazon.com.au/s?k=aeropress+original&tag=getbrewharbor-22"
    },
    "image": "https://getbrewharbor.com/images/aeropress-original.jpg",
    "summary": "The most versatile brewer ever made. Espresso-style, filter, and cold brew in one portable device.",
@@ -138,11 +138,11 @@
    "priceTier": "Prosumer",
    "priceTierLevel": 5,
    "buyLinks": {
-    "us": "https://www.amazon.com/s?k=ascaso+steel+duo+pid",
-    "ca": "https://www.amazon.ca/s?k=ascaso+steel+duo+pid",
-    "uk": "https://www.amazon.co.uk/s?k=ascaso+steel+duo+pid",
-    "eu": "https://www.amazon.de/s?k=ascaso+steel+duo+pid",
-    "au": "https://www.amazon.com.au/s?k=ascaso+steel+duo+pid"
+    "us": "https://www.amazon.com/s?k=ascaso+steel+duo+pid&tag=getbrewharbor-20",
+    "ca": "https://www.amazon.ca/s?k=ascaso+steel+duo+pid&tag=getbrewharb0c-20",
+    "uk": "https://www.amazon.co.uk/s?k=ascaso+steel+duo+pid&tag=getbrewharbor-21",
+    "eu": "https://www.amazon.de/s?k=ascaso+steel+duo+pid&tag=getbrewharb0e-21",
+    "au": "https://www.amazon.com.au/s?k=ascaso+steel+duo+pid&tag=getbrewharbor-22"
    },
    "image": "https://getbrewharbor.com/images/ascaso-steel-duo-pid.jpg",
    "summary": "Spanish-made dual boiler with independent PIDs on both circuits. Compact footprint for a dual boiler machine with high-end performance.",
@@ -182,11 +182,11 @@
    "priceTier": "Budget",
    "priceTierLevel": 1,
    "buyLinks": {
-    "us": "https://www.amazon.com/dp/B000CNY6UK",
-    "ca": "https://www.amazon.ca/s?k=bialetti+moka+express",
-    "uk": "https://www.amazon.co.uk/s?k=bialetti+moka+express",
-    "eu": "https://www.amazon.de/s?k=bialetti+moka+express",
-    "au": "https://www.amazon.com.au/s?k=bialetti+moka+express"
+    "us": "https://www.amazon.com/dp/B000CNY6UK?tag=getbrewharbor-20",
+    "ca": "https://www.amazon.ca/s?k=bialetti+moka+express&tag=getbrewharb0c-20",
+    "uk": "https://www.amazon.co.uk/s?k=bialetti+moka+express&tag=getbrewharbor-21",
+    "eu": "https://www.amazon.de/s?k=bialetti+moka+express&tag=getbrewharb0e-21",
+    "au": "https://www.amazon.com.au/s?k=bialetti+moka+express&tag=getbrewharbor-22"
    },
    "image": "https://getbrewharbor.com/images/bialetti-moka-express.jpg",
    "summary": "Classic aluminium stovetop brewer that makes strong, espresso-style coffee without electricity.",
@@ -226,11 +226,11 @@
    "priceTier": "Budget",
    "priceTierLevel": 1,
    "buyLinks": {
-    "us": "https://www.amazon.com/s?k=bodum+chambord+french+press",
-    "ca": "https://www.amazon.ca/s?k=bodum+chambord+french+press",
-    "uk": "https://www.amazon.co.uk/s?k=bodum+chambord+french+press",
-    "eu": "https://www.amazon.de/s?k=bodum+chambord+french+press",
-    "au": "https://www.amazon.com.au/s?k=bodum+chambord+french+press"
+    "us": "https://www.amazon.com/s?k=bodum+chambord+french+press&tag=getbrewharbor-20",
+    "ca": "https://www.amazon.ca/s?k=bodum+chambord+french+press&tag=getbrewharb0c-20",
+    "uk": "https://www.amazon.co.uk/s?k=bodum+chambord+french+press&tag=getbrewharbor-21",
+    "eu": "https://www.amazon.de/s?k=bodum+chambord+french+press&tag=getbrewharb0e-21",
+    "au": "https://www.amazon.com.au/s?k=bodum+chambord+french+press&tag=getbrewharbor-22"
    },
    "image": "https://getbrewharbor.com/images/bodum-chambord-press.jpg",
    "summary": "The original French press in borosilicate glass with a stainless frame. The reference point for the category.",
@@ -270,10 +270,10 @@
    "priceTier": "Mid-range",
    "priceTierLevel": 2,
    "buyLinks": {
-    "us": "https://www.amazon.com/s?k=bonavita+8+cup+coffee",
-    "ca": "https://www.amazon.ca/s?k=bonavita+8+cup+coffee",
-    "uk": "https://www.amazon.co.uk/s?k=bonavita+8+cup+coffee",
-    "eu": "https://www.amazon.de/s?k=bonavita+8+cup+coffee"
+    "us": "https://www.amazon.com/s?k=bonavita+8+cup+coffee&tag=getbrewharbor-20",
+    "ca": "https://www.amazon.ca/s?k=bonavita+8+cup+coffee&tag=getbrewharb0c-20",
+    "uk": "https://www.amazon.co.uk/s?k=bonavita+8+cup+coffee&tag=getbrewharbor-21",
+    "eu": "https://www.amazon.de/s?k=bonavita+8+cup+coffee&tag=getbrewharb0e-21"
    },
    "image": "https://getbrewharbor.com/images/bonavita-8-cup.jpg",
    "summary": "Simple 8-cup drip with a flat-bottom showerhead and pre-infusion. SCA-certified at a budget price.",
@@ -316,11 +316,11 @@
    "priceTier": "Premium",
    "priceTierLevel": 4,
    "buyLinks": {
-    "us": "https://www.amazon.com/s?k=bosch+verocafe+800",
-    "ca": "https://www.amazon.ca/s?k=bosch+verocafe+800",
-    "uk": "https://www.amazon.co.uk/s?k=bosch+verocafe+800",
-    "eu": "https://www.amazon.de/s?k=bosch+verocafe+800",
-    "au": "https://www.amazon.com.au/s?k=bosch+verocafe+800"
+    "us": "https://www.amazon.com/s?k=bosch+verocafe+800&tag=getbrewharbor-20",
+    "ca": "https://www.amazon.ca/s?k=bosch+verocafe+800&tag=getbrewharb0c-20",
+    "uk": "https://www.amazon.co.uk/s?k=bosch+verocafe+800&tag=getbrewharbor-21",
+    "eu": "https://www.amazon.de/s?k=bosch+verocafe+800&tag=getbrewharb0e-21",
+    "au": "https://www.amazon.com.au/s?k=bosch+verocafe+800&tag=getbrewharbor-22"
    },
    "image": "https://getbrewharbor.com/images/bosch-verocafe-800.jpg",
    "summary": "Bosch premium super-auto with 2.3L water tank and fully integrated milk system.",
@@ -362,11 +362,11 @@
    "priceTier": "Mid-range",
    "priceTierLevel": 2,
    "buyLinks": {
-    "us": "https://www.amazon.com/dp/B0B1JPPG2L",
-    "ca": "https://www.amazon.ca/s?k=breville+bambino",
-    "uk": "https://www.amazon.co.uk/s?k=sage+bambino",
-    "eu": "https://www.amazon.de/s?k=sage+bambino",
-    "au": "https://www.amazon.com.au/s?k=breville+bambino"
+    "us": "https://www.amazon.com/dp/B0B1JPPG2L?tag=getbrewharbor-20",
+    "ca": "https://www.amazon.ca/s?k=breville+bambino&tag=getbrewharb0c-20",
+    "uk": "https://www.amazon.co.uk/s?k=sage+bambino&tag=getbrewharbor-21",
+    "eu": "https://www.amazon.de/s?k=sage+bambino&tag=getbrewharb0e-21",
+    "au": "https://www.amazon.com.au/s?k=breville+bambino&tag=getbrewharbor-22"
    },
    "image": "https://getbrewharbor.com/images/breville-bambino.jpg",
    "summary": "Compact semi-automatic with 3-second ThermoJet heat-up and a manual steam wand. Real espresso in a footprint under 8 inches wide.",
@@ -408,11 +408,11 @@
    "priceTier": "Upper mid-range",
    "priceTierLevel": 3,
    "buyLinks": {
-    "us": "https://www.amazon.com/s?k=breville+bambino+plus",
-    "ca": "https://www.amazon.ca/s?k=breville+bambino+plus",
-    "uk": "https://www.amazon.co.uk/s?k=breville+bambino+plus",
-    "eu": "https://www.amazon.de/s?k=breville+bambino+plus",
-    "au": "https://www.amazon.com.au/s?k=breville+bambino+plus"
+    "us": "https://www.amazon.com/s?k=breville+bambino+plus&tag=getbrewharbor-20",
+    "ca": "https://www.amazon.ca/s?k=breville+bambino+plus&tag=getbrewharb0c-20",
+    "uk": "https://www.amazon.co.uk/s?k=breville+bambino+plus&tag=getbrewharbor-21",
+    "eu": "https://www.amazon.de/s?k=breville+bambino+plus&tag=getbrewharb0e-21",
+    "au": "https://www.amazon.com.au/s?k=breville+bambino+plus&tag=getbrewharbor-22"
    },
    "image": "https://getbrewharbor.com/images/breville-bambino-plus.jpg",
    "summary": "Compact semi-automatic with 3-second heat-up and automatic milk frothing. The fastest path to cafe-quality espresso at home.",
@@ -454,11 +454,11 @@
    "priceTier": "Upper mid-range",
    "priceTierLevel": 3,
    "buyLinks": {
-    "us": "https://www.amazon.com/s?k=breville+barista+express",
-    "ca": "https://www.amazon.ca/s?k=breville+barista+express",
-    "uk": "https://www.amazon.co.uk/s?k=breville+barista+express",
-    "eu": "https://www.amazon.de/s?k=breville+barista+express",
-    "au": "https://www.amazon.com.au/s?k=breville+barista+express"
+    "us": "https://www.amazon.com/s?k=breville+barista+express&tag=getbrewharbor-20",
+    "ca": "https://www.amazon.ca/s?k=breville+barista+express&tag=getbrewharb0c-20",
+    "uk": "https://www.amazon.co.uk/s?k=breville+barista+express&tag=getbrewharbor-21",
+    "eu": "https://www.amazon.de/s?k=breville+barista+express&tag=getbrewharb0e-21",
+    "au": "https://www.amazon.com.au/s?k=breville+barista+express&tag=getbrewharbor-22"
    },
    "image": "https://getbrewharbor.com/images/breville-barista-express.jpg",
    "summary": "The home barista's favourite all-in-one. Built-in grinder plus PID temperature control plus manual steam wand equals complete creative control.",
@@ -500,11 +500,11 @@
    "priceTier": "Upper mid-range",
    "priceTierLevel": 3,
    "buyLinks": {
-    "us": "https://www.amazon.com/dp/B0BBYNPV33",
-    "ca": "https://www.amazon.ca/s?k=breville+barista+express+impress",
-    "uk": "https://www.amazon.co.uk/s?k=sage+barista+express+impress",
-    "eu": "https://www.amazon.de/s?k=sage+barista+express+impress",
-    "au": "https://www.amazon.com.au/s?k=breville+barista+express+impress"
+    "us": "https://www.amazon.com/dp/B0BBYNPV33?tag=getbrewharbor-20",
+    "ca": "https://www.amazon.ca/s?k=breville+barista+express+impress&tag=getbrewharb0c-20",
+    "uk": "https://www.amazon.co.uk/s?k=sage+barista+express+impress&tag=getbrewharbor-21",
+    "eu": "https://www.amazon.de/s?k=sage+barista+express+impress&tag=getbrewharb0e-21",
+    "au": "https://www.amazon.com.au/s?k=breville+barista+express+impress&tag=getbrewharbor-22"
    },
    "image": "https://getbrewharbor.com/images/breville-barista-express-impress.jpg",
    "summary": "All-in-one semi-automatic with a built-in conical burr grinder and Breville's assisted tamping, so the grind, dose and tamp are largely handled for you.",
@@ -547,11 +547,11 @@
    "priceTier": "Upper mid-range",
    "priceTierLevel": 3,
    "buyLinks": {
-    "us": "https://www.amazon.com/s?k=breville+barista+pro",
-    "ca": "https://www.amazon.ca/s?k=breville+barista+pro",
-    "uk": "https://www.amazon.co.uk/s?k=breville+barista+pro",
-    "eu": "https://www.amazon.de/s?k=breville+barista+pro",
-    "au": "https://www.amazon.com.au/s?k=breville+barista+pro"
+    "us": "https://www.amazon.com/s?k=breville+barista+pro&tag=getbrewharbor-20",
+    "ca": "https://www.amazon.ca/s?k=breville+barista+pro&tag=getbrewharb0c-20",
+    "uk": "https://www.amazon.co.uk/s?k=breville+barista+pro&tag=getbrewharbor-21",
+    "eu": "https://www.amazon.de/s?k=breville+barista+pro&tag=getbrewharb0e-21",
+    "au": "https://www.amazon.com.au/s?k=breville+barista+pro&tag=getbrewharbor-22"
    },
    "image": "https://getbrewharbor.com/images/breville-barista-pro.jpg",
    "summary": "Integrated grinder with ThermoJet heating for 3-second heat-up. The Barista Express upgrade.",
@@ -594,11 +594,11 @@
    "priceTier": "Premium",
    "priceTierLevel": 4,
    "buyLinks": {
-    "us": "https://www.amazon.com/s?k=breville+barista+touch",
-    "ca": "https://www.amazon.ca/s?k=breville+barista+touch",
-    "uk": "https://www.amazon.co.uk/s?k=breville+barista+touch",
-    "eu": "https://www.amazon.de/s?k=breville+barista+touch",
-    "au": "https://www.amazon.com.au/s?k=breville+barista+touch"
+    "us": "https://www.amazon.com/s?k=breville+barista+touch&tag=getbrewharbor-20",
+    "ca": "https://www.amazon.ca/s?k=breville+barista+touch&tag=getbrewharb0c-20",
+    "uk": "https://www.amazon.co.uk/s?k=breville+barista+touch&tag=getbrewharbor-21",
+    "eu": "https://www.amazon.de/s?k=breville+barista+touch&tag=getbrewharb0e-21",
+    "au": "https://www.amazon.com.au/s?k=breville+barista+touch&tag=getbrewharbor-22"
    },
    "image": "https://getbrewharbor.com/images/breville-barista-touch.jpg",
    "summary": "Touchscreen semi-auto with automatic milk texturing. Bridges super-auto convenience with semi-auto quality.",
@@ -641,11 +641,11 @@
    "priceTier": "Premium",
    "priceTierLevel": 4,
    "buyLinks": {
-    "us": "https://www.amazon.com/s?k=breville+barista+touch+impress",
-    "ca": "https://www.amazon.ca/s?k=breville+barista+touch+impress",
-    "uk": "https://www.amazon.co.uk/s?k=breville+barista+touch+impress",
-    "eu": "https://www.amazon.de/s?k=breville+barista+touch+impress",
-    "au": "https://www.amazon.com.au/s?k=breville+barista+touch+impress"
+    "us": "https://www.amazon.com/s?k=breville+barista+touch+impress&tag=getbrewharbor-20",
+    "ca": "https://www.amazon.ca/s?k=breville+barista+touch+impress&tag=getbrewharb0c-20",
+    "uk": "https://www.amazon.co.uk/s?k=breville+barista+touch+impress&tag=getbrewharbor-21",
+    "eu": "https://www.amazon.de/s?k=breville+barista+touch+impress&tag=getbrewharb0e-21",
+    "au": "https://www.amazon.com.au/s?k=breville+barista+touch+impress&tag=getbrewharbor-22"
    },
    "image": "https://getbrewharbor.com/images/breville-barista-touch-impress.jpg",
    "summary": "Newest Breville flagship with Impress Puck System. Auto-doses and tamps, reducing user error.",
@@ -688,11 +688,11 @@
    "priceTier": "Premium",
    "priceTierLevel": 4,
    "buyLinks": {
-    "us": "https://www.amazon.com/s?k=breville+dual+boiler",
-    "ca": "https://www.amazon.ca/s?k=breville+dual+boiler",
-    "uk": "https://www.amazon.co.uk/s?k=breville+dual+boiler",
-    "eu": "https://www.amazon.de/s?k=breville+dual+boiler",
-    "au": "https://www.amazon.com.au/s?k=breville+dual+boiler"
+    "us": "https://www.amazon.com/s?k=breville+dual+boiler&tag=getbrewharbor-20",
+    "ca": "https://www.amazon.ca/s?k=breville+dual+boiler&tag=getbrewharb0c-20",
+    "uk": "https://www.amazon.co.uk/s?k=breville+dual+boiler&tag=getbrewharbor-21",
+    "eu": "https://www.amazon.de/s?k=breville+dual+boiler&tag=getbrewharb0e-21",
+    "au": "https://www.amazon.com.au/s?k=breville+dual+boiler&tag=getbrewharbor-22"
    },
    "image": "https://getbrewharbor.com/images/breville-dual-boiler.jpg",
    "summary": "Independent brew and steam boilers for no-compromise espresso and milk simultaneously.",
@@ -734,11 +734,11 @@
    "priceTier": "Mid-range",
    "priceTierLevel": 2,
    "buyLinks": {
-    "us": "https://www.amazon.com/dp/B0F48KZ5VR",
-    "ca": "https://www.amazon.ca/s?k=breville+luxe+brewer",
-    "uk": "https://www.amazon.co.uk/s?k=sage+luxe+brewer",
-    "eu": "https://www.amazon.de/s?k=sage+luxe+brewer",
-    "au": "https://www.amazon.com.au/s?k=breville+luxe+brewer"
+    "us": "https://www.amazon.com/dp/B0F48KZ5VR?tag=getbrewharbor-20",
+    "ca": "https://www.amazon.ca/s?k=breville+luxe+brewer&tag=getbrewharb0c-20",
+    "uk": "https://www.amazon.co.uk/s?k=sage+luxe+brewer&tag=getbrewharbor-21",
+    "eu": "https://www.amazon.de/s?k=sage+luxe+brewer&tag=getbrewharb0e-21",
+    "au": "https://www.amazon.com.au/s?k=breville+luxe+brewer&tag=getbrewharbor-22"
    },
    "image": "https://getbrewharbor.com/images/breville-luxe-brewer.jpg",
    "summary": "SCA-certified drip brewer from Breville with a removable water tank, a thermal or glass carafe, and modes for gold-cup, iced and cold brew.",
@@ -784,11 +784,11 @@
    "priceTier": "Prosumer",
    "priceTierLevel": 5,
    "buyLinks": {
-    "us": "https://www.amazon.com/s?k=breville+oracle+jet",
-    "ca": "https://www.amazon.ca/s?k=breville+oracle+jet",
-    "uk": "https://www.amazon.co.uk/s?k=sage+oracle+jet",
-    "eu": "https://www.amazon.de/s?k=sage+oracle+jet",
-    "au": "https://www.amazon.com.au/s?k=breville+oracle+jet"
+    "us": "https://www.amazon.com/s?k=breville+oracle+jet&tag=getbrewharbor-20",
+    "ca": "https://www.amazon.ca/s?k=breville+oracle+jet&tag=getbrewharb0c-20",
+    "uk": "https://www.amazon.co.uk/s?k=sage+oracle+jet&tag=getbrewharbor-21",
+    "eu": "https://www.amazon.de/s?k=sage+oracle+jet&tag=getbrewharb0e-21",
+    "au": "https://www.amazon.com.au/s?k=breville+oracle+jet&tag=getbrewharbor-22"
    },
    "image": "https://getbrewharbor.com/images/breville-oracle-jet.jpg",
    "summary": "Breville's flagship automated espresso machine: it grinds, doses, tamps and steams milk for you, with a touchscreen and cold brew and cold espresso settings.",
@@ -830,11 +830,11 @@
    "priceTier": "Mid-range",
    "priceTierLevel": 2,
    "buyLinks": {
-    "us": "https://www.amazon.com/s?k=breville+precision+brewer",
-    "ca": "https://www.amazon.ca/s?k=breville+precision+brewer",
-    "uk": "https://www.amazon.co.uk/s?k=breville+precision+brewer",
-    "eu": "https://www.amazon.de/s?k=breville+precision+brewer",
-    "au": "https://www.amazon.com.au/s?k=breville+precision+brewer"
+    "us": "https://www.amazon.com/s?k=breville+precision+brewer&tag=getbrewharbor-20",
+    "ca": "https://www.amazon.ca/s?k=breville+precision+brewer&tag=getbrewharb0c-20",
+    "uk": "https://www.amazon.co.uk/s?k=breville+precision+brewer&tag=getbrewharbor-21",
+    "eu": "https://www.amazon.de/s?k=breville+precision+brewer&tag=getbrewharb0e-21",
+    "au": "https://www.amazon.com.au/s?k=breville+precision+brewer&tag=getbrewharbor-22"
    },
    "image": "https://getbrewharbor.com/images/breville-precision-brewer.jpg",
    "summary": "SCA-certified drip brewer with programmable brew temperature, bloom time, and flow rate.",
@@ -876,9 +876,9 @@
    "priceTier": "Budget",
    "priceTierLevel": 1,
    "buyLinks": {
-    "us": "https://www.amazon.com/dp/B0BRSP8YT6",
-    "ca": "https://www.amazon.ca/s?k=casabrews+3700+essential",
-    "uk": "https://www.amazon.co.uk/s?k=casabrews+3700+essential"
+    "us": "https://www.amazon.com/dp/B0BRSP8YT6?tag=getbrewharbor-20",
+    "ca": "https://www.amazon.ca/s?k=casabrews+3700+essential&tag=getbrewharb0c-20",
+    "uk": "https://www.amazon.co.uk/s?k=casabrews+3700+essential&tag=getbrewharbor-21"
    },
    "image": "https://getbrewharbor.com/images/casabrews-3700-essential.jpg",
    "summary": "Budget compact espresso machine with a steam wand and a larger water tank.",
@@ -920,10 +920,10 @@
    "priceTier": "Budget",
    "priceTierLevel": 1,
    "buyLinks": {
-    "us": "https://www.amazon.com/s?k=casabrews+cm5418",
-    "ca": "https://www.amazon.ca/s?k=casabrews+cm5418",
-    "uk": "https://www.amazon.co.uk/s?k=casabrews+cm5418",
-    "eu": "https://www.amazon.de/s?k=casabrews+cm5418"
+    "us": "https://www.amazon.com/s?k=casabrews+cm5418&tag=getbrewharbor-20",
+    "ca": "https://www.amazon.ca/s?k=casabrews+cm5418&tag=getbrewharb0c-20",
+    "uk": "https://www.amazon.co.uk/s?k=casabrews+cm5418&tag=getbrewharbor-21",
+    "eu": "https://www.amazon.de/s?k=casabrews+cm5418&tag=getbrewharb0e-21"
    },
    "image": "https://getbrewharbor.com/images/casabrews-cm5418.jpg",
    "summary": "Very compact budget espresso machine with a pressure gauge and a manual steam wand.",
@@ -964,11 +964,11 @@
    "priceTier": "Budget",
    "priceTierLevel": 1,
    "buyLinks": {
-    "us": "https://www.amazon.com/s?k=chemex+6+cup",
-    "ca": "https://www.amazon.ca/s?k=chemex+6+cup",
-    "uk": "https://www.amazon.co.uk/s?k=chemex+6+cup",
-    "eu": "https://www.amazon.de/s?k=chemex+6+cup",
-    "au": "https://www.amazon.com.au/s?k=chemex+6+cup"
+    "us": "https://www.amazon.com/s?k=chemex+6+cup&tag=getbrewharbor-20",
+    "ca": "https://www.amazon.ca/s?k=chemex+6+cup&tag=getbrewharb0c-20",
+    "uk": "https://www.amazon.co.uk/s?k=chemex+6+cup&tag=getbrewharbor-21",
+    "eu": "https://www.amazon.de/s?k=chemex+6+cup&tag=getbrewharb0e-21",
+    "au": "https://www.amazon.com.au/s?k=chemex+6+cup&tag=getbrewharbor-22"
    },
    "image": "https://getbrewharbor.com/images/chemex-6-cup.jpg",
    "summary": "Iconic glass pour-over with thick proprietary filters for an exceptionally clean, bright cup.",
@@ -1008,11 +1008,11 @@
    "priceTier": "Budget",
    "priceTierLevel": 1,
    "buyLinks": {
-    "us": "https://www.amazon.com/s?k=cuisinart+dcc-3200",
-    "ca": "https://www.amazon.ca/s?k=cuisinart+dcc-3200",
-    "uk": "https://www.amazon.co.uk/s?k=cuisinart+dcc-3200",
-    "eu": "https://www.amazon.de/s?k=cuisinart+dcc-3200",
-    "au": "https://www.amazon.com.au/s?k=cuisinart+dcc-3200"
+    "us": "https://www.amazon.com/s?k=cuisinart+dcc-3200&tag=getbrewharbor-20",
+    "ca": "https://www.amazon.ca/s?k=cuisinart+dcc-3200&tag=getbrewharb0c-20",
+    "uk": "https://www.amazon.co.uk/s?k=cuisinart+dcc-3200&tag=getbrewharbor-21",
+    "eu": "https://www.amazon.de/s?k=cuisinart+dcc-3200&tag=getbrewharb0e-21",
+    "au": "https://www.amazon.com.au/s?k=cuisinart+dcc-3200&tag=getbrewharbor-22"
    },
    "image": "https://getbrewharbor.com/images/cuisinart-dcc-3200.jpg",
    "summary": "14-cup programmable drip with a stainless thermal carafe. Wirecutter budget pick.",
@@ -1054,11 +1054,11 @@
    "priceTier": "Mid-range",
    "priceTierLevel": 2,
    "buyLinks": {
-    "us": "https://www.amazon.com/dp/B0F3RZZZF9",
-    "ca": "https://www.amazon.ca/s?k=delonghi+dedica+duo",
-    "uk": "https://www.amazon.co.uk/s?k=delonghi+dedica+duo",
-    "eu": "https://www.amazon.de/s?k=delonghi+dedica+duo",
-    "au": "https://www.amazon.com.au/s?k=delonghi+dedica+duo"
+    "us": "https://www.amazon.com/dp/B0F3RZZZF9?tag=getbrewharbor-20",
+    "ca": "https://www.amazon.ca/s?k=delonghi+dedica+duo&tag=getbrewharb0c-20",
+    "uk": "https://www.amazon.co.uk/s?k=delonghi+dedica+duo&tag=getbrewharbor-21",
+    "eu": "https://www.amazon.de/s?k=delonghi+dedica+duo&tag=getbrewharb0e-21",
+    "au": "https://www.amazon.com.au/s?k=delonghi+dedica+duo&tag=getbrewharbor-22"
    },
    "image": "https://getbrewharbor.com/images/delonghi-dedica-duo.jpg",
    "summary": "Slim 15-bar espresso machine under 6 inches wide with a manual steam wand and a choice of pressurized or standard baskets.",
@@ -1100,11 +1100,11 @@
    "priceTier": "Premium",
    "priceTierLevel": 4,
    "buyLinks": {
-    "us": "https://www.amazon.com/s?k=delonghi+dinamica+plus",
-    "ca": "https://www.amazon.ca/s?k=delonghi+dinamica+plus",
-    "uk": "https://www.amazon.co.uk/s?k=delonghi+dinamica+plus",
-    "eu": "https://www.amazon.de/s?k=delonghi+dinamica+plus",
-    "au": "https://www.amazon.com.au/s?k=delonghi+dinamica+plus"
+    "us": "https://www.amazon.com/s?k=delonghi+dinamica+plus&tag=getbrewharbor-20",
+    "ca": "https://www.amazon.ca/s?k=delonghi+dinamica+plus&tag=getbrewharb0c-20",
+    "uk": "https://www.amazon.co.uk/s?k=delonghi+dinamica+plus&tag=getbrewharbor-21",
+    "eu": "https://www.amazon.de/s?k=delonghi+dinamica+plus&tag=getbrewharb0e-21",
+    "au": "https://www.amazon.com.au/s?k=delonghi+dinamica+plus&tag=getbrewharbor-22"
    },
    "image": "https://getbrewharbor.com/images/de-longhi-dinamica-plus.jpg",
    "summary": "The #1 selling super-automatic in the US. 24 one-touch drinks, integrated milk system, and app connectivity.",
@@ -1150,11 +1150,11 @@
    "priceTier": "Premium",
    "priceTierLevel": 4,
    "buyLinks": {
-    "us": "https://www.amazon.com/s?k=delonghi+eletta+explore",
-    "ca": "https://www.amazon.ca/s?k=delonghi+eletta+explore",
-    "uk": "https://www.amazon.co.uk/s?k=delonghi+eletta+explore",
-    "eu": "https://www.amazon.de/s?k=delonghi+eletta+explore",
-    "au": "https://www.amazon.com.au/s?k=delonghi+eletta+explore"
+    "us": "https://www.amazon.com/s?k=delonghi+eletta+explore&tag=getbrewharbor-20",
+    "ca": "https://www.amazon.ca/s?k=delonghi+eletta+explore&tag=getbrewharb0c-20",
+    "uk": "https://www.amazon.co.uk/s?k=delonghi+eletta+explore&tag=getbrewharbor-21",
+    "eu": "https://www.amazon.de/s?k=delonghi+eletta+explore&tag=getbrewharb0e-21",
+    "au": "https://www.amazon.com.au/s?k=delonghi+eletta+explore&tag=getbrewharbor-22"
    },
    "image": "https://getbrewharbor.com/images/de-longhi-eletta-explore.jpg",
    "summary": "De'Longhi's most versatile super-auto with a cold brew function and over-ice modes. LatteCrema hot and cold milk system.",
@@ -1197,11 +1197,11 @@
    "priceTier": "Upper mid-range",
    "priceTierLevel": 3,
    "buyLinks": {
-    "us": "https://www.amazon.com/dp/B0H7YPF966",
-    "ca": "https://www.amazon.ca/s?k=delonghi+la+specialista+arte",
-    "uk": "https://www.amazon.co.uk/s?k=delonghi+la+specialista+arte",
-    "eu": "https://www.amazon.de/s?k=delonghi+la+specialista+arte",
-    "au": "https://www.amazon.com.au/s?k=delonghi+la+specialista+arte"
+    "us": "https://www.amazon.com/dp/B0H7YPF966?tag=getbrewharbor-20",
+    "ca": "https://www.amazon.ca/s?k=delonghi+la+specialista+arte&tag=getbrewharb0c-20",
+    "uk": "https://www.amazon.co.uk/s?k=delonghi+la+specialista+arte&tag=getbrewharbor-21",
+    "eu": "https://www.amazon.de/s?k=delonghi+la+specialista+arte&tag=getbrewharb0e-21",
+    "au": "https://www.amazon.com.au/s?k=delonghi+la+specialista+arte&tag=getbrewharbor-22"
    },
    "image": "https://getbrewharbor.com/images/de-longhi-la-specialista-arte-evo.jpg",
    "summary": "Integrated grinder with sensor grinding and active temperature control. Forgiving for home baristas.",
@@ -1246,11 +1246,11 @@
    "priceTier": "Upper mid-range",
    "priceTierLevel": 3,
    "buyLinks": {
-    "us": "https://www.amazon.com/dp/B0D1TY3H2J",
-    "ca": "https://www.amazon.ca/s?k=delonghi+la+specialista+opera",
-    "uk": "https://www.amazon.co.uk/s?k=delonghi+la+specialista+opera",
-    "eu": "https://www.amazon.de/s?k=delonghi+la+specialista+opera",
-    "au": "https://www.amazon.com.au/s?k=delonghi+la+specialista+opera"
+    "us": "https://www.amazon.com/dp/B0D1TY3H2J?tag=getbrewharbor-20",
+    "ca": "https://www.amazon.ca/s?k=delonghi+la+specialista+opera&tag=getbrewharb0c-20",
+    "uk": "https://www.amazon.co.uk/s?k=delonghi+la+specialista+opera&tag=getbrewharbor-21",
+    "eu": "https://www.amazon.de/s?k=delonghi+la+specialista+opera&tag=getbrewharb0e-21",
+    "au": "https://www.amazon.com.au/s?k=delonghi+la+specialista+opera&tag=getbrewharbor-22"
    },
    "image": "https://getbrewharbor.com/images/delonghi-la-specialista-opera.jpg",
    "summary": "Semi-automatic with a built-in grinder, a tamping station and a cool-touch steam wand, plus a cold brew mode and cold-extraction recipes.",
@@ -1293,11 +1293,11 @@
    "priceTier": "Upper mid-range",
    "priceTierLevel": 3,
    "buyLinks": {
-    "us": "https://www.amazon.com/s?k=delonghi+la+specialista+prestigio",
-    "ca": "https://www.amazon.ca/s?k=delonghi+la+specialista+prestigio",
-    "uk": "https://www.amazon.co.uk/s?k=delonghi+la+specialista+prestigio",
-    "eu": "https://www.amazon.de/s?k=delonghi+la+specialista+prestigio",
-    "au": "https://www.amazon.com.au/s?k=delonghi+la+specialista+prestigio"
+    "us": "https://www.amazon.com/s?k=delonghi+la+specialista+prestigio&tag=getbrewharbor-20",
+    "ca": "https://www.amazon.ca/s?k=delonghi+la+specialista+prestigio&tag=getbrewharb0c-20",
+    "uk": "https://www.amazon.co.uk/s?k=delonghi+la+specialista+prestigio&tag=getbrewharbor-21",
+    "eu": "https://www.amazon.de/s?k=delonghi+la+specialista+prestigio&tag=getbrewharb0e-21",
+    "au": "https://www.amazon.com.au/s?k=delonghi+la+specialista+prestigio&tag=getbrewharbor-22"
    },
    "image": "https://getbrewharbor.com/images/de-longhi-la-specialista-prestigio.jpg",
    "summary": "Upgraded Specialista with dual heating system and cold extraction mode. More control and consistency.",
@@ -1339,11 +1339,11 @@
    "priceTier": "Upper mid-range",
    "priceTierLevel": 3,
    "buyLinks": {
-    "us": "https://www.amazon.com/s?k=delonghi+magnifica+evo",
-    "ca": "https://www.amazon.ca/s?k=delonghi+magnifica+evo",
-    "uk": "https://www.amazon.co.uk/s?k=delonghi+magnifica+evo",
-    "eu": "https://www.amazon.de/s?k=delonghi+magnifica+evo",
-    "au": "https://www.amazon.com.au/s?k=delonghi+magnifica+evo"
+    "us": "https://www.amazon.com/s?k=delonghi+magnifica+evo&tag=getbrewharbor-20",
+    "ca": "https://www.amazon.ca/s?k=delonghi+magnifica+evo&tag=getbrewharb0c-20",
+    "uk": "https://www.amazon.co.uk/s?k=delonghi+magnifica+evo&tag=getbrewharbor-21",
+    "eu": "https://www.amazon.de/s?k=delonghi+magnifica+evo&tag=getbrewharb0e-21",
+    "au": "https://www.amazon.com.au/s?k=delonghi+magnifica+evo&tag=getbrewharbor-22"
    },
    "image": "https://getbrewharbor.com/images/de-longhi-magnifica-evo.jpg",
    "summary": "De'Longhi's entry-level bean-to-cup machine. Grinds, brews, and delivers espresso at the touch of a button.",
@@ -1385,11 +1385,11 @@
    "priceTier": "Upper mid-range",
    "priceTierLevel": 3,
    "buyLinks": {
-    "us": "https://www.amazon.com/dp/B0D96XT9BF",
-    "ca": "https://www.amazon.ca/s?k=delonghi+magnifica+start",
-    "uk": "https://www.amazon.co.uk/s?k=delonghi+magnifica+start",
-    "eu": "https://www.amazon.de/s?k=delonghi+magnifica+start",
-    "au": "https://www.amazon.com.au/s?k=delonghi+magnifica+start"
+    "us": "https://www.amazon.com/dp/B0D96XT9BF?tag=getbrewharbor-20",
+    "ca": "https://www.amazon.ca/s?k=delonghi+magnifica+start&tag=getbrewharb0c-20",
+    "uk": "https://www.amazon.co.uk/s?k=delonghi+magnifica+start&tag=getbrewharbor-21",
+    "eu": "https://www.amazon.de/s?k=delonghi+magnifica+start&tag=getbrewharb0e-21",
+    "au": "https://www.amazon.com.au/s?k=delonghi+magnifica+start&tag=getbrewharbor-22"
    },
    "image": "https://getbrewharbor.com/images/delonghi-magnifica-start.jpg",
    "summary": "Entry-level De'Longhi super-automatic with a built-in grinder and a short list of one-touch drinks.",
@@ -1432,11 +1432,11 @@
    "priceTier": "Premium",
    "priceTierLevel": 4,
    "buyLinks": {
-    "us": "https://www.amazon.com/s?k=delonghi+rivelia",
-    "ca": "https://www.amazon.ca/s?k=delonghi+rivelia",
-    "uk": "https://www.amazon.co.uk/s?k=delonghi+rivelia",
-    "eu": "https://www.amazon.de/s?k=delonghi+rivelia",
-    "au": "https://www.amazon.com.au/s?k=delonghi+rivelia"
+    "us": "https://www.amazon.com/s?k=delonghi+rivelia&tag=getbrewharbor-20",
+    "ca": "https://www.amazon.ca/s?k=delonghi+rivelia&tag=getbrewharb0c-20",
+    "uk": "https://www.amazon.co.uk/s?k=delonghi+rivelia&tag=getbrewharbor-21",
+    "eu": "https://www.amazon.de/s?k=delonghi+rivelia&tag=getbrewharb0e-21",
+    "au": "https://www.amazon.com.au/s?k=delonghi+rivelia&tag=getbrewharbor-22"
    },
    "image": "https://getbrewharbor.com/images/de-longhi-rivelia.jpg",
    "summary": "Award-winning compact super-automatic with a dual-hopper bean switch system. Swap between two bean types without missing a beat.",
@@ -1479,11 +1479,11 @@
    "priceTier": "Premium",
    "priceTierLevel": 4,
    "buyLinks": {
-    "us": "https://www.amazon.com/s?k=ecm+classika+pid",
-    "ca": "https://www.amazon.ca/s?k=ecm+classika+pid",
-    "uk": "https://www.amazon.co.uk/s?k=ecm+classika+pid",
-    "eu": "https://www.amazon.de/s?k=ecm+classika+pid",
-    "au": "https://www.amazon.com.au/s?k=ecm+classika+pid"
+    "us": "https://www.amazon.com/s?k=ecm+classika+pid&tag=getbrewharbor-20",
+    "ca": "https://www.amazon.ca/s?k=ecm+classika+pid&tag=getbrewharb0c-20",
+    "uk": "https://www.amazon.co.uk/s?k=ecm+classika+pid&tag=getbrewharbor-21",
+    "eu": "https://www.amazon.de/s?k=ecm+classika+pid&tag=getbrewharb0e-21",
+    "au": "https://www.amazon.com.au/s?k=ecm+classika+pid&tag=getbrewharbor-22"
    },
    "image": "https://getbrewharbor.com/images/ecm-classika-pid.jpg",
    "summary": "German prosumer with rotary pump and E61 group head. Built like a tank, known for longevity.",
@@ -1524,11 +1524,11 @@
    "priceTier": "Mid-range",
    "priceTierLevel": 2,
    "buyLinks": {
-    "us": "https://www.amazon.com/s?k=fellow+aiden+precision+brewer",
-    "ca": "https://www.amazon.ca/s?k=fellow+aiden+precision+brewer",
-    "uk": "https://www.amazon.co.uk/s?k=fellow+aiden+precision+brewer",
-    "eu": "https://www.amazon.de/s?k=fellow+aiden+precision+brewer",
-    "au": "https://www.amazon.com.au/s?k=fellow+aiden+precision+brewer"
+    "us": "https://www.amazon.com/s?k=fellow+aiden+precision+brewer&tag=getbrewharbor-20",
+    "ca": "https://www.amazon.ca/s?k=fellow+aiden+precision+brewer&tag=getbrewharb0c-20",
+    "uk": "https://www.amazon.co.uk/s?k=fellow+aiden+precision+brewer&tag=getbrewharbor-21",
+    "eu": "https://www.amazon.de/s?k=fellow+aiden+precision+brewer&tag=getbrewharb0e-21",
+    "au": "https://www.amazon.com.au/s?k=fellow+aiden+precision+brewer&tag=getbrewharbor-22"
    },
    "image": "https://getbrewharbor.com/images/fellow-aiden-precision-brewer.jpg",
    "summary": "Fellow's SCA-certified precision brewer with app control, programmable bloom, and a stainless thermal carafe. The most controllable drip machine available.",
@@ -1569,11 +1569,11 @@
    "priceTier": "Budget",
    "priceTierLevel": 1,
    "buyLinks": {
-    "us": "https://www.amazon.com/s?k=fellow+clara+french+press",
-    "ca": "https://www.amazon.ca/s?k=fellow+clara+french+press",
-    "uk": "https://www.amazon.co.uk/s?k=fellow+clara+french+press",
-    "eu": "https://www.amazon.de/s?k=fellow+clara+french+press",
-    "au": "https://www.amazon.com.au/s?k=fellow+clara+french+press"
+    "us": "https://www.amazon.com/s?k=fellow+clara+french+press&tag=getbrewharbor-20",
+    "ca": "https://www.amazon.ca/s?k=fellow+clara+french+press&tag=getbrewharb0c-20",
+    "uk": "https://www.amazon.co.uk/s?k=fellow+clara+french+press&tag=getbrewharbor-21",
+    "eu": "https://www.amazon.de/s?k=fellow+clara+french+press&tag=getbrewharb0e-21",
+    "au": "https://www.amazon.com.au/s?k=fellow+clara+french+press&tag=getbrewharbor-22"
    },
    "image": "https://getbrewharbor.com/images/fellow-clara-press.jpg",
    "summary": "Fellow's premium French press with a two-stage filter system for a cleaner cup without sediment.",
@@ -1616,11 +1616,11 @@
    "priceTier": "Premium",
    "priceTierLevel": 4,
    "buyLinks": {
-    "us": "https://www.amazon.com/s?k=fellow+espresso+series+1",
-    "ca": "https://www.amazon.ca/s?k=fellow+espresso+series+1",
-    "uk": "https://www.amazon.co.uk/s?k=fellow+espresso+series+1",
-    "eu": "https://www.amazon.de/s?k=fellow+espresso+series+1",
-    "au": "https://www.amazon.com.au/s?k=fellow+espresso+series+1"
+    "us": "https://www.amazon.com/s?k=fellow+espresso+series+1&tag=getbrewharbor-20",
+    "ca": "https://www.amazon.ca/s?k=fellow+espresso+series+1&tag=getbrewharb0c-20",
+    "uk": "https://www.amazon.co.uk/s?k=fellow+espresso+series+1&tag=getbrewharbor-21",
+    "eu": "https://www.amazon.de/s?k=fellow+espresso+series+1&tag=getbrewharb0e-21",
+    "au": "https://www.amazon.com.au/s?k=fellow+espresso+series+1&tag=getbrewharbor-22"
    },
    "image": "https://getbrewharbor.com/images/fellow-espresso-series-1.jpg",
    "summary": "The Fellow Espresso Series 1 combines industrial design with precision brewing. Circular OLED display, dual boiler, active temperature management, and a pro-grade steam wand make this the machine for the design-forward espresso enthusiast.",
@@ -1661,11 +1661,11 @@
    "priceTier": "Budget",
    "priceTierLevel": 1,
    "buyLinks": {
-    "us": "https://www.amazon.com/s?k=fellow+stagg+x+dripper",
-    "ca": "https://www.amazon.ca/s?k=fellow+stagg+x+dripper",
-    "uk": "https://www.amazon.co.uk/s?k=fellow+stagg+x+dripper",
-    "eu": "https://www.amazon.de/s?k=fellow+stagg+x+dripper",
-    "au": "https://www.amazon.com.au/s?k=fellow+stagg+x+dripper"
+    "us": "https://www.amazon.com/s?k=fellow+stagg+x+dripper&tag=getbrewharbor-20",
+    "ca": "https://www.amazon.ca/s?k=fellow+stagg+x+dripper&tag=getbrewharb0c-20",
+    "uk": "https://www.amazon.co.uk/s?k=fellow+stagg+x+dripper&tag=getbrewharbor-21",
+    "eu": "https://www.amazon.de/s?k=fellow+stagg+x+dripper&tag=getbrewharb0e-21",
+    "au": "https://www.amazon.com.au/s?k=fellow+stagg+x+dripper&tag=getbrewharbor-22"
    },
    "image": "https://getbrewharbor.com/images/fellow-stagg-x.jpg",
    "summary": "Fellow's premium pour-over dripper with a saturation stage for bloom control and a polished design.",
@@ -1707,11 +1707,11 @@
    "priceTier": "Mid-range",
    "priceTierLevel": 2,
    "buyLinks": {
-    "us": "https://www.amazon.com/s?k=flair+espresso+neo",
-    "ca": "https://www.amazon.ca/s?k=flair+espresso+neo",
-    "uk": "https://www.amazon.co.uk/s?k=flair+espresso+neo",
-    "eu": "https://www.amazon.de/s?k=flair+espresso+neo",
-    "au": "https://www.amazon.com.au/s?k=flair+espresso+neo"
+    "us": "https://www.amazon.com/s?k=flair+espresso+neo&tag=getbrewharbor-20",
+    "ca": "https://www.amazon.ca/s?k=flair+espresso+neo&tag=getbrewharb0c-20",
+    "uk": "https://www.amazon.co.uk/s?k=flair+espresso+neo&tag=getbrewharbor-21",
+    "eu": "https://www.amazon.de/s?k=flair+espresso+neo&tag=getbrewharb0e-21",
+    "au": "https://www.amazon.com.au/s?k=flair+espresso+neo&tag=getbrewharbor-22"
    },
    "image": "https://getbrewharbor.com/images/flair-espresso-neo.jpg",
    "summary": "A fully manual lever espresso maker that produces genuine high-pressure espresso without electricity. Portable, durable, and surprisingly capable — the entry point to lever espresso.",
@@ -1754,11 +1754,11 @@
    "priceTier": "Upper mid-range",
    "priceTierLevel": 3,
    "buyLinks": {
-    "us": "https://www.amazon.com/s?k=gaggia+anima+prestige",
-    "ca": "https://www.amazon.ca/s?k=gaggia+anima+prestige",
-    "uk": "https://www.amazon.co.uk/s?k=gaggia+anima+prestige",
-    "eu": "https://www.amazon.de/s?k=gaggia+anima+prestige",
-    "au": "https://www.amazon.com.au/s?k=gaggia+anima+prestige"
+    "us": "https://www.amazon.com/s?k=gaggia+anima+prestige&tag=getbrewharbor-20",
+    "ca": "https://www.amazon.ca/s?k=gaggia+anima+prestige&tag=getbrewharb0c-20",
+    "uk": "https://www.amazon.co.uk/s?k=gaggia+anima+prestige&tag=getbrewharbor-21",
+    "eu": "https://www.amazon.de/s?k=gaggia+anima+prestige&tag=getbrewharb0e-21",
+    "au": "https://www.amazon.com.au/s?k=gaggia+anima+prestige&tag=getbrewharbor-22"
    },
    "image": "https://getbrewharbor.com/images/gaggia-anima-prestige.jpg",
    "summary": "Italian-made super-auto with stainless steel carafe milk system. Good build quality with Gaggia heritage.",
@@ -1801,11 +1801,11 @@
    "priceTier": "Upper mid-range",
    "priceTierLevel": 3,
    "buyLinks": {
-    "us": "https://www.amazon.com/s?k=gaggia+classic+pro",
-    "ca": "https://www.amazon.ca/s?k=gaggia+classic+pro",
-    "uk": "https://www.amazon.co.uk/s?k=gaggia+classic+pro",
-    "eu": "https://www.amazon.de/s?k=gaggia+classic+pro",
-    "au": "https://www.amazon.com.au/s?k=gaggia+classic+pro"
+    "us": "https://www.amazon.com/s?k=gaggia+classic+pro&tag=getbrewharbor-20",
+    "ca": "https://www.amazon.ca/s?k=gaggia+classic+pro&tag=getbrewharb0c-20",
+    "uk": "https://www.amazon.co.uk/s?k=gaggia+classic+pro&tag=getbrewharbor-21",
+    "eu": "https://www.amazon.de/s?k=gaggia+classic+pro&tag=getbrewharb0e-21",
+    "au": "https://www.amazon.com.au/s?k=gaggia+classic+pro&tag=getbrewharbor-22"
    },
    "image": "https://getbrewharbor.com/images/gaggia-classic-pro.jpg",
    "summary": "The benchmark entry-level espresso machine. The current E24 version has a brass boiler, a commercial-style 58mm portafilter, and a huge community of upgrades and guides. Loved by the r/espresso community.",
@@ -1847,11 +1847,11 @@
    "priceTier": "Budget",
    "priceTierLevel": 1,
    "buyLinks": {
-    "us": "https://www.amazon.com/s?k=hario+v60",
-    "ca": "https://www.amazon.ca/s?k=hario+v60",
-    "uk": "https://www.amazon.co.uk/s?k=hario+v60+dripper",
-    "eu": "https://www.amazon.de/s?k=hario+v60",
-    "au": "https://www.amazon.com.au/s?k=hario+v60"
+    "us": "https://www.amazon.com/s?k=hario+v60&tag=getbrewharbor-20",
+    "ca": "https://www.amazon.ca/s?k=hario+v60&tag=getbrewharb0c-20",
+    "uk": "https://www.amazon.co.uk/s?k=hario+v60+dripper&tag=getbrewharbor-21",
+    "eu": "https://www.amazon.de/s?k=hario+v60&tag=getbrewharb0e-21",
+    "au": "https://www.amazon.com.au/s?k=hario+v60&tag=getbrewharbor-22"
    },
    "image": "https://getbrewharbor.com/images/hario-v60.jpg",
    "summary": "The world's most popular pour-over dripper. Maximum flavour clarity for those who want to taste the bean, not the machine.",
@@ -1893,11 +1893,11 @@
    "priceTier": "Premium",
    "priceTierLevel": 4,
    "buyLinks": {
-    "us": "https://www.amazon.com/s?k=jura+e6",
-    "ca": "https://www.amazon.ca/s?k=jura+e6",
-    "uk": "https://www.amazon.co.uk/s?k=jura+e6",
-    "eu": "https://www.amazon.de/s?k=jura+e6",
-    "au": "https://www.amazon.com.au/s?k=jura+e6"
+    "us": "https://www.amazon.com/s?k=jura+e6&tag=getbrewharbor-20",
+    "ca": "https://www.amazon.ca/s?k=jura+e6&tag=getbrewharb0c-20",
+    "uk": "https://www.amazon.co.uk/s?k=jura+e6&tag=getbrewharbor-21",
+    "eu": "https://www.amazon.de/s?k=jura+e6&tag=getbrewharb0e-21",
+    "au": "https://www.amazon.com.au/s?k=jura+e6&tag=getbrewharbor-22"
    },
    "image": "https://getbrewharbor.com/images/jura-e6.jpg",
    "summary": "Jura entry to the premium tier. Swiss-engineered with P.E.P. pulse extraction for intense espresso.",
@@ -1939,11 +1939,11 @@
    "priceTier": "Prosumer",
    "priceTierLevel": 5,
    "buyLinks": {
-    "us": "https://www.amazon.com/s?k=jura+e8",
-    "ca": "https://www.amazon.ca/s?k=jura+e8",
-    "uk": "https://www.amazon.co.uk/s?k=jura+e8",
-    "eu": "https://www.amazon.de/s?k=jura+e8",
-    "au": "https://www.amazon.com.au/s?k=jura+e8"
+    "us": "https://www.amazon.com/s?k=jura+e8&tag=getbrewharbor-20",
+    "ca": "https://www.amazon.ca/s?k=jura+e8&tag=getbrewharb0c-20",
+    "uk": "https://www.amazon.co.uk/s?k=jura+e8&tag=getbrewharbor-21",
+    "eu": "https://www.amazon.de/s?k=jura+e8&tag=getbrewharb0e-21",
+    "au": "https://www.amazon.com.au/s?k=jura+e8&tag=getbrewharbor-22"
    },
    "image": "https://getbrewharbor.com/images/jura-e8.jpg",
    "summary": "Swiss precision engineering in a super-automatic. P.E.P. pulse extraction delivers the best shot quality from a fully automatic machine.",
@@ -1985,11 +1985,11 @@
    "priceTier": "Prosumer",
    "priceTierLevel": 5,
    "buyLinks": {
-    "us": "https://www.amazon.com/s?k=jura+ena+8",
-    "ca": "https://www.amazon.ca/s?k=jura+ena+8",
-    "uk": "https://www.amazon.co.uk/s?k=jura+ena+8",
-    "eu": "https://www.amazon.de/s?k=jura+ena+8",
-    "au": "https://www.amazon.com.au/s?k=jura+ena+8"
+    "us": "https://www.amazon.com/s?k=jura+ena+8&tag=getbrewharbor-20",
+    "ca": "https://www.amazon.ca/s?k=jura+ena+8&tag=getbrewharb0c-20",
+    "uk": "https://www.amazon.co.uk/s?k=jura+ena+8&tag=getbrewharbor-21",
+    "eu": "https://www.amazon.de/s?k=jura+ena+8&tag=getbrewharb0e-21",
+    "au": "https://www.amazon.com.au/s?k=jura+ena+8&tag=getbrewharbor-22"
    },
    "image": "https://getbrewharbor.com/images/jura-ena-8.jpg",
    "summary": "Jura's slim super-auto designed for smaller kitchens. 15-bar pump and P.E.P. extraction in a notably narrow body.",
@@ -2034,11 +2034,11 @@
    "priceTier": "Prosumer",
    "priceTierLevel": 5,
    "buyLinks": {
-    "us": "https://www.amazon.com/s?k=jura+s8",
-    "ca": "https://www.amazon.ca/s?k=jura+s8",
-    "uk": "https://www.amazon.co.uk/s?k=jura+s8",
-    "eu": "https://www.amazon.de/s?k=jura+s8",
-    "au": "https://www.amazon.com.au/s?k=jura+s8"
+    "us": "https://www.amazon.com/s?k=jura+s8&tag=getbrewharbor-20",
+    "ca": "https://www.amazon.ca/s?k=jura+s8&tag=getbrewharb0c-20",
+    "uk": "https://www.amazon.co.uk/s?k=jura+s8&tag=getbrewharbor-21",
+    "eu": "https://www.amazon.de/s?k=jura+s8&tag=getbrewharb0e-21",
+    "au": "https://www.amazon.com.au/s?k=jura+s8&tag=getbrewharbor-22"
    },
    "image": "https://getbrewharbor.com/images/jura-s8.jpg",
    "summary": "Jura touchscreen flagship with Intelligent Pre-Brew Aroma system. Noticeably better espresso.",
@@ -2085,11 +2085,11 @@
    "priceTier": "Prosumer",
    "priceTierLevel": 5,
    "buyLinks": {
-    "us": "https://www.amazon.com/s?k=jura+z10",
-    "ca": "https://www.amazon.ca/s?k=jura+z10",
-    "uk": "https://www.amazon.co.uk/s?k=jura+z10",
-    "eu": "https://www.amazon.de/s?k=jura+z10",
-    "au": "https://www.amazon.com.au/s?k=jura+z10"
+    "us": "https://www.amazon.com/s?k=jura+z10&tag=getbrewharbor-20",
+    "ca": "https://www.amazon.ca/s?k=jura+z10&tag=getbrewharb0c-20",
+    "uk": "https://www.amazon.co.uk/s?k=jura+z10&tag=getbrewharbor-21",
+    "eu": "https://www.amazon.de/s?k=jura+z10&tag=getbrewharb0e-21",
+    "au": "https://www.amazon.com.au/s?k=jura+z10&tag=getbrewharbor-22"
    },
    "image": "https://getbrewharbor.com/images/jura-z10.jpg",
    "summary": "Jura top-of-range with cold brew and cold latte at the touch of a button. For those who want the very best.",
@@ -2130,11 +2130,11 @@
    "priceTier": "Budget",
    "priceTierLevel": 1,
    "buyLinks": {
-    "us": "https://www.amazon.com/s?k=kalita+wave+185",
-    "ca": "https://www.amazon.ca/s?k=kalita+wave+185",
-    "uk": "https://www.amazon.co.uk/s?k=kalita+wave+185",
-    "eu": "https://www.amazon.de/s?k=kalita+wave+185",
-    "au": "https://www.amazon.com.au/s?k=kalita+wave+185"
+    "us": "https://www.amazon.com/s?k=kalita+wave+185&tag=getbrewharbor-20",
+    "ca": "https://www.amazon.ca/s?k=kalita+wave+185&tag=getbrewharb0c-20",
+    "uk": "https://www.amazon.co.uk/s?k=kalita+wave+185&tag=getbrewharbor-21",
+    "eu": "https://www.amazon.de/s?k=kalita+wave+185&tag=getbrewharb0e-21",
+    "au": "https://www.amazon.com.au/s?k=kalita+wave+185&tag=getbrewharbor-22"
    },
    "image": "https://getbrewharbor.com/images/kalita-wave-185.jpg",
    "summary": "Flat-bottom wave dripper with 3 holes for even extraction. Considered more forgiving than cone drippers.",
@@ -2176,8 +2176,8 @@
    "priceTier": "Mid-range",
    "priceTierLevel": 2,
    "buyLinks": {
-    "us": "https://www.amazon.com/dp/B0B5W162ZP",
-    "ca": "https://www.amazon.ca/s?k=keurig+k+cafe+smart"
+    "us": "https://www.amazon.com/dp/B0B5W162ZP?tag=getbrewharbor-20",
+    "ca": "https://www.amazon.ca/s?k=keurig+k+cafe+smart&tag=getbrewharb0c-20"
    },
    "image": "https://getbrewharbor.com/images/keurig-k-cafe-smart.jpg",
    "summary": "Keurig brewer with a built-in frother for lattes and cappuccinos, plus Smart connectivity and a choice of cup sizes.",
@@ -2218,10 +2218,10 @@
    "priceTier": "Budget",
    "priceTierLevel": 1,
    "buyLinks": {
-    "us": "https://www.amazon.com/s?k=keurig+k-classic",
-    "ca": "https://www.amazon.ca/s?k=keurig+k-classic",
-    "uk": "https://www.amazon.co.uk/s?k=keurig+k-classic",
-    "eu": "https://www.amazon.de/s?k=keurig+k-classic"
+    "us": "https://www.amazon.com/s?k=keurig+k-classic&tag=getbrewharbor-20",
+    "ca": "https://www.amazon.ca/s?k=keurig+k-classic&tag=getbrewharb0c-20",
+    "uk": "https://www.amazon.co.uk/s?k=keurig+k-classic&tag=getbrewharbor-21",
+    "eu": "https://www.amazon.de/s?k=keurig+k-classic&tag=getbrewharb0e-21"
    },
    "image": "https://getbrewharbor.com/images/keurig-k-classic.jpg",
    "summary": "The classic Keurig pod machine. Huge range of K-Cup pods. Brews in under a minute.",
@@ -2264,10 +2264,10 @@
    "priceTier": "Budget",
    "priceTierLevel": 1,
    "buyLinks": {
-    "us": "https://www.amazon.com/s?k=keurig+k-elite",
-    "ca": "https://www.amazon.ca/s?k=keurig+k-elite",
-    "uk": "https://www.amazon.co.uk/s?k=keurig+k-elite",
-    "eu": "https://www.amazon.de/s?k=keurig+k-elite"
+    "us": "https://www.amazon.com/s?k=keurig+k-elite&tag=getbrewharbor-20",
+    "ca": "https://www.amazon.ca/s?k=keurig+k-elite&tag=getbrewharb0c-20",
+    "uk": "https://www.amazon.co.uk/s?k=keurig+k-elite&tag=getbrewharbor-21",
+    "eu": "https://www.amazon.de/s?k=keurig+k-elite&tag=getbrewharb0e-21"
    },
    "image": "https://getbrewharbor.com/images/keurig-k-elite.jpg",
    "summary": "The most popular Keurig. Single-serve convenience with strong brew and iced coffee modes.",
@@ -2308,8 +2308,8 @@
    "priceTier": "Budget",
    "priceTierLevel": 1,
    "buyLinks": {
-    "us": "https://www.amazon.com/dp/B07GV2S1GS",
-    "ca": "https://www.amazon.ca/s?k=keurig+k+mini"
+    "us": "https://www.amazon.com/dp/B07GV2S1GS?tag=getbrewharbor-20",
+    "ca": "https://www.amazon.ca/s?k=keurig+k+mini&tag=getbrewharb0c-20"
    },
    "image": "https://getbrewharbor.com/images/keurig-k-mini.jpg",
    "summary": "Ultra-slim single-cup Keurig, under 5 inches wide, with a one-cup reservoir and cord storage.",
@@ -2352,10 +2352,10 @@
    "priceTier": "Mid-range",
    "priceTierLevel": 2,
    "buyLinks": {
-    "us": "https://www.amazon.com/s?k=keurig+k-supreme+plus+smart",
-    "ca": "https://www.amazon.ca/s?k=keurig+k-supreme+plus+smart",
-    "uk": "https://www.amazon.co.uk/s?k=keurig+k-supreme+plus+smart",
-    "eu": "https://www.amazon.de/s?k=keurig+k-supreme+plus"
+    "us": "https://www.amazon.com/s?k=keurig+k-supreme+plus+smart&tag=getbrewharbor-20",
+    "ca": "https://www.amazon.ca/s?k=keurig+k-supreme+plus+smart&tag=getbrewharb0c-20",
+    "uk": "https://www.amazon.co.uk/s?k=keurig+k-supreme+plus+smart&tag=getbrewharbor-21",
+    "eu": "https://www.amazon.de/s?k=keurig+k-supreme+plus&tag=getbrewharb0e-21"
    },
    "image": "https://getbrewharbor.com/images/keurig-k-supreme-plus-smart.jpg",
    "summary": "Keurig's smartest model. App control, multiple brew strength settings, and a dedicated iced coffee mode.",
@@ -2398,11 +2398,11 @@
    "priceTier": "Upper mid-range",
    "priceTierLevel": 3,
    "buyLinks": {
-    "us": "https://www.amazon.com/s?k=lelit+anna",
-    "ca": "https://www.amazon.ca/s?k=lelit+anna",
-    "uk": "https://www.amazon.co.uk/s?k=lelit+anna",
-    "eu": "https://www.amazon.de/s?k=lelit+anna",
-    "au": "https://www.amazon.com.au/s?k=lelit+anna"
+    "us": "https://www.amazon.com/s?k=lelit+anna&tag=getbrewharbor-20",
+    "ca": "https://www.amazon.ca/s?k=lelit+anna&tag=getbrewharb0c-20",
+    "uk": "https://www.amazon.co.uk/s?k=lelit+anna&tag=getbrewharbor-21",
+    "eu": "https://www.amazon.de/s?k=lelit+anna&tag=getbrewharb0e-21",
+    "au": "https://www.amazon.com.au/s?k=lelit+anna&tag=getbrewharbor-22"
    },
    "image": "https://getbrewharbor.com/images/lelit-anna.jpg",
    "summary": "Italian-made entry prosumer from Lelit. Compact single boiler with commercial-quality build.",
@@ -2445,11 +2445,11 @@
    "priceTier": "Prosumer",
    "priceTierLevel": 5,
    "buyLinks": {
-    "us": "https://www.amazon.com/s?k=lelit+bianca",
-    "ca": "https://www.amazon.ca/s?k=lelit+bianca",
-    "uk": "https://www.amazon.co.uk/s?k=lelit+bianca",
-    "eu": "https://www.amazon.de/s?k=lelit+bianca",
-    "au": "https://www.amazon.com.au/s?k=lelit+bianca"
+    "us": "https://www.amazon.com/s?k=lelit+bianca&tag=getbrewharbor-20",
+    "ca": "https://www.amazon.ca/s?k=lelit+bianca&tag=getbrewharb0c-20",
+    "uk": "https://www.amazon.co.uk/s?k=lelit+bianca&tag=getbrewharbor-21",
+    "eu": "https://www.amazon.de/s?k=lelit+bianca&tag=getbrewharb0e-21",
+    "au": "https://www.amazon.com.au/s?k=lelit+bianca&tag=getbrewharbor-22"
    },
    "image": "https://getbrewharbor.com/images/lelit-bianca.jpg",
    "summary": "Lelit's flagship dual boiler machine with flow profiling and a paddle for pre-infusion control. The benchmark Italian prosumer machine.",
@@ -2492,11 +2492,11 @@
    "priceTier": "Premium",
    "priceTierLevel": 4,
    "buyLinks": {
-    "us": "https://www.amazon.com/s?k=lelit+mara+x",
-    "ca": "https://www.amazon.ca/s?k=lelit+mara+x",
-    "uk": "https://www.amazon.co.uk/s?k=lelit+mara+x",
-    "eu": "https://www.amazon.de/s?k=lelit+mara+x",
-    "au": "https://www.amazon.com.au/s?k=lelit+mara+x"
+    "us": "https://www.amazon.com/s?k=lelit+mara+x&tag=getbrewharbor-20",
+    "ca": "https://www.amazon.ca/s?k=lelit+mara+x&tag=getbrewharb0c-20",
+    "uk": "https://www.amazon.co.uk/s?k=lelit+mara+x&tag=getbrewharbor-21",
+    "eu": "https://www.amazon.de/s?k=lelit+mara+x&tag=getbrewharb0e-21",
+    "au": "https://www.amazon.com.au/s?k=lelit+mara+x&tag=getbrewharbor-22"
    },
    "image": "https://getbrewharbor.com/images/lelit-mara-x.jpg",
    "summary": "HX machine with patented HX management. Considered among best value prosumer machines on the market.",
@@ -2539,11 +2539,11 @@
    "priceTier": "Upper mid-range",
    "priceTierLevel": 3,
    "buyLinks": {
-    "us": "https://www.amazon.com/s?k=melitta+barista+ts+smart",
-    "ca": "https://www.amazon.ca/s?k=melitta+barista+ts+smart",
-    "uk": "https://www.amazon.co.uk/s?k=melitta+barista+ts+smart",
-    "eu": "https://www.amazon.de/s?k=melitta+barista+ts+smart",
-    "au": "https://www.amazon.com.au/s?k=melitta+barista+ts+smart"
+    "us": "https://www.amazon.com/s?k=melitta+barista+ts+smart&tag=getbrewharbor-20",
+    "ca": "https://www.amazon.ca/s?k=melitta+barista+ts+smart&tag=getbrewharb0c-20",
+    "uk": "https://www.amazon.co.uk/s?k=melitta+barista+ts+smart&tag=getbrewharbor-21",
+    "eu": "https://www.amazon.de/s?k=melitta+barista+ts+smart&tag=getbrewharb0e-21",
+    "au": "https://www.amazon.com.au/s?k=melitta+barista+ts+smart&tag=getbrewharbor-22"
    },
    "image": "https://getbrewharbor.com/images/melitta-barista-ts-smart.jpg",
    "summary": "Melitta smart super-auto with app connectivity. Good automatic milk system popular in European markets.",
@@ -2584,11 +2584,11 @@
    "priceTier": "Mid-range",
    "priceTierLevel": 2,
    "buyLinks": {
-    "us": "https://www.amazon.com/s?k=nespresso+citiz",
-    "ca": "https://www.amazon.ca/s?k=nespresso+citiz",
-    "uk": "https://www.amazon.co.uk/s?k=nespresso+citiz",
-    "eu": "https://www.amazon.de/s?k=nespresso+citiz",
-    "au": "https://www.amazon.com.au/s?k=nespresso+citiz"
+    "us": "https://www.amazon.com/s?k=nespresso+citiz&tag=getbrewharbor-20",
+    "ca": "https://www.amazon.ca/s?k=nespresso+citiz&tag=getbrewharb0c-20",
+    "uk": "https://www.amazon.co.uk/s?k=nespresso+citiz&tag=getbrewharbor-21",
+    "eu": "https://www.amazon.de/s?k=nespresso+citiz&tag=getbrewharb0e-21",
+    "au": "https://www.amazon.com.au/s?k=nespresso+citiz&tag=getbrewharbor-22"
    },
    "image": "https://getbrewharbor.com/images/nespresso-citiz.jpg",
    "summary": "Nespresso Original Line with a retro industrial design. Compatible with Aeroccino for milk drinks.",
@@ -2631,11 +2631,11 @@
    "priceTier": "Upper mid-range",
    "priceTierLevel": 3,
    "buyLinks": {
-    "us": "https://www.amazon.com/s?k=nespresso+creatista+plus",
-    "ca": "https://www.amazon.ca/s?k=nespresso+creatista+plus",
-    "uk": "https://www.amazon.co.uk/s?k=nespresso+creatista+plus",
-    "eu": "https://www.amazon.de/s?k=nespresso+creatista+plus",
-    "au": "https://www.amazon.com.au/s?k=nespresso+creatista+plus"
+    "us": "https://www.amazon.com/s?k=nespresso+creatista+plus&tag=getbrewharbor-20",
+    "ca": "https://www.amazon.ca/s?k=nespresso+creatista+plus&tag=getbrewharb0c-20",
+    "uk": "https://www.amazon.co.uk/s?k=nespresso+creatista+plus&tag=getbrewharbor-21",
+    "eu": "https://www.amazon.de/s?k=nespresso+creatista+plus&tag=getbrewharb0e-21",
+    "au": "https://www.amazon.com.au/s?k=nespresso+creatista+plus&tag=getbrewharbor-22"
    },
    "image": "https://getbrewharbor.com/images/nespresso-creatista-plus.jpg",
    "summary": "The premium Nespresso with a real steam wand. Nespresso convenience meets cafe-quality milk texture.",
@@ -2675,11 +2675,11 @@
    "priceTier": "Mid-range",
    "priceTierLevel": 2,
    "buyLinks": {
-    "us": "https://www.amazon.com/s?k=nespresso+essenza+mini",
-    "ca": "https://www.amazon.ca/s?k=nespresso+essenza+mini",
-    "uk": "https://www.amazon.co.uk/s?k=nespresso+essenza+mini",
-    "eu": "https://www.amazon.de/s?k=nespresso+essenza+mini",
-    "au": "https://www.amazon.com.au/s?k=nespresso+essenza+mini"
+    "us": "https://www.amazon.com/s?k=nespresso+essenza+mini&tag=getbrewharbor-20",
+    "ca": "https://www.amazon.ca/s?k=nespresso+essenza+mini&tag=getbrewharb0c-20",
+    "uk": "https://www.amazon.co.uk/s?k=nespresso+essenza+mini&tag=getbrewharbor-21",
+    "eu": "https://www.amazon.de/s?k=nespresso+essenza+mini&tag=getbrewharb0e-21",
+    "au": "https://www.amazon.com.au/s?k=nespresso+essenza+mini&tag=getbrewharbor-22"
    },
    "image": "https://getbrewharbor.com/images/nespresso-essenza-mini.jpg",
    "summary": "Nespresso's most compact Original Line machine. Best-in-class pod espresso in a tiny footprint.",
@@ -2719,11 +2719,11 @@
    "priceTier": "Mid-range",
    "priceTierLevel": 2,
    "buyLinks": {
-    "us": "https://www.amazon.com/s?k=nespresso+pixie",
-    "ca": "https://www.amazon.ca/s?k=nespresso+pixie",
-    "uk": "https://www.amazon.co.uk/s?k=nespresso+pixie",
-    "eu": "https://www.amazon.de/s?k=nespresso+pixie",
-    "au": "https://www.amazon.com.au/s?k=nespresso+pixie"
+    "us": "https://www.amazon.com/s?k=nespresso+pixie&tag=getbrewharbor-20",
+    "ca": "https://www.amazon.ca/s?k=nespresso+pixie&tag=getbrewharb0c-20",
+    "uk": "https://www.amazon.co.uk/s?k=nespresso+pixie&tag=getbrewharbor-21",
+    "eu": "https://www.amazon.de/s?k=nespresso+pixie&tag=getbrewharb0e-21",
+    "au": "https://www.amazon.com.au/s?k=nespresso+pixie&tag=getbrewharbor-22"
    },
    "image": "https://getbrewharbor.com/images/nespresso-pixie.jpg",
    "summary": "Nespresso Original Line with a quick 25-second heat-up and compact build. No frills, just espresso.",
@@ -2766,10 +2766,10 @@
    "priceTier": "Upper mid-range",
    "priceTierLevel": 3,
    "buyLinks": {
-    "us": "https://www.amazon.com/dp/B0C5KP15DK",
-    "ca": "https://www.amazon.ca/s?k=nespresso+vertuo+lattissima",
-    "uk": "https://www.amazon.co.uk/s?k=nespresso+vertuo+lattissima",
-    "au": "https://www.amazon.com.au/s?k=nespresso+vertuo+lattissima"
+    "us": "https://www.amazon.com/dp/B0C5KP15DK?tag=getbrewharbor-20",
+    "ca": "https://www.amazon.ca/s?k=nespresso+vertuo+lattissima&tag=getbrewharb0c-20",
+    "uk": "https://www.amazon.co.uk/s?k=nespresso+vertuo+lattissima&tag=getbrewharbor-21",
+    "au": "https://www.amazon.com.au/s?k=nespresso+vertuo+lattissima&tag=getbrewharbor-22"
    },
    "image": "https://getbrewharbor.com/images/nespresso-vertuo-lattissima.jpg",
    "summary": "Vertuo machine with an integrated milk system for one-touch lattes and cappuccinos, and a wide range of cup sizes.",
@@ -2812,11 +2812,11 @@
    "priceTier": "Mid-range",
    "priceTierLevel": 2,
    "buyLinks": {
-    "us": "https://www.amazon.com/s?k=nespresso+vertuo+next",
-    "ca": "https://www.amazon.ca/s?k=nespresso+vertuo+next",
-    "uk": "https://www.amazon.co.uk/s?k=nespresso+vertuo+next",
-    "eu": "https://www.amazon.de/s?k=nespresso+vertuo+next",
-    "au": "https://www.amazon.com.au/s?k=nespresso+vertuo+next"
+    "us": "https://www.amazon.com/s?k=nespresso+vertuo+next&tag=getbrewharbor-20",
+    "ca": "https://www.amazon.ca/s?k=nespresso+vertuo+next&tag=getbrewharb0c-20",
+    "uk": "https://www.amazon.co.uk/s?k=nespresso+vertuo+next&tag=getbrewharbor-21",
+    "eu": "https://www.amazon.de/s?k=nespresso+vertuo+next&tag=getbrewharb0e-21",
+    "au": "https://www.amazon.com.au/s?k=nespresso+vertuo+next&tag=getbrewharbor-22"
    },
    "image": "https://getbrewharbor.com/images/nespresso-vertuo-next.jpg",
    "summary": "The most compact Vertuo machine. Same barcode-reading convenience as the VertuoPlus in a smaller footprint.",
@@ -2856,11 +2856,11 @@
    "priceTier": "Budget",
    "priceTierLevel": 1,
    "buyLinks": {
-    "us": "https://www.amazon.com/s?k=nespresso+vertuo+pop",
-    "ca": "https://www.amazon.ca/s?k=nespresso+vertuo+pop",
-    "uk": "https://www.amazon.co.uk/s?k=nespresso+vertuo+pop",
-    "eu": "https://www.amazon.de/s?k=nespresso+vertuo+pop",
-    "au": "https://www.amazon.com.au/s?k=nespresso+vertuo+pop"
+    "us": "https://www.amazon.com/s?k=nespresso+vertuo+pop&tag=getbrewharbor-20",
+    "ca": "https://www.amazon.ca/s?k=nespresso+vertuo+pop&tag=getbrewharb0c-20",
+    "uk": "https://www.amazon.co.uk/s?k=nespresso+vertuo+pop&tag=getbrewharbor-21",
+    "eu": "https://www.amazon.de/s?k=nespresso+vertuo+pop&tag=getbrewharb0e-21",
+    "au": "https://www.amazon.com.au/s?k=nespresso+vertuo+pop&tag=getbrewharbor-22"
    },
    "image": "https://getbrewharbor.com/images/nespresso-vertuo-pop.jpg",
    "summary": "Entry-level Vertuo Line machine. Uses barcode-scanning capsules in multiple sizes from espresso to mug.",
@@ -2901,10 +2901,10 @@
    "priceTier": "Budget",
    "priceTierLevel": 1,
    "buyLinks": {
-    "us": "https://www.amazon.com/dp/B0DVD67F76",
-    "ca": "https://www.amazon.ca/s?k=nespresso+vertuo+pop+plus",
-    "uk": "https://www.amazon.co.uk/s?k=nespresso+vertuo+pop",
-    "eu": "https://www.amazon.de/s?k=nespresso+vertuo+pop"
+    "us": "https://www.amazon.com/dp/B0DVD67F76?tag=getbrewharbor-20",
+    "ca": "https://www.amazon.ca/s?k=nespresso+vertuo+pop+plus&tag=getbrewharb0c-20",
+    "uk": "https://www.amazon.co.uk/s?k=nespresso+vertuo+pop&tag=getbrewharbor-21",
+    "eu": "https://www.amazon.de/s?k=nespresso+vertuo+pop&tag=getbrewharb0e-21"
    },
    "image": "https://getbrewharbor.com/images/nespresso-vertuo-pop-plus.jpg",
    "summary": "Compact Vertuo machine with a larger removable water tank and Bluetooth and Wi-Fi, brewing five sizes from espresso to alto.",
@@ -2947,11 +2947,11 @@
    "priceTier": "Mid-range",
    "priceTierLevel": 2,
    "buyLinks": {
-    "us": "https://www.amazon.com/s?k=nespresso+vertuoplus",
-    "ca": "https://www.amazon.ca/s?k=nespresso+vertuoplus",
-    "uk": "https://www.amazon.co.uk/s?k=nespresso+vertuoplus",
-    "eu": "https://www.amazon.de/s?k=nespresso+vertuoplus",
-    "au": "https://www.amazon.com.au/s?k=nespresso+vertuoplus"
+    "us": "https://www.amazon.com/s?k=nespresso+vertuoplus&tag=getbrewharbor-20",
+    "ca": "https://www.amazon.ca/s?k=nespresso+vertuoplus&tag=getbrewharb0c-20",
+    "uk": "https://www.amazon.co.uk/s?k=nespresso+vertuoplus&tag=getbrewharbor-21",
+    "eu": "https://www.amazon.de/s?k=nespresso+vertuoplus&tag=getbrewharb0e-21",
+    "au": "https://www.amazon.com.au/s?k=nespresso+vertuoplus&tag=getbrewharbor-22"
    },
    "image": "https://getbrewharbor.com/images/nespresso-vertuoplus.jpg",
    "summary": "Nespresso's flagship Vertuo machine. Barcode-scanning auto-sets every brew parameter — genuinely impossible to make a bad cup.",
@@ -2995,11 +2995,11 @@
    "priceTier": "Upper mid-range",
    "priceTierLevel": 3,
    "buyLinks": {
-    "us": "https://www.amazon.com/dp/B0D45PK5V4",
-    "ca": "https://www.amazon.ca/dp/B0DBN6C686",
-    "uk": "https://www.amazon.co.uk/dp/B0DFCRHTNM",
-    "eu": "https://www.amazon.de/s?k=Ninja+Luxe+Cafe+Premier+ES601",
-    "au": "https://www.amazon.com.au/s?k=Ninja+Luxe+Cafe+Premier+ES601"
+    "us": "https://www.amazon.com/dp/B0D45PK5V4?tag=getbrewharbor-20",
+    "ca": "https://www.amazon.ca/dp/B0DBN6C686?tag=getbrewharb0c-20",
+    "uk": "https://www.amazon.co.uk/dp/B0DFCRHTNM?tag=getbrewharbor-21",
+    "eu": "https://www.amazon.de/s?k=Ninja+Luxe+Cafe+Premier+ES601&tag=getbrewharb0e-21",
+    "au": "https://www.amazon.com.au/s?k=Ninja+Luxe+Cafe+Premier+ES601&tag=getbrewharbor-22"
    },
    "image": "https://getbrewharbor.com/images/ninja-luxe-cafe-premier.jpg",
    "summary": "The #1 best-selling espresso maker in the US (2025). 3-in-1 bean-to-cup brewing espresso, drip and cold brew. Barista Assist guides grind size and auto-adjusts pressure and temperature.",
@@ -3042,11 +3042,11 @@
    "priceTier": "Budget",
    "priceTierLevel": 1,
    "buyLinks": {
-    "us": "https://www.amazon.com/s?k=ninja+specialty+coffee+maker",
-    "ca": "https://www.amazon.ca/s?k=ninja+specialty+coffee+maker",
-    "uk": "https://www.amazon.co.uk/s?k=ninja+specialty+coffee+maker",
-    "eu": "https://www.amazon.de/s?k=ninja+specialty+coffee+maker",
-    "au": "https://www.amazon.com.au/s?k=ninja+specialty+coffee+maker"
+    "us": "https://www.amazon.com/s?k=ninja+specialty+coffee+maker&tag=getbrewharbor-20",
+    "ca": "https://www.amazon.ca/s?k=ninja+specialty+coffee+maker&tag=getbrewharb0c-20",
+    "uk": "https://www.amazon.co.uk/s?k=ninja+specialty+coffee+maker&tag=getbrewharbor-21",
+    "eu": "https://www.amazon.de/s?k=ninja+specialty+coffee+maker&tag=getbrewharb0e-21",
+    "au": "https://www.amazon.com.au/s?k=ninja+specialty+coffee+maker&tag=getbrewharbor-22"
    },
    "image": "https://getbrewharbor.com/images/ninja-specialty-coffee-maker.jpg",
    "summary": "Multi-brew Ninja with 6 brew styles including classic, rich, over ice, and cold brew concentrate.",
@@ -3086,11 +3086,11 @@
    "priceTier": "Mid-range",
    "priceTierLevel": 2,
    "buyLinks": {
-    "us": "https://www.amazon.com/s?k=oxo+brew+9+cup",
-    "ca": "https://www.amazon.ca/s?k=oxo+brew+9+cup",
-    "uk": "https://www.amazon.co.uk/s?k=oxo+brew+9+cup",
-    "eu": "https://www.amazon.de/s?k=oxo+brew+9+cup",
-    "au": "https://www.amazon.com.au/s?k=oxo+brew+9+cup"
+    "us": "https://www.amazon.com/s?k=oxo+brew+9+cup&tag=getbrewharbor-20",
+    "ca": "https://www.amazon.ca/s?k=oxo+brew+9+cup&tag=getbrewharb0c-20",
+    "uk": "https://www.amazon.co.uk/s?k=oxo+brew+9+cup&tag=getbrewharbor-21",
+    "eu": "https://www.amazon.de/s?k=oxo+brew+9+cup&tag=getbrewharb0e-21",
+    "au": "https://www.amazon.com.au/s?k=oxo+brew+9+cup&tag=getbrewharbor-22"
    },
    "image": "https://getbrewharbor.com/images/oxo-brew-9-cup.jpg",
    "summary": "SCA-certified 9-cup drip with a thermal carafe and rainmaker showerhead for even saturation.",
@@ -3132,11 +3132,11 @@
    "priceTier": "Upper mid-range",
    "priceTierLevel": 3,
    "buyLinks": {
-    "us": "https://www.amazon.com/s?k=philips+3200+latte+go",
-    "ca": "https://www.amazon.ca/s?k=philips+3200+latte+go",
-    "uk": "https://www.amazon.co.uk/s?k=philips+3200+latte+go",
-    "eu": "https://www.amazon.de/s?k=philips+3200+latte+go",
-    "au": "https://www.amazon.com.au/s?k=philips+3200+latte+go"
+    "us": "https://www.amazon.com/s?k=philips+3200+latte+go&tag=getbrewharbor-20",
+    "ca": "https://www.amazon.ca/s?k=philips+3200+latte+go&tag=getbrewharb0c-20",
+    "uk": "https://www.amazon.co.uk/s?k=philips+3200+latte+go&tag=getbrewharbor-21",
+    "eu": "https://www.amazon.de/s?k=philips+3200+latte+go&tag=getbrewharb0e-21",
+    "au": "https://www.amazon.com.au/s?k=philips+3200+latte+go&tag=getbrewharbor-22"
    },
    "image": "https://getbrewharbor.com/images/philips-3200-lattego.jpg",
    "summary": "Philips flagship super-automatic with the revolutionary LatteGo milk system — no tubes, no mess.",
@@ -3180,11 +3180,11 @@
    "priceTier": "Upper mid-range",
    "priceTierLevel": 3,
    "buyLinks": {
-    "us": "https://www.amazon.com/s?k=philips+4400+lattego",
-    "ca": "https://www.amazon.ca/s?k=philips+4400+lattego",
-    "uk": "https://www.amazon.co.uk/s?k=philips+4400+lattego",
-    "eu": "https://www.amazon.de/s?k=philips+4400+lattego",
-    "au": "https://www.amazon.com.au/s?k=philips+4400+lattego"
+    "us": "https://www.amazon.com/s?k=philips+4400+lattego&tag=getbrewharbor-20",
+    "ca": "https://www.amazon.ca/s?k=philips+4400+lattego&tag=getbrewharb0c-20",
+    "uk": "https://www.amazon.co.uk/s?k=philips+4400+lattego&tag=getbrewharbor-21",
+    "eu": "https://www.amazon.de/s?k=philips+4400+lattego&tag=getbrewharb0e-21",
+    "au": "https://www.amazon.com.au/s?k=philips+4400+lattego&tag=getbrewharbor-22"
    },
    "image": "https://getbrewharbor.com/images/philips-4400-lattego.jpg",
    "summary": "Mid-tier Philips with the LatteGo milk system: no tubes, just easy cleaning. 12 one-touch hot and iced drinks.",
@@ -3229,11 +3229,11 @@
    "priceTier": "Upper mid-range",
    "priceTierLevel": 3,
    "buyLinks": {
-    "us": "https://www.amazon.com/s?k=philips+5500+lattego",
-    "ca": "https://www.amazon.ca/s?k=philips+5500+lattego",
-    "uk": "https://www.amazon.co.uk/s?k=philips+5500+lattego",
-    "eu": "https://www.amazon.de/s?k=philips+5500+lattego",
-    "au": "https://www.amazon.com.au/s?k=philips+5500+lattego"
+    "us": "https://www.amazon.com/s?k=philips+5500+lattego&tag=getbrewharbor-20",
+    "ca": "https://www.amazon.ca/s?k=philips+5500+lattego&tag=getbrewharb0c-20",
+    "uk": "https://www.amazon.co.uk/s?k=philips+5500+lattego&tag=getbrewharbor-21",
+    "eu": "https://www.amazon.de/s?k=philips+5500+lattego&tag=getbrewharb0e-21",
+    "au": "https://www.amazon.com.au/s?k=philips+5500+lattego&tag=getbrewharbor-22"
    },
    "image": "https://getbrewharbor.com/images/philips-5500-lattego.jpg",
    "summary": "Philips top LatteGo model with 20 one-touch drinks, including iced coffees. Reddit consensus upgrade pick.",
@@ -3273,11 +3273,11 @@
    "priceTier": "Mid-range",
    "priceTierLevel": 2,
    "buyLinks": {
-    "us": "https://www.amazon.com/dp/B0F29R7CT2",
-    "ca": "https://www.amazon.ca/s?k=philips+baristina",
-    "uk": "https://www.amazon.co.uk/s?k=philips+baristina",
-    "eu": "https://www.amazon.de/s?k=philips+baristina",
-    "au": "https://www.amazon.com.au/s?k=philips+baristina"
+    "us": "https://www.amazon.com/dp/B0F29R7CT2?tag=getbrewharbor-20",
+    "ca": "https://www.amazon.ca/s?k=philips+baristina&tag=getbrewharb0c-20",
+    "uk": "https://www.amazon.co.uk/s?k=philips+baristina&tag=getbrewharbor-21",
+    "eu": "https://www.amazon.de/s?k=philips+baristina&tag=getbrewharb0e-21",
+    "au": "https://www.amazon.com.au/s?k=philips+baristina&tag=getbrewharbor-22"
    },
    "image": "https://getbrewharbor.com/images/philips-baristina.jpg",
    "summary": "Compact Philips espresso machine that grinds, tamps and brews with one swipe of a lever, using a ceramic grinder that cannot be adjusted.",
@@ -3320,11 +3320,11 @@
    "priceTier": "Premium",
    "priceTierLevel": 4,
    "buyLinks": {
-    "us": "https://www.amazon.com/s?k=profitec+go",
-    "ca": "https://www.amazon.ca/s?k=profitec+go",
-    "uk": "https://www.amazon.co.uk/s?k=profitec+go",
-    "eu": "https://www.amazon.de/s?k=profitec+go",
-    "au": "https://www.amazon.com.au/s?k=profitec+go"
+    "us": "https://www.amazon.com/s?k=profitec+go&tag=getbrewharbor-20",
+    "ca": "https://www.amazon.ca/s?k=profitec+go&tag=getbrewharb0c-20",
+    "uk": "https://www.amazon.co.uk/s?k=profitec+go&tag=getbrewharbor-21",
+    "eu": "https://www.amazon.de/s?k=profitec+go&tag=getbrewharb0e-21",
+    "au": "https://www.amazon.com.au/s?k=profitec+go&tag=getbrewharbor-22"
    },
    "image": "https://getbrewharbor.com/images/profitec-go.jpg",
    "summary": "German-engineered compact single boiler with PID. Profitec build quality punches well above its price.",
@@ -3367,11 +3367,11 @@
    "priceTier": "Prosumer",
    "priceTierLevel": 5,
    "buyLinks": {
-    "us": "https://www.amazon.com/s?k=profitec+pro+500",
-    "ca": "https://www.amazon.ca/s?k=profitec+pro+500",
-    "uk": "https://www.amazon.co.uk/s?k=profitec+pro+500",
-    "eu": "https://www.amazon.de/s?k=profitec+pro+500",
-    "au": "https://www.amazon.com.au/s?k=profitec+pro+500"
+    "us": "https://www.amazon.com/s?k=profitec+pro+500&tag=getbrewharbor-20",
+    "ca": "https://www.amazon.ca/s?k=profitec+pro+500&tag=getbrewharb0c-20",
+    "uk": "https://www.amazon.co.uk/s?k=profitec+pro+500&tag=getbrewharbor-21",
+    "eu": "https://www.amazon.de/s?k=profitec+pro+500&tag=getbrewharb0e-21",
+    "au": "https://www.amazon.com.au/s?k=profitec+pro+500&tag=getbrewharbor-22"
    },
    "image": "https://getbrewharbor.com/images/profitec-pro-500.jpg",
    "summary": "Profitec's heat exchanger machine with a rotary pump and PID. German engineering that competes with machines costing far more.",
@@ -3414,11 +3414,11 @@
    "priceTier": "Prosumer",
    "priceTierLevel": 5,
    "buyLinks": {
-    "us": "https://www.amazon.com/s?k=profitec+pro+600",
-    "ca": "https://www.amazon.ca/s?k=profitec+pro+600",
-    "uk": "https://www.amazon.co.uk/s?k=profitec+pro+600",
-    "eu": "https://www.amazon.de/s?k=profitec+pro+600",
-    "au": "https://www.amazon.com.au/s?k=profitec+pro+600"
+    "us": "https://www.amazon.com/s?k=profitec+pro+600&tag=getbrewharbor-20",
+    "ca": "https://www.amazon.ca/s?k=profitec+pro+600&tag=getbrewharb0c-20",
+    "uk": "https://www.amazon.co.uk/s?k=profitec+pro+600&tag=getbrewharbor-21",
+    "eu": "https://www.amazon.de/s?k=profitec+pro+600&tag=getbrewharb0e-21",
+    "au": "https://www.amazon.com.au/s?k=profitec+pro+600&tag=getbrewharbor-22"
    },
    "image": "https://getbrewharbor.com/images/profitec-pro-600.jpg",
    "summary": "Profitec's dual boiler with PID on both circuits and a rotary pump. Simultaneous brewing and steaming with no wait time.",
@@ -3461,11 +3461,11 @@
    "priceTier": "Premium",
    "priceTierLevel": 4,
    "buyLinks": {
-    "us": "https://www.amazon.com/s?k=rancilio+silvia",
-    "ca": "https://www.amazon.ca/s?k=rancilio+silvia",
-    "uk": "https://www.amazon.co.uk/s?k=rancilio+silvia",
-    "eu": "https://www.amazon.de/s?k=rancilio+silvia",
-    "au": "https://www.amazon.com.au/s?k=rancilio+silvia"
+    "us": "https://www.amazon.com/s?k=rancilio+silvia&tag=getbrewharbor-20",
+    "ca": "https://www.amazon.ca/s?k=rancilio+silvia&tag=getbrewharb0c-20",
+    "uk": "https://www.amazon.co.uk/s?k=rancilio+silvia&tag=getbrewharbor-21",
+    "eu": "https://www.amazon.de/s?k=rancilio+silvia&tag=getbrewharb0e-21",
+    "au": "https://www.amazon.com.au/s?k=rancilio+silvia&tag=getbrewharbor-22"
    },
    "image": "https://getbrewharbor.com/images/rancilio-silvia.jpg",
    "summary": "Benchmark home espresso machine. Commercial-grade group head, largely unchanged for 25 years. Needs separate grinder.",
@@ -3508,11 +3508,11 @@
    "priceTier": "Prosumer",
    "priceTierLevel": 5,
    "buyLinks": {
-    "us": "https://www.amazon.com/s?k=rancilio+silvia+pro+x",
-    "ca": "https://www.amazon.ca/s?k=rancilio+silvia+pro+x",
-    "uk": "https://www.amazon.co.uk/s?k=rancilio+silvia+pro+x",
-    "eu": "https://www.amazon.de/s?k=rancilio+silvia+pro+x",
-    "au": "https://www.amazon.com.au/s?k=rancilio+silvia+pro+x"
+    "us": "https://www.amazon.com/s?k=rancilio+silvia+pro+x&tag=getbrewharbor-20",
+    "ca": "https://www.amazon.ca/s?k=rancilio+silvia+pro+x&tag=getbrewharb0c-20",
+    "uk": "https://www.amazon.co.uk/s?k=rancilio+silvia+pro+x&tag=getbrewharbor-21",
+    "eu": "https://www.amazon.de/s?k=rancilio+silvia+pro+x&tag=getbrewharb0e-21",
+    "au": "https://www.amazon.com.au/s?k=rancilio+silvia+pro+x&tag=getbrewharbor-22"
    },
    "image": "https://getbrewharbor.com/images/rancilio-silvia-pro-x.jpg",
    "summary": "Silvia upgraded with dual boilers and PID temperature control. Simultaneous brewing and steaming.",
@@ -3552,11 +3552,11 @@
    "priceTier": "Upper mid-range",
    "priceTierLevel": 3,
    "buyLinks": {
-    "us": "https://www.amazon.com/s?k=ratio+eight+coffee",
-    "ca": "https://www.amazon.ca/s?k=ratio+eight+coffee",
-    "uk": "https://www.amazon.co.uk/s?k=ratio+eight+coffee",
-    "eu": "https://www.amazon.de/s?k=ratio+eight+coffee",
-    "au": "https://www.amazon.com.au/s?k=ratio+eight+coffee"
+    "us": "https://www.amazon.com/s?k=ratio+eight+coffee&tag=getbrewharbor-20",
+    "ca": "https://www.amazon.ca/s?k=ratio+eight+coffee&tag=getbrewharb0c-20",
+    "uk": "https://www.amazon.co.uk/s?k=ratio+eight+coffee&tag=getbrewharbor-21",
+    "eu": "https://www.amazon.de/s?k=ratio+eight+coffee&tag=getbrewharb0e-21",
+    "au": "https://www.amazon.com.au/s?k=ratio+eight+coffee&tag=getbrewharbor-22"
    },
    "image": "https://getbrewharbor.com/images/ratio-eight.jpg",
    "summary": "Ratio's flagship drip machine in stainless with a built-in bloom function and thermal carafe.",
@@ -3596,11 +3596,11 @@
    "priceTier": "Mid-range",
    "priceTierLevel": 2,
    "buyLinks": {
-    "us": "https://www.amazon.com/s?k=ratio+six+coffee",
-    "ca": "https://www.amazon.ca/s?k=ratio+six+coffee",
-    "uk": "https://www.amazon.co.uk/s?k=ratio+six+coffee",
-    "eu": "https://www.amazon.de/s?k=ratio+six+coffee",
-    "au": "https://www.amazon.com.au/s?k=ratio+six+coffee"
+    "us": "https://www.amazon.com/s?k=ratio+six+coffee&tag=getbrewharbor-20",
+    "ca": "https://www.amazon.ca/s?k=ratio+six+coffee&tag=getbrewharb0c-20",
+    "uk": "https://www.amazon.co.uk/s?k=ratio+six+coffee&tag=getbrewharbor-21",
+    "eu": "https://www.amazon.de/s?k=ratio+six+coffee&tag=getbrewharb0e-21",
+    "au": "https://www.amazon.com.au/s?k=ratio+six+coffee&tag=getbrewharbor-22"
    },
    "image": "https://getbrewharbor.com/images/ratio-six.jpg",
    "summary": "Design-forward 6-cup drip brewer in die-cast aluminium. Gravity-fed, no plastic in the water path.",
@@ -3643,11 +3643,11 @@
    "priceTier": "Prosumer",
    "priceTierLevel": 5,
    "buyLinks": {
-    "us": "https://www.amazon.com/s?k=rocket+appartamento",
-    "ca": "https://www.amazon.ca/s?k=rocket+appartamento",
-    "uk": "https://www.amazon.co.uk/s?k=rocket+appartamento",
-    "eu": "https://www.amazon.de/s?k=rocket+appartamento",
-    "au": "https://www.amazon.com.au/s?k=rocket+appartamento"
+    "us": "https://www.amazon.com/s?k=rocket+appartamento&tag=getbrewharbor-20",
+    "ca": "https://www.amazon.ca/s?k=rocket+appartamento&tag=getbrewharb0c-20",
+    "uk": "https://www.amazon.co.uk/s?k=rocket+appartamento&tag=getbrewharbor-21",
+    "eu": "https://www.amazon.de/s?k=rocket+appartamento&tag=getbrewharb0e-21",
+    "au": "https://www.amazon.com.au/s?k=rocket+appartamento&tag=getbrewharbor-22"
    },
    "image": "https://getbrewharbor.com/images/rocket-appartamento.jpg",
    "summary": "Italian HX machine with a distinctive circular cutout design. E61 group head, rotary pump, and Rocket's renowned build quality.",
@@ -3692,11 +3692,11 @@
    "priceTier": "Prosumer",
    "priceTierLevel": 5,
    "buyLinks": {
-    "us": "https://www.amazon.com/s?k=saeco+xelsis",
-    "ca": "https://www.amazon.ca/s?k=saeco+xelsis",
-    "uk": "https://www.amazon.co.uk/s?k=saeco+xelsis",
-    "eu": "https://www.amazon.de/s?k=saeco+xelsis",
-    "au": "https://www.amazon.com.au/s?k=saeco+xelsis"
+    "us": "https://www.amazon.com/s?k=saeco+xelsis&tag=getbrewharbor-20",
+    "ca": "https://www.amazon.ca/s?k=saeco+xelsis&tag=getbrewharb0c-20",
+    "uk": "https://www.amazon.co.uk/s?k=saeco+xelsis&tag=getbrewharbor-21",
+    "eu": "https://www.amazon.de/s?k=saeco+xelsis&tag=getbrewharb0e-21",
+    "au": "https://www.amazon.com.au/s?k=saeco+xelsis&tag=getbrewharbor-22"
    },
    "image": "https://getbrewharbor.com/images/saeco-xelsis.jpg",
    "summary": "Philips-owned premium brand with facial recognition for 6-user profiles. Remembers everyone's drink preferences.",
@@ -3737,9 +3737,9 @@
    "priceTier": "Budget",
    "priceTierLevel": 1,
    "buyLinks": {
-    "us": "https://www.amazon.com/dp/B00FFLY64U",
-    "ca": "https://www.amazon.ca/s?k=takeya+deluxe+cold+brew+coffee+maker",
-    "au": "https://www.amazon.com.au/s?k=takeya+deluxe+cold+brew+coffee+maker"
+    "us": "https://www.amazon.com/dp/B00FFLY64U?tag=getbrewharbor-20",
+    "ca": "https://www.amazon.ca/s?k=takeya+deluxe+cold+brew+coffee+maker&tag=getbrewharb0c-20",
+    "au": "https://www.amazon.com.au/s?k=takeya+deluxe+cold+brew+coffee+maker&tag=getbrewharbor-22"
    },
    "image": "https://getbrewharbor.com/images/takeya-deluxe-cold-brew-coffee-maker.jpg",
    "summary": "Simple 1-quart pitcher with a fine-mesh filter for making cold brew in the fridge. No paper filters and easy to clean.",
@@ -3780,11 +3780,11 @@
    "priceTier": "Mid-range",
    "priceTierLevel": 2,
    "buyLinks": {
-    "us": "https://www.amazon.com/s?k=technivorm+moccamaster",
-    "ca": "https://www.amazon.ca/s?k=technivorm+moccamaster",
-    "uk": "https://www.amazon.co.uk/s?k=technivorm+moccamaster",
-    "eu": "https://www.amazon.de/s?k=technivorm+moccamaster",
-    "au": "https://www.amazon.com.au/s?k=technivorm+moccamaster"
+    "us": "https://www.amazon.com/s?k=technivorm+moccamaster&tag=getbrewharbor-20",
+    "ca": "https://www.amazon.ca/s?k=technivorm+moccamaster&tag=getbrewharb0c-20",
+    "uk": "https://www.amazon.co.uk/s?k=technivorm+moccamaster&tag=getbrewharbor-21",
+    "eu": "https://www.amazon.de/s?k=technivorm+moccamaster&tag=getbrewharb0e-21",
+    "au": "https://www.amazon.com.au/s?k=technivorm+moccamaster&tag=getbrewharbor-22"
    },
    "image": "https://getbrewharbor.com/images/technivorm-moccamaster-kbgv.jpg",
    "summary": "The gold standard of drip coffee machines. SCAA-certified, brews at the perfect 92-96C, and built to last 15+ years in the Netherlands.",
@@ -3829,8 +3829,8 @@
    "priceTier": "Prosumer",
    "priceTierLevel": 5,
    "buyLinks": {
-    "us": "https://www.amazon.com/s?k=terra+kaffe+tk-02",
-    "uk": "https://www.amazon.co.uk/s?k=terra+kaffe+tk-02"
+    "us": "https://www.amazon.com/s?k=terra+kaffe+tk-02&tag=getbrewharbor-20",
+    "uk": "https://www.amazon.co.uk/s?k=terra+kaffe+tk-02&tag=getbrewharbor-21"
    },
    "image": "https://getbrewharbor.com/images/terra-kaffe-tk-02.jpg",
    "summary": "App-connected super-automatic that brews espresso and true drip coffee, with a front-loading design and an automatic milk carafe.",

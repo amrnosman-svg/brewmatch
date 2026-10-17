@@ -5,6 +5,23 @@ let userAnswers = { drinks: [], effort: null, coffeeType: null, maintenance: nul
 function setAnswers(a) { userAnswers = a; }
 
 const currencySymbol = { us: '$', ca: 'CA$', uk: '£', eu: '€', au: 'A$' };
+const AFFILIATE_TAGS = {
+  // Paste your real tracking IDs from each Associates Central account.
+  // Left blank = links go to Amazon with no tag (no one gets credited).
+  // CA and EU contain the digit ZERO (0) in 'harb0c' / 'harb0e': copy exactly, do not retype.
+  us: 'getbrewharbor-20',
+  ca: 'getbrewharb0c-20',
+  uk: 'getbrewharbor-21',
+  eu: 'getbrewharb0e-21',   // amazon.de
+  au: 'getbrewharbor-22',
+};
+function withTag(url, region) {
+  const tag = AFFILIATE_TAGS[region];
+  if (!url || url === '#' || !tag) return url || '#';
+  try { const u = new URL(url); u.searchParams.set('tag', tag); return u.toString(); }
+  catch (e) { return url; }
+}
+
 function mapAirtableRecord(record) {
   const f = record.fields;
   const parseList = (val) => val ? String(val).split(',').map(s => s.trim()).filter(Boolean) : [];
@@ -464,4 +481,4 @@ function rank(machines) {
   return scoredFiltered;
 }
 
-module.exports = { setAnswers, mapAirtableRecord, applyExtras, rank, calcTCO, getPrice };
+module.exports = { setAnswers, mapAirtableRecord, applyExtras, rank, calcTCO, getPrice, withTag, AFFILIATE_TAGS };

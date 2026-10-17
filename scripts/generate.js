@@ -9,6 +9,8 @@
 
 const fs = require('fs');
 const path = require('path');
+// Affiliate tags live in index.html (AFFILIATE_TAGS); build-engine.js copies them into the engine module.
+const { withTag } = require('../netlify/functions/lib/engine.js');
 
 const ROOT = path.join(__dirname, '..');
 const BASE = (process.env.BASE_URL || 'https://getbrewharbor.com').replace(/\/$/, '');
@@ -74,7 +76,7 @@ const machines = raw.map(r => r.fields)
     };
     for (const [r, , pf, lf] of REGIONS) {
       if (num(f[pf]) != null) m.prices[r] = num(f[pf]);
-      if (f[lf] && f[lf] !== '#') m.links[r] = f[lf];
+      if (f[lf] && f[lf] !== '#') m.links[r] = withTag(f[lf], r);
     }
     const img = IMAGE_MAP[f.name];
     m.image = img && fs.existsSync(path.join(ROOT, img)) ? img : null;
@@ -179,7 +181,7 @@ ${jsonld ? `<script type="application/ld+json">${JSON.stringify(jsonld)}</script
 <div class="wrap">
 ${body}
 </div>
-<footer>© 2026 BrewHarbor · Prices are estimates; check the retailer for current prices · <a href="/machines/">All machines</a> · <a href="/guides/real-cost-of-coffee/">Cost guide</a> · <a href="/privacy.html">Privacy</a> · <a href="#" onclick="if(window.bhConsent){bhConsent.open();}return false;">Cookie settings</a></footer>
+<footer>© 2026 BrewHarbor · As an Amazon Associate I earn from qualifying purchases. · Prices are estimates; check the retailer for current prices · <a href="/machines/">All machines</a> · <a href="/guides/real-cost-of-coffee/">Cost guide</a> · <a href="/privacy.html">Privacy</a> · <a href="#" onclick="if(window.bhConsent){bhConsent.open();}return false;">Cookie settings</a></footer>
 </body>
 </html>
 `;
@@ -254,7 +256,7 @@ ${(ins.up.length || ins.down.length) ? `<div class="cols">${ins.up.length ? `<di
 <p class="note">We don't show prices because they change daily. Use the buy button to see today's price on Amazon.</p>
 ${cmps.length ? `<h2>Compare</h2><ul>${cmps.map(c => `<li><a href="${c.url}">${esc(c.title)}</a></li>`).join('')}</ul>` : ''}
 ${related.length ? `<h2>Similar machines</h2><ul class="grid">${related.map(x => `<li><a href="${x.url}">${esc(x.name)}<small>${esc(x.category)}${tierLabel(x) ? ' · ' + tierLabel(x) : ''}</small></a></li>`).join('')}</ul>` : ''}
-<p class="note">Affiliate disclosure: links to Amazon are affiliate links. BrewHarbor has no sponsored placements; machines are ranked by the same scoring for everyone.</p>`;
+<p class="note">As an Amazon Associate I earn from qualifying purchases. Links to Amazon are affiliate links. BrewHarbor has no sponsored placements; machines are ranked by the same scoring for everyone.</p>`;
   const jsonld = {
     '@context': 'https://schema.org', '@type': 'Product', name: m.name,
     ...(m.brand ? { brand: { '@type': 'Brand', name: m.brand } } : {}),
@@ -327,7 +329,7 @@ function comparePage(a, b) {
 <div class="cols"><div><h2>${esc(a.name)}</h2>${ia.up.length ? `<ul>${ia.up.map(x => `<li>${esc(x)}</li>`).join('')}</ul>` : ''}${ia.down.length ? `<p><strong>Watch-outs</strong></p><ul>${ia.down.map(x => `<li>${esc(x)}</li>`).join('')}</ul>` : ''}${a.sentiment ? `<p>${esc(a.sentiment)}</p>` : ''}</div>
 <div><h2>${esc(b.name)}</h2>${ib.up.length ? `<ul>${ib.up.map(x => `<li>${esc(x)}</li>`).join('')}</ul>` : ''}${ib.down.length ? `<p><strong>Watch-outs</strong></p><ul>${ib.down.map(x => `<li>${esc(x)}</li>`).join('')}</ul>` : ''}${b.sentiment ? `<p>${esc(b.sentiment)}</p>` : ''}</div></div>
 <p><a class="btn" href="${a.url}">${esc(a.name)} details</a><a class="btn" href="${b.url}">${esc(b.name)} details</a><a class="btn alt" href="/">Take the quiz</a></p>
-<p class="note">Scores are BrewHarbor's own 1–5 ratings (5 is best). Affiliate disclosure: links to Amazon on the machine pages are affiliate links; there are no sponsored placements.</p>`;
+<p class="note">Scores are BrewHarbor's own 1–5 ratings (5 is best). As an Amazon Associate I earn from qualifying purchases. Links to Amazon on the machine pages are affiliate links; there are no sponsored placements.</p>`;
   return {
     slug, url, title,
     html: layout({ title: `${title}: which is better? | BrewHarbor`, desc: `${title} compared on specs, price, maintenance, cup quality and running costs.`, canonical: url, body, jsonld: { '@context': 'https://schema.org', '@type': 'WebPage', name: title, url: BASE + url } }),

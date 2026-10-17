@@ -117,7 +117,7 @@ exports.handler = async function (event) {
         estimatedAnnualCostRounded: Math.round(engine.calcTCO(m).fullAnnualTCO / 10) * 10, currency: sym,
         why: x.result.reasons, tradeoffs: x.result.misses,
         page: `${SITE}/machines/${slugify(m.name)}/`,
-        buyLink: link && link !== '#' ? link : null,
+        buyLink: link && link !== '#' ? engine.withTag(link, answers.region) : null,
       };
     });
     return json(200, {
